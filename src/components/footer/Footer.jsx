@@ -12,9 +12,9 @@ const Footer = () => {
     <>
       <Box
         width={"100%"}
-        height={"36vh"}
+        height={"30vh"}
         style={{
-          backgroundImage: "linear-gradient(to  top ,#FFFFFF, #478547)",
+          backgroundImage: "linear-gradient(to  top , #478547,#FFFFFF)",
         }}
       >
         <Box
@@ -29,7 +29,7 @@ const Footer = () => {
             </Box>
             <Box display={"flex"} mt={2}>
               <CallIcon fontSize="small" sx={{ color: "white" }} />
-              <Typography sx={{ ml: 1, fontSize: "14px" }}>
+              <Typography sx={{ ml: 1, fontSize: "14px", color:"white" }}>
                 4932 4816
               </Typography>
             </Box>
@@ -75,9 +75,7 @@ const Footer = () => {
           </Box>
         </Box>
       </Box>
-      <Box position={"absolute"} top={"290vh"} width={"60%"} left={"10%"}>
-        <img  height={"180px"} src="/dibujoFooter.png" alt="" />
-      </Box>
+     
     </>
   );
 };
