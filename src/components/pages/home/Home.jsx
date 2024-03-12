@@ -1,15 +1,66 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Modal, Typography } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import { fotos } from "../../../carousel/fotos/Fotos";
 import Footer from "../../footer/Footer";
 import { Parallax } from "react-scroll-parallax";
 import Boton from "../../common/button/Boton";
+import { useState } from "react";
 
 const Home = () => {
+  const [open, setOpen] = useState(true);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-title"
+        aria-describedby="modal-description"
+      >
+        <Box
+          sx={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            width: "52%",
+            bgcolor: "background.paper",
+            boxShadow: 24,
+            borderRadius:"20px",
+            borderColor:"transparent"
+          }}
+        >
+          <Box sx={{borderRadius:"20px" ,backgroundImage: `url("/fondodisclaimer.png")`, // Cambiar la ruta por la ruta de tu imagen
+          backgroundSize: "cover",
+          backgroundPosition: "center",}} >
+            <Typography sx={{fontFamily:"Lato", fontStyle:"italic", fontWeight:"bold", fontSize:"30px", color:"white", textAlign:"center", pt:10}}>¡IMPORTANTE!</Typography>
+            <Typography sx={{fontFamily:"Lato", fontStyle:"italic", fontWeight:"regular", fontSize:"15px", color:"white", textAlign:"center", lineHeight:"18px",width:"69%", m:"auto" }}>
+              Nos gustaría informarle que la compra de nuestros productos a
+              través de terceros no autorizados puede suponer un riesgo para su
+              salud y seguridad. Solo los distribuidores y vendedores
+              autorizados pueden garantizar la autenticidad y la calidad de
+              nuestros productos. Le recomendamos que realice sus compras
+              únicamente a través de nuestros canales oficiales de venta
+              autorizados.
+            </Typography>
+            <Typography sx={{fontFamily:"Lato", fontStyle:"italic", fontWeight:"regular", fontSize:"15px", color:"white", textAlign:"center", lineHeight:"18px",width:"69%", m:"auto", mt:3 }}>
+              Si tiene alguna pregunta o inquietud, no dude en ponerse en
+              contacto con nosotros al 4932-4816.
+            </Typography>
+
+            <Box textAlign={"center"} mt={4} pb={4}>
+              <img width={"12%"} src="/logoBlancoBi.png" alt="" />
+            </Box>
+          </Box>
+        </Box>
+      </Modal>
       <Parallax speed={-12}>
         <Carousel
+          autoPlay={true}
+          timeOut={100}
           sx={{
             mt: "4.5%",
             height: "484px", // Altura fija para el carrusel
@@ -240,7 +291,7 @@ const Home = () => {
             height: "64vh",
           }}
         >
-          <Box  mt={20}>
+          <Box mt={20}>
             <img width={"185px"} src="/logoaplv.png" alt="" />
           </Box>
         </Box>
@@ -253,7 +304,7 @@ const Home = () => {
             height: "64vh",
           }}
         >
-          <Box  mt={20}>
+          <Box mt={20}>
             <img width={"160px"} src="/logootros.png" alt="" />
           </Box>
         </Box>
@@ -310,9 +361,8 @@ const Home = () => {
         </Typography>
         <Box>
           <Box mt={1}>
-          
-            <Box mt={1} >
-             <Boton texto={"Descubrilos"}/>
+            <Box mt={1}>
+              <Boton texto={"Descubrilos"} />
             </Box>
           </Box>
         </Box>

@@ -6,7 +6,17 @@ export const fotos = [
     },
     {
         id:2,
-        imagen: "/carousel2.png",
+        imagen: "/foto02bannerhome.png",
+        
+    },
+    {
+        id:3,
+        imagen: "/foto03bannerhome.png",
+        
+    },
+    {
+        id:4,
+        imagen: "/foto04bannerhome.png",
         
     }
 ]

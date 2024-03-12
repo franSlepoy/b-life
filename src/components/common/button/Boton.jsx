@@ -1,9 +1,12 @@
 import { Button, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 
-const Boton = ({ texto }) => {
+const Boton = ({ texto, linkTo }) => {
   return (
     <>
       <Button
+      component={Link} // Usa Link como el componente de Button
+      to={linkTo} // 
         variant="contained"
         sx={{
           bgcolor: "white",
