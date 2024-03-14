@@ -27,15 +27,14 @@ const Home = () => {
             left: "50%",
             transform: "translate(-50%, -50%)",
             width: "52%",
-            bgcolor: "background.paper",
-            boxShadow: 24,
+            
+           
             borderRadius:"20px",
             borderColor:"transparent"
           }}
         >
-          <Box sx={{borderRadius:"20px" ,backgroundImage: `url("/fondodisclaimer.png")`, // Cambiar la ruta por la ruta de tu imagen
-          backgroundSize: "cover",
-          backgroundPosition: "center",}} >
+          <Box sx={{borderRadius:"20px", borderColor:"transparent",backgroundImage: `url("/fondodisclaimer.png")`, // Cambiar la ruta por la ruta de tu imagen
+        }} >
             <Typography sx={{fontFamily:"Lato", fontStyle:"italic", fontWeight:"bold", fontSize:"30px", color:"white", textAlign:"center", pt:10}}>¡IMPORTANTE!</Typography>
             <Typography sx={{fontFamily:"Lato", fontStyle:"italic", fontWeight:"regular", fontSize:"15px", color:"white", textAlign:"center", lineHeight:"18px",width:"69%", m:"auto" }}>
               Nos gustaría informarle que la compra de nuestros productos a
