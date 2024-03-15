@@ -1,8 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 
 import { Parallax } from "react-scroll-parallax";
-import Boton from "../../common/button/Boton";
-import Footer from "../../footer/Footer";
 import { Link } from "react-router-dom";
 import CallIcon from "@mui/icons-material/Call";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";

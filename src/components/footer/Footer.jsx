@@ -1,11 +1,12 @@
 import { Box, Typography } from "@mui/material";
 import CallIcon from "@mui/icons-material/Call";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
+
 
 const Footer = () => {
   return (

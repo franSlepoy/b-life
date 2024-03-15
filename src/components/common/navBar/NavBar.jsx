@@ -150,7 +150,7 @@ const NavBar = () => {
                   }}
                   onClick={handleClose}
                   component={Link}
-                  to="/linea1"
+                  to="/TC"
                 >
                   Terapia Cetogénica
                 </MenuItem>
@@ -200,7 +200,7 @@ const NavBar = () => {
                   }}
                   onClick={handleClose}
                   component={Link}
-                  to="/linea3"
+                  to="/APLV"
                 >
                   Alergia a la proteína de a leche de vaca
                 </MenuItem>

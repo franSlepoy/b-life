@@ -5,6 +5,7 @@ import Footer from "../../footer/Footer";
 import { Parallax } from "react-scroll-parallax";
 import Boton from "../../common/button/Boton";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [open, setOpen] = useState(true);
@@ -27,16 +28,44 @@ const Home = () => {
             left: "50%",
             transform: "translate(-50%, -50%)",
             width: "52%",
-            
-           
-            borderRadius:"20px",
-            borderColor:"transparent"
+
+            borderRadius: "20px",
+            borderColor: "transparent",
           }}
         >
-          <Box sx={{borderRadius:"20px", borderColor:"transparent",backgroundImage: `url("/fondodisclaimer.png")`, // Cambiar la ruta por la ruta de tu imagen
-        }} >
-            <Typography sx={{fontFamily:"Lato", fontStyle:"italic", fontWeight:"bold", fontSize:"30px", color:"white", textAlign:"center", pt:10}}>¡IMPORTANTE!</Typography>
-            <Typography sx={{fontFamily:"Lato", fontStyle:"italic", fontWeight:"regular", fontSize:"15px", color:"white", textAlign:"center", lineHeight:"18px",width:"69%", m:"auto" }}>
+          <Box
+            sx={{
+              borderRadius: "20px",
+              borderColor: "transparent",
+              backgroundImage: `url("/fondodisclaimer.png")`, // Cambiar la ruta por la ruta de tu imagen
+            }}
+          >
+            <Typography
+              sx={{
+                fontFamily: "Lato",
+                fontStyle: "italic",
+                fontWeight: "bold",
+                fontSize: "30px",
+                color: "white",
+                textAlign: "center",
+                pt: 10,
+              }}
+            >
+              ¡IMPORTANTE!
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Lato",
+                fontStyle: "italic",
+                fontWeight: "regular",
+                fontSize: "15px",
+                color: "white",
+                textAlign: "center",
+                lineHeight: "18px",
+                width: "69%",
+                m: "auto",
+              }}
+            >
               Nos gustaría informarle que la compra de nuestros productos a
               través de terceros no autorizados puede suponer un riesgo para su
               salud y seguridad. Solo los distribuidores y vendedores
@@ -45,7 +74,20 @@ const Home = () => {
               únicamente a través de nuestros canales oficiales de venta
               autorizados.
             </Typography>
-            <Typography sx={{fontFamily:"Lato", fontStyle:"italic", fontWeight:"regular", fontSize:"15px", color:"white", textAlign:"center", lineHeight:"18px",width:"69%", m:"auto", mt:3 }}>
+            <Typography
+              sx={{
+                fontFamily: "Lato",
+                fontStyle: "italic",
+                fontWeight: "regular",
+                fontSize: "15px",
+                color: "white",
+                textAlign: "center",
+                lineHeight: "18px",
+                width: "69%",
+                m: "auto",
+                mt: 3,
+              }}
+            >
               Si tiene alguna pregunta o inquietud, no dude en ponerse en
               contacto con nosotros al 4932-4816.
             </Typography>
@@ -256,6 +298,8 @@ const Home = () => {
 
       <Box display="flex" width={"100%"}>
         <Box
+          component={Link}
+          linkTo={"/"}
           sx={{
             backgroundImage: `url("/seccioncetogenica.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
@@ -268,7 +312,10 @@ const Home = () => {
             <img width={"160px"} src="/logoterapiacetogenica.png" alt="" />
           </Box>
         </Box>
+
         <Box
+          component={Link}
+          linkTo={"/"}
           sx={{
             backgroundImage: `url("/seccionhipoproteica.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
@@ -282,6 +329,8 @@ const Home = () => {
           </Box>
         </Box>
         <Box
+          component={Link}
+          linkTo={"/"}
           sx={{
             backgroundImage: `url("/seccionaplv.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
@@ -295,6 +344,8 @@ const Home = () => {
           </Box>
         </Box>
         <Box
+         component={Link}
+         linkTo={"/"}
           sx={{
             backgroundImage: `url("/seccionotros.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
