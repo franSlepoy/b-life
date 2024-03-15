@@ -374,7 +374,8 @@ const Nosotros = () => {
                 </Box>
                 <Box>
                   <Box>
-                    <Box mt={2}>
+                    <Box mt={2} component={Link} to={"/contacto"}
+                style={{textDecoration: "none"}}>
                       <img width={"128px"} src="/botonVerdeBlanco.png" alt="" />
                       <Box mt={-8} ml={4}>
                         <Typography
@@ -402,6 +403,10 @@ const Nosotros = () => {
                   <LinkedInIcon sx={{ color: "white", ml: 2 }} />
                   <FacebookIcon sx={{ color: "white", ml: 2 }} />
                 </Box>
+                <a
+              href="mailto:info@b-life.com.ar"
+              style={{ textDecoration: "none" }}
+            >
                 <Box display={"flex"} mt={3}>
                   <MailOutlineIcon
                     fontSize="small"
@@ -411,6 +416,7 @@ const Nosotros = () => {
                     info@b-life.com.ar
                   </Typography>
                 </Box>
+                </a>
               </Box>
             </Box>
           </Box>

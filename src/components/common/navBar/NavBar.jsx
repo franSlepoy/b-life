@@ -175,7 +175,7 @@ const NavBar = () => {
                   }}
                   onClick={handleClose}
                   component={Link}
-                  to="/linea2"
+                  to="/ECM"
                 >
                   Errores congénitos del metabolismo
                 </MenuItem>
@@ -225,7 +225,7 @@ const NavBar = () => {
                   }}
                   onClick={handleClose}
                   component={Link}
-                  to="/linea3"
+                  to="/Otros"
                 >
                   Otros
                 </MenuItem>

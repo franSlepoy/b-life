@@ -397,7 +397,12 @@ const TC = () => {
                 </Box>
                 <Box>
                   <Box>
-                    <Box mt={2}>
+                    <Box
+                      mt={2}
+                      component={Link}
+                      to={"/contacto"}
+                      style={{ textDecoration: "none" }}
+                    >
                       <img width={"128px"} src="/botonVerdeBlanco.png" alt="" />
                       <Box mt={-8} ml={4}>
                         <Typography
@@ -425,15 +430,23 @@ const TC = () => {
                   <LinkedInIcon sx={{ color: "white", ml: 2 }} />
                   <FacebookIcon sx={{ color: "white", ml: 2 }} />
                 </Box>
-                <Box display={"flex"} mt={3}>
-                  <MailOutlineIcon
-                    fontSize="small"
-                    sx={{ color: "white", ml: 6 }}
-                  />
-                  <Typography sx={{ ml: 1, fontSize: "15px", color: "white" }}>
-                    info@b-life.com.ar
-                  </Typography>
-                </Box>
+
+                <a
+                  href="mailto:info@b-life.com.ar"
+                  style={{ textDecoration: "none" }}
+                >
+                  <Box display={"flex"} mt={3}>
+                    <MailOutlineIcon
+                      fontSize="small"
+                      sx={{ color: "white", ml: 6 }}
+                    />
+                    <Typography
+                      sx={{ ml: 1, fontSize: "15px", color: "white" }}
+                    >
+                      info@b-life.com.ar
+                    </Typography>
+                  </Box>
+                </a>
               </Box>
             </Box>
           </Box>

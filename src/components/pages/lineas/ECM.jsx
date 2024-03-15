@@ -11,7 +11,7 @@ import { Box, Button, Modal, Typography } from "@mui/material";
 import Boton from "../../common/button/Boton";
 import { useState } from "react";
 
-const APLV = () => {
+const ECM = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -26,12 +26,12 @@ const APLV = () => {
     <>
       <Parallax speed={-12}>
         <Box mt={8}>
-          <img width={"100%"} height={"472vh"} src="/foto01APLV.png" alt="" />
+          <img width={"100%"} height={"472vh"} src="/fotoECM.png" alt="" />
         </Box>
       </Parallax>
 
       <Box position={"absolute"} left={"20%"} top={"24%"} zIndex={100}>
-        <img width={"18%"} src="/logoCarrusel.png" alt="" />
+        <img width={"8%"} src="/logoBlancoBi.png" alt="" />
         <Typography
           sx={{
             fontFamily: "Lato",
@@ -43,20 +43,7 @@ const APLV = () => {
             mt: 2,
           }}
         >
-          Alergia a la
-        </Typography>
-        <Typography
-          sx={{
-            fontFamily: "Lato",
-            fontWeight: "light",
-            width: "310px",
-            fontSize: "60px",
-            lineHeight: "35px",
-            color: "white",
-            mt: 2,
-          }}
-        >
-          proteína de
+          Dieta
         </Typography>
 
         <Typography
@@ -70,29 +57,30 @@ const APLV = () => {
             color: "white",
           }}
         >
-          leche de vaca
+          Hipoproteica
         </Typography>
         <Typography
           sx={{
             fontFamily: "Lato",
             fontWeight: "regular",
-            width: "320px",
-            fontSize: "14px",
+            width: "380px",
+            fontSize: "16px",
             lineHeight: "17px",
             color: "white",
 
             mt: 0,
           }}
         >
-          La Alergia a las Proteínas de Leche de Vaca (APLV) es la alergia
-          alimentaria más frecuente en menores de 1 año.
+          Dentro de las posibilidades terapéuticas actuales para los EIM, el
+          tratamiento nutricional es el pilar más importante en el manejo global
+          de estos trastornos.
         </Typography>
       </Box>
 
       <Box
         mt={-2}
         width={"100%"}
-        bgcolor={" #75ccf4"}
+        bgcolor={" #ffa133"}
         /* style={{
           backgroundImage: "linear-gradient(to  top, #00d647 , #007e48)",
         }} */
@@ -108,20 +96,19 @@ const APLV = () => {
               fontSize: "30px",
               fontWeight: "light", // Debería ser "normal" en lugar de "regular"
               fontStyle: "italic",
-              lineHeight: "28px",
+              lineHeight: "30px",
               color: "white",
             }}
           >
             <strong>
-              La línea alergia a la proteína de leche de vaca de B-Life incluye
-              distintas fórmulas a base de aminoácidos.
+              La línea Errores Congénitos del Metabolismo de B-Life incluye
+              fórmulas para el tratamiento de todos los ECM de los aminoácidos
             </strong>{" "}
-            DE ESTA FORMA, BUSCAMOS SATISFACER TODAS LAS NECESIDADES DE LAS
-            FAMILIAS A LA HORA DE INICIAR LA DIETA DE EXCLUSIÓN.
+            DESDE EL NACIMIENTO HASTA LA EDAD ADULTA.
           </Typography>
         </Box>
         <Box mt={15} textAlign={"center"}>
-          <img width={"10%"} src="/logoaplv.png" alt="" />
+          <img width={"10%"} src="/logoerrorescongenitos.png" alt="" />
         </Box>
         <Box
           display={"flex"}
@@ -146,13 +133,18 @@ const APLV = () => {
                 lineHeight: "19px",
               }}
             >
-              La alergia a las proteínas de la leche de vaca (APLV) es el resul-
-              tado de una respuesta inmunológica anómala que ocurre des- pués de
-              la ingesta de proteína de leche de vaca (PLV), que obedece a
-              diferentes mecanismos: mediado por inmunoglo- bulina E (IgE), no
-              mediado por IgE o de naturaleza mixta. La APLV puede manifestarse
-              en lactantes que se alimentan con leche materna exclusivamente o
-              bien con fórmulas infantiles.
+              Los errores innatos del metabolismo (EIM) son un conjunto de
+              enfermedades causadas por una alteración genética, que conlleva al
+              inadecuado funcionamiento fisiológico de la célula. Se trata de
+              enfermedades en su mayoría de herencia autosómica recesiva. Los
+              programas de pesquisa neonatal obligatoria permiten detectar
+              pacientes con algunas de estas enfermedades y comenzar su
+              tratamiento tempranamente. Otras de estas enfermedades son
+              detectadas a través de síntomas clínicos. Dentro de las
+              posibilidades terapéuticas actuales para los EIM, el tratamiento
+              nutricional es el pilar más importante en el manejo global de
+              estos trastornos. Se dispone de productos dietéticos muy
+              específicos para cada enfermedad.
             </Typography>
             <Typography
               sx={{
@@ -164,33 +156,132 @@ const APLV = () => {
                 mt: 1,
               }}
             >
-              La dieta de eliminación diagnóstica se basa en la exclusión
-              completa de las proteínas alergénicas (PLV) de la dieta para
-              revertir las manifestaciones clínicas de la APLV. Después de la
-              recuperación clínica y nutricional, se debe realizar la prueba de
-              reto oral o enfrentamiento para comprobar el diagnóstico de APLV.
-              Una vez confirmado el diagnóstico, se debe iniciar la dieta de
-              eliminación terapéutica, que continuará hasta el mo- mento del
-              desarrollo de la tolerancia.
-            </Typography>
-            <Typography
-              sx={{
-                fontFamily: "Lato",
-                fontStyle: "regular",
-                fontSize: "15px",
-                color: "white",
-                lineHeight: "19px",
-                mt: 1,
-              }}
-            >
-              En el caso de pacientes con formas graves de APLV que se ali-
-              mentan con fórmulas infantiles, la fórmula de aminoácidos se 4932
-              4816 Especialistas en Nutrición Clínica recomienda como primera
-              opción terapéutica, ya que tiene mayor eficacia.
+              En el caso de los EIM de los aminoácidos, el tratamiento dietético
+              tendrá como objetivo limitar la ingesta de el/los aminoácido/s,
+              cuya vía metabólica está afectada, hasta un requerimiento mínimo
+              que proporcione un crecimiento y un desarrollo adecuados. De esta
+              forma los pacientes deberán realizar una dieta baja en proteínas
+              para evitar la acumulación de metabolitos tóxicos. Sumado a ello,
+              será necesaria la suplementación con una fórmula especialmente
+              diseñada para estos tratamientos, que no contiene el/los
+              aminoácido/s que requieren restricción pero que aporta el resto de
+              las proteínas, energía, vitaminas y minerales necesarios para
+              crecer y desarrollarse adecuadamente.
+              <span
+                onMouseEnter={() => {
+                  setIsHovered(true);
+                  handleOpen();
+                }}
+                onMouseLeave={() => {
+                  setIsHovered(false);
+                  handleClose(); // Cerrar el Modal cuando el cursor sale del área
+                }}
+                style={{ cursor: "pointer" }}
+              >
+                1,2.
+                <Modal
+                  open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
+                  onClose={handleClose}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box
+                    sx={{
+                      position: "absolute",
+                      top: "50%",
+                      left: "30%",
+                      /*   transform: "translate(-50%, -50%)", */
+                      borderColor: "transparent",
+                      bgcolor: "background.paper",
+                      width: "500px",
+                      boxShadow: 24,
+                      p: 2,
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontFamily: "Lato",
+                        fontStyle: "regular",
+                        fontSize: "10px",
+                        color: "black",
+                        lineHeight: "10px",
+                      }}
+                      id="modal-modal-title"
+                    >
+                      1. M Pons, F Sánchez Valverde Visus, J Dalmau Serra, L
+                      Gómez López. Tratamiento Nutricional de los Errores
+                      Innatos del Metabolismo. Drug Farma 2º edición, 2007
+                    </Typography>
+                    <Typography
+                      sx={{
+                        fontFamily: "Lato",
+                        fontStyle: "regular",
+                        fontSize: "10px",
+                        color: "black",
+                        lineHeight: "10px",
+                      }}
+                      id="modal-modal-title"
+                    >
+                      2. MacDonald A. Disorders of Amino Acid Metabolism,
+                      Organic Acidaemias and Urea Cycle Defects. 2nd ed. Vanessa
+                      S, Margaret L , editores. Oxford: Blackwell Publishing;
+                      2021.
+                    </Typography>
+                    <Typography
+                      sx={{
+                        fontFamily: "Lato",
+                        fontStyle: "regular",
+                        fontSize: "10px",
+                        color: "black",
+                        lineHeight: "10px",
+                      }}
+                      id="modal-modal-title"
+                    >
+                      Friends; Practice Committee of the Child Neurology
+                      Society. Optimal clinical management of children receiving
+                      dietary therapies for epilepsy: Updated recommendations of
+                      the International Ketogenic Diet Study Group. Epilepsia
+                      Open. 2018 May 21;3(2):175-192. doi: 10.1002/epi4.12225.
+                      PMID: 29881797; PMCID: PMC5983110.
+                    </Typography>
+                  </Box>
+                </Modal>
+              </span>
             </Typography>
           </Box>
 
           <Box width={"48%"} ml={"2%"}>
+            <Typography
+              sx={{
+                fontFamily: "Lato",
+                fontStyle: "regular",
+                fontSize: "15px",
+                color: "white",
+                lineHeight: "19px",
+              }}
+            >
+              B-Life cuenta con una amplia gama de productos para el tratamiento
+              de los Errores innatos del metabolismo, que incluye fórmulas y
+              alimentos hipoproteicos.
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Lato",
+                fontStyle: "regular",
+                fontSize: "15px",
+                color: "white",
+                lineHeight: "19px",
+                mt: 1,
+              }}
+            >
+              La línea Errores Congénitos del Metabolismo de B-Life incluye
+              fórmulas para el tratamiento de todos los ECM de los aminoácidos
+              desde el nacimiento hasta la edad adulta. Asimismo, cuenta con la
+              más amplia variedad de alimentos hipoproteicos. De esta forma,
+              buscamos satisfacer las necesidades de todas las familias durante
+              toda la vida.
+            </Typography>
+
             <Box>
               <Typography
                 id="modal-modal-description"
@@ -200,81 +291,19 @@ const APLV = () => {
                   fontSize: "15px",
                   color: "white",
                   lineHeight: "19px",
+                  mt: 1,
                 }}
               >
-                <span
-                  onMouseEnter={() => {
-                    setIsHovered(true);
-                    handleOpen();
-                  }}
-                  onMouseLeave={() => {
-                    setIsHovered(false);
-                    handleClose(); // Cerrar el Modal cuando el cursor sale del área
-                  }}
-                  style={{ cursor: "pointer" }}
-                >
-                  2.
-                  <Modal
-                    open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
-                    onClose={handleClose}
-                    aria-labelledby="modal-modal-title"
-                    aria-describedby="modal-modal-description"
-                  >
-                    <Box
-                      sx={{
-                        position: "absolute",
-                        top: "40%",
-                        left: "50%",
-                        /*   transform: "translate(-50%, -50%)", */
-
-                        bgcolor: "background.paper",
-                        width: "500px",
-                        boxShadow: 24,
-                        p: 2,
-                      }}
-                    >
-                      <Typography
-                        sx={{
-                          fontFamily: "Lato",
-                          fontStyle: "regular",
-                          fontSize: "10px",
-                          color: "black",
-                          lineHeight: "10px",
-                        }}
-                        id="modal-modal-title"
-                      >
-                        2. M.C. Toca, M.B. Morais, R. Vázquez-Frias et al.,
-                        Consenso sobre el diagnóstico y el tratamiento de la
-                        alergia a las proteínas de la leche de vaca de la
-                        Sociedad Latinoamericana de Gastroenterología,
-                        Hepatología y Nutrición, Revista de Gastroenterología de
-                        México, https://doi.org/10.1016/j.rgmx.2022.03.007
-                      </Typography>
-                    </Box>
-                  </Modal>
-                </span>
-                {""}B-Life considera el respeto uno de sus principales valores,
+                B-Life considera el respeto uno de sus principales valores,
                 demostrándolo en cada contacto y en cada lugar en el que está
                 presente. B-Life busca escuchar las necesidades de sus clientes
                 para satisfacerlas, desarrollando y poniendo a su disposición
                 todos aquellos recursos necesarios para llevar adelante el
-                tratamiento.
+                tratamiento. Por último, se compromete en bridar a los
+                profesionales de la salud capacitación continua y acceso a la
+                información científica.
               </Typography>
             </Box>
-
-            <Typography
-              sx={{
-                fontFamily: "Lato",
-                fontStyle: "regular",
-                fontSize: "15px",
-                color: "white",
-                lineHeight: "19px",
-                mt: 1,
-              }}
-            >
-              Por último, se compromete en brindar a los profesionales de la
-              salud capacitación continua y acceso a la información científica.
-            </Typography>
 
             <Box mt={5} display={"flex"} justifyContent={"flex-end"}>
               <Boton texto={"Productos"} linkTo={"/productos"} />
@@ -335,6 +364,7 @@ const APLV = () => {
                   <LinkedInIcon sx={{ color: "white", ml: 2 }} />
                   <FacebookIcon sx={{ color: "white", ml: 2 }} />
                 </Box>
+
                 <a
                   href="mailto:info@b-life.com.ar"
                   style={{ textDecoration: "none" }}
@@ -360,4 +390,4 @@ const APLV = () => {
   );
 };
 
-export default APLV;
+export default ECM;

@@ -165,7 +165,7 @@ const Home = () => {
       </Box>
 
       <Box position={"absolute"} zIndex={100} top={"57%"} left={"20%"}>
-        <Boton texto={"Conocé más"} />
+        <Boton texto={"Conocé más"} linkTo={"/nosotros"} />
       </Box>
 
       <Box
@@ -299,7 +299,7 @@ const Home = () => {
       <Box display="flex" width={"100%"}>
         <Box
           component={Link}
-          linkTo={"/"}
+          to={"/TC"}
           sx={{
             backgroundImage: `url("/seccioncetogenica.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
@@ -315,7 +315,7 @@ const Home = () => {
 
         <Box
           component={Link}
-          linkTo={"/"}
+          to={"/ECM"}
           sx={{
             backgroundImage: `url("/seccionhipoproteica.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
@@ -330,7 +330,7 @@ const Home = () => {
         </Box>
         <Box
           component={Link}
-          linkTo={"/"}
+          to={"/APLV"}
           sx={{
             backgroundImage: `url("/seccionaplv.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
@@ -345,7 +345,7 @@ const Home = () => {
         </Box>
         <Box
          component={Link}
-         linkTo={"/"}
+         to={"/Otros"}
           sx={{
             backgroundImage: `url("/seccionotros.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
@@ -412,7 +412,7 @@ const Home = () => {
         <Box>
           <Box mt={1}>
             <Box mt={1}>
-              <Boton texto={"Descubrilos"} />
+              <Boton texto={"Descubrilos"} linkTo={"/productos"} />
             </Box>
           </Box>
         </Box>

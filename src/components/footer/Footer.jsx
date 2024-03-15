@@ -6,7 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -30,13 +30,14 @@ const Footer = () => {
             </Box>
             <Box display={"flex"} mt={2}>
               <CallIcon fontSize="small" sx={{ color: "white" }} />
-              <Typography sx={{ ml: 1, fontSize: "14px", color:"white" }}>
+              <Typography sx={{ ml: 1, fontSize: "14px", color: "white" }}>
                 4932 4816
               </Typography>
             </Box>
             <Box>
               <Box>
-                <Box mt={2}>
+                <Box mt={2} component={Link} to={"/contacto"}
+                style={{textDecoration: "none"}}>
                   <img width={"128px"} src="/botonVerdeBlanco.png" alt="" />
                   <Box mt={-8} ml={4}>
                     <Typography
@@ -46,6 +47,7 @@ const Footer = () => {
                         fontSize: "12px",
                         lineHeight: "81px",
                         color: " #007E48",
+                        textDecoration: "none",
                       }}
                     >
                       Escribinos
@@ -64,19 +66,25 @@ const Footer = () => {
               <LinkedInIcon sx={{ color: "white", ml: 2 }} />
               <FacebookIcon sx={{ color: "white", ml: 2 }} />
             </Box>
-            <Box display={"flex"} mt={3}>
-              <MailOutlineIcon
-                fontSize="small"
-                sx={{ color: "white", ml: 6 }}
-              />
-              <Typography sx={{ ml: 1, fontSize: "15px", color: "white" }}>
-                info@b-life.com.ar
-              </Typography>
-            </Box>
+
+            <a
+              href="mailto:info@b-life.com.ar"
+              style={{ textDecoration: "none" }}
+            >
+              <Box display={"flex"} mt={3}>
+                <MailOutlineIcon
+                  fontSize="small"
+                  sx={{ color: "white", ml: 6 }}
+                />
+
+                <Typography sx={{ ml: 1, fontSize: "15px", color: "white" }}>
+                  info@b-life.com.ar
+                </Typography>
+              </Box>
+            </a>
           </Box>
         </Box>
       </Box>
-     
     </>
   );
 };
