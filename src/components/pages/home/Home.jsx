@@ -102,10 +102,11 @@ const Home = () => {
         <Carousel
           autoPlay={true}
           timeOut={100}
-          sx={{
-            mt: "4.5%",
-            height: "484px", // Altura fija para el carrusel
-          }}
+          sx={
+            {
+              // Altura fija para el carrusel
+            }
+          }
         >
           {fotos.map((foto) => (
             <Box key={"foto.is"} width={"100%"}>
@@ -186,7 +187,7 @@ const Home = () => {
         >
           <Box textAlign={"center"}>
             <Box>
-              <img width={"40px"} src="/botiquin.png" alt="" />
+              <img width={"60px"} src="/botiquin.png" alt="" />
             </Box>
             <Typography
               sx={{
@@ -223,7 +224,7 @@ const Home = () => {
 
           <Box textAlign={"center"}>
             <Box textAlign={"center"}>
-              <img width={"50px"} src="/frasco.png" alt="" />
+              <img width={"60px"} src="/frasco.png" alt="" />
             </Box>
             <Typography
               sx={{
@@ -259,7 +260,7 @@ const Home = () => {
           </Box>
           <Box textAlign={"center"}>
             <Box>
-              <img width={"50px"} src="/diamante.png" alt="" />
+              <img width={"60px"} src="/diamante.png" alt="" />
             </Box>
             <Typography
               sx={{
@@ -306,9 +307,25 @@ const Home = () => {
             textAlign: "center", // Centrar contenido dentro del Box
             width: "25%",
             height: "64vh",
+            transition: "background-color 0.8s ease",
+            "&:hover > div": {
+              // Selector más específico para el hover
+              backgroundColor: "#8893f7",
+              width: "140%", // Añadir tamaño explícito
+              height: "64vh", // Añadir tamaño explícito
+              mt: "-20px",
+              ml: "-70px",
+            },
           }}
         >
-          <Box mt={20}>
+          <Box
+            mt={20}
+            sx={{
+              "&:hover": {
+                pt: "180px",
+              },
+            }}
+          >
             <img width={"160px"} src="/logoterapiacetogenica.png" alt="" />
           </Box>
         </Box>
@@ -322,9 +339,25 @@ const Home = () => {
             textAlign: "center", // Centrar contenido dentro del Box
             width: "25%",
             height: "64vh",
+            transition: "background-color 0.8s ease",
+            "&:hover > div": {
+              // Selector más específico para el hover
+              backgroundColor: "#ff9e33",
+              width: "120%", // Añadir tamaño explícito
+              height: "64vh", // Añadir tamaño explícito
+              mt: "-20px",
+              ml: "-20px",
+            },
           }}
         >
-          <Box mt={20}>
+          <Box
+            mt={20}
+            sx={{
+              "&:hover": {
+                pt: "180px",
+              },
+            }}
+          >
             <img width={"185px"} src="/logoerrorescongenitos.png" alt="" />
           </Box>
         </Box>
@@ -337,24 +370,56 @@ const Home = () => {
             textAlign: "center", // Centrar contenido dentro del Box
             width: "25%",
             height: "64vh",
+            transition: "background-color 0.8s ease",
+            "&:hover > div": {
+              // Selector más específico para el hover
+              backgroundColor: "#75cbf3",
+              width: "120%", // Añadir tamaño explícito
+              height: "64vh", // Añadir tamaño explícito
+              mt: "-20px",
+              ml: "-20px",
+            },
           }}
         >
-          <Box mt={20}>
+          <Box
+            mt={20}
+            sx={{
+              "&:hover": {
+                pt: "180px",
+              },
+            }}
+          >
             <img width={"185px"} src="/logoaplv.png" alt="" />
           </Box>
         </Box>
         <Box
-         component={Link}
-         to={"/Otros"}
+          component={Link}
+          to={"/Otros"}
           sx={{
             backgroundImage: `url("/seccionotros.png")`, // Corregir backgroundImage y la ruta de la imagen
             padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
             textAlign: "center", // Centrar contenido dentro del Box
             width: "25%",
             height: "64vh",
+            transition: "background-color 0.8s ease",
+            "&:hover > div": {
+              // Selector más específico para el hover
+              backgroundColor: "#004ed6",
+              width: "120%", // Añadir tamaño explícito
+              height: "64vh", // Añadir tamaño explícito
+              mt: "-20px",
+              ml: "-20px",
+            },
           }}
         >
-          <Box mt={20}>
+          <Box
+            mt={20}
+            sx={{
+              "&:hover": {
+                pt: "180px",
+              },
+            }}
+          >
             <img width={"160px"} src="/logootros.png" alt="" />
           </Box>
         </Box>

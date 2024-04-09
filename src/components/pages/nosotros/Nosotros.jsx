@@ -3,16 +3,12 @@ import { Box, Button, Typography } from "@mui/material";
 import { Parallax } from "react-scroll-parallax";
 import { Link } from "react-router-dom";
 import CallIcon from "@mui/icons-material/Call";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import Boton from "../../common/button/Boton";
 const Nosotros = () => {
   return (
     <>
-      <Parallax speed={-12}>
+      <Parallax speed={-6}>
         <Box mt={8}>
           <img
             width={"100%"}
@@ -112,14 +108,14 @@ const Nosotros = () => {
                 lineHeight: "19px",
               }}
             >
-              B-Life es una empresa argentina con más de 12 años de activi- dad
-              ininterrumpida en el país, que provee alimentos para pro- pósitos
-              médicos específicos de alta calidad destinados a pato- logías que
-              requieren un tratamiento nutricional especializa- do. La Empresa
+              B-Life es una empresa argentina con más de 12 años de actividad
+              ininterrumpida en el país, que provee alimentos para propósitos
+              médicos específicos de alta calidad destinados a patologías que
+              requieren un tratamiento nutricional especializado. La Empresa
               está dirigida por profesionales de la salud que cuentan con vasta
               experiencia en el área, profesionalismo y dedicación. Esto nos
               permite proporcionar no sólo el mejor producto, sino también
-              brindar asesoramiento a profesiona- les y familias y contención a
+              brindar asesoramiento a profesionales y familias y contención a
               los pacientes desde el inicio del tratamiento.
             </Typography>
             <Typography
@@ -232,7 +228,7 @@ const Nosotros = () => {
               Nuestra misión es MEJORAR LA CALIDAD DE VIDA de los pacientes,
               ofreciendo alternativas terapéuticas superiores
             </strong>{" "}
-            AL ALCANCE DE LOS PROFECIONALES DE LA SALUD.
+            AL ALCANCE DE LOS PROFESIONALES DE LA SALUD.
           </Typography>
         </Box>
 
@@ -355,71 +351,57 @@ const Nosotros = () => {
           </Box>
         </Box>
         <Box>
+        <Box mt={6}>
           <Box width={"100%"} height={"30vh"}>
-            <Box
-              display={"flex"}
-              width={"60%"}
-              m={"auto"}
-              justifyContent={"space-between"}
-            >
-              <Box mt={5}>
-                <Box>
-                  <img width={"80%"} src="/logofooter.png" alt="" />
-                </Box>
-                <Box display={"flex"} mt={2}>
-                  <CallIcon fontSize="small" sx={{ color: "white" }} />
-                  <Typography sx={{ ml: 1, fontSize: "14px", color: "white" }}>
-                    4932 4816
-                  </Typography>
-                </Box>
-                <Box>
-                  <Box>
-                    <Box mt={2} component={Link} to={"/contacto"}
-                style={{textDecoration: "none"}}>
-                      <img width={"128px"} src="/botonVerdeBlanco.png" alt="" />
-                      <Box mt={-8} ml={4}>
-                        <Typography
-                          sx={{
-                            fontFamily: "Lato",
-                            fontWeight: "regular",
-                            fontSize: "12px",
-                            lineHeight: "81px",
-                            color: " #007E48",
-                          }}
-                        >
-                          Escribinos
-                        </Typography>
-                      </Box>
-                    </Box>
-                  </Box>
-                </Box>
-              </Box>
-
-              <Box mt={5}>
-                <Box display={"flex"}>
-                  <WhatsAppIcon sx={{ color: "white", ml: 2 }} />
-                  <InstagramIcon sx={{ color: "white", ml: 2 }} />
-                  <YouTubeIcon sx={{ color: "white", ml: 2 }} />
-                  <LinkedInIcon sx={{ color: "white", ml: 2 }} />
-                  <FacebookIcon sx={{ color: "white", ml: 2 }} />
-                </Box>
-                <a
-              href="mailto:info@b-life.com.ar"
-              style={{ textDecoration: "none" }}
-            >
-                <Box display={"flex"} mt={3}>
-                  <MailOutlineIcon
-                    fontSize="small"
-                    sx={{ color: "white", ml: 6 }}
-                  />
-                  <Typography sx={{ ml: 1, fontSize: "15px", color: "white" }}>
-                    info@b-life.com.ar
-                  </Typography>
-                </Box>
-                </a>
+          <Box
+          display={"flex"}
+          width={"60%"}
+          m={"auto"}
+          justifyContent={"space-between"}
+        >
+          <Box mt={5}>
+            <Box>
+              <img width={"80%"} src="/logofooter.png" alt="" />
+            </Box>
+            <Box display={"flex"} mt={2}>
+              <CallIcon fontSize="small" sx={{ color: "white" }} />
+              <Typography sx={{ ml: 1, fontSize: "14px", color: "white" }}>
+                4932 4816
+              </Typography>
+            </Box>
+            <Box>
+              <Box mt={2}>
+                <Boton texto={"Escribinos"} linkTo={"/contacto"} />
               </Box>
             </Box>
           </Box>
+
+          <Box mt={6}>
+            <Box display={"flex"}>
+              <Typography sx={{ fontSize: "15px", color: "white" }}>
+                Cochabamba 3643.CABA
+              </Typography>
+            </Box>
+
+            <a
+              href="mailto:info@b-life.com.ar"
+              style={{ textDecoration: "none" }}
+            >
+              <Box display={"flex"} mt={2}>
+                <MailOutlineIcon
+                  fontSize="small"
+                  sx={{ color: "white", ml: 3 }}
+                />
+
+                <Typography sx={{ ml: 1, fontSize: "15px", color: "white" }}>
+                  info@b-life.com.ar
+                </Typography>
+              </Box>
+            </a>
+          </Box>
+        </Box>
+          </Box>
+        </Box>
         </Box>
       </Box>
     </>

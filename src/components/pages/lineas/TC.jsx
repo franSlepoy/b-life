@@ -10,6 +10,8 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { Box, Button, Modal, Typography } from "@mui/material";
 import Boton from "../../common/button/Boton";
 import { useState } from "react";
+import BotonWS from "../../common/button/BotonWS";
+import BotonIG from "../../common/button/BotonIG";
 
 const TC = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -63,7 +65,7 @@ const TC = () => {
           sx={{
             fontFamily: "Lato",
             fontWeight: "regular",
-            width: "180px",
+            width: "380px",
             fontSize: "16px",
             lineHeight: "17px",
             color: "white",
@@ -71,7 +73,9 @@ const TC = () => {
             mt: 0,
           }}
         >
-          Terapia Cetogénica para epilepsia refractaria.
+          La Terapia Cetogénica es un tratamiento no farmacológico y efectivo
+          utilizado como una alternativa de tratamiento en el manejo de la
+          epilepsia refractaria desde 1921.
         </Typography>
       </Box>
 
@@ -134,12 +138,12 @@ const TC = () => {
                 lineHeight: "19px",
               }}
             >
-              La Terapia Cetogénica (TC) es un tratamiento no farmacológi- co y
+              La Terapia Cetogénica (TC) es un tratamiento no farmacológico y
               efectivo utilizado como un método alternativo para el manejo de la
               epilepsia refractaria o de difícil control desde 1921, que se
               puede utilizar desde la infancia hasta la adultez. Las epilepsias
               refractarias o de difícil control se definen como fallas en el
-              control de las crisis al tratamiento con dos fárma- cos bien
+              control de las crisis al tratamiento con dos fármacos bien
               tolerados y seleccionados adecuadamente.
             </Typography>
             <Typography
@@ -153,13 +157,12 @@ const TC = () => {
               }}
             >
               Consiste en una selección de alimentos que aportan un alto
-              contenido en grasas, un bajo contenido en hidratos de carbo- no y
-              un aporte de proteínas recomendados para la edad del paciente, en
-              la cual se utiliza la grasa como fuente de energía primaria a
-              través de la formación de cuerpos cetónicos (155 libro). Es una
-              dieta rígida, matemáticamente calculada, indivi- dual y
-              médicamente controlada por un equipo interdisciplina- rio
-              especializado.
+              contenido en grasas, un bajo contenido en hidratos de carbono y un
+              aporte de proteínas recomendados para la edad del paciente, en la
+              cual se utiliza la grasa como fuente de energía primaria a través
+              de la formación de cuerpos cetónicos (155 libro). Es una dieta
+              rígida, matemáticamente calculada, individual y médicamente
+              controlada por un equipo interdisciplinario especializado.
             </Typography>
 
             <Typography
@@ -173,7 +176,7 @@ const TC = () => {
               }}
             >
               Ya desde la Antigüedad se sabía que el ayuno provocaba una mejoría
-              en el control de las convulsiones en pacientes epilép- ticos.
+              en el control de las convulsiones en pacientes epilépticos.
             </Typography>
             <Typography
               sx={{
@@ -189,11 +192,10 @@ const TC = () => {
               Nidia Escobal, médica nutricionista, fueron los pioneros en el uso
               de la TC hace aproximadamente 50 años. Desde ese momento el
               desarrollo en nuestro país fue cada vez mayor. Actualmente existen
-              centros que utilizan la Terapia Cetogéni- ca en el tratamiento de
-              las epilepsias de difícil control en dife- rentes ciudades del
-              país: Buenos Aires, La Plata, Mar del Plata, Córdoba, Santa Fé,
-              Rosario, Neuquén, Bariloche, Gualeguaychú, Tucumán, Salta, Jujuy y
-              Mendoza.
+              centros que utilizan la Terapia Cetogénica en el tratamiento de
+              las epilepsias de difícil control en diferentes ciudades del país:
+              Buenos Aires, La Plata, Mar del Plata, Córdoba, Santa Fé, Rosario,
+              Neuquén, Bariloche, Gualeguaychú, Tucumán, Salta, Jujuy y Mendoza.
             </Typography>
           </Box>
 
@@ -244,7 +246,7 @@ const TC = () => {
             >
               Apelando a la importancia de la variedad en la implementación de
               la Terapia Cetogénica, B-Life cuenta con la más amplia gama de
-              productos para llevarla a cabo en todas las etapas de la vida.{" "}
+              productos para llevarla a cabo en todas las etapas de la vida{" "}
               <span
                 onMouseEnter={() => {
                   setIsHovered(true);
@@ -254,9 +256,15 @@ const TC = () => {
                   setIsHovered(false);
                   handleClose(); // Cerrar el Modal cuando el cursor sale del área
                 }}
-                style={{ cursor: "pointer" }}
+                style={{
+                  fontSize: "8px",
+                  cursor: "pointer",
+                  position: "relative", // Cambiar a posición relativa
+                  top: "-5px", // Ajustar posición verticalmente
+                  display: "inline-block", // Permitir ajustes de posición
+                }}
               >
-                1,2.
+                1,2
                 <Modal
                   open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
                   onClose={handleClose}
@@ -340,8 +348,8 @@ const TC = () => {
                 mt: 1,
               }}
             >
-              B-Life considera el respeto uno de sus principales valores, de-
-              mostrándolo en cada contacto y en cada lugar en el que está
+              B-Life considera el respeto uno de sus principales valores,
+              demostrándolo en cada contacto y en cada lugar en el que está
               presente.
             </Typography>
             <Typography
@@ -373,6 +381,12 @@ const TC = () => {
 
             <Box mt={5} display={"flex"} justifyContent={"flex-end"}>
               <Boton texto={"Productos"} linkTo={"/productos"} />
+              <Box ml={1}>
+                <BotonWS />
+              </Box>
+              <Box ml={1}>
+                <BotonIG/>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -396,50 +410,29 @@ const TC = () => {
                   </Typography>
                 </Box>
                 <Box>
-                  <Box>
-                    <Box
-                      mt={2}
-                      component={Link}
-                      to={"/contacto"}
-                      style={{ textDecoration: "none" }}
-                    >
-                      <img width={"128px"} src="/botonVerdeBlanco.png" alt="" />
-                      <Box mt={-8} ml={4}>
-                        <Typography
-                          sx={{
-                            fontFamily: "Lato",
-                            fontWeight: "regular",
-                            fontSize: "12px",
-                            lineHeight: "81px",
-                            color: " #007E48",
-                          }}
-                        >
-                          Escribinos
-                        </Typography>
-                      </Box>
-                    </Box>
+                  <Box mt={2}>
+                    <Boton texto={"Escribinos"} linkTo={"/contacto"} />
                   </Box>
                 </Box>
               </Box>
 
-              <Box mt={5}>
+              <Box mt={6}>
                 <Box display={"flex"}>
-                  <WhatsAppIcon sx={{ color: "white", ml: 2 }} />
-                  <InstagramIcon sx={{ color: "white", ml: 2 }} />
-                  <YouTubeIcon sx={{ color: "white", ml: 2 }} />
-                  <LinkedInIcon sx={{ color: "white", ml: 2 }} />
-                  <FacebookIcon sx={{ color: "white", ml: 2 }} />
+                  <Typography sx={{ fontSize: "15px", color: "white" }}>
+                    Cochabamba 3643.CABA
+                  </Typography>
                 </Box>
 
                 <a
                   href="mailto:info@b-life.com.ar"
                   style={{ textDecoration: "none" }}
                 >
-                  <Box display={"flex"} mt={3}>
+                  <Box display={"flex"} mt={2}>
                     <MailOutlineIcon
                       fontSize="small"
-                      sx={{ color: "white", ml: 6 }}
+                      sx={{ color: "white", ml: 3 }}
                     />
+
                     <Typography
                       sx={{ ml: 1, fontSize: "15px", color: "white" }}
                     >

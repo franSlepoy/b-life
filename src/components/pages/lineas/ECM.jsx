@@ -1,15 +1,11 @@
 import { Parallax } from "react-scroll-parallax";
-import { Link } from "react-router-dom";
 import CallIcon from "@mui/icons-material/Call";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import { Box, Button, Modal, Typography } from "@mui/material";
+import { Box, Modal, Typography } from "@mui/material";
 import Boton from "../../common/button/Boton";
 import { useState } from "react";
+import BotonWS from "../../common/button/BotonWS";
+import BotonIG from "../../common/button/BotonIG";
 
 const ECM = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -36,14 +32,14 @@ const ECM = () => {
           sx={{
             fontFamily: "Lato",
             fontWeight: "light",
-            width: "310px",
+            width: "610px",
             fontSize: "60px",
             lineHeight: "55px",
             color: "white",
             mt: 2,
           }}
         >
-          Dieta
+          Errores Congénitos
         </Typography>
 
         <Typography
@@ -57,13 +53,13 @@ const ECM = () => {
             color: "white",
           }}
         >
-          Hipoproteica
+          del Metabolismo
         </Typography>
         <Typography
           sx={{
             fontFamily: "Lato",
             fontWeight: "regular",
-            width: "380px",
+            width: "300px",
             fontSize: "16px",
             lineHeight: "17px",
             color: "white",
@@ -133,7 +129,7 @@ const ECM = () => {
                 lineHeight: "19px",
               }}
             >
-              Los errores innatos del metabolismo (EIM) son un conjunto de
+              Los errores congénitos del metabolismo (ECM) son un conjunto de
               enfermedades causadas por una alteración genética, que conlleva al
               inadecuado funcionamiento fisiológico de la célula. Se trata de
               enfermedades en su mayoría de herencia autosómica recesiva. Los
@@ -141,7 +137,7 @@ const ECM = () => {
               pacientes con algunas de estas enfermedades y comenzar su
               tratamiento tempranamente. Otras de estas enfermedades son
               detectadas a través de síntomas clínicos. Dentro de las
-              posibilidades terapéuticas actuales para los EIM, el tratamiento
+              posibilidades terapéuticas actuales para los ECM, el tratamiento
               nutricional es el pilar más importante en el manejo global de
               estos trastornos. Se dispone de productos dietéticos muy
               específicos para cada enfermedad.
@@ -156,7 +152,8 @@ const ECM = () => {
                 mt: 1,
               }}
             >
-              En el caso de los EIM de los aminoácidos, el tratamiento dietético
+              En el caso de los ECM de los aminoácidos, el tratamiento clientes
+              para satisfacerlas, desarrollando y poniendo a su 2021. dietético
               tendrá como objetivo limitar la ingesta de el/los aminoácido/s,
               cuya vía metabólica está afectada, hasta un requerimiento mínimo
               que proporcione un crecimiento y un desarrollo adecuados. De esta
@@ -176,7 +173,13 @@ const ECM = () => {
                   setIsHovered(false);
                   handleClose(); // Cerrar el Modal cuando el cursor sale del área
                 }}
-                style={{ cursor: "pointer" }}
+                style={{
+                  fontSize: "8px",
+                  cursor: "pointer",
+                  position: "relative", // Cambiar a posición relativa
+                  top: "-5px", // Ajustar posición verticalmente
+                  display: "inline-block", // Permitir ajustes de posición
+                }}
               >
                 1,2.
                 <Modal
@@ -261,7 +264,7 @@ const ECM = () => {
               }}
             >
               B-Life cuenta con una amplia gama de productos para el tratamiento
-              de los Errores innatos del metabolismo, que incluye fórmulas y
+              de los Errores congénitos del metabolismo, que incluye fórmulas y
               alimentos hipoproteicos.
             </Typography>
             <Typography
@@ -274,12 +277,8 @@ const ECM = () => {
                 mt: 1,
               }}
             >
-              La línea Errores Congénitos del Metabolismo de B-Life incluye
-              fórmulas para el tratamiento de todos los ECM de los aminoácidos
-              desde el nacimiento hasta la edad adulta. Asimismo, cuenta con la
-              más amplia variedad de alimentos hipoproteicos. De esta forma,
-              buscamos satisfacer las necesidades de todas las familias durante
-              toda la vida.
+              La línea Errores Congénitos del Metabolismo de B-Life incluye fórmulas para el tratamiento de todos los ECM de los aminoácidos desde el nacimiento hasta la edad adulta. Asimismo, cuenta con la más amplia variedad de alimentos hipoproteicos. De esta forma, buscamos satisfacer las necesidades de todas las familias durante toda la vida.
+
             </Typography>
 
             <Box>
@@ -294,19 +293,19 @@ const ECM = () => {
                   mt: 1,
                 }}
               >
-                B-Life considera el respeto uno de sus principales valores,
-                demostrándolo en cada contacto y en cada lugar en el que está
-                presente. B-Life busca escuchar las necesidades de sus clientes
-                para satisfacerlas, desarrollando y poniendo a su disposición
-                todos aquellos recursos necesarios para llevar adelante el
-                tratamiento. Por último, se compromete en bridar a los
-                profesionales de la salud capacitación continua y acceso a la
-                información científica.
+                B-Life considera el respeto uno de sus principales valores, demostrándolo en cada contacto y en cada lugar en el que está presente. B-Life busca escuchar las necesidades de sus clientes para satisfacerlas, desarrollando y poniendo a su disposición todos aquellos recursos necesarios para llevar adelante el tratamiento. Por último, se compromete en bridar a los profesionales de la salud capacitación continua y acceso a la información científica.
+
               </Typography>
             </Box>
 
             <Box mt={5} display={"flex"} justifyContent={"flex-end"}>
               <Boton texto={"Productos"} linkTo={"/productos"} />
+              <Box ml={1}>
+                <BotonWS />
+              </Box>
+              <Box ml={1}>
+                <BotonIG/>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -330,50 +329,29 @@ const ECM = () => {
                   </Typography>
                 </Box>
                 <Box>
-                  <Box>
-                    <Box
-                      mt={2}
-                      component={Link}
-                      to={"/contacto"}
-                      style={{ textDecoration: "none" }}
-                    >
-                      <img width={"128px"} src="/botonVerdeBlanco.png" alt="" />
-                      <Box mt={-8} ml={4}>
-                        <Typography
-                          sx={{
-                            fontFamily: "Lato",
-                            fontWeight: "regular",
-                            fontSize: "12px",
-                            lineHeight: "81px",
-                            color: " #007E48",
-                          }}
-                        >
-                          Escribinos
-                        </Typography>
-                      </Box>
-                    </Box>
+                  <Box mt={2}>
+                    <Boton texto={"Escribinos"} linkTo={"/contacto"} />
                   </Box>
                 </Box>
               </Box>
 
-              <Box mt={5}>
+              <Box mt={6}>
                 <Box display={"flex"}>
-                  <WhatsAppIcon sx={{ color: "white", ml: 2 }} />
-                  <InstagramIcon sx={{ color: "white", ml: 2 }} />
-                  <YouTubeIcon sx={{ color: "white", ml: 2 }} />
-                  <LinkedInIcon sx={{ color: "white", ml: 2 }} />
-                  <FacebookIcon sx={{ color: "white", ml: 2 }} />
+                  <Typography sx={{ fontSize: "15px", color: "white" }}>
+                    Cochabamba 3643.CABA
+                  </Typography>
                 </Box>
 
                 <a
                   href="mailto:info@b-life.com.ar"
                   style={{ textDecoration: "none" }}
                 >
-                  <Box display={"flex"} mt={3}>
+                  <Box display={"flex"} mt={2}>
                     <MailOutlineIcon
                       fontSize="small"
-                      sx={{ color: "white", ml: 6 }}
+                      sx={{ color: "white", ml: 3 }}
                     />
+
                     <Typography
                       sx={{ ml: 1, fontSize: "15px", color: "white" }}
                     >

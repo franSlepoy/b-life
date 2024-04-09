@@ -9,6 +9,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { Box, Typography } from "@mui/material";
 import Boton from "../../common/button/Boton";
 import { Link } from "react-router-dom";
+import BotonWS from "../../common/button/BotonWS";
 
 const Otros = () => {
   return (
@@ -112,82 +113,62 @@ const Otros = () => {
           </Typography>
         </Box>
 
-        <Box mt={10} textAlign={"center"}>
+        <Box mt={10}  textAlign={"center"}>
           <Boton texto={"Productos"} linkTo={"/productos"} />
+          <Box mt={1}>
+                <BotonWS />
+              </Box>
         </Box>
 
         <Box mt={6}>
           <Box width={"100%"} height={"30vh"}>
-            <Box
-              display={"flex"}
-              width={"60%"}
-              m={"auto"}
-              justifyContent={"space-between"}
-            >
-              <Box mt={5}>
-                <Box>
-                  <img width={"80%"} src="/logofooter.png" alt="" />
-                </Box>
-                <Box display={"flex"} mt={2}>
-                  <CallIcon fontSize="small" sx={{ color: "white" }} />
-                  <Typography sx={{ ml: 1, fontSize: "14px", color: "white" }}>
-                    4932 4816
-                  </Typography>
-                </Box>
-                <Box>
-                  <Box>
-                    <Box
-                      mt={2}
-                      component={Link}
-                      to={"/contacto"}
-                      style={{ textDecoration: "none" }}
-                    >
-                      <img width={"128px"} src="/botonVerdeBlanco.png" alt="" />
-                      <Box mt={-8} ml={4}>
-                        <Typography
-                          sx={{
-                            fontFamily: "Lato",
-                            fontWeight: "regular",
-                            fontSize: "12px",
-                            lineHeight: "81px",
-                            color: " #007E48",
-                          }}
-                        >
-                          Escribinos
-                        </Typography>
-                      </Box>
-                    </Box>
-                  </Box>
-                </Box>
-              </Box>
-
-              <Box mt={5}>
-                <Box display={"flex"}>
-                  <WhatsAppIcon sx={{ color: "white", ml: 2 }} />
-                  <InstagramIcon sx={{ color: "white", ml: 2 }} />
-                  <YouTubeIcon sx={{ color: "white", ml: 2 }} />
-                  <LinkedInIcon sx={{ color: "white", ml: 2 }} />
-                  <FacebookIcon sx={{ color: "white", ml: 2 }} />
-                </Box>
-
-                <a
-                  href="mailto:info@b-life.com.ar"
-                  style={{ textDecoration: "none" }}
-                >
-                  <Box display={"flex"} mt={3}>
-                    <MailOutlineIcon
-                      fontSize="small"
-                      sx={{ color: "white", ml: 6 }}
-                    />
-                    <Typography
-                      sx={{ ml: 1, fontSize: "15px", color: "white" }}
-                    >
-                      info@b-life.com.ar
-                    </Typography>
-                  </Box>
-                </a>
+          <Box
+          display={"flex"}
+          width={"60%"}
+          m={"auto"}
+          justifyContent={"space-between"}
+        >
+          <Box mt={5}>
+            <Box>
+              <img width={"80%"} src="/logofooter.png" alt="" />
+            </Box>
+            <Box display={"flex"} mt={2}>
+              <CallIcon fontSize="small" sx={{ color: "white" }} />
+              <Typography sx={{ ml: 1, fontSize: "14px", color: "white" }}>
+                4932 4816
+              </Typography>
+            </Box>
+            <Box>
+              <Box mt={2}>
+                <Boton texto={"Escribinos"} linkTo={"/contacto"} />
               </Box>
             </Box>
+          </Box>
+
+          <Box mt={6}>
+            <Box display={"flex"}>
+              <Typography sx={{ fontSize: "15px", color: "white" }}>
+                Cochabamba 3643.CABA
+              </Typography>
+            </Box>
+
+            <a
+              href="mailto:info@b-life.com.ar"
+              style={{ textDecoration: "none" }}
+            >
+              <Box display={"flex"} mt={2}>
+                <MailOutlineIcon
+                  fontSize="small"
+                  sx={{ color: "white", ml: 3 }}
+                />
+
+                <Typography sx={{ ml: 1, fontSize: "15px", color: "white" }}>
+                  info@b-life.com.ar
+                </Typography>
+              </Box>
+            </a>
+          </Box>
+        </Box>
           </Box>
         </Box>
       </Box>

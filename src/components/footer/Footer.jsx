@@ -1,12 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import CallIcon from "@mui/icons-material/Call";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import { Link } from "react-router-dom";
+import Boton from "../common/button/Boton";
 
 const Footer = () => {
   return (
@@ -35,46 +30,27 @@ const Footer = () => {
               </Typography>
             </Box>
             <Box>
-              <Box>
-                <Box mt={2} component={Link} to={"/contacto"}
-                style={{textDecoration: "none"}}>
-                  <img width={"128px"} src="/botonVerdeBlanco.png" alt="" />
-                  <Box mt={-8} ml={4}>
-                    <Typography
-                      sx={{
-                        fontFamily: "Lato",
-                        fontWeight: "regular",
-                        fontSize: "12px",
-                        lineHeight: "81px",
-                        color: " #007E48",
-                        textDecoration: "none",
-                      }}
-                    >
-                      Escribinos
-                    </Typography>
-                  </Box>
-                </Box>
+              <Box mt={2}>
+                <Boton texto={"Escribinos"} linkTo={"/contacto"} />
               </Box>
             </Box>
           </Box>
 
-          <Box mt={5}>
+          <Box mt={6}>
             <Box display={"flex"}>
-              <WhatsAppIcon sx={{ color: "white", ml: 2 }} />
-              <InstagramIcon sx={{ color: "white", ml: 2 }} />
-              <YouTubeIcon sx={{ color: "white", ml: 2 }} />
-              <LinkedInIcon sx={{ color: "white", ml: 2 }} />
-              <FacebookIcon sx={{ color: "white", ml: 2 }} />
+              <Typography sx={{ fontSize: "15px", color: "white" }}>
+                Cochabamba 3643.CABA
+              </Typography>
             </Box>
 
             <a
               href="mailto:info@b-life.com.ar"
               style={{ textDecoration: "none" }}
             >
-              <Box display={"flex"} mt={3}>
+              <Box display={"flex"} mt={2}>
                 <MailOutlineIcon
                   fontSize="small"
-                  sx={{ color: "white", ml: 6 }}
+                  sx={{ color: "white", ml: 3 }}
                 />
 
                 <Typography sx={{ ml: 1, fontSize: "15px", color: "white" }}>

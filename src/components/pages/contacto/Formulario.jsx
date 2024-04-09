@@ -8,21 +8,41 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Formulario = () => {
+  const form = useRef();
   const [mensajeEnviado, setMensajeEnviado] = useState(false);
-  const [emailDestino, setEmailDestino] = useState(""); // Estado para almacenar el valor seleccionado del correo electrónico
+  const [emailDestino, setEmailDestino] = useState("slepoyfrancisco@gmail.com"); // Estado para almacenar el valor seleccionado del correo electrónico
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
+    // Verificar si emailDestino tiene un valor definido
+    if (!emailDestino) {
+      console.error("El campo de correo electrónico de destino está vacío.");
+      return;
+    } 
+  
+    // Configurar los parámetros para enviar el correo electrónico
+    const templateParams = {
+      to: emailDestino,
+      // Otros parámetros del correo electrónico si es necesario
+      user_name: form.current.user_name.value,
+      user_lastName: form.current.user_lastName.value,
+      user_email: form.current.user_email.value,
+      user_tel: form.current.user_tel.value,
+      message: form.current.message.value,
+    }; 
+  
     // Envío del correo electrónico utilizando Email.js
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID", // Reemplaza esto con tu ID de servicio
-        "YOUR_TEMPLATE_ID", // Reemplaza esto con tu ID de plantilla
-        e.target, // El formulario que estás enviando
-        "YOUR_USER_ID" // Reemplaza esto con tu ID de usuario
+        "service_igs9bgw", // Reemplaza esto con tu ID de servicio
+        "template_q7cla0k", // Reemplaza esto con tu ID de plantilla
+        templateParams,   // Usar los parámetros del formulario en lugar de form.current
+        form.current,
+        "drwJl6gRse08FJjO-" // Reemplaza esto con tu ID de usuario
       )
       .then(
         (result) => {
@@ -34,7 +54,12 @@ const Formulario = () => {
         }
       );
   };
+  
 
+ const handleEmailChange = (event) => {
+    setEmailDestino(event.target.value);
+    console.log("Nuevo valor de emailDestino:", event.target.value); // Agrega este console.log para depurar
+  }; 
   return (
     <>
       <Hidden>
@@ -52,7 +77,7 @@ const Formulario = () => {
         ) : (
           <Box
             component="form"
-            /* ref={ form } */
+            ref={form}
             onSubmit={sendEmail}
             width={"85%"}
             sx={{
@@ -61,37 +86,28 @@ const Formulario = () => {
               flexDirection: "column",
             }}
           >
-             <Typography sx={{fontFamily:"Lato", fontSize:"14px",color:"black", mt:5, mb:-7,ml:-2, zIndex:100}} >Área con la que querés contactarte</Typography>
-            <Select
-              
-              value={emailDestino} // emailDestino es el estado que contendrá el valor seleccionado
-              onChange={(e) => setEmailDestino(e.target.value)} // Manejar el cambio de valor
-              variant="filled"
-              sx={{
-                mt: 2,
-                width: "100%",
-                bgcolor: "white",
-                borderRadius: "28px",
-              }}
+         <label htmlFor="email">Área con la que querés contactarte</label>
+            <select
+              id="email"
+              value={emailDestino}
+              onChange={handleEmailChange}
             >
-              <Box width={"60%"} >
-                <MenuItem value={"daniela.korman@b-life.com.ar"}>
-                  Errores congénitos del metabolismo
-                </MenuItem>
-                <MenuItem value={"fernando.bernardo@b-life.com.ar"}>
-                  Alergia a la proteína de leche de vaca
-                </MenuItem>
-                <MenuItem value={"constanza.boga@b-life.com.ar"}>
-                  Terapia Cetogénica
-                </MenuItem>
-                <MenuItem value={"fernando.bernardo@b-life.com.ar"}>
-                  Otros productos
-                </MenuItem>
-                <MenuItem value={"cotizaciones@b-life.com.ar"}>
-                  Consultas comerciales
-                </MenuItem>
-              </Box>
-            </Select>
+              <option value="slepoyfrancisco@gmail.com">
+                Errores congénitos del metabolismo
+              </option>
+              <option value="fernando.bernardo@b-life.com.ar">
+                Alergia a la proteína de leche de vaca
+              </option>
+              <option value="constanza.boga@b-life.com.ar">
+                Terapia Cetogénica
+              </option>
+              <option value="fernando.bernardo@b-life.com.ar">
+                Otros productos
+              </option>
+              <option value="cotizaciones@b-life.com.ar">
+                Consultas comerciales
+              </option>
+            </select> 
 
             <TextField
               type="text"

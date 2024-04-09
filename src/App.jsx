@@ -9,6 +9,7 @@ import TC from "./components/pages/lineas/TC";
 import EnConstruccion from "./components/pages/enConstruccion/EnConstruccion";
 import ECM from "./components/pages/lineas/ECM";
 import Otros from "./components/pages/lineas/Otros";
+import Productos from "./components/pages/productos/Productos";
 
 function App() {
   return (
@@ -16,11 +17,11 @@ function App() {
       <ParallaxProvider>
       <NavBar /> 
         <Routes>
-          <Route path="/productos" element={<EnConstruccion />} />
+          <Route path="/productos" element={<Productos />} />
 
          <Route path="/" element={<Home />} />
           <Route path="/nosotros" element={<Nosotros />} />
-          <Route path="/contacto" element={<EnConstruccion />} />
+          <Route path="/contacto" element={<Contacto />} />
           <Route path="/APLV" element={<APLV />} />
           <Route path="/TC" element={<TC />} /> 
           <Route path="/ECM" element={<ECM />} /> 
