@@ -1,11 +1,6 @@
 import { Parallax } from "react-scroll-parallax";
-import { Link } from "react-router-dom";
+
 import CallIcon from "@mui/icons-material/Call";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { Box, Button, Modal, Typography } from "@mui/material";
 import Boton from "../../common/button/Boton";

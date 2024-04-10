@@ -1,12 +1,12 @@
 export const fotosProductosCarousel = [
     {
         id:1,
-        imagen: "/fotobannerproductos1.jpg",
+        imagen: "/fotobannerproductos2.jpg",
 
     },
     {
         id:2,
-        imagen: "/fotobannerproductos2.jpg",
+        imagen: "/fotobannerproductos1.jpg",
         
     },
     {
