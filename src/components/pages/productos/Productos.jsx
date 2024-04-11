@@ -15,7 +15,7 @@ const Productos = () => {
         sx={{
           mt: 8,
           bgcolor: "#007E48",
-          height: "63vh",
+          height: "500px",
         }}
       >
         {fotosProductosCarousel.map((foto) => (
@@ -77,7 +77,7 @@ const Productos = () => {
         <ProductosFiltros />
       </Box>
       <Box>
-        <Box mt={16}>
+        <Box mt={26}>
           <Box width={"100%"} height={"30vh"}>
             <Box
               display={"flex"}

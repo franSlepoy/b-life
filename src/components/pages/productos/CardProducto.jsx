@@ -1,12 +1,14 @@
 import { Box, Button, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 
-const CardProducto = ({ imagen, categoria, titulo, descripcion }) => {
+const CardProducto = ({ imagen, categoria, titulo, descripcion, link }) => {
   return (
     <>
       <Box
         sx={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
         mt={2}
         p={2}
+        ml={2}
         width={"25%"}
       >
         <Box textAlign={"center"}>
@@ -52,15 +54,17 @@ const CardProducto = ({ imagen, categoria, titulo, descripcion }) => {
         </Box>
         <Box>
           <Button
+            component={Link}
+            to={link}
             sx={{
               bgcolor: "#007E48",
               fontFamily: "Lato",
               textTransform: "none",
               color: "white",
-              width: "90%",
+              width: "98%",
               mt: 2,
               "&:hover": {
-                color:"#007E48"
+                color: "#007E48",
               },
             }}
           >

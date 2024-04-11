@@ -310,7 +310,7 @@ const Home = () => {
             transition: "background-color 0.8s ease",
             "&:hover > div": {
               // Selector más específico para el hover
-              backgroundColor: "#8893f7",
+              backgroundColor:"rgba(136, 147, 247, 0.5)",
               width: "140%", // Añadir tamaño explícito
               height: "64vh", // Añadir tamaño explícito
               mt: "-20px",
@@ -342,7 +342,7 @@ const Home = () => {
             transition: "background-color 0.8s ease",
             "&:hover > div": {
               // Selector más específico para el hover
-              backgroundColor: "#ff9e33",
+              backgroundColor: "rgba(255, 158, 51, 0.5)",
               width: "120%", // Añadir tamaño explícito
               height: "64vh", // Añadir tamaño explícito
               mt: "-20px",
@@ -373,7 +373,7 @@ const Home = () => {
             transition: "background-color 0.8s ease",
             "&:hover > div": {
               // Selector más específico para el hover
-              backgroundColor: "#75cbf3",
+              backgroundColor: "rgba(117, 203, 243, 0.5)",
               width: "120%", // Añadir tamaño explícito
               height: "64vh", // Añadir tamaño explícito
               mt: "-20px",
@@ -404,7 +404,7 @@ const Home = () => {
             transition: "background-color 0.8s ease",
             "&:hover > div": {
               // Selector más específico para el hover
-              backgroundColor: "#004ed6",
+              backgroundColor: "rgba(0, 78, 214, 0.5)",
               width: "120%", // Añadir tamaño explícito
               height: "64vh", // Añadir tamaño explícito
               mt: "-20px",

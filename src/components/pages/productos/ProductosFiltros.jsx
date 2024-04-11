@@ -85,7 +85,7 @@ const ProductosFiltros = () => {
         {/* NavBar vertical */}
         {categoriaSeleccionada === "Terapia Cetogénica" && (
           <Box
-            width={"20%"}
+            width={"19%"}
             display="flex"
             flexDirection="column"
             bgcolor={"white"}
@@ -121,7 +121,7 @@ const ProductosFiltros = () => {
 
         {/* Grilla de productos */}
         {subcategoriaSeleccionada === "FÓRMULAS" && (
-          <Box ml={2} width={"65%"} bgcolor={"white"}>
+          <Box ml={2} width={"75%"} bgcolor={"white"}>
             <GrillaFormulas />
           </Box>
         )}
