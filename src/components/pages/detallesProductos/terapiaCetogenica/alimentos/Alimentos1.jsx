@@ -1,7 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import Footer from "../../../../common/footer/Footer";
 
-const Formulas1 = () => {
+const Alimentos1 = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
     const pdfURL = "/ketoVie31.pdf";
@@ -258,4 +258,4 @@ const Formulas1 = () => {
   );
 };
 
-export default Formulas1;
+export default Alimentos1;

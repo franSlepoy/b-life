@@ -1,14 +1,33 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Box, Typography } from "@mui/material";
-import GrillaFormulas from "./GrillaFormulas";
-import GrillaAlimentos from "./GrillaAlimentos";
-import GrillaSuplementos from "./GrillaSuplementos";
-import GrillaModulos from "./GrillaModulos";
+
+import CardProducto from "./CardProducto";
+import { productosFormulaData } from "../../../productosData/ProductosData";
 
 const ProductosFiltros = () => {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
   const [subcategoriaSeleccionada, setSubcategoriaSeleccionada] =
     useState(null);
+  const [productosFiltrados, setProductosFiltrados] = useState([]); // Estado para almacenar los productos filtrados
+
+  useEffect(() => {
+    // Filtrar los productos según la categoría y subcategoría seleccionadas
+    if (categoriaSeleccionada && subcategoriaSeleccionada) {
+      const productosFiltradosCategoria = productosFormulaData.filter(
+        (producto) =>
+          producto.categoria === categoriaSeleccionada &&
+          producto.subCategoria === subcategoriaSeleccionada
+      );
+      setProductosFiltrados(productosFiltradosCategoria);
+    } else if (categoriaSeleccionada && !subcategoriaSeleccionada) {
+      const productosFiltradosCategoria = productosFormulaData.filter(
+        (producto) => producto.categoria === categoriaSeleccionada
+      );
+      setProductosFiltrados(productosFiltradosCategoria);
+    } else {
+      setProductosFiltrados([]); // Restablecer los productos filtrados si no hay categoría seleccionada
+    }
+  }, [categoriaSeleccionada, subcategoriaSeleccionada]);
 
   const categorias = [
     "Terapia Cetogénica",
@@ -23,7 +42,6 @@ const ProductosFiltros = () => {
     "SUPLEMENTOS",
     "MÓDULOS",
   ];
-  const subcategoriasOtros = ["FONTUP", "GLUTAPAK R", "ABINTRA"];
 
   const handleCategoriaSeleccionada = (categoria) => {
     setCategoriaSeleccionada(categoria);
@@ -32,15 +50,15 @@ const ProductosFiltros = () => {
 
   const handleSubcategoriaSeleccionada = (subcategoria) => {
     setSubcategoriaSeleccionada(subcategoria);
-    // Lógica para mostrar productos según la subcategoría seleccionada
   };
 
   return (
     <>
       {/* NavBar horizontal */}
-      <Box bgcolor={"#007E48"} mt={"-1px"}>
+      <Box bgcolor={"#007E48"}>
         <Box
           width={"60%"}
+          height={"100%"}
           m={"auto"}
           display="flex"
           justifyContent={"space-evenly"}
@@ -52,9 +70,8 @@ const ProductosFiltros = () => {
               sx={{
                 cursor: "pointer",
                 backgroundColor:
-                  categoria === categoriaSeleccionada
-                    ? "#8893f7"
-                    : "transparent",
+                  categoria === categoriaSeleccionada ? "white" : "transparent",
+
                 display: "flex",
                 alignItems: "center",
               }}
@@ -62,9 +79,9 @@ const ProductosFiltros = () => {
               <Typography
                 sx={{
                   textAlign: "center",
-                  color: "white",
+
                   fontFamily: "Lato",
-                  fontStyle: "italic",
+
                   fontWeight: "bold",
                   maxWidth: "195px",
                   lineHeight: "20px",
@@ -72,6 +89,10 @@ const ProductosFiltros = () => {
                   pr: 3,
                   pt: 1,
                   pb: 1,
+                  color:
+                    categoria === categoriaSeleccionada ? "#007E48" : "white",
+                  fontStyle:
+                    categoria === categoriaSeleccionada ? "normal" : "italic",
                 }}
               >
                 {categoria}
@@ -104,11 +125,19 @@ const ProductosFiltros = () => {
                     textAlign: "end",
                     color: "#007E48",
                     fontFamily: "Lato",
-                    fontStyle: "italic",
-                    fontWeight: "bold",
+
+                    fontStyle:
+                      subcategoria === subcategoriaSeleccionada
+                        ? "normal"
+                        : "italic",
+                    fontWeight:
+                      subcategoria === subcategoriaSeleccionada
+                        ? "bold"
+                        : "regular",
                     mt: 1,
+
                     "&:hover": {
-                      color: "#8893f7", // Cambiar color al hacer hover
+                      color: "#00D447",
                     },
                   }}
                 >
@@ -120,81 +149,19 @@ const ProductosFiltros = () => {
         )}
 
         {/* Grilla de productos */}
-        {subcategoriaSeleccionada === "FÓRMULAS" && (
-          <Box ml={2} width={"75%"} bgcolor={"white"}>
-            <GrillaFormulas />
-          </Box>
-        )}
-        {/* Grilla de productos */}
-        {subcategoriaSeleccionada === "ALIMENTOS" && (
-          <Box width={"80%"} bgcolor={"white"}>
-            <GrillaAlimentos />
-          </Box>
-        )}
-        {/* Grilla de productos */}
-        {subcategoriaSeleccionada === "SUPLEMENTOS" && (
-          <Box width={"80%"} bgcolor={"white"}>
-            <GrillaSuplementos />
-          </Box>
-        )}
-        {/* Grilla de productos */}
-        {subcategoriaSeleccionada === "MÓDULOS" && (
-          <Box width={"80%"} bgcolor={"white"}>
-            <GrillaModulos />
-          </Box>
-        )}
-      </Box>
-
-      {/* Grilla de productos */}
-      {categoriaSeleccionada === "Errores congénitos del metabolismo" && (
-        <Box mt={2} bgcolor={"white"}>
-          Grilla de productos para Errores congénitos del metabolismo
-        </Box>
-      )}
-
-      {categoriaSeleccionada ===
-        "Alergia a la proteína de la leche de vaca" && (
-        <Box mt={2}>
-          Grilla de productos para Alergia a la proteína de la leche de vaca
-        </Box>
-      )}
-
-      {categoriaSeleccionada === "Otros" && (
-        <Box
-          width={"19%"}
-          display="flex"
-          flexDirection="column"
-          bgcolor={"white"}
-          p={1}
-        >
-          {subcategoriasOtros.map((subcategoria) => (
-            <Box
-              key={subcategoria}
-              onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
-              sx={{
-                cursor: "pointer",
-                fontWeight:
-                  subcategoria === subcategoriaSeleccionada ? "bold" : "normal",
-              }}
-            >
-              <Typography
-                sx={{
-                  textAlign: "end",
-                  color: "#007E48",
-                  fontFamily: "Lato",
-                  fontStyle: "italic",
-                  fontWeight: "bold",
-                  "&:hover": {
-                    color: "#8893f7", // Cambiar color al hacer hover
-                  },
-                }}
-              >
-                {subcategoria}
-              </Typography>
-            </Box>
+        <Box width={"64%"} bgcolor={"white"} display={"flex"} flexWrap={"wrap"}>
+          {productosFiltrados.map((producto) => (
+            <CardProducto
+              key={producto.id}
+              titulo={producto.titulo}
+              categoria={producto.categoria}
+              imagen={producto.imagen}
+              descripcion={producto.descripcion}
+              link={producto.link}
+            />
           ))}
         </Box>
-      )}
+      </Box>
     </>
   );
 };

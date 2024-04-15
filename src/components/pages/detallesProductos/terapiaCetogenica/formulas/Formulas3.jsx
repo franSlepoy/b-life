@@ -1,15 +1,15 @@
 import { Box, Button, Typography } from "@mui/material";
 import Footer from "../../../../common/footer/Footer";
 
-const Formulas1 = () => {
+const Formulas3 = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
-    const pdfURL = "/ketoVie31.pdf";
+    const pdfURL = "/KetoVie41Unflavored.pdf";
 
     // Crea un enlace temporal
     const link = document.createElement("a");
     link.href = pdfURL;
-    link.download = "ketoVie31.pdf"; // Nombre del archivo a descargar
+    link.download = "KetoVie41Unflavored.pdf"; // Nombre del archivo a descargar
 
     // Simula un clic en el enlace para iniciar la descarga
     document.body.appendChild(link);
@@ -33,7 +33,7 @@ const Formulas1 = () => {
                 mt: 2,
               }}
             >
-              KetoVie 3:1 Unflavored
+              KetoVie 4:1 Unflavored
             </Typography>
             <Typography
               sx={{
@@ -46,7 +46,7 @@ const Formulas1 = () => {
                 mt: 2,
               }}
             >
-              Fórmula líquida 3:1 nutricionalmente completa con 20% de calorías
+              Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías
               como TCM y 100% de proteína de suero parcialmente hidrolizada para
               terapia cetogénica.
             </Typography>
@@ -63,61 +63,51 @@ const Formulas1 = () => {
             </Typography>
             <Box
               sx={{
-                color: "black",
+                color: "#0B3A25",
                 fontFamily: "Lato",
                 mt: 2,
               }}
             >
               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                • Ratio 3:1 reduce el riesgo de acidosis y/o intolerancia GI.
-              </Typography>
-              <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                 • 100% proteínas de suero parcialmente hidrolizada: favorece la
-                digestibilidad
+                digestibilidad.
               </Typography>
               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                • 7 g de proteínas/bricks: permite alcanzar el requerimiento
-                proteico en pacientes que necesitan menor aporte calórico.
+                • 25% del VCT como TCM (10 g TCM /brick): favorece la motilidad
+                intestinal y optimiza la cetosis.
               </Typography>
               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                • 20% del VCT como TCM (6 g TCM/brick): Para pacientes con
-                sensibilidad gastrointestinal.
+                • Mezcla de fibra soluble e insoluble: favorece la motilidad
+                intestinal.
               </Typography>
               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                 • Suplementado con DHA, ARA, taurina e inositol: promueven el
                 desarrollo cerebral y visual.
               </Typography>
               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                • Nutrientes esenciales: 34 mg de Carnitina y 16 μg de Selenio
-                por brick.
+                • Mayor contenido de vitaminas y minerales para la salud ósea.
               </Typography>
               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                • Prebióticos FOS/GOS: promueven la integridad GI y mejoran el
-                sistema inmunológico.
+                • Sales de citrato: previene la formación de cálculos renales.
               </Typography>
               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                •Micronutrientes: especialmente calculados para cubrir
-                requerimientos de niños pequeños.
+                • Sin saborizantes ni edulcorantes artificiales.
               </Typography>
               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                •No contiene edulcorantes, colorantes ni saborizantes
-                artificiales.
-              </Typography>
-              <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                •Listo para usar: previene errores de dosificación y
+                • Listo para usar: previene errores de dosificación y
                 contaminación.
               </Typography>
             </Box>
           </Box>
           <Box
             sx={{
-              borderRadius: "2%",
               ml: 2,
+              borderRadius: "2%",
               boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
             }}
           >
             <Box>
-              <img height={"100%"} src="/ketovia3.1Unfalvored.png" alt="" />
+              <img height={"100%"} src="/ketovie4.1unflavored.png" alt="" />
             </Box>
 
             <Box m={"auto"} mt={5}>
@@ -160,15 +150,16 @@ const Formulas1 = () => {
               sx={{
                 fontWeight: "regular",
                 fontSize: "14px",
-                color: "black",
+                color: "#0B3A25",
                 fontFamily: "Lato",
                 mt: 2,
               }}
             >
-              KetoVie 3:1 puede ser utilizado en niños mayores de 1 año de edad
-              que tienen indicación de terapia cetogénica como tratamiento
-              nutricional de la epilepsia refractaria y en otras patologías que
-              requieran terapia cetogénica.
+              KetoVie 4:1 Unflavored puede ser utilizado en niños mayores de 1
+              año de edad y adultos que tienen indicación de terapia cetogénica
+              como tratamiento nutricional de la epilepsia refractaria y en
+              otras patologías que requieran terapia cetogénica y requieren una
+              fórmula que promueva el confort GI.
             </Typography>
           </Box>
           <Box ml={3} width={"33.3%"}>
@@ -187,12 +178,12 @@ const Formulas1 = () => {
               sx={{
                 fontWeight: "regular",
                 fontSize: "14px",
-                color: "black",
+                color: "#0B3A25",
                 fontFamily: "Lato",
                 mt: 2,
               }}
             >
-              Lista para usar. Se recomienda agitar bien antes de su uso.
+              Listo para usar. Se recomienda agitar bien antes de su uso.
             </Typography>
           </Box>
           <Box ml={2} mt={3} width={"33.3%"}>
@@ -211,11 +202,11 @@ const Formulas1 = () => {
               sx={{
                 fontWeight: "regular",
                 fontSize: "14px",
-                color: "black",
+                color: "#0B3A25",
                 fontFamily: "Lato",
               }}
             >
-              Vía oral y/o enteral. No apto para uso parental.
+              Vía oral y/o enteral. No apto para uso parenteral.
             </Typography>
             <Typography
               sx={{
@@ -228,7 +219,16 @@ const Formulas1 = () => {
             >
               FORMA DE PRESENTACIÓN:
             </Typography>
-            <Typography>Caja por 30 bricks de 250 ml c/u.</Typography>
+            <Typography
+              sx={{
+                fontWeight: "regular",
+                fontSize: "14px",
+                color: "#0B3A25",
+                fontFamily: "Lato",
+              }}
+            >
+              Caja por 30 bricks de 250 ml c/u.
+            </Typography>
             <Typography
               sx={{
                 color: "#007E48",
@@ -244,7 +244,7 @@ const Formulas1 = () => {
               sx={{
                 fontWeight: "regular",
                 fontSize: "14px",
-                color: "black",
+                color: "#0B3A25",
                 fontFamily: "Lato",
               }}
             >
@@ -258,4 +258,4 @@ const Formulas1 = () => {
   );
 };
 
-export default Formulas1;
+export default Formulas3;

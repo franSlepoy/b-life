@@ -1,11 +1,12 @@
 import { Box, Modal, Typography } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import { fotos } from "../../../carousel/fotos/Fotos";
-import Footer from "../../footer/Footer";
 import { Parallax } from "react-scroll-parallax";
 import Boton from "../../common/button/Boton";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import CallIcon from "@mui/icons-material/Call";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 const Home = () => {
   const [open, setOpen] = useState(true);
@@ -98,7 +99,7 @@ const Home = () => {
           </Box>
         </Box>
       </Modal>
-      <Parallax speed={-12}>
+      <Parallax speed={-6}>
         <Carousel
           autoPlay={true}
           timeOut={100}
@@ -170,9 +171,8 @@ const Home = () => {
       </Box>
 
       <Box
-        mt={-2}
+        mt={-3}
         width={"100%"}
-        height={"65vh"}
         style={{
           backgroundImage: "linear-gradient(to  top, #FFFFFF , #00d747)",
         }}
@@ -182,8 +182,8 @@ const Home = () => {
           justifyContent={"space-between"}
           width={"64%"}
           m={"auto"}
-          pt={20}
-          pb={4}
+          pt={12}
+          pb={8}
         >
           <Box textAlign={"center"}>
             <Box>
@@ -310,7 +310,7 @@ const Home = () => {
             transition: "background-color 0.8s ease",
             "&:hover > div": {
               // Selector más específico para el hover
-              backgroundColor:"rgba(136, 147, 247, 0.5)",
+              backgroundColor: "rgba(136, 147, 247, 0.5)",
               width: "140%", // Añadir tamaño explícito
               height: "64vh", // Añadir tamaño explícito
               mt: "-20px",
@@ -483,7 +483,62 @@ const Home = () => {
         </Box>
       </Box>
       <Box>
-        <Footer />
+        <Box
+          pt={4}
+          pb={14}
+          width={"100%"}
+          style={{
+            backgroundImage: "linear-gradient(to  top , #478547,#FFFFFF)",
+          }}
+        >
+          <Box
+            display={"flex"}
+            width={"60%"}
+            m={"auto"}
+            justifyContent={"space-between"}
+          >
+            <Box mt={5}>
+              <Box>
+                <img width={"80%"} src="/logofooter.png" alt="" />
+              </Box>
+              <Box display={"flex"} mt={2}>
+                <CallIcon fontSize="small" sx={{ color: "white" }} />
+                <Typography sx={{ ml: 1, fontSize: "14px", color: "white" }}>
+                  4932 4816
+                </Typography>
+              </Box>
+              <Box>
+                <Box mt={2}>
+                  <Boton texto={"Escribinos"} linkTo={"/contacto"} />
+                </Box>
+              </Box>
+            </Box>
+
+            <Box mt={6}>
+              <Box display={"flex"}>
+                <Typography sx={{ fontSize: "15px", color: "white" }}>
+                  Cochabamba 3643.CABA
+                </Typography>
+              </Box>
+
+              <a
+                href="mailto:info@b-life.com.ar"
+                style={{ textDecoration: "none" }}
+              >
+                <Box display={"flex"} mt={2}>
+                  <MailOutlineIcon
+                    fontSize="small"
+                    sx={{ color: "white", ml: 3 }}
+                  />
+
+                  <Typography sx={{ ml: 1, fontSize: "15px", color: "white" }}>
+                    info@b-life.com.ar
+                  </Typography>
+                </Box>
+              </a>
+            </Box>
+          </Box>
+        </Box>
       </Box>
     </>
   );
