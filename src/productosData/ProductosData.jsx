@@ -1,4 +1,4 @@
-export const productosFormulaData = [
+export const productosData = [
   {
     id: 1,
     categoria: "Terapia Cetogénica",

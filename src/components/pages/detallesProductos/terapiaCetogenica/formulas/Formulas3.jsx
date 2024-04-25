@@ -102,12 +102,14 @@ const Formulas3 = () => {
           <Box
             sx={{
               ml: 2,
-              borderRadius: "2%",
+              mt:1,
+              height:"350px",
+              borderRadius: "3%",
               boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
             }}
           >
-            <Box>
-              <img height={"100%"} src="/ketovie4.1unflavored.png" alt="" />
+            <Box textAlign={"center"}>
+              <img height={"300px"} src="/ketovie4.1unflavored.png" alt="" />
             </Box>
 
             <Box m={"auto"} mt={5}>

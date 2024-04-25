@@ -101,12 +101,14 @@ const Formulas4 = () => {
           <Box
             sx={{
               ml: 2,
-              borderRadius: "2%",
+              mt: 1,
+              height: "350px",
+              borderRadius: "3%",
               boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
             }}
           >
-            <Box>
-              <img height={"100%"} src="/ketovie4.1Chocolate.png" alt="" />
+            <Box textAlign={"center"}>
+              <img height={"300px"} src="/ketovie4.1Chocolate.png" alt="" />
             </Box>
 
             <Box m={"auto"} mt={5}>
@@ -154,7 +156,10 @@ const Formulas4 = () => {
                 mt: 2,
               }}
             >
-              KetoVie 4:1 puede ser utilizado en niños mayores de 1 año de edad y adultos que tienen indicación de terapia cetogénica como tratamiento nutricional de la epilepsia refractaria y en otras patologías que requieran terapia cetogénica.
+              KetoVie 4:1 puede ser utilizado en niños mayores de 1 año de edad
+              y adultos que tienen indicación de terapia cetogénica como
+              tratamiento nutricional de la epilepsia refractaria y en otras
+              patologías que requieran terapia cetogénica.
             </Typography>
           </Box>
           <Box ml={3} width={"33.3%"}>
@@ -222,7 +227,7 @@ const Formulas4 = () => {
                 fontFamily: "Lato",
               }}
             >
-             Caja por 30 bricks de 250 ml c/u.
+              Caja por 30 bricks de 250 ml c/u.
             </Typography>
             <Typography
               sx={{
@@ -243,7 +248,7 @@ const Formulas4 = () => {
                 fontFamily: "Lato",
               }}
             >
-             Vainilla/ Chocolate.
+              Vainilla/ Chocolate.
             </Typography>
           </Box>
         </Box>
