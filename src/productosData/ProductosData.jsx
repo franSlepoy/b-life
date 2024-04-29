@@ -109,4 +109,34 @@ export const productosData = [
     imagen: "/vimiKidsNeutro.png",
     link: "/vimiKidsNeutro",
   },
+  {
+    id: 12,
+    categoria: "APLV",
+    subCategoria: "APLV",
+    titulo: "Aminomed",
+    descripcion:
+      "AminoMed es una fórmula infantil en polvo hipoalergénica y elemental a base de L- aminoácidos para lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/aminomed.png",
+    link: "/Aminomed",
+  },
+  {
+    id: 13,
+    categoria: "APLV",
+    subCategoria: "APLV",
+    titulo: "Aminomed Premium",
+    descripcion:
+      "AminoMed Premium es una fórmula infantil en polvo hipoalergénica a base de aminoácidos para lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/aminomedPremium.png",
+    link: "/AminomedPremium",
+  },
+  {
+    id: 14,
+    categoria: "APLV",
+    subCategoria: "APLV",
+    titulo: "Essential Care Jr.",
+    descripcion:
+      "Única fórmula baja en FODMAP hipoalergénica a base de aminoácidos con nutrientes optimizados para niños mayores de 1 año de edad con alergias alimentarias y trastornos gastrointestinales.",
+    imagen: "/aminomed.png",
+    link: "/Aminomed",
+  },
 ];

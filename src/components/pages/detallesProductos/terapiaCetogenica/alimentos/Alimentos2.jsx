@@ -1,15 +1,15 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import Footer from "../../../../common/footer/Footer";
 
-const Formulas4 = () => {
+const Alimentos2 = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
-    const pdfURL = "/ketoVie41CH.pdf";
+    const pdfURL = "/PDFCetomix.pdf";
 
     // Crea un enlace temporal
     const link = document.createElement("a");
     link.href = pdfURL;
-    link.download = "ketoVie41CH.pdf"; // Nombre del archivo a descargar
+    link.download = "PDFCetomix.pdf"; // Nombre del archivo a descargar
 
     // Simula un clic en el enlace para iniciar la descarga
     document.body.appendChild(link);
@@ -34,7 +34,7 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                KETOVIE 4:1. VAINILLA Y CHOCOLATE
+                Cetomix
               </Typography>
               <Typography
                 sx={{
@@ -47,9 +47,8 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                Fórmula líquida 4:1 nutricionalmente completa con 25% de
-                calorías como TCM y una mezcla de proteína de suero intacta y
-                parcialmente hidrolizada para terapia cetogénica.
+                Premezcla 4:1 a base de aceite de palma y harina de almendras
+                para realizar preparaciones cetogénicas.
               </Typography>
               <Typography
                 sx={{
@@ -64,52 +63,42 @@ const Formulas4 = () => {
               </Typography>
               <Box
                 sx={{
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mezcla de proteína de suero intacta y parcialmente
-                  hidrolizada: favorece la digestibilidad.
+                  • Carbohidratos netos: 5 g. c/100g.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • 25% del VCT como TCM (10 g TCM/brick): favorece la motilidad
-                  intestinal y optimiza la cetosis.
-                </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mezcla de fibra soluble e insoluble: favorece la motilidad
+                  • Aporta fibra (15 g. c/100 g.): favorece la motilidad
                   intestinal.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Suplementado con DHA, taurina e inositol: promueve el
-                  desarrollo cerebral y visual.
+                  • Está especialmente diseñado para cocinar.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mayor aporte de nutrientes esenciales: 51 mg de Carnitina y
-                  23 μg de Selenio por brick.
+                  • No contiene vitaminas y minerales, evitando su sabor
+                  desagradable en las preparaciones.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Sales de citrato: previene la formación de cálculos renales.
-                </Typography>
-
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Listo para usar: previene errores de dosificación y
-                  contaminación.
+                  • Es versátil, permitiendo realizar una amplia variedad de
+                  preparaciones cetogénicas.
                 </Typography>
               </Box>
             </Box>
             <Box
               sx={{
-                ml: 2,
-                mt: 1,
-                height: "350px",
                 borderRadius: "3%",
+                ml: 2,
+                mt: 2,
                 boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+                height: "350px",
               }}
             >
-              <Box textAlign={"center"}>
-                <img height={"300px"} src="/ketovie4.1Chocolate.png" alt="" />
+              <Box>
+                <img height={"300px"} src="/cetomix.png" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -152,15 +141,15 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
-                KetoVie 4:1 puede ser utilizado en niños mayores de 1 año de
-                edad y adultos que tienen indicación de terapia cetogénica como
-                tratamiento nutricional de la epilepsia refractaria y en otras
-                patologías que requieran terapia cetogénica.
+                Cetolate puede ser utilizado en pacientes que tienen indicación
+                de terapia cetogénica como tratamiento nutricional de la
+                epilepsia refractaria o en otras patologías cuya indicación sea
+                la terapia cetogénica.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -179,12 +168,12 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
-                Listo para usar. Se recomienda agitar bien antes de su uso.
+                Lista para usar.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -203,11 +192,11 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                 }}
               >
-                Vía oral y/o enteral. No apto para uso parenteral.
+                Vía oral y/o enteral.
               </Typography>
               <Typography
                 sx={{
@@ -220,16 +209,7 @@ const Formulas4 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "#0B3A25",
-                  fontFamily: "Lato",
-                }}
-              >
-                Caja por 30 bricks de 250 ml c/u.
-              </Typography>
+              <Typography>Caja de 100g (2u x 50g c/u.).</Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -245,11 +225,11 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                 }}
               >
-                Vainilla/ Chocolate.
+                Chocolate.
               </Typography>
             </Box>
           </Box>
@@ -259,7 +239,7 @@ const Formulas4 = () => {
 
       <Hidden smUp>
         <Box width={"85%"} m={"auto"}>
-          <Box  mt={"150px"}>
+          <Box mt={"150px"}>
             <Box>
               <Typography
                 sx={{
@@ -271,7 +251,7 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                KETOVIE 4:1. VAINILLA Y CHOCOLATE
+                Cetomix
               </Typography>
               <Typography
                 sx={{
@@ -284,9 +264,8 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                Fórmula líquida 4:1 nutricionalmente completa con 25% de
-                calorías como TCM y una mezcla de proteína de suero intacta y
-                parcialmente hidrolizada para terapia cetogénica.
+                Premezcla 4:1 a base de aceite de palma y harina de almendras
+                para realizar preparaciones cetogénicas.
               </Typography>
               <Typography
                 sx={{
@@ -301,53 +280,43 @@ const Formulas4 = () => {
               </Typography>
               <Box
                 sx={{
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mezcla de proteína de suero intacta y parcialmente
-                  hidrolizada: favorece la digestibilidad.
+                  • Carbohidratos netos: 5 g. c/100g.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • 25% del VCT como TCM (10 g TCM/brick): favorece la motilidad
-                  intestinal y optimiza la cetosis.
-                </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mezcla de fibra soluble e insoluble: favorece la motilidad
+                  • Aporta fibra (15 g. c/100 g.): favorece la motilidad
                   intestinal.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Suplementado con DHA, taurina e inositol: promueve el
-                  desarrollo cerebral y visual.
+                  • Está especialmente diseñado para cocinar.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mayor aporte de nutrientes esenciales: 51 mg de Carnitina y
-                  23 μg de Selenio por brick.
+                  • No contiene vitaminas y minerales, evitando su sabor
+                  desagradable en las preparaciones.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Sales de citrato: previene la formación de cálculos renales.
-                </Typography>
-
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Listo para usar: previene errores de dosificación y
-                  contaminación.
+                  • Es versátil, permitiendo realizar una amplia variedad de
+                  preparaciones cetogénicas.
                 </Typography>
               </Box>
             </Box>
             <Box
               sx={{
-                
                 borderRadius: "2%",
+                mt: 2,
                 boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
               }}
             >
               <Box textAlign={"center"}>
-                <img height={"300px"} src="/ketovie4.1Chocolate.png" alt="" />
+                <img height={"300px"} src="/cetomix.png" alt="" />
               </Box>
 
-              <Box m={"auto"} >
+              <Box m={"auto"}>
                 <Button
                   sx={{
                     bgcolor: "#007E48",
@@ -370,7 +339,7 @@ const Formulas4 = () => {
             </Box>
           </Box>
 
-          <Box width={"100%"} >
+          <Box width={"100%"}>
             <Box mt={3}>
               <Typography
                 sx={{
@@ -387,18 +356,18 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
-                KetoVie 4:1 puede ser utilizado en niños mayores de 1 año de
-                edad y adultos que tienen indicación de terapia cetogénica como
-                tratamiento nutricional de la epilepsia refractaria y en otras
-                patologías que requieran terapia cetogénica.
+                Cetomix puede ser utilizado en pacientes que tienen indicación
+                de terapia cetogénica como tratamiento nutricional de la
+                epilepsia refractaria o en otras patologías cuya indicación sea
+                la terapia cetogénica.
               </Typography>
             </Box>
-            <Box  width={"100%"}>
+            <Box width={"100%"}>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -414,15 +383,15 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
-                Listo para usar. Se recomienda agitar bien antes de su uso.
+                Lista para usar.
               </Typography>
             </Box>
-            <Box  mt={3} width={"100%"}>
+            <Box mt={3} width={"100%"}>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -438,11 +407,11 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                 }}
               >
-                Vía oral y/o enteral. No apto para uso parenteral.
+                Vía oral.
               </Typography>
               <Typography
                 sx={{
@@ -455,16 +424,7 @@ const Formulas4 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "#0B3A25",
-                  fontFamily: "Lato",
-                }}
-              >
-                Caja por 30 bricks de 250 ml c/u.
-              </Typography>
+              <Typography>Envase por 500 g.</Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -480,11 +440,11 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                 }}
               >
-                Vainilla/ Chocolate.
+                Neutro.
               </Typography>
             </Box>
           </Box>
@@ -495,4 +455,4 @@ const Formulas4 = () => {
   );
 };
 
-export default Formulas4;
+export default Alimentos2;

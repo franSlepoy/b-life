@@ -1,15 +1,15 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import Footer from "../../../../common/footer/Footer";
 
-const Formulas4 = () => {
+const Modulos1 = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
-    const pdfURL = "/ketoVie41CH.pdf";
+    const pdfURL = "/PDFCetoil.pdf";
 
     // Crea un enlace temporal
     const link = document.createElement("a");
     link.href = pdfURL;
-    link.download = "ketoVie41CH.pdf"; // Nombre del archivo a descargar
+    link.download = "PDFCetoil.pdf"; // Nombre del archivo a descargar
 
     // Simula un clic en el enlace para iniciar la descarga
     document.body.appendChild(link);
@@ -34,7 +34,7 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                KETOVIE 4:1. VAINILLA Y CHOCOLATE
+                Cetoil
               </Typography>
               <Typography
                 sx={{
@@ -47,9 +47,8 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                Fórmula líquida 4:1 nutricionalmente completa con 25% de
-                calorías como TCM y una mezcla de proteína de suero intacta y
-                parcialmente hidrolizada para terapia cetogénica.
+                Alimento para propósitos médicos específicos, a base de TCM,
+                para mayores de 1 año.
               </Typography>
               <Typography
                 sx={{
@@ -64,52 +63,33 @@ const Formulas4 = () => {
               </Typography>
               <Box
                 sx={{
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mezcla de proteína de suero intacta y parcialmente
-                  hidrolizada: favorece la digestibilidad.
+                  • Aporta 8,20 kcal/ml.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • 25% del VCT como TCM (10 g TCM/brick): favorece la motilidad
-                  intestinal y optimiza la cetosis.
+                  • 100% de la energía total en forma de lípidos (100% TCM).
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mezcla de fibra soluble e insoluble: favorece la motilidad
-                  intestinal.
-                </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Suplementado con DHA, taurina e inositol: promueve el
-                  desarrollo cerebral y visual.
-                </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mayor aporte de nutrientes esenciales: 51 mg de Carnitina y
-                  23 μg de Selenio por brick.
-                </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Sales de citrato: previene la formación de cálculos renales.
-                </Typography>
-
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Listo para usar: previene errores de dosificación y
-                  contaminación.
+                  • 58% C:8 y 41% C:10
                 </Typography>
               </Box>
             </Box>
             <Box
               sx={{
-                ml: 2,
-                mt: 1,
-                height: "350px",
                 borderRadius: "3%",
+                ml: 2,
+                mt: 2,
                 boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+                height: "350px",
               }}
             >
-              <Box textAlign={"center"}>
-                <img height={"300px"} src="/ketovie4.1Chocolate.png" alt="" />
+              <Box>
+                <img height={"300px"} src="/cetoil.png" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -152,15 +132,13 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
-                KetoVie 4:1 puede ser utilizado en niños mayores de 1 año de
-                edad y adultos que tienen indicación de terapia cetogénica como
-                tratamiento nutricional de la epilepsia refractaria y en otras
-                patologías que requieran terapia cetogénica.
+                Cetoil puede ser utilizado en pacientes que tienen indicación de terapia cetogénica como tratamiento nutricional de la epilepsia refractaria o en otras patologías cuya indicación sea la terapia cetogénica, para el manejo dietético de patologías que requieren un aporte calórico extra y/o que cursan con alteraciones de la digestión, absorción, metabolismo y/o transporte de grasas.
+
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -179,12 +157,13 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
-                Listo para usar. Se recomienda agitar bien antes de su uso.
+                Listo para usar.
+
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -203,11 +182,12 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                 }}
               >
-                Vía oral y/o enteral. No apto para uso parenteral.
+             Vía oral y/o enteral. No apto para uso parenteral. ADVERTENCIA: el producto Cetoil debe ser introducido lentamente en la dieta para evitar trastornos gastrointestinales.
+
               </Typography>
               <Typography
                 sx={{
@@ -220,16 +200,7 @@ const Formulas4 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "#0B3A25",
-                  fontFamily: "Lato",
-                }}
-              >
-                Caja por 30 bricks de 250 ml c/u.
-              </Typography>
+              <Typography>Botella por 500 ml.</Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -245,11 +216,11 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                 }}
               >
-                Vainilla/ Chocolate.
+              Neutro.
               </Typography>
             </Box>
           </Box>
@@ -259,7 +230,7 @@ const Formulas4 = () => {
 
       <Hidden smUp>
         <Box width={"85%"} m={"auto"}>
-          <Box  mt={"150px"}>
+          <Box mt={"150px"}>
             <Box>
               <Typography
                 sx={{
@@ -271,7 +242,7 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                KETOVIE 4:1. VAINILLA Y CHOCOLATE
+              Cetoil
               </Typography>
               <Typography
                 sx={{
@@ -284,9 +255,8 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                Fórmula líquida 4:1 nutricionalmente completa con 25% de
-                calorías como TCM y una mezcla de proteína de suero intacta y
-                parcialmente hidrolizada para terapia cetogénica.
+                Alimento para propósitos médicos específicos, a base de TCM, para mayores de 1 año.
+
               </Typography>
               <Typography
                 sx={{
@@ -301,53 +271,34 @@ const Formulas4 = () => {
               </Typography>
               <Box
                 sx={{
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mezcla de proteína de suero intacta y parcialmente
-                  hidrolizada: favorece la digestibilidad.
+                  • Aporta 8,20 kcal/ml.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • 25% del VCT como TCM (10 g TCM/brick): favorece la motilidad
-                  intestinal y optimiza la cetosis.
+                  • 100% de la energía total en forma de lípidos (100% TCM).
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mezcla de fibra soluble e insoluble: favorece la motilidad
-                  intestinal.
-                </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Suplementado con DHA, taurina e inositol: promueve el
-                  desarrollo cerebral y visual.
-                </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Mayor aporte de nutrientes esenciales: 51 mg de Carnitina y
-                  23 μg de Selenio por brick.
-                </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Sales de citrato: previene la formación de cálculos renales.
-                </Typography>
-
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Listo para usar: previene errores de dosificación y
-                  contaminación.
+                  • 58% C:8 y 41% C:10
                 </Typography>
               </Box>
             </Box>
             <Box
               sx={{
-                
                 borderRadius: "2%",
+                mt: 2,
                 boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
               }}
             >
               <Box textAlign={"center"}>
-                <img height={"300px"} src="/ketovie4.1Chocolate.png" alt="" />
+                <img height={"300px"} src="/cetoil.png" alt="" />
               </Box>
 
-              <Box m={"auto"} >
+              <Box m={"auto"}>
                 <Button
                   sx={{
                     bgcolor: "#007E48",
@@ -370,7 +321,7 @@ const Formulas4 = () => {
             </Box>
           </Box>
 
-          <Box width={"100%"} >
+          <Box width={"100%"}>
             <Box mt={3}>
               <Typography
                 sx={{
@@ -387,18 +338,16 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
-                KetoVie 4:1 puede ser utilizado en niños mayores de 1 año de
-                edad y adultos que tienen indicación de terapia cetogénica como
-                tratamiento nutricional de la epilepsia refractaria y en otras
-                patologías que requieran terapia cetogénica.
+                Cetoil puede ser utilizado en pacientes que tienen indicación de terapia cetogénica como tratamiento nutricional de la epilepsia refractaria o en otras patologías cuya indicación sea la terapia cetogénica, para el manejo dietético de patologías que requieren un aporte calórico extra y/o que cursan con alteraciones de la digestión, absorción, metabolismo y/o transporte de grasas.
+
               </Typography>
             </Box>
-            <Box  width={"100%"}>
+            <Box width={"100%"}>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -414,15 +363,16 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                   mt: 2,
                 }}
               >
-                Listo para usar. Se recomienda agitar bien antes de su uso.
+                Listo para usar.
+
               </Typography>
             </Box>
-            <Box  mt={3} width={"100%"}>
+            <Box mt={3} width={"100%"}>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -438,11 +388,11 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                 }}
               >
-                Vía oral y/o enteral. No apto para uso parenteral.
+                Vía oral y/o enteral. No apto para uso parenteral. ADVERTENCIA: el producto Cetoil debe ser introducido lentamente en la dieta para evitar trastornos gastrointestinales.
               </Typography>
               <Typography
                 sx={{
@@ -455,16 +405,7 @@ const Formulas4 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "#0B3A25",
-                  fontFamily: "Lato",
-                }}
-              >
-                Caja por 30 bricks de 250 ml c/u.
-              </Typography>
+              <Typography>Botella por 500 ml.</Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -480,11 +421,11 @@ const Formulas4 = () => {
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
-                  color: "#0B3A25",
+                  color: "black",
                   fontFamily: "Lato",
                 }}
               >
-                Vainilla/ Chocolate.
+                Neutro.
               </Typography>
             </Box>
           </Box>
@@ -495,4 +436,4 @@ const Formulas4 = () => {
   );
 };
 
-export default Formulas4;
+export default Modulos1;

@@ -261,7 +261,7 @@ const Formulas1 = () => {
 
       <Hidden smUp>
         <Box width={"85%"} m={"auto"}>
-          <Box  mt={"40%"}>
+          <Box  mt={"150px"}>
             <Box>
               <Typography
                 sx={{
