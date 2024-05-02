@@ -136,7 +136,7 @@ export const productosData = [
     titulo: "Essential Care Jr.",
     descripcion:
       "Única fórmula baja en FODMAP hipoalergénica a base de aminoácidos con nutrientes optimizados para niños mayores de 1 año de edad con alergias alimentarias y trastornos gastrointestinales.",
-    imagen: "/aminomed.png",
-    link: "/Aminomed",
+    imagen: "/essentialCare.png",
+    link: "/EssentialCareJr",
   },
 ];

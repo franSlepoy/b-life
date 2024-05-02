@@ -35,10 +35,7 @@ const ProductosFiltros = () => {
     "APLV",
     "Otros",
   ];
-  const subcategoriasAPLV = [
-    "APLV",
-    
-  ];
+  const subcategoriasAPLV = ["APLV"];
 
   const subcategoriasTerapiaCetogenica = [
     "FÓRMULAS",
@@ -46,6 +43,8 @@ const ProductosFiltros = () => {
     "SUPLEMENTOS",
     "MÓDULOS",
   ];
+
+  const subcategoriasErrores = ["FÓRMULAS", "ALIMENTOS"];
 
   const handleCategoriaSeleccionada = (categoria) => {
     setCategoriaSeleccionada(categoria);
@@ -58,7 +57,7 @@ const ProductosFiltros = () => {
 
   return (
     <>
-     <Hidden smDown>
+      <Hidden smDown>
         {/* NavBar horizontal */}
         <Box bgcolor={"#007E48"}>
           <Box
@@ -190,7 +189,12 @@ const ProductosFiltros = () => {
           )}
 
           {/* Grilla de productos */}
-          <Box width={"64%"} bgcolor={"white"} display={"flex"} flexWrap={"wrap"}>
+          <Box
+            width={"64%"}
+            bgcolor={"white"}
+            display={"flex"}
+            flexWrap={"wrap"}
+          >
             {/* Renderiza los productos filtrados */}
             {productosFiltrados.map((producto) => (
               <CardProducto
@@ -207,108 +211,111 @@ const ProductosFiltros = () => {
       </Hidden>
 
       <Hidden smUp>
-  {/* NavBar horizontal */}
-  <Box bgcolor={"#007E48"}>
-    <Box width={"100%"} m={"auto"} display="flex">
-      {/* Renderiza las categorías */}
-      {categorias.map((categoria) => (
-        <Box
-          key={categoria}
-          onClick={() => handleCategoriaSeleccionada(categoria)}
-          sx={{
-            cursor: "pointer",
-            backgroundColor:
-              categoria === categoriaSeleccionada ? "white" : "transparent",
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
-          <Typography
-            sx={{
-              textAlign: "center",
-              fontSize: "12px",
-              fontFamily: "Lato",
-              fontWeight: "bold",
-              pl: 2,
-              pr: 2,
-              pt: 1,
-              pb: 1,
-              color: categoria === categoriaSeleccionada ? "#007E48" : "white",
-              fontStyle:
-                categoria === categoriaSeleccionada ? "normal" : "italic",
-            }}
-          >
-            {categoria}
-          </Typography>
-        </Box>
-      ))}
-    </Box>
-  </Box>
-
-  <Box display={"flex"}>
-    {/* Renderiza el menú de subcategorías si corresponde */}
-    {categoriaSeleccionada && (
-      <Box
-        width={"25%"}
-        display="flex"
-        flexDirection="column"
-        bgcolor={"white"}
-        p={1}
-      >
-        {/* Renderiza las subcategorías según la categoría seleccionada */}
-        {categoriaSeleccionada === "Terapia Cetogénica" &&
-          subcategoriasTerapiaCetogenica.map((subcategoria) => (
-            <Box
-              key={subcategoria}
-              onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
-              sx={{
-                cursor: "pointer",
-              }}
-            >
-              <Typography
+        {/* NavBar horizontal */}
+        <Box bgcolor={"#007E48"}>
+          <Box width={"100%"} m={"auto"} display="flex">
+            {/* Renderiza las categorías */}
+            {categorias.map((categoria) => (
+              <Box
+                key={categoria}
+                onClick={() => handleCategoriaSeleccionada(categoria)}
                 sx={{
-                  textAlign: "end",
-                  color: "#007E48",
-                  fontFamily: "Lato",
-                  fontSize: "10px",
-                  fontStyle:
-                    subcategoria === subcategoriaSeleccionada
-                      ? "normal"
-                      : "italic",
-                  fontWeight:
-                    subcategoria === subcategoriaSeleccionada
-                      ? "bold"
-                      : "regular",
-                  mt: 1,
-                  "&:hover": {
-                    color: "#00D447",
-                  },
+                  cursor: "pointer",
+                  backgroundColor:
+                    categoria === categoriaSeleccionada
+                      ? "white"
+                      : "transparent",
+                  display: "flex",
+                  alignItems: "center",
                 }}
               >
-                {subcategoria}
-              </Typography>
+                <Typography
+                  sx={{
+                    textAlign: "center",
+                    fontSize: "12px",
+                    fontFamily: "Lato",
+                    fontWeight: "bold",
+                    pl: 2,
+                    pr: 2,
+                    pt: 1,
+                    pb: 1,
+                    color:
+                      categoria === categoriaSeleccionada ? "#007E48" : "white",
+                    fontStyle:
+                      categoria === categoriaSeleccionada ? "normal" : "italic",
+                  }}
+                >
+                  {categoria}
+                </Typography>
+              </Box>
+            ))}
+          </Box>
+        </Box>
+
+        <Box display={"flex"}>
+          {/* Renderiza el menú de subcategorías si corresponde */}
+          {categoriaSeleccionada && (
+            <Box
+              width={"25%"}
+              display="flex"
+              flexDirection="column"
+              bgcolor={"white"}
+              p={1}
+            >
+              {/* Renderiza las subcategorías según la categoría seleccionada */}
+              {categoriaSeleccionada === "Terapia Cetogénica" &&
+                subcategoriasTerapiaCetogenica.map((subcategoria) => (
+                  <Box
+                    key={subcategoria}
+                    onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
+                    sx={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        textAlign: "end",
+                        color: "#007E48",
+                        fontFamily: "Lato",
+                        fontSize: "10px",
+                        fontStyle:
+                          subcategoria === subcategoriaSeleccionada
+                            ? "normal"
+                            : "italic",
+                        fontWeight:
+                          subcategoria === subcategoriaSeleccionada
+                            ? "bold"
+                            : "regular",
+                        mt: 1,
+                        "&:hover": {
+                          color: "#00D447",
+                        },
+                      }}
+                    >
+                      {subcategoria}
+                    </Typography>
+                  </Box>
+                ))}
             </Box>
-          ))}
-      </Box>
-    )}
+          )}
+          
 
-    {/* Grilla de productos */}
-    <Box width={"100%"} bgcolor={"white"}>
-      {/* Renderiza los productos filtrados */}
-      {productosFiltrados.map((producto) => (
-        <CardProducto
-          key={producto.id}
-          titulo={producto.titulo}
-          categoria={producto.categoria}
-          imagen={producto.imagen}
-          descripcion={producto.descripcion}
-          link={producto.link}
-        />
-      ))}
-    </Box>
-  </Box>
-</Hidden>
-
+          {/* Grilla de productos */}
+          <Box width={"100%"} bgcolor={"white"}>
+            {/* Renderiza los productos filtrados */}
+            {productosFiltrados.map((producto) => (
+              <CardProducto
+                key={producto.id}
+                titulo={producto.titulo}
+                categoria={producto.categoria}
+                imagen={producto.imagen}
+                descripcion={producto.descripcion}
+                link={producto.link}
+              />
+            ))}
+          </Box>
+        </Box>
+      </Hidden>
     </>
   );
 };

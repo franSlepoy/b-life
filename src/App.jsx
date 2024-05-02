@@ -21,6 +21,8 @@ import Suplementos1 from "./components/pages/detallesProductos/terapiaCetogenica
 import Suplementos2 from "./components/pages/detallesProductos/terapiaCetogenica/suplementos/Suplementos2";
 import Modulos1 from "./components/pages/detallesProductos/terapiaCetogenica/modulos/Modulos1";
 import Modulos2 from "./components/pages/detallesProductos/terapiaCetogenica/modulos/Modulos2";
+import Aminomed from "./components/pages/detallesProductos/aplv/Aminomed";
+import Essential from "./components/pages/detallesProductos/aplv/Essential";
 
 function App() {
   const location = useLocation();
@@ -56,6 +58,9 @@ function App() {
           <Route path="/Cetoil" element={<Modulos1/>} />
           <Route path="/Cetoil" element={<Modulos1/>} /> 
           <Route path="/MCTFiber" element={<Modulos2/>} />
+          <Route path="/Aminomed" element={<Aminomed/>} />
+          <Route path="/EssentialCareJr" element={<Essential/>} />
+          
         </Routes>
       </ParallaxProvider>
     </>
