@@ -382,17 +382,17 @@ const ECM = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box mt={10}>
+        <Box pt={15}>
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
-            height={"472vh"}
-            src="/fotoECM.png"
+            height={"500px"}
+            src="/fotohome-lineas-errores-congenitos.png"
             alt=""
           />
         </Box>
 
-        <Box position={"absolute"} left={"6%"} top={"135px"} zIndex={100}>
+        <Box position={"absolute"} left={"6%"} top={"185px"} zIndex={100}>
           <img width={"18%"} src="/logoBlancoBi.png" alt="" />
           <Typography
             sx={{
@@ -448,7 +448,7 @@ const ECM = () => {
           backgroundImage: "linear-gradient(to  top, #00d647 , #007e48)",
         }} */
         >
-          <Box width={"100%"} pt={0} height={"26vh"} p={"3%"}>
+          <Box width={"100%"} pt={0}  p={"3%"}>
             <Typography
               sx={{
                 pt: 4,
@@ -470,7 +470,7 @@ const ECM = () => {
               DESDE EL NACIMIENTO HASTA LA EDAD ADULTA.
             </Typography>
           </Box>
-          <Box mt={20} textAlign={"center"}>
+          <Box mt={4} textAlign={"center"}>
             <img width={"30%"} src="/logoerrorescongenitos.png" alt="" />
           </Box>
 

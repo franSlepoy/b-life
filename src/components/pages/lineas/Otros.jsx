@@ -12,8 +12,9 @@ const Otros = () => {
         <Parallax speed={-12}>
           <Box mt={8}>
             <img
+            style={{objectFit:"cover"}}
               width={"100%"}
-              height={"472vh"}
+              height={"500px"}
               src="/foto01otros.png"
               alt=""
             />
@@ -183,7 +184,7 @@ const Otros = () => {
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
-            height={"472vh"}
+            height={"500px"}
             src="/foto01otros.png"
             alt=""
           />

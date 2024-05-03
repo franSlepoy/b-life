@@ -6,8 +6,7 @@ import { productosData } from "../../../productosData/ProductosData";
 
 const ProductosFiltros = () => {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
-  const [subcategoriaSeleccionada, setSubcategoriaSeleccionada] =
-    useState(null);
+  const [subcategoriaSeleccionada, setSubcategoriaSeleccionada] = useState(null);
   const [productosFiltrados, setProductosFiltrados] = useState([]); // Estado para almacenar los productos filtrados
 
   useEffect(() => {
@@ -35,6 +34,7 @@ const ProductosFiltros = () => {
     "APLV",
     "Otros",
   ];
+
   const subcategoriasAPLV = ["APLV"];
 
   const subcategoriasTerapiaCetogenica = [
@@ -75,9 +75,7 @@ const ProductosFiltros = () => {
                 sx={{
                   cursor: "pointer",
                   backgroundColor:
-                    categoria === categoriaSeleccionada
-                      ? "white"
-                      : "transparent",
+                    categoria === categoriaSeleccionada ? "white" : "transparent",
                   display: "flex",
                   alignItems: "center",
                 }}
@@ -93,10 +91,8 @@ const ProductosFiltros = () => {
                     pr: 3,
                     pt: 1,
                     pb: 1,
-                    color:
-                      categoria === categoriaSeleccionada ? "#007E48" : "white",
-                    fontStyle:
-                      categoria === categoriaSeleccionada ? "normal" : "italic",
+                    color: categoria === categoriaSeleccionada ? "#007E48" : "white",
+                    fontStyle: categoria === categoriaSeleccionada ? "normal" : "italic",
                   }}
                 >
                   {categoria}
@@ -117,74 +113,73 @@ const ProductosFiltros = () => {
               p={1}
             >
               {/* Renderiza las subcategorías según la categoría seleccionada */}
-              {categoriaSeleccionada === "Terapia Cetogénica"
-                ? subcategoriasTerapiaCetogenica.map((subcategoria) => (
-                    <Box
-                      key={subcategoria}
-                      onClick={() =>
-                        handleSubcategoriaSeleccionada(subcategoria)
-                      }
+              {categoriaSeleccionada === "Terapia Cetogénica" ? (
+                subcategoriasTerapiaCetogenica.map((subcategoria) => (
+                  <Box
+                    key={subcategoria}
+                    onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
+                    sx={{ cursor: "pointer" }}
+                  >
+                    <Typography
                       sx={{
-                        cursor: "pointer",
+                        textAlign: "end",
+                        color: "#007E48",
+                        fontFamily: "Lato",
+                        fontStyle: subcategoria === subcategoriaSeleccionada ? "normal" : "italic",
+                        fontWeight: subcategoria === subcategoriaSeleccionada ? "bold" : "regular",
+                        mt: 1,
+                        "&:hover": { color: "#00D447" },
                       }}
                     >
-                      <Typography
-                        sx={{
-                          textAlign: "end",
-                          color: "#007E48",
-                          fontFamily: "Lato",
-                          fontStyle:
-                            subcategoria === subcategoriaSeleccionada
-                              ? "normal"
-                              : "italic",
-                          fontWeight:
-                            subcategoria === subcategoriaSeleccionada
-                              ? "bold"
-                              : "regular",
-                          mt: 1,
-                          "&:hover": {
-                            color: "#00D447",
-                          },
-                        }}
-                      >
-                        {subcategoria}
-                      </Typography>
-                    </Box>
-                  ))
-                : categoriaSeleccionada === "APLV" &&
-                  subcategoriasAPLV.map((subcategoria) => (
-                    <Box
-                      key={subcategoria}
-                      onClick={() =>
-                        handleSubcategoriaSeleccionada(subcategoria)
-                      }
+                      {subcategoria}
+                    </Typography>
+                  </Box>
+                ))
+              ) : categoriaSeleccionada === "APLV" ? (
+                subcategoriasAPLV.map((subcategoria) => (
+                  <Box
+                    key={subcategoria}
+                    onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
+                    sx={{ cursor: "pointer" }}
+                  >
+                    <Typography
                       sx={{
-                        cursor: "pointer",
+                        textAlign: "end",
+                        color: "#007E48",
+                        fontFamily: "Lato",
+                        fontStyle: subcategoria === subcategoriaSeleccionada ? "normal" : "italic",
+                        fontWeight: subcategoria === subcategoriaSeleccionada ? "bold" : "regular",
+                        mt: 1,
+                        "&:hover": { color: "#00D447" },
                       }}
                     >
-                      <Typography
-                        sx={{
-                          textAlign: "end",
-                          color: "#007E48",
-                          fontFamily: "Lato",
-                          fontStyle:
-                            subcategoria === subcategoriaSeleccionada
-                              ? "normal"
-                              : "italic",
-                          fontWeight:
-                            subcategoria === subcategoriaSeleccionada
-                              ? "bold"
-                              : "regular",
-                          mt: 1,
-                          "&:hover": {
-                            color: "#00D447",
-                          },
-                        }}
-                      >
-                        {subcategoria}
-                      </Typography>
-                    </Box>
-                  ))}
+                      {subcategoria}
+                    </Typography>
+                  </Box>
+                ))
+              ) : categoriaSeleccionada === "Errores congénitos del metabolismo" ? (
+                subcategoriasErrores.map((subcategoria) => (
+                  <Box
+                    key={subcategoria}
+                    onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
+                    sx={{ cursor: "pointer" }}
+                  >
+                    <Typography
+                      sx={{
+                        textAlign: "end",
+                        color: "#007E48",
+                        fontFamily: "Lato",
+                        fontStyle: subcategoria === subcategoriaSeleccionada ? "normal" : "italic",
+                        fontWeight: subcategoria === subcategoriaSeleccionada ? "bold" : "regular",
+                        mt: 1,
+                        "&:hover": { color: "#00D447" },
+                      }}
+                    >
+                      {subcategoria}
+                    </Typography>
+                  </Box>
+                ))
+              ) : null}
             </Box>
           )}
 
@@ -222,9 +217,7 @@ const ProductosFiltros = () => {
                 sx={{
                   cursor: "pointer",
                   backgroundColor:
-                    categoria === categoriaSeleccionada
-                      ? "white"
-                      : "transparent",
+                    categoria === categoriaSeleccionada ? "white" : "transparent",
                   display: "flex",
                   alignItems: "center",
                 }}
@@ -239,10 +232,8 @@ const ProductosFiltros = () => {
                     pr: 2,
                     pt: 1,
                     pb: 1,
-                    color:
-                      categoria === categoriaSeleccionada ? "#007E48" : "white",
-                    fontStyle:
-                      categoria === categoriaSeleccionada ? "normal" : "italic",
+                    color: categoria === categoriaSeleccionada ? "#007E48" : "white",
+                    fontStyle: categoria === categoriaSeleccionada ? "normal" : "italic",
                   }}
                 >
                   {categoria}
@@ -296,9 +287,42 @@ const ProductosFiltros = () => {
                     </Typography>
                   </Box>
                 ))}
+              {/* Renderiza las subcategorías para la categoría "Errores congénitos del metabolismo" */}
+              {categoriaSeleccionada === "Errores congénitos del metabolismo" &&
+                subcategoriasErrores.map((subcategoria) => (
+                  <Box
+                    key={subcategoria}
+                    onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
+                    sx={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        textAlign: "end",
+                        color: "#007E48",
+                        fontFamily: "Lato",
+                        fontSize: "10px",
+                        fontStyle:
+                          subcategoria === subcategoriaSeleccionada
+                            ? "normal"
+                            : "italic",
+                        fontWeight:
+                          subcategoria === subcategoriaSeleccionada
+                            ? "bold"
+                            : "regular",
+                        mt: 1,
+                        "&:hover": {
+                          color: "#00D447",
+                        },
+                      }}
+                    >
+                      {subcategoria}
+                    </Typography>
+                  </Box>
+                ))}
             </Box>
           )}
-          
 
           {/* Grilla de productos */}
           <Box width={"100%"} bgcolor={"white"}>

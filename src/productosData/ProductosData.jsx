@@ -54,8 +54,7 @@ export const productosData = [
     categoria: "Terapia Cetogénica",
     subCategoria: "ALIMENTOS",
     titulo: "Cetolate",
-    descripcion:
-      "Producto a base de cacao para dietas especiales.",
+    descripcion: "Producto a base de cacao para dietas especiales.",
     imagen: "/cetolate.png",
     link: "/Cetolate",
   },
@@ -139,4 +138,64 @@ export const productosData = [
     imagen: "/essentialCare.png",
     link: "/EssentialCareJr",
   },
+  {
+    id: 15,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida GAc A Fórmula",
+    descripcion:
+      "Comida GAc A Fórmula es una fórmula infantil en polvo libre de lisina y de bajo contenido en triptófano para el tratamiento nutricional de la Aciduria Glutárica Tipo I en lactantes de 0 a 1 año edad. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaGAcAFormula.png",
+    link: "/comidaGAcAFormula",
+  },
+  {
+    id: 16,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "ComidaGAc B Fórmula",
+    descripcion:
+      "Comida GAc B Fómula es una fórmula en polvo libre de lisina y de bajo contenido en triptófano para el tratamiento nutricional de la Aciduria Glutárica Tipo I en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaGAcBFormula.png",
+    link: "/ComidaGAcBFórmula",
+  },
+  {
+    id: 17,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida HCys B Fórmula",
+    descripcion:
+      "Comida HCys B Fórmula es una fórmula en polvo libre metionina para el tratamiento nutricional de Homocistinuria en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaHCysBFormula.jpg",
+    link: "/comidaHCysBFormula",
+  },
+  {
+    id: 18,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida Leu A Fórmula",
+    descripcion:
+      "Comida Leu A Fórmula es una fórmula en polvo libre leucina para el tratamiento nutricional de hiperleucinemia (Ej: Acidemia Isovalérica) en lactantes de 0 a 1 año de edad.  Alimento para propósitos médicos específicos.",
+    imagen: "/comidaLeuAFormula.jpg",
+    link: "/comidaLeuAFormula",
+  },
+  {
+    id: 19,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida Leu B Fórmula",
+    descripcion:
+      "Comida Leu B Fórmula es una fórmula en polvo libre leucina para el tratamiento nutricional de hiperleucinemia (Ej: Acidemia Isovalérica) en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaLeuBFormula.jpg",
+    link: "/comidaLeuBFormula",
+  },
+  {
+    id: 20,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida MSUD A Fórmula",
+    descripcion:
+      "Comida MSUD A Fórmula es una fórmula infantil en polvo libre valina, leucina e isoleucina para el tratamiento nutricional de Enfermedad de Orina con Olor a Jarabe de Arce (MSUD) o Leucinosis en lactantes de 0 a 1 año edad. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaMSUDAFormula.jpg",
+    link: "/comidaMSUDAFormula.jpg",
+  }, 
 ];

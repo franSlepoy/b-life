@@ -578,7 +578,7 @@ const Home = () => {
               top: "50%",
               left: "50%",
               transform: "translate(-50%, -50%)",
-              width: "52%",
+              width: "80%",
 
               borderRadius: "20px",
               border: "transparent",
@@ -657,12 +657,12 @@ const Home = () => {
         </Modal>
 
         <Parallax speed={-6}>
-          <Box pt={10}>
+          <Box pt={18}>
             <img
               width={"100%"}
               style={{
                 width: "100%",
-                height: "66.9vh",
+                height:"500px",
                 objectFit: "cover",
               }}
               src="fotohome-inicio.png"
@@ -671,7 +671,7 @@ const Home = () => {
           </Box>
         </Parallax>
 
-        <Box position={"absolute"} left={"6%"} top={"150px"} zIndex={100}>
+        <Box position={"absolute"} left={"6%"} top={"250px"} zIndex={100}>
           <img width={"18%"} src="/logoCarrusel.png" alt="" />
           <Typography
             sx={{
@@ -715,7 +715,7 @@ const Home = () => {
           </Typography>
         </Box>
 
-        <Box position={"absolute"} zIndex={100} top={"400px"} left={"6%"}>
+        <Box position={"absolute"} zIndex={100} top={"500px"} left={"6%"}>
           <Boton texto={"Conocé más"} linkTo={"/nosotros"} />
         </Box>
 

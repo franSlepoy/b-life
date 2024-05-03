@@ -276,15 +276,14 @@ const NavBar = () => {
       </Hidden>
 
       <Hidden lgUp>
-        <Box >
+        <Box>
           <AppBar
             position="fixed"
             sx={{
               bgcolor: "white",
               width: "100%",
-              height: "120px",
+
               boxShadow: "none",
-              
             }}
           >
             <Box m={"auto"}>
@@ -303,13 +302,17 @@ const NavBar = () => {
               </Button>
             </Box>
             <Toolbar>
-              <Box width={"100%"} display={"flex"} justifyContent={"space-around"}>
+              <Box
+                width={"100%"}
+                display={"flex"}
+                justifyContent={"space-around"}
+              >
                 <Button
                   component={Link} // Usa el componente Link para hacer que el botón sea un enlace
                   to="/nosotros" // Ruta a la que se enlaza el botón
                   sx={{
-                    
-
+                    pl: 2,
+                    pr: 2,
                     fontFamily: "Lato",
                     fontWeight: "bold",
                     fontStyle: "italic",

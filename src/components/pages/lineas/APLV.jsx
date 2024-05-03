@@ -22,7 +22,13 @@ const APLV = () => {
       <Hidden smDown>
         <Parallax speed={-12}>
           <Box mt={8}>
-            <img width={"100%"} height={"472vh"} src="/foto01APLV.png" alt="" />
+            <img
+              style={{ objectFit: "cover" }}
+              width={"100%"}
+              height={"500px"}
+              src="/foto01APLV.png"
+              alt=""
+            />
           </Box>
         </Parallax>
 
@@ -348,17 +354,17 @@ const APLV = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box mt={8}>
+        <Box mt={18}>
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
-            height={"472vh"}
-            src="/foto01APLV.png"
+            height={"500px"}
+            src="/fotohome-lineas-aplv.png"
             alt=""
           />
         </Box>
 
-        <Box position={"absolute"} left={"6%"} top={"175px"} zIndex={100}>
+        <Box position={"absolute"} left={"6%"} top={"225px"} zIndex={100}>
           <img width={"18%"} src="/logoCarrusel.png" alt="" />
           <Typography
             sx={{
@@ -470,7 +476,7 @@ const APLV = () => {
               color: "white",
             }}
           >
-            <Box width={"100"}>
+            <Box width={"100%"}>
               <Typography
                 sx={{
                   fontFamily: "Lato",
