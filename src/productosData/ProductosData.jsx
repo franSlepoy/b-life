@@ -156,7 +156,7 @@ export const productosData = [
     descripcion:
       "Comida GAc B Fómula es una fórmula en polvo libre de lisina y de bajo contenido en triptófano para el tratamiento nutricional de la Aciduria Glutárica Tipo I en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
     imagen: "/comidaGAcBFormula.png",
-    link: "/ComidaGAcBFórmula",
+    link: "/ComidaGAcBFormula",
   },
   {
     id: 17,
@@ -197,5 +197,225 @@ export const productosData = [
       "Comida MSUD A Fórmula es una fórmula infantil en polvo libre valina, leucina e isoleucina para el tratamiento nutricional de Enfermedad de Orina con Olor a Jarabe de Arce (MSUD) o Leucinosis en lactantes de 0 a 1 año edad. Alimento para propósitos médicos específicos.",
     imagen: "/comidaMSUDAFormula.jpg",
     link: "/comidaMSUDAFormula.jpg",
-  }, 
+  },
+  {
+    id: 21,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida MSUD B Fórmula",
+    descripcion:
+      "Comida MSUD B Fórmula es una fórmula en polvo libre valina, leucina e isoleucina para el tratamiento nutricional de Enfermedad de Orina con Olor a Jarabe de Arce (MSUD) o Leucinosis en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaMSUDBFormula.jpg",
+    link: "/comidaMSUDBFormula",
+  },
+  {
+    id: 22,
+    categoria: "Comida OAc A Fórmula",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida OAc A Fórmula",
+    descripcion:
+      "Comida OAc A Fórmula es una fórmula infantil en polvo libre de isoleucina, metionina, treonina y valina para el tratamiento nutricional de Acidemias Orgánicas: Propiónica y Metilmalónica en lactantes de 0 a 1 año edad. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaOAcAformula.jpg",
+    link: "/comidaOAcAformula",
+  },
+  {
+    id: 23,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida OAc A Fórmula",
+    descripcion:
+      "Comida OAc A Fórmula es una fórmula infantil en polvo libre de isoleucina, metionina, treonina y valina para el tratamiento nutricional de Acidemias Orgánicas: Propiónica y Metilmalónica en lactantes de 0 a 1 año edad. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaOAcAformula.jpg",
+    link: "/comidaOAcAformula",
+  },
+  {
+    id: 24,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida OAc B Fórmula",
+    descripcion:
+      "Comida OAc B Fómula es una fórmula en polvo libre de isoleucina, metionina, treonina y valina para el tratamiento nutricional de Acidemias Orgánicas: Propiónica y Metilmalónica en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaOAcBFormula.jpg",
+    link: "/comidaOAcBFormula",
+  },
+  {
+    id: 25,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida PKU A Fórmula",
+    descripcion:
+      "PKU Med A Fórmula es una fórmula en polvo libre de fenilalanina para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaPKUAFormula.jpg",
+    link: "/comidaPKUAFormula",
+  },
+  {
+    id: 26,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida PKU B Fórmula (Sin sabor)",
+    descripcion:
+      "Comida PKU B Fórmula es una fórmula en polvo libre de fenilalanina para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaPKUBFormula.jpg",
+    link: "/comidaPKUBFormula",
+  },
+  {
+    id: 27,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida PKU B Fórmula (Orange - Lemon)",
+    descripcion:
+      "Comida PKU B Fórmula Orange-Lemon es una fórmula en polvo libre de fenilalanina para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños mayores de 3 años de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/PKUBOrangeLemon.jpg",
+    link: "/PKUBOrangeLemon",
+  },
+  {
+    id: 28,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida UrC A Fórmula",
+    descripcion:
+      "Comida UrC A Fórmula es una fórmula infantil en polvo a base de aminoácidos esenciales, enriquecida con cistina y tirosina para el tratamiento nutricional de Trastornos del Ciclo de la Urea en lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaUrCAFormula.jpg",
+    link: "/comidaUrCAFormula",
+  },
+  {
+    id: 29,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Comida UrC B Fórmula",
+    descripcion:
+      "Comida UrC B Fórmula es una fórmula en polvo a base de aminoácidos esenciales, enriquecida con cistina y tirosina para el tratamiento nutricional de Trastornos del Ciclo de la Urea en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaUrCBFormula.jpg",
+    link: "/comidaUrCBFormula",
+  },
+  {
+    id: 30,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Glytactin Complete 15",
+    descripcion:
+      "Glytactin Complete 15 es una barra a base de glicomacropéptidos (GMP) para el tratamiento nutricional de pacientes con Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños mayores de 1 año de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/complete15BarPbFf.png",
+    link: "/GlytactinComplete15",
+  },
+  {
+    id: 31,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Glytactin RTD 10",
+    descripcion:
+      "Glytactin RTD 10 chocolate y original es una fórmula lista para usar a base de glicomacropéptidos (GMP) nutricionalmente completa para el tratamiento nutricional de la Fenilcetonuria (PKU) ó Hiperfenilalaninemia (HPA) en niños mayores de 1 año de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/glytactinRTD10.png",
+    link: "/GlytactinRTD10",
+  },
+  {
+    id: 32,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "Glytactin RTD 15",
+    descripcion:
+      "Glytactin RTD 15 es una fórmula lista para usar a base de glicomacropéptidos (GMP) para el tratamiento nutricional de la Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños mayores de 1 año de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/glytactinRTD15.png",
+    link: "/GlytactinRTD15",
+  },
+  {
+    id: 33,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "XPhe Energy J",
+    descripcion:
+      "XPhe energy J es una fórmula en polvo libre de fenilalanina y rica en tirosina, para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños/adolescentes de 7 a 14 años de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/XPheEnergyJ.png",
+    link: "/XPheEnergyJ",
+  },
+  {
+    id: 34,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "XPhe Energy K",
+    descripcion:
+      "XPhe energy K es una fórmula en polvo libre de fenilalanina y rica en tirosina para el tratamiento nutricional de Fenilcetonuria(PKU) o Hiperfenilalaninemia (HPA) en niños de 4 meses (sabor neutro)/1 año (saborizadas) a 6 años de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/XPheEnergyJ.png",
+    link: "/XPheEnergyK",
+  },
+  {
+    id: 35,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "XPhe Infant Mix",
+    descripcion:
+      "XPhe Infant Mix LCP es una fórmula en polvo libre de fenilalanina para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
+    imagen: "/XPheInfantmix150.png",
+    link: "/XPheInfantMix",
+  },
+  {
+    id: 36,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "FÓRMULAS",
+    titulo: "XPhe Jump 20",
+    descripcion:
+      "XPhe Jump 20 es una fórmula líquida lista para usar libre de fenilalanina y rica en tirosina, suplementada con DHA, de bajo volumen, para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños mayores de 3 años de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/XPheJump20Orange.png",
+    link: "/XPheJump20",
+  },
+  {
+    id: 37,
+    categoria: "Otros",
+    subCategoria: "OTROS",
+    titulo: "ABINTRA",
+    descripcion:
+      "Abintra es un alimento para propósitos médicos específicos a base de Arginina, Glutamina, proteínas y vitaminas para apoyar la reparación de tejidos en personas adultas que presenten heridas de difícil cicatrización.",
+    imagen: "/abintra.jpg",
+    link: "/abintra",
+  },
+  {
+    id: 38,
+    categoria: "Otros",
+    subCategoria: "OTROS",
+    titulo: "FONT UP",
+    descripcion:
+      "FontUp es una bebida instantánea en polvo que aporta 266 miligramos de extracto de té verde (contenido mínimo de 250 mg de Epigalocatequina Galato - EGCG) por ración.",
+    imagen: "/fontup.jpg",
+    link: "/fontup",
+  },
+  {
+    id: 39,
+    categoria: "Otros",
+    subCategoria: "OTROS",
+    titulo: "GLUTAPAK R",
+    descripcion:
+      "Glutapak R es un alimento para propósitos médicos específicos con una combinación única de L-Glutamina y Lactobacillus Reuteri que restaura la superficie y la flora intestinal.",
+    imagen: "/glutapak.jpg",
+    link: "/glutapak",
+  },
+  {
+    id: 40,
+    categoria: "Terapia Cetogénica",
+    subCategoria: "ALIMENTOS",
+    titulo: "CETOMIX CHOCOLATE",
+    descripcion:
+      "Premezcla a base de aceite de palma y harina de almendras, sabor chocolate, para dietas especiales.",
+    imagen: "/PouchCetomixCHOCOLATELR.jpg",
+    link: "/CETOMIXcHOCOLATE",
+  },
+  {
+    id: 41,
+    categoria: "Terapia Cetogénica",
+    subCategoria: "ALIMENTOS",
+    titulo: "CETOMIX VAINILLA",
+    descripcion:
+      "Premezcla a base de aceite de palma y harina de almendras, sabor vainilla, para dietas especiales.",
+    imagen: "/PouchCetomixVAINILLALR.jpg",
+    link: "/CETOMIXvAINILLA",
+  },
+  {
+    id: 42,
+    categoria: "Terapia Cetogénica",
+    subCategoria: "ALIMENTOS",
+    titulo: "Kanso DelíMCT Cacao Biscuits",
+    descripcion:
+      "Galletitas de cacao ricas en TCM para terapia cetogénica.",
+    imagen: "/kansoDeliMCTCacaoBiscuits.jpg",
+    link: "/KansoDelíMCTCacaoBiscuits",
+  },
 ];

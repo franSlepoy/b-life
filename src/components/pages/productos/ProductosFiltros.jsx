@@ -46,6 +46,8 @@ const ProductosFiltros = () => {
 
   const subcategoriasErrores = ["FÓRMULAS", "ALIMENTOS"];
 
+  const subcategoriasOtros = ["OTROS"];
+
   const handleCategoriaSeleccionada = (categoria) => {
     setCategoriaSeleccionada(categoria);
     setSubcategoriaSeleccionada(null); // Restablecer la subcategoría seleccionada
@@ -179,7 +181,29 @@ const ProductosFiltros = () => {
                     </Typography>
                   </Box>
                 ))
-              ) : null}
+              ) : categoriaSeleccionada === "Otros" ? (
+                subcategoriasOtros.map((subcategoria) => (
+                  <Box
+                    key={subcategoria}
+                    onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
+                    sx={{ cursor: "pointer" }}
+                  >
+                    <Typography
+                      sx={{
+                        textAlign: "end",
+                        color: "#007E48",
+                        fontFamily: "Lato",
+                        fontStyle: subcategoria === subcategoriaSeleccionada ? "normal" : "italic",
+                        fontWeight: subcategoria === subcategoriaSeleccionada ? "bold" : "regular",
+                        mt: 1,
+                        "&:hover": { color: "#00D447" },
+                      }}
+                    >
+                      {subcategoria}
+                    </Typography>
+                  </Box>
+                ))
+              )  : null}
             </Box>
           )}
 
@@ -290,6 +314,40 @@ const ProductosFiltros = () => {
               {/* Renderiza las subcategorías para la categoría "Errores congénitos del metabolismo" */}
               {categoriaSeleccionada === "Errores congénitos del metabolismo" &&
                 subcategoriasErrores.map((subcategoria) => (
+                  <Box
+                    key={subcategoria}
+                    onClick={() => handleSubcategoriaSeleccionada(subcategoria)}
+                    sx={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        textAlign: "end",
+                        color: "#007E48",
+                        fontFamily: "Lato",
+                        fontSize: "10px",
+                        fontStyle:
+                          subcategoria === subcategoriaSeleccionada
+                            ? "normal"
+                            : "italic",
+                        fontWeight:
+                          subcategoria === subcategoriaSeleccionada
+                            ? "bold"
+                            : "regular",
+                        mt: 1,
+                        "&:hover": {
+                          color: "#00D447",
+                        },
+                      }}
+                    >
+                      {subcategoria}
+                    </Typography>
+                  </Box>
+                ))}
+                {/* Renderiza las subcategorías para la categoría "Otros" */}
+              {categoriaSeleccionada === "Otros" &&
+                subcategoriasOtros.map((subcategoria) => (
                   <Box
                     key={subcategoria}
                     onClick={() => handleSubcategoriaSeleccionada(subcategoria)}

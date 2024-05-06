@@ -23,6 +23,11 @@ import Modulos1 from "./components/pages/detallesProductos/terapiaCetogenica/mod
 import Modulos2 from "./components/pages/detallesProductos/terapiaCetogenica/modulos/Modulos2";
 import Aminomed from "./components/pages/detallesProductos/aplv/Aminomed";
 import Essential from "./components/pages/detallesProductos/aplv/Essential";
+import ComidaGAcAFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaGAcAFormula";
+import ComidaGAcBFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaGAcBFormula";
+import ComidaHCysBFomula from "./components/pages/detallesProductos/eCon/formulas/ComidaHCysBFomula";
+import ComidaLeuAFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaLeuAFormula";
+import ComidaLeuBFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaLeuBFormula";
 
 function App() {
   const location = useLocation();
@@ -60,6 +65,11 @@ function App() {
           <Route path="/MCTFiber" element={<Modulos2/>} />
           <Route path="/Aminomed" element={<Aminomed/>} />
           <Route path="/EssentialCareJr" element={<Essential/>} />
+          <Route path="/comidaGAcAFormula" element={<ComidaGAcAFormula/>} />
+          <Route path="/comidaGAcBFormula" element={<ComidaGAcBFormula/>} />
+          <Route path="/comidaHCysBFormula" element={<ComidaHCysBFomula/>} />
+          <Route path="/comidaLeuAFormula" element={<ComidaLeuAFormula/>} />
+          <Route path="/comidaLeuBFormula" element={<ComidaLeuBFormula/>} />
           
         </Routes>
       </ParallaxProvider>

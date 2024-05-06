@@ -146,7 +146,98 @@ const TC = () => {
                 puede utilizar desde la infancia hasta la adultez. Las
                 epilepsias refractarias o de difícil control se definen como
                 fallas en el control de las crisis al tratamiento con dos
-                fármacos bien tolerados y seleccionados adecuadamente.
+                fármacos bien tolerados y seleccionados adecuadamente.{" "}
+                <span
+                  onMouseEnter={() => {
+                    setIsHovered(true);
+                    handleOpen();
+                  }}
+                  onMouseLeave={() => {
+                    setIsHovered(false);
+                    handleClose(); // Cerrar el Modal cuando el cursor sale del área
+                  }}
+                  style={{
+                    fontSize: "8px",
+                    cursor: "pointer",
+                    position: "relative", // Cambiar a posición relativa
+                    top: "-5px", // Ajustar posición verticalmente
+                    display: "inline-block", // Permitir ajustes de posición
+                  }}
+                >
+                  1,2
+                  <Modal
+                    open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                  >
+                    <Box
+                      sx={{
+                        position: "absolute",
+                        top: "70%",
+                        left: "50%",
+                        /*   transform: "translate(-50%, -50%)", */
+
+                        bgcolor: "background.paper",
+                        width: "500px",
+                        boxShadow: 24,
+                        p: 2,
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          fontFamily: "Lato",
+                          fontStyle: "regular",
+                          fontSize: "10px",
+                          color: "black",
+                          lineHeight: "10px",
+                        }}
+                        id="modal-modal-title"
+                      >
+                        1.Armeno M, Caraballo R, Vaccarezza M, Alberti MJ, Ríos
+                        V, Galicchio S, et al. Consenso nacional sobre dieta
+                        cetogénica. Rev Neurol 2014; 59: 213-23.
+                      </Typography>
+                      <Typography
+                        sx={{
+                          fontFamily: "Lato",
+                          fontStyle: "regular",
+                          fontSize: "10px",
+                          color: "black",
+                          lineHeight: "10px",
+                        }}
+                        id="modal-modal-title"
+                      >
+                        2. Kossoff EH, Zupec-Kania BA, Auvin S, Ballaban-Gil KR,
+                        Christina Bergqvist AG, Blackford R, Buchhalter JR,
+                        Caraballo RH, Cross JH, Dahlin MG, Donner EJ, Guzel O,
+                        Jehle RS, Klepper J, Kang HC, Lambrechts DA, Liu YMC,
+                        Nathan JK, Nordli DR Jr, Pfeifer HH, Rho JM, Scheffer
+                        IE, Sharma S, Stafstrom CE, Thiele EA, Turner Z,
+                        Vaccarezza MM, van der Louw EJTM, Veggiotti P, Wheless
+                        JW, Wirrell EC; Charlie Foundation; Matthew&#39;s
+                      </Typography>
+                      <Typography
+                        sx={{
+                          fontFamily: "Lato",
+                          fontStyle: "regular",
+                          fontSize: "10px",
+                          color: "black",
+                          lineHeight: "10px",
+                        }}
+                        id="modal-modal-title"
+                      >
+                        Friends; Practice Committee of the Child Neurology
+                        Society. Optimal clinical management of children
+                        receiving dietary therapies for epilepsy: Updated
+                        recommendations of the International Ketogenic Diet
+                        Study Group. Epilepsia Open. 2018 May 21;3(2):175-192.
+                        doi: 10.1002/epi4.12225. PMID: 29881797; PMCID:
+                        PMC5983110.
+                      </Typography>
+                    </Box>
+                  </Modal>
+                </span>
               </Typography>
               <Typography
                 sx={{
