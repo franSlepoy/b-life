@@ -196,7 +196,7 @@ export const productosData = [
     descripcion:
       "Comida MSUD A Fórmula es una fórmula infantil en polvo libre valina, leucina e isoleucina para el tratamiento nutricional de Enfermedad de Orina con Olor a Jarabe de Arce (MSUD) o Leucinosis en lactantes de 0 a 1 año edad. Alimento para propósitos médicos específicos.",
     imagen: "/comidaMSUDAFormula.jpg",
-    link: "/comidaMSUDAFormula.jpg",
+    link: "/comidaMSUDAFormula",
   },
   {
     id: 21,
@@ -256,7 +256,7 @@ export const productosData = [
     descripcion:
       "Comida PKU B Fórmula es una fórmula en polvo libre de fenilalanina para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
     imagen: "/comidaPKUBFormula.jpg",
-    link: "/comidaPKUBFormula",
+    link: "/comidaPKUBFormulaSS",
   },
   {
     id: 27,
