@@ -44,6 +44,12 @@ import XPHEInfantMixLCP from "./components/pages/detallesProductos/eCon/formulas
 import XPheJump20 from "./components/pages/detallesProductos/eCon/formulas/XPheJump20";
 import AbintraLiteratura from "./components/pages/detallesProductos/otros/AbintraLiteratura";
 import FontUpLiteratura from "./components/pages/detallesProductos/otros/FontUpLiteratura";
+import GlutapakRLiteratura from "./components/pages/detallesProductos/otros/GlutapakRLiteratura";
+import CetomixvainillayCetomixchocolate from "./components/pages/detallesProductos/terapiaCetogenica/alimentos/CetomixvainillayCetomixchocolate";
+import CetomixvainillayCetomixchocolate1 from "./components/pages/detallesProductos/terapiaCetogenica/alimentos/CetomixvainillayCetomixchocolate1";
+import KansoDeliMCTCacaoBiscuits from "./components/pages/detallesProductos/terapiaCetogenica/alimentos/KansoDeliMCTCacaoBiscuits";
+import Aproten from "./components/pages/detallesProductos/eCon/alimentos/Aproten";
+import AprotenBizcochosdeCacao from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeCacao";
 
 function App() {
   const location = useLocation();
@@ -91,20 +97,43 @@ function App() {
           <Route path="/comidaOAcAformula" element={<ComidaGAcAFormula />} />
           <Route path="/comidaOAcBformula" element={<ComidaGAcBFormula />} />
           <Route path="/comidaPKUAFormula" element={<ComidaPKUAFormula />} />
-          <Route path="/comidaPKUBFormulaSS" element={<ComidaPKUBFormulaSS />} />
+          <Route
+            path="/comidaPKUBFormulaSS"
+            element={<ComidaPKUBFormulaSS />}
+          />
           <Route path="/PKUBOrangeLemon" element={<ComidaPKUBFormulaLO />} />
           <Route path="/comidaUrCAFormula" element={<ComidaUrCAFormula />} />
           <Route path="/comidaUrCBFormula" element={<ComidaUrCBFormula />} />
-          <Route path="/GlytactinComplete15" element={<GlytactinComplete15 />} />
+          <Route
+            path="/GlytactinComplete15"
+            element={<GlytactinComplete15 />}
+          />
           <Route path="/GlytactinRTD10" element={<GlytactinRTD10 />} />
           <Route path="/GlytactinRTD15" element={<GlytactinRTD15 />} />
           <Route path="/XPheEnergyJ" element={<XPHEEnergyJ />} />
           <Route path="/XPheEnergyK" element={<XPHEEnergyK />} />
           <Route path="/XPheInfantMix" element={<XPHEInfantMixLCP />} />
-          <Route path="/XPheJump20" element={< XPheJump20 />} />
-          <Route path="/abintra" element={< AbintraLiteratura />} />
-          <Route path="/fontup" element={< FontUpLiteratura  />} />
-        
+          <Route path="/XPheJump20" element={<XPheJump20 />} />
+          <Route path="/abintra" element={<AbintraLiteratura />} />
+          <Route path="/fontup" element={<FontUpLiteratura />} />
+          <Route path="/glutapak" element={<GlutapakRLiteratura />} />
+          <Route
+            path="/CETOMIXcHOCOLATE"
+            element={<CetomixvainillayCetomixchocolate />}
+          />
+          <Route
+            path="/CETOMIXvAINILLA"
+            element={<CetomixvainillayCetomixchocolate1 />}
+          />
+          <Route
+            path="/KansoDelíMCTCacaoBiscuits"
+            element={<KansoDeliMCTCacaoBiscuits />}
+          />
+          <Route path="/aprotenAnellini" element={<Aproten />} />
+          <Route
+            path="/aprotenBizcochosdeCacao"
+            element={<AprotenBizcochosdeCacao />}
+          />
         </Routes>
       </ParallaxProvider>
     </>

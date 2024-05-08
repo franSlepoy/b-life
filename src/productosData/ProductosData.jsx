@@ -413,9 +413,27 @@ export const productosData = [
     categoria: "Terapia Cetogénica",
     subCategoria: "ALIMENTOS",
     titulo: "Kanso DelíMCT Cacao Biscuits",
-    descripcion:
-      "Galletitas de cacao ricas en TCM para terapia cetogénica.",
+    descripcion: "Galletitas de cacao ricas en TCM para terapia cetogénica.",
     imagen: "/kansoDeliMCTCacaoBiscuits.jpg",
     link: "/KansoDelíMCTCacaoBiscuits",
+  },
+  {
+    id: 43,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "ALIMENTOS",
+    titulo: "ANELLINI",
+    descripcion:
+      "Pasta tipo Ave María para sopa, de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
+    imagen: "/aprotenAnellini.png",
+    link: "/aprotenAnellini",
+  },
+  {
+    id: 44,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "ALIMENTOS",
+    titulo: "BIZCOCHOS DE CACAO",
+    descripcion: "Masitas de cacao de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales." ,
+    imagen: "/aprotenBizcochosdeCacao.png",
+    link: "/aprotenBizcochosdeCacao",
   },
 ];
