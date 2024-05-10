@@ -50,6 +50,44 @@ import CetomixvainillayCetomixchocolate1 from "./components/pages/detallesProduc
 import KansoDeliMCTCacaoBiscuits from "./components/pages/detallesProductos/terapiaCetogenica/alimentos/KansoDeliMCTCacaoBiscuits";
 import Aproten from "./components/pages/detallesProductos/eCon/alimentos/Aproten";
 import AprotenBizcochosdeCacao from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeCacao";
+import AprotenBizcochosdeFruta from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeFruta";
+import AprotenBizcochosdeVainilla from "./components/pages/detallesProductos/eCon/alimentos/aprotenBizcochosdeVainilla";
+import AprotenChicci from "./components/pages/detallesProductos/eCon/alimentos/AprotenChicci";
+import AprotenFetasTostadas from "./components/pages/detallesProductos/eCon/alimentos/AprotenFetasTostadas";
+import Fusilli from "./components/pages/detallesProductos/eCon/alimentos/Fusilli";
+import AprotenFrollinoAllaPanna from "./components/pages/detallesProductos/eCon/alimentos/AprotenFrollinoAllaPanna";
+import AprotenFrollinoGocceDiCioccolato from "./components/pages/detallesProductos/eCon/alimentos/AprotenFrollinoGocceDiCioccolato";
+import AprotenGrissini from "./components/pages/detallesProductos/eCon/alimentos/AprotenGrissini";
+import AprotenHarina from "./components/pages/detallesProductos/eCon/alimentos/AprotenHarina";
+import AprotenObleasDeChocholate from "./components/pages/detallesProductos/eCon/alimentos/AprotenObleasDeChocholate";
+import AprotenObleasDeVainilla from "./components/pages/detallesProductos/eCon/alimentos/AprotenObleasDeVainilla";
+import AprotenPanBizcochado from "./components/pages/detallesProductos/eCon/alimentos/AprotenPanBizcochado";
+import Penne from "./components/pages/detallesProductos/eCon/alimentos/Penne";
+import Rigatini from "./components/pages/detallesProductos/eCon/alimentos/Rigatini";
+import AprotenSpaguetti from "./components/pages/detallesProductos/eCon/alimentos/AprotenSpaguetti";
+import AprotenTagliatelle from "./components/pages/detallesProductos/eCon/alimentos/AprotenTagliatelle";
+import Freechees from "./components/pages/detallesProductos/eCon/alimentos/Freechees";
+import FreegurFrutilla from "./components/pages/detallesProductos/eCon/alimentos/FreegurFrutilla";
+import FreegurVainilla from "./components/pages/detallesProductos/eCon/alimentos/FreegurVainilla";
+import FreeMilk from "./components/pages/detallesProductos/eCon/alimentos/FreeMilk";
+import FreenitoChocolate from "./components/pages/detallesProductos/eCon/alimentos/FreenitoChocolate";
+import FreenitoVainilla from "./components/pages/detallesProductos/eCon/alimentos/FreenitoVainilla";
+import BurgerMix from "./components/pages/detallesProductos/eCon/alimentos/BurgerMix";
+import SaltSticks from "./components/pages/detallesProductos/eCon/alimentos/SaltSticks";
+import SchoxxiTafel from "./components/pages/detallesProductos/eCon/alimentos/SchoxxiTafel";
+import Arroz from "./components/pages/detallesProductos/eCon/alimentos/Arroz";
+import BurgerMix1 from "./components/pages/detallesProductos/eCon/alimentos/BurgerMix1";
+import Chocotino from "./components/pages/detallesProductos/eCon/alimentos/Chocotino";
+import Ditali from "./components/pages/detallesProductos/eCon/alimentos/Ditali";
+import FruitBar from "./components/pages/detallesProductos/eCon/alimentos/fruitBar";
+import Penne1 from "./components/pages/detallesProductos/eCon/alimentos/Penne1";
+import Spaghetti from "./components/pages/detallesProductos/eCon/alimentos/Spaghetti";
+import ZeroproMuffinsyTortas from "./components/pages/detallesProductos/eCon/alimentos/ZeroproMuffinsyTortas";
+import GalletasMarineras from "./components/pages/detallesProductos/eCon/alimentos/GalletasMarineras";
+import SustitutoDeHuevo from "./components/pages/detallesProductos/eCon/alimentos/SustitutoDeHuevo";
+import SustitutoDeQueso from "./components/pages/detallesProductos/eCon/alimentos/SustitutoDeQueso";
+import ZeroproBrownies from "./components/pages/detallesProductos/eCon/alimentos/ZeroproBrownies";
+import SustitutoDeHarina from "./components/pages/detallesProductos/eCon/alimentos/SustitutoDeHarina";
 
 function App() {
   const location = useLocation();
@@ -64,7 +102,6 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/productos" element={<Productos />} />
-
           <Route path="/" element={<Home />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
@@ -134,6 +171,69 @@ function App() {
             path="/aprotenBizcochosdeCacao"
             element={<AprotenBizcochosdeCacao />}
           />
+          <Route
+            path="/aprotenBizcochosdeFruta"
+            element={<AprotenBizcochosdeFruta />}
+          />
+          <Route
+            path="/aprotenBizcochosdeVainilla"
+            element={<AprotenBizcochosdeVainilla />}
+          />
+          <Route path="/aprotenChicci" element={<AprotenChicci />} />
+          <Route
+            path="/aprotenFetasTostadas"
+            element={<AprotenFetasTostadas />}
+          />
+          <Route path="/fusilli" element={<Fusilli />} />
+          <Route
+            path="/aprotenFrollinoAllaPanna"
+            element={<AprotenFrollinoAllaPanna />}
+          />
+          <Route
+            path="/aprotenFrollinoGocceDiCioccolato"
+            element={<AprotenFrollinoGocceDiCioccolato />}
+          />
+          <Route path="/aprotenGrissini" element={<AprotenGrissini />} />
+          <Route path="/aprotenHarina" element={<AprotenHarina />} />
+          <Route
+            path="/aprotenObleasDeChocholate"
+            element={<AprotenObleasDeChocholate />}
+          />
+          <Route
+            path="/aprotenObleasDeVainilla"
+            element={<AprotenObleasDeVainilla />}
+          />
+          <Route
+            path="/aprotenPanBizcochado"
+            element={<AprotenPanBizcochado />}
+          />
+          <Route path="/penne" element={<Penne />} />
+          <Route path="/rigatini" element={<Rigatini />} />
+          <Route path="/aprotenSpaguetti" element={< AprotenSpaguetti/>} />
+          <Route path="/aprotenTagliatelle" element={< AprotenTagliatelle/>} />
+          <Route path="/freechees" element={< Freechees />} />
+          <Route path="/freegurFrutilla" element={< FreegurFrutilla />} />
+          <Route path="/freegurVainilla" element={< FreegurVainilla />} />
+          <Route path="/freeMilk" element={< FreeMilk />} />
+          <Route path="/freenitoChocolate" element={< FreenitoChocolate />} />
+          <Route path="/freenitoVainilla" element={< FreenitoVainilla />} />
+          <Route path="/burgerMix" element={< BurgerMix />} />
+          <Route path="/saltSticks" element={< SaltSticks />} />
+          <Route path="/schoxxiTafel" element={< SchoxxiTafel />} />
+          <Route path="/arroz" element={< Arroz />} />
+          <Route path="/BurgerMix1" element={< BurgerMix1 />} />
+          <Route path="/chocotino" element={< Chocotino />} />
+          <Route path="/ditali" element={< Ditali />} />
+          <Route path="/fruitBar" element={< FruitBar />} />
+          <Route path="/penne1" element={< Penne1 />} />
+          <Route path="/spaghetti" element={< Spaghetti />} />
+          <Route path="/zeroproMuffinsyTortas" element={< ZeroproMuffinsyTortas />} />
+          <Route path="/galletasMarineras" element={< GalletasMarineras />} />
+          <Route path="/sustitutoDeHuevo" element={< SustitutoDeHuevo />} />
+          <Route path="/sustitutoDeQueso" element={< SustitutoDeQueso />} />
+          <Route path="/zeroproBrownies" element={< ZeroproBrownies />} />
+          <Route path="/sustitutoDeHarina" element={< SustitutoDeHarina />} />
+       
         </Routes>
       </ParallaxProvider>
     </>
