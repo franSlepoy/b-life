@@ -70,7 +70,14 @@ const Chocotino = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Azúcar, manteca de cacao, inulina, cacao en
                   polvo, saborizante natural, EMU: INS322. Contiene derivados de
                   soja.
@@ -199,7 +206,17 @@ const Chocotino = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 100 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 100 g.{" "}
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -278,10 +295,10 @@ const Chocotino = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Azúcar, manteca de cacao, inulina, cacao en polvo, saborizante natural, EMU: INS322. Contiene derivados de soja.
-
+                  • Ingredientes: Azúcar, manteca de cacao, inulina, cacao en
+                  polvo, saborizante natural, EMU: INS322. Contiene derivados de
+                  soja.
                 </Typography>
-               
               </Box>
             </Box>
             <Box
@@ -340,12 +357,15 @@ const Chocotino = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, insuficiencia renal crónica, mal de Parkinson (en tratamiento con Levodopa) o cualquier patología que requiera una dieta restringida en el aporte de proteínas y/o aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, insuficiencia renal crónica,
+                mal de Parkinson (en tratamiento con Levodopa) o cualquier
+                patología que requiera una dieta restringida en el aporte de
+                proteínas y/o aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>
-             {/*  <Typography
+              {/*  <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",

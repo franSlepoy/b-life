@@ -71,23 +71,65 @@ const ComidaPKUBFormulaLO = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Aporta aminoácidos de alto valor biológico.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Aporta energía mediante hidratos de carbono (maltodextrina).
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene ácidos grasos poliinsaturados de cadena larga
                   (LCP).
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene vitaminas, minerales y oligoelementos.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Buena solubilidad.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Buen sabor y aceptación.
                 </Typography>
               </Box>
@@ -217,7 +259,17 @@ const ComidaPKUBFormulaLO = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Lata por 500 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Lata por 500 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -401,7 +453,10 @@ const ComidaPKUBFormulaLO = () => {
                   mt: 2,
                 }}
               >
-               La dilución recomendada es 15 % P/V (2 medidas de PKU B Fórmula Orange Lemon = 15 g de polvo + 90 cc de agua = 100 cc de fórmula). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
+                La dilución recomendada es 15 % P/V (2 medidas de PKU B Fórmula
+                Orange Lemon = 15 g de polvo + 90 cc de agua = 100 cc de
+                fórmula). Se recomienda distribuir la cantidad diaria indicada
+                por el profesional en varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

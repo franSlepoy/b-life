@@ -69,32 +69,88 @@ const GlutapakRLiteratura = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • L- GLUTAMINA:
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Nutre las células del tracto gastrointestinal y ayuda a
                   reparar el daño de la superficie intestinal causado por
                   enfermedades, infecciones y/o estrés.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Reduce el malestar y mejora la absorción de nutrientes.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • LACTOBACILLUS REUTERI:
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Es un probiótico que restaura la flora intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Disminuye el crecimiento de microorganismos dañinos.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Coloniza el intestino e inhibe el crecimiento de
                   microorganismos patógenos, ayudando a mantener y mejorar las
                   funciones propias del sistema inmunológico intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Reduce la diarrea y restaura el equilibrio intestinal.
                 </Typography>
               </Box>
@@ -225,7 +281,16 @@ const GlutapakRLiteratura = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Sobres individuales de 15 g de polvo. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Sobres individuales de 15 g de polvo.{" "}
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

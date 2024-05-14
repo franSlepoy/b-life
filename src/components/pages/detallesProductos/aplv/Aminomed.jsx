@@ -1,7 +1,6 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import Footer from "../../../common/footer/Footer";
 
-
 const Aminomed = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
@@ -65,39 +64,98 @@ const Aminomed = () => {
               </Typography>
               <Box
                 sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
                   color: "black",
                   fontFamily: "Lato",
-                  mt: 2,
+                  mt: 1,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                    mt: 1,
+                  }}
+                >
                   • Fórmula especial hipoalergénica, de fácil absorción a base
                   de L-aminoácidos.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Apta como única fuente de alimentación en lactantes y como
                   suplemento en niños mayores.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Puede ser utilizada para realizar la dieta de eliminación.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene maltodextrinas y ácidos grasos poliinsaturados
                   (LCP).
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Con vitaminas, minerales, L-Glutamina y L-Acido Glutámico.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Libre de lactosa, sucrosa, fructosa, glucosa, galactosa y
                   almidón.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Totalmente libre de proteínas de leche de vaca, de soja, de
                   cereales (gluten y gliadina), de pollo e hidrolizados
                   proteicos.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Libre de agentes espesantes, saborizantes, colorantes,
                   edulcorantes y estabilizantes, químicos.
                 </Typography>
@@ -229,7 +287,15 @@ const Aminomed = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                  mt: 2,
+                }}
+              >
                 Lata por 400 g de polvo y cuchara dosificadora de 4,3 g. (2u x
                 50g c/u.).
               </Typography>

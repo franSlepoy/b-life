@@ -34,7 +34,7 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-               Comida Leu B Fórmula
+                Comida Leu B Fórmula
               </Typography>
               <Typography
                 sx={{
@@ -47,7 +47,10 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida Leu B Fórmula es una fórmula en polvo libre leucina para el tratamiento nutricional de hiperleucinemia (Ej: Acidemia Isovalérica) en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.
+                Comida Leu B Fórmula es una fórmula en polvo libre leucina para
+                el tratamiento nutricional de hiperleucinemia (Ej: Acidemia
+                Isovalérica) en niños mayores de 1 año de edad, adolescentes y
+                adultos. Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -67,20 +70,46 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Aporta aminoácidos de alto valor biológico
-
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Proporciona energía a partir de grasas e hidratos de carbono
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Suplementada con vitaminas, minerales y oligoelementos
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Fácil de preparar, buena solubilidad
                 </Typography>
-                
               </Box>
             </Box>
             <Box
@@ -141,9 +170,10 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-                 Comida Leu B Fórmula está indicado en el tratamiento nutricional de niños mayores de 1 año de edad, adolescentes y adultos con hiperleucinemia (Ej: Acidemia Isovalérica).
-                 EQUIVALENTE PROTEICO: 31 g de equivalente proteico por 100 g de polvo.
-
+                Comida Leu B Fórmula está indicado en el tratamiento nutricional
+                de niños mayores de 1 año de edad, adolescentes y adultos con
+                hiperleucinemia (Ej: Acidemia Isovalérica). EQUIVALENTE
+                PROTEICO: 31 g de equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -167,8 +197,10 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 15 % P/V (2 medidas de Comida Leu B Fórmula = 15 g de polvo + 90 cc de agua). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día. 
-
+                La dilución recomendada es del 15 % P/V (2 medidas de Comida Leu
+                B Fórmula = 15 g de polvo + 90 cc de agua). Se recomienda
+                distribuir la cantidad diaria indicada por el profesional en
+                varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -204,7 +236,17 @@ const ComidaLeuBFormula = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Lata por 500 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Lata por 500 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -259,7 +301,10 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida Leu B Fórmula es una fórmula en polvo libre leucina para el tratamiento nutricional de hiperleucinemia (Ej: Acidemia Isovalérica) en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.
+                Comida Leu B Fórmula es una fórmula en polvo libre leucina para
+                el tratamiento nutricional de hiperleucinemia (Ej: Acidemia
+                Isovalérica) en niños mayores de 1 año de edad, adolescentes y
+                adultos. Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -279,9 +324,8 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Aporta aminoácidos de alto valor biológico
-
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Proporciona energía a partir de grasas e hidratos de carbono
@@ -350,7 +394,10 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida Leu B Fórmula está indicado en el tratamiento nutricional de niños mayores de 1 año de edad, adolescentes y adultos con hiperleucinemia (Ej: Acidemia Isovalérica). EQUIVALENTE PROTEICO: 31 g de equivalente proteico por 100 g de polvo.
+                Comida Leu B Fórmula está indicado en el tratamiento nutricional
+                de niños mayores de 1 año de edad, adolescentes y adultos con
+                hiperleucinemia (Ej: Acidemia Isovalérica). EQUIVALENTE
+                PROTEICO: 31 g de equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -374,7 +421,10 @@ const ComidaLeuBFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 15 % P/V (2 medidas de Comida Leu B Fórmula = 15 g de polvo + 90 cc de agua). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
+                La dilución recomendada es del 15 % P/V (2 medidas de Comida Leu
+                B Fórmula = 15 g de polvo + 90 cc de agua). Se recomienda
+                distribuir la cantidad diaria indicada por el profesional en
+                varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

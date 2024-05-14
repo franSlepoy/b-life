@@ -34,7 +34,7 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-              GALLETAS MARINERAS
+                GALLETAS MARINERAS
               </Typography>
               <Typography
                 sx={{
@@ -47,8 +47,10 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-                Galletitas tipo marineras bajas en proteínas para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Galletitas tipo marineras bajas en proteínas para el tratamiento
+                nutricional de patologías que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -68,9 +70,18 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: manteca, almidón de maíz, agua, almidón de mandioca, almidón de trigo, harina de trigo enriquecida ley 25630, almidón modificado, polvo de hornear, goma xántica, goma guar, sal, CMC.
-
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Ingredientes: manteca, almidón de maíz, agua, almidón de
+                  mandioca, almidón de trigo, harina de trigo enriquecida ley
+                  25630, almidón modificado, polvo de hornear, goma xántica,
+                  goma guar, sal, CMC.
                 </Typography>
               </Box>
             </Box>
@@ -132,9 +143,12 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-               Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-               Precaución: Producto con alto contenido de sodio. Su uso en pacientes renales debe ser consultado previamente con el médico/nutricionista.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, mal de Parkinson (en
+                tratamiento con Levodopa) que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos. Precaución: Producto con
+                alto contenido de sodio. Su uso en pacientes renales debe ser
+                consultado previamente con el médico/nutricionista.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -199,8 +213,17 @@ const GalletasMarineras = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 150 g.
- </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 150 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -242,7 +265,7 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-               GALLETAS MARINERAS
+                GALLETAS MARINERAS
               </Typography>
               <Typography
                 sx={{
@@ -255,8 +278,10 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-                Galletitas tipo marineras bajas en proteínas para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Galletitas tipo marineras bajas en proteínas para el tratamiento
+                nutricional de patologías que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -277,8 +302,10 @@ const GalletasMarineras = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: manteca, almidón de maíz, agua, almidón de mandioca, almidón de trigo, harina de trigo enriquecida ley 25630, almidón modificado, polvo de hornear, goma xántica, goma guar, sal, CMC.
-
+                  • Ingredientes: manteca, almidón de maíz, agua, almidón de
+                  mandioca, almidón de trigo, harina de trigo enriquecida ley
+                  25630, almidón modificado, polvo de hornear, goma xántica,
+                  goma guar, sal, CMC.
                 </Typography>
               </Box>
             </Box>
@@ -338,12 +365,14 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, mal de Parkinson (en
+                tratamiento con Levodopa) que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>
-             {/*  <Typography
+              {/*  <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -403,7 +432,7 @@ const GalletasMarineras = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>  Envase por 150 g.</Typography>
+              <Typography> Envase por 150 g.</Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

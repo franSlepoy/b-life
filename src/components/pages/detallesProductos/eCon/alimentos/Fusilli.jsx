@@ -70,7 +70,14 @@ const Fusilli = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de maíz, fécula de papa, inulina,
                   cártamo, EMU: INS471.
                 </Typography>
@@ -196,7 +203,16 @@ const Fusilli = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Envase por 500 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Envase por 500 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

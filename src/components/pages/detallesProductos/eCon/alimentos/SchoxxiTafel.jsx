@@ -70,11 +70,25 @@ const SchoxxiTafel = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Azúcar, manteca de cacao, hidrolizado de arroz
                   en polvo, masa de cacao.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Puede contener soja, leche y nuez.
                 </Typography>
               </Box>
@@ -202,7 +216,17 @@ const SchoxxiTafel = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Barra por 100 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Barra por 100 g.{" "}
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

@@ -71,7 +71,14 @@ const FreegurFrutilla = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • INGREDIENTES: Almidón pregelatinizado, leche de coco en
                   polvo, maltodextrina, azúcar impalpable, fructosa, almidón de
                   papa, FOS, carbonato de calcio, sal, ARO: aromatizante
@@ -201,7 +208,17 @@ const FreegurFrutilla = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 180 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 180 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -281,8 +298,11 @@ const FreegurFrutilla = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • INGREDIENTES: Almidón pregelatinizado, leche de coco en polvo, maltodextrina, azúcar impalpable, fructosa, almidón de papa, FOS, carbonato de calcio, sal, ARO: aromatizante artificial sabor frutilla, ESP: pectina, ACI: ácido cítrico, EST: carboximetilcelulosa sódica, COL: INS 120, INS 150d. 
-
+                  • INGREDIENTES: Almidón pregelatinizado, leche de coco en
+                  polvo, maltodextrina, azúcar impalpable, fructosa, almidón de
+                  papa, FOS, carbonato de calcio, sal, ARO: aromatizante
+                  artificial sabor frutilla, ESP: pectina, ACI: ácido cítrico,
+                  EST: carboximetilcelulosa sódica, COL: INS 120, INS 150d.
                 </Typography>
               </Box>
             </Box>
@@ -342,8 +362,9 @@ const FreegurFrutilla = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo que requieran dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo que requieran dietas
+                restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -367,8 +388,8 @@ const FreegurFrutilla = () => {
                   mt: 2,
                 }}
               >
-                Mezclar 44 g de polvo con 100 cc de agua hasta espesar. Refrigerar 20 minutos y consumir dentro de las 24 hs. 
-
+                Mezclar 44 g de polvo con 100 cc de agua hasta espesar.
+                Refrigerar 20 minutos y consumir dentro de las 24 hs.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

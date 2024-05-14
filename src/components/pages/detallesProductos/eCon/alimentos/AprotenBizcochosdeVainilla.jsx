@@ -70,7 +70,14 @@ const AprotenBizcochosdeVainilla = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de maíz, fécula de mandioca, aceite
                   vegetal, azúcar, maltodextrina, jarabe de glucosa, miel, RAI:
                   INS503ii, ESP: INS440, EMU: INS322, saborizante a vainilla
@@ -200,7 +207,17 @@ const AprotenBizcochosdeVainilla = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envases por 180 g/ 1 unidad= 6,5 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envases por 180 g/ 1 unidad= 6,5 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

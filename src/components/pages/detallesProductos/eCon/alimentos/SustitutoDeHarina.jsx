@@ -70,7 +70,14 @@ const SustitutoDeHarina = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de trigo, almidón de maíz, almidón de
                   mandioca, harina de trigo enriquecida ley 25630, almidón
                   modificado, goma xántica, goma guar, CMC.
@@ -203,7 +210,17 @@ const SustitutoDeHarina = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Bolsa por 1 kg. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Bolsa por 1 kg.{" "}
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -258,8 +275,10 @@ const SustitutoDeHarina = () => {
                   mt: 2,
                 }}
               >
-                Premezcla baja en proteínas para elaborar todo tipo de amasados dulces y salados para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Premezcla baja en proteínas para elaborar todo tipo de amasados
+                dulces y salados para el tratamiento nutricional de patologías
+                que requieren dietas restringidas en el aporte de proteínas y
+                aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -280,10 +299,10 @@ const SustitutoDeHarina = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Almidón de trigo, almidón de maíz, almidón de mandioca, harina de trigo enriquecida ley 25630, almidón modificado, goma xántica, goma guar, CMC.
-
+                  • Ingredientes: Almidón de trigo, almidón de maíz, almidón de
+                  mandioca, harina de trigo enriquecida ley 25630, almidón
+                  modificado, goma xántica, goma guar, CMC.
                 </Typography>
-                
               </Box>
             </Box>
             <Box
@@ -342,8 +361,10 @@ const SustitutoDeHarina = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, insuficiencia renal crónica, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, insuficiencia renal crónica,
+                mal de Parkinson (en tratamiento con Levodopa) que requieren
+                dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>

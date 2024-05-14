@@ -70,7 +70,14 @@ const ZeroproMuffinsyTortas = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Azúcar impalpable, almidón de trigo, almidón
                   de maíz, fécula de mandioca, harina de trigo enriquecida (*),
                   almidón modificado, ARO: aromatizante artificial de vainilla,
@@ -207,7 +214,17 @@ const ZeroproMuffinsyTortas = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Paquete por 300 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Paquete por 300 g.{" "}
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

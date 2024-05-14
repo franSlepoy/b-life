@@ -34,7 +34,7 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-               FREEGUR VAINILLA
+                FREEGUR VAINILLA
               </Typography>
               <Typography
                 sx={{
@@ -47,8 +47,11 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                Premezcla a base de maltodextrina, almidón y azúcar impalpable, para preparar postre sabor vainilla. Freegur vainilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Premezcla a base de maltodextrina, almidón y azúcar impalpable,
+                para preparar postre sabor vainilla. Freegur vainilla tiene bajo
+                contenido proteico para el tratamiento nutricional de patologías
+                que requieran dietas restringidas en el aporte de proteínas y
+                aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -68,9 +71,19 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche de coco en polvo, azúcar impalpable, fructosa, almidón de papa, FOS, carbonato de calcio, sal, ARO: aromatizante artificial sabor vainilla, ACI: ácido cítrico, EST: carboximetilcelulosa sódica, carragenina, COL: INS 150d.
-
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche
+                  de coco en polvo, azúcar impalpable, fructosa, almidón de
+                  papa, FOS, carbonato de calcio, sal, ARO: aromatizante
+                  artificial sabor vainilla, ACI: ácido cítrico, EST:
+                  carboximetilcelulosa sódica, carragenina, COL: INS 150d.
                 </Typography>
               </Box>
             </Box>
@@ -132,8 +145,9 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo que requieran dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo que requieran dietas
+                restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -157,8 +171,8 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                Mezclar 44 g de polvo con 100 cc de agua hasta espesar. Refrigerar 20 minutos y consumir dentro de las 24 hs. 
-
+                Mezclar 44 g de polvo con 100 cc de agua hasta espesar.
+                Refrigerar 20 minutos y consumir dentro de las 24 hs.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -194,7 +208,17 @@ const FreegurVainilla = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 180 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 180 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -236,7 +260,7 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-           FREEGUR VAINILLA
+                FREEGUR VAINILLA
               </Typography>
               <Typography
                 sx={{
@@ -249,8 +273,11 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                Premezcla a base de maltodextrina, almidón y azúcar impalpable, para preparar postre sabor vainilla. Freegur vainilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Premezcla a base de maltodextrina, almidón y azúcar impalpable,
+                para preparar postre sabor vainilla. Freegur vainilla tiene bajo
+                contenido proteico para el tratamiento nutricional de patologías
+                que requieran dietas restringidas en el aporte de proteínas y
+                aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -271,9 +298,11 @@ const FreegurVainilla = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche de coco en polvo, azúcar impalpable, fructosa, almidón de papa, FOS, carbonato de calcio, sal, ARO: aromatizante artificial sabor vainilla, ACI: ácido cítrico, EST: carboximetilcelulosa sódica, carragenina, COL: INS 150d.
-
-
+                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche
+                  de coco en polvo, azúcar impalpable, fructosa, almidón de
+                  papa, FOS, carbonato de calcio, sal, ARO: aromatizante
+                  artificial sabor vainilla, ACI: ácido cítrico, EST:
+                  carboximetilcelulosa sódica, carragenina, COL: INS 150d.
                 </Typography>
               </Box>
             </Box>
@@ -333,9 +362,9 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo que requieran dietas restringidas en el aporte de proteínas y aminoácidos.
-
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo que requieran dietas
+                restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -359,9 +388,8 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                 Mezclar 44 g de polvo con 100 cc de agua hasta espesar. Refrigerar 20 minutos y consumir dentro de las 24 hs. 
-
-
+                Mezclar 44 g de polvo con 100 cc de agua hasta espesar.
+                Refrigerar 20 minutos y consumir dentro de las 24 hs.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

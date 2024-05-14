@@ -70,12 +70,26 @@ const AprotenFrollinoAllaPanna = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de maíz, margarina vegetal, azúcar,
                   crema, huevo, malta, saborizante a leche, RAI: INS 503ii, ACI:
                   INS 330.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene huevo y derivados de leche y cebada.
                 </Typography>
               </Box>
@@ -199,7 +213,17 @@ const AprotenFrollinoAllaPanna = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envases por 180 g/ 1 unidad = 6,5 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envases por 180 g/ 1 unidad = 6,5 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

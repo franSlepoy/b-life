@@ -72,11 +72,25 @@ const AprotenHarina = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de trigo, fécula de papa, almidón de
                   maíz, dextrosa, ESP: INS460, INS464.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene derivados de trigo.
                 </Typography>
               </Box>
@@ -201,7 +215,17 @@ const AprotenHarina = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -346,8 +370,10 @@ const AprotenHarina = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, insuficiencia renal crónica, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, insuficiencia renal crónica,
+                mal de Parkinson (en tratamiento con Levodopa) que requieren
+                dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>

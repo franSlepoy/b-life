@@ -71,7 +71,14 @@ const Freechees = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • INGREDIENTES: Fécula de maíz, maltodextrina de maíz, almidón
                   de papa, sal, carbonato de calcio, EST: carragenina,
                   carboximetilcelulosa sódica, ARO: aromatizante artificial

@@ -70,12 +70,26 @@ const AprotenObleasDeVainilla = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de papa, azúcar, grasa vegetal no
                   hidrogenada, dextrosa, harina de maíz, EMU: INS322, RAI: INS
                   500i, ESP: INS 412, ARO: vainillín.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene derivados de soja.
                 </Typography>
               </Box>
@@ -90,7 +104,11 @@ const AprotenObleasDeVainilla = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/aprotenObleasDeVainilla.png" alt="" />
+                <img
+                  height={"300px"}
+                  src="/aprotenObleasDeVainilla.png"
+                  alt=""
+                />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -199,7 +217,17 @@ const AprotenObleasDeVainilla = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envases por 175 g/ 1 unidad= 7g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envases por 175 g/ 1 unidad= 7g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -295,7 +323,11 @@ const AprotenObleasDeVainilla = () => {
               }}
             >
               <Box textAlign={"center"}>
-                <img height={"300px"} src="/aprotenObleasDeVainilla.png" alt="" />
+                <img
+                  height={"300px"}
+                  src="/aprotenObleasDeVainilla.png"
+                  alt=""
+                />
               </Box>
 
               <Box m={"auto"}>
@@ -343,8 +375,10 @@ const AprotenObleasDeVainilla = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, insuficiencia renal crónica, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, insuficiencia renal crónica,
+                mal de Parkinson (en tratamiento con Levodopa) que requieren
+                dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>

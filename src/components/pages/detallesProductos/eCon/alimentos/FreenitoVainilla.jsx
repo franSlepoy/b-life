@@ -71,7 +71,14 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Azúcar impalpable, fécula de maíz,
                   maltodextrina de maíz, fructosa, almidón de papa, carbonato de
                   calcio, sal; ARO: aromatizante artificial sabor vainilla, ESP:
@@ -202,7 +209,17 @@ const FreenitoVainilla = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 175 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 175 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -244,7 +261,7 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-             FREENITO VAINILLA
+                FREENITO VAINILLA
               </Typography>
               <Typography
                 sx={{
@@ -257,8 +274,11 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-                Premezcla a base de azúcar impalpable, fécula de maíz y almidón de papa, para preparar postre sabor vainilla. Freenito vainilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Premezcla a base de azúcar impalpable, fécula de maíz y almidón
+                de papa, para preparar postre sabor vainilla. Freenito vainilla
+                tiene bajo contenido proteico para el tratamiento nutricional de
+                patologías que requieran dietas restringidas en el aporte de
+                proteínas y aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -279,8 +299,11 @@ const FreenitoVainilla = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Azúcar impalpable, fécula de maíz, maltodextrina de maíz, fructosa, almidón de papa, carbonato de calcio, sal; ARO: aromatizante artificial sabor vainilla, ESP: pectina, COL: colorante caramelo IV, EST: carboximetilcelulosa sódica, carragenina, ACI: ácido cítrico.
-
+                  • Ingredientes: Azúcar impalpable, fécula de maíz,
+                  maltodextrina de maíz, fructosa, almidón de papa, carbonato de
+                  calcio, sal; ARO: aromatizante artificial sabor vainilla, ESP:
+                  pectina, COL: colorante caramelo IV, EST: carboximetilcelulosa
+                  sódica, carragenina, ACI: ácido cítrico.
                 </Typography>
               </Box>
             </Box>
@@ -340,8 +363,9 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo que requieran dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo que requieran dietas
+                restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -365,8 +389,9 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-                Mezclar 35 g de polvo con 100 cc de agua. Cocinar a fuego lento hasta el primer hervor. Poner en moldes y refrigerar hasta que solidifique. Consumir dentro de las 24 hs. 
-
+                Mezclar 35 g de polvo con 100 cc de agua. Cocinar a fuego lento
+                hasta el primer hervor. Poner en moldes y refrigerar hasta que
+                solidifique. Consumir dentro de las 24 hs.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
@@ -404,7 +429,7 @@ const FreenitoVainilla = () => {
                 FORMA DE PRESENTACIÓN:
               </Typography>
               <Typography> Envase por 175 g.</Typography>
-             {/*  <Typography
+              {/*  <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",

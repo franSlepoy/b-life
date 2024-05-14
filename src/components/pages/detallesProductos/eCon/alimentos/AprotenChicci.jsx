@@ -70,7 +70,14 @@ const AprotenChicci = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de arroz, almidón de maíz, fécula de
                   papa, inulina, COL: INS170i, EMU: INS471.
                 </Typography>
@@ -86,11 +93,7 @@ const AprotenChicci = () => {
               }}
             >
               <Box>
-                <img
-                  height={"300px"}
-                  src="/aprotenChicci.png"
-                  alt=""
-                />
+                <img height={"300px"} src="/aprotenChicci.png" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -200,7 +203,16 @@ const AprotenChicci = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Envase por 500 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Envase por 500 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -292,11 +304,7 @@ const AprotenChicci = () => {
               }}
             >
               <Box textAlign={"center"}>
-                <img
-                  height={"300px"}
-                  src="/aprotenChicci.png"
-                  alt=""
-                />
+                <img height={"300px"} src="/aprotenChicci.png" alt="" />
               </Box>
 
               <Box m={"auto"}>
@@ -348,7 +356,8 @@ const AprotenChicci = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-              </Typography>TIEMPO DE COCCIÓN: 9 minutos.
+              </Typography>
+              TIEMPO DE COCCIÓN: 9 minutos.
             </Box>
             <Box width={"100%"}>
               {/* <Typography

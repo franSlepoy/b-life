@@ -51,7 +51,7 @@ import KansoDeliMCTCacaoBiscuits from "./components/pages/detallesProductos/tera
 import Aproten from "./components/pages/detallesProductos/eCon/alimentos/Aproten";
 import AprotenBizcochosdeCacao from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeCacao";
 import AprotenBizcochosdeFruta from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeFruta";
-import AprotenBizcochosdeVainilla from "./components/pages/detallesProductos/eCon/alimentos/aprotenBizcochosdeVainilla";
+import AprotenBizcochosdeVainilla from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeVainilla";
 import AprotenChicci from "./components/pages/detallesProductos/eCon/alimentos/AprotenChicci";
 import AprotenFetasTostadas from "./components/pages/detallesProductos/eCon/alimentos/AprotenFetasTostadas";
 import Fusilli from "./components/pages/detallesProductos/eCon/alimentos/Fusilli";
@@ -79,7 +79,7 @@ import Arroz from "./components/pages/detallesProductos/eCon/alimentos/Arroz";
 import BurgerMix1 from "./components/pages/detallesProductos/eCon/alimentos/BurgerMix1";
 import Chocotino from "./components/pages/detallesProductos/eCon/alimentos/Chocotino";
 import Ditali from "./components/pages/detallesProductos/eCon/alimentos/Ditali";
-import FruitBar from "./components/pages/detallesProductos/eCon/alimentos/fruitBar";
+import FruitBar from "./components/pages/detallesProductos/eCon/alimentos/FruitBar";
 import Penne1 from "./components/pages/detallesProductos/eCon/alimentos/Penne1";
 import Spaghetti from "./components/pages/detallesProductos/eCon/alimentos/Spaghetti";
 import ZeroproMuffinsyTortas from "./components/pages/detallesProductos/eCon/alimentos/ZeroproMuffinsyTortas";
@@ -88,6 +88,7 @@ import SustitutoDeHuevo from "./components/pages/detallesProductos/eCon/alimento
 import SustitutoDeQueso from "./components/pages/detallesProductos/eCon/alimentos/SustitutoDeQueso";
 import ZeroproBrownies from "./components/pages/detallesProductos/eCon/alimentos/ZeroproBrownies";
 import SustitutoDeHarina from "./components/pages/detallesProductos/eCon/alimentos/SustitutoDeHarina";
+import AminomedPremium from "./components/pages/detallesProductos/aplv/AminomedPremium";
 
 function App() {
   const location = useLocation();
@@ -123,6 +124,7 @@ function App() {
           <Route path="/Cetoil" element={<Modulos1 />} />
           <Route path="/MCTFiber" element={<Modulos2 />} />
           <Route path="/Aminomed" element={<Aminomed />} />
+          <Route path="/AminomedPremium" element={<AminomedPremium />} />
           <Route path="/EssentialCareJr" element={<Essential />} />
           <Route path="/comidaGAcAFormula" element={<ComidaGAcAFormula />} />
           <Route path="/comidaGAcBFormula" element={<ComidaGAcBFormula />} />

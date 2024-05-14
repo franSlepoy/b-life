@@ -70,7 +70,14 @@ const Aproten = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • ngredientes: Almidón de maíz, fécula de papa, inulina,
                   cártamo, EMU: INS471.
                 </Typography>
@@ -201,8 +208,18 @@ const Aproten = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>  Envase por 500 g.</Typography>
-             {/* sin sabor  <Typography
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.
+              </Typography>
+              {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",

@@ -70,13 +70,27 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de maíz, margarina vegetal, azúcar,
                   gotas de chocolate amargo (pasta de cacao, azúcar, manteca de
                   cacao, EMU: INS 322), crema, huevo, saborizante artificial a
                   leche en polvo, RAI: INS 503ii, ACI: INS 330 .
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene huevo y derivados de leche y soja.
                 </Typography>
               </Box>
@@ -91,7 +105,11 @@ const AprotenFrollinoGocceDiCioccolato = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/aprotenFrollinoGocceDiCioccolato.png" alt="" />
+                <img
+                  height={"300px"}
+                  src="/aprotenFrollinoGocceDiCioccolato.png"
+                  alt=""
+                />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -200,7 +218,16 @@ const AprotenFrollinoGocceDiCioccolato = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Envase por 180 g/ 1 unidad = 7g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Envase por 180 g/ 1 unidad = 7g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -297,7 +324,11 @@ const AprotenFrollinoGocceDiCioccolato = () => {
               }}
             >
               <Box textAlign={"center"}>
-                <img height={"300px"} src="/aprotenFrollinoGocceDiCioccolato.png" alt="" />
+                <img
+                  height={"300px"}
+                  src="/aprotenFrollinoGocceDiCioccolato.png"
+                  alt=""
+                />
               </Box>
 
               <Box m={"auto"}>

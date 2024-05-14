@@ -34,7 +34,7 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-           BURGER MIX
+                BURGER MIX
               </Typography>
               <Typography
                 sx={{
@@ -47,8 +47,10 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-               Premezcla para preparar hamburguesas bajas en proteínas a base de almidón de maíz y papa ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Premezcla para preparar hamburguesas bajas en proteínas a base
+                de almidón de maíz y papa ideal para el tratamiento nutricional
+                de patologías que requieren dietas restringidas en el aporte de
+                proteínas y aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -68,13 +70,31 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Almidón de maíz, almidón de trigo, aceite vegetal hidrogenado, almidón de maíz modificado, fécula de papa modificada, repollo rojo, aceite de colza, cebolla deshidratada, zanahoria deshidratada, ajo en polvo, sal, mezcla de hierbas, levadura, azúcar, polvo de hornear, pimienta negra. EST: INS461, ARO: saborizante artificial a carne, COL: INS150, INS160a, EMU: INS471, ANT: INS30. 
-
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Ingredientes: Almidón de maíz, almidón de trigo, aceite
+                  vegetal hidrogenado, almidón de maíz modificado, fécula de
+                  papa modificada, repollo rojo, aceite de colza, cebolla
+                  deshidratada, zanahoria deshidratada, ajo en polvo, sal,
+                  mezcla de hierbas, levadura, azúcar, polvo de hornear,
+                  pimienta negra. EST: INS461, ARO: saborizante artificial a
+                  carne, COL: INS150, INS160a, EMU: INS471, ANT: INS30.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene derivados de leche. 
-
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Contiene derivados de leche.
                 </Typography>
               </Box>
             </Box>
@@ -136,9 +156,12 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-                Precaución: Producto con alto contenido de sodio. Su uso en pacientes renales debe ser consultado previamente con el médico/nutricionista.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, mal de Parkinson (en
+                tratamiento con Levodopa) que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos. Precaución: Producto con
+                alto contenido de sodio. Su uso en pacientes renales debe ser
+                consultado previamente con el médico/nutricionista.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -162,8 +185,10 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-                Verter el contenido de un sobre en un bowl con 100 cc de agua potable. Mezclar y dejar reposar 10 minutos. Armar las hamburguesas. Cocer a la plancha o freidora 2 a 3 minutos por lado.
-
+                Verter el contenido de un sobre en un bowl con 100 cc de agua
+                potable. Mezclar y dejar reposar 10 minutos. Armar las
+                hamburguesas. Cocer a la plancha o freidora 2 a 3 minutos por
+                lado.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -199,7 +224,17 @@ const BurgerMix = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>  4 x 62 g (248 g).</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                4 x 62 g (248 g).
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -241,7 +276,7 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-               BURGER MIX
+                BURGER MIX
               </Typography>
               <Typography
                 sx={{
@@ -254,8 +289,10 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-                Premezcla para preparar hamburguesas bajas en proteínas a base de almidón de maíz y papa ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Premezcla para preparar hamburguesas bajas en proteínas a base
+                de almidón de maíz y papa ideal para el tratamiento nutricional
+                de patologías que requieren dietas restringidas en el aporte de
+                proteínas y aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -275,13 +312,17 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Almidón de maíz, almidón de trigo, aceite vegetal hidrogenado, almidón de maíz modificado, fécula de papa modificada, repollo rojo, aceite de colza, cebolla deshidratada, zanahoria deshidratada, ajo en polvo, sal, mezcla de hierbas, levadura, azúcar, polvo de hornear, pimienta negra. EST: INS461, ARO: saborizante artificial a carne, COL: INS150, INS160a, EMU: INS471, ANT: INS30. 
-
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • Ingredientes: Almidón de maíz, almidón de trigo, aceite
+                  vegetal hidrogenado, almidón de maíz modificado, fécula de
+                  papa modificada, repollo rojo, aceite de colza, cebolla
+                  deshidratada, zanahoria deshidratada, ajo en polvo, sal,
+                  mezcla de hierbas, levadura, azúcar, polvo de hornear,
+                  pimienta negra. EST: INS461, ARO: saborizante artificial a
+                  carne, COL: INS150, INS160a, EMU: INS471, ANT: INS30.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene derivados de leche. 
-
+                  • Contiene derivados de leche.
                 </Typography>
               </Box>
             </Box>
@@ -341,8 +382,10 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-               Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, mal de Parkinson (en
+                tratamiento con Levodopa) que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -366,8 +409,10 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-                Verter el contenido de un sobre en un bowl con 100 cc de agua potable. Mezclar y dejar reposar 10 minutos. Armar las hamburguesas. Cocer a la plancha o freidora 2 a 3 minutos por lado.
-
+                Verter el contenido de un sobre en un bowl con 100 cc de agua
+                potable. Mezclar y dejar reposar 10 minutos. Armar las
+                hamburguesas. Cocer a la plancha o freidora 2 a 3 minutos por
+                lado.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

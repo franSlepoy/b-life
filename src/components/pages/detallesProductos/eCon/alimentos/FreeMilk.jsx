@@ -69,7 +69,14 @@ const FreeMilk = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Maltodextrina, fructosa, almidón de papa,
                   sacarosa, FOS (Fructooligosacáridos), oligofructosa, calcio
                   (como carbonato de calcio), suplemento dietario a base de
@@ -201,7 +208,14 @@ const FreeMilk = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
                 {" "}
                 Caja por 600 g de polvo y cuchara dosificadora de 8,3 g.
               </Typography>
@@ -412,9 +426,11 @@ const FreeMilk = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>  Caja por 600 g de polvo y cuchara dosificadora de 8,3 g.
-</Typography>
-               <Typography
+              <Typography>
+                {" "}
+                Caja por 600 g de polvo y cuchara dosificadora de 8,3 g.
+              </Typography>
+              <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -434,7 +450,7 @@ const FreeMilk = () => {
                 }}
               >
                 Neutro.
-              </Typography> 
+              </Typography>
             </Box>
           </Box>
         </Box>

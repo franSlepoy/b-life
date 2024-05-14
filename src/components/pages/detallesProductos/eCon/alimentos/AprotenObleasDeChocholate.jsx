@@ -34,7 +34,7 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-              OBLEAS DE CHOCOLATE
+                OBLEAS DE CHOCOLATE
               </Typography>
               <Typography
                 sx={{
@@ -47,8 +47,10 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-               Obleas de chocolate de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Obleas de chocolate de bajo contenido proteico para el
+                tratamiento nutricional de patologías que requieren dietas
+                restringidas en el aporte de proteínas y aminoácidos. Alimento
+                para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -68,14 +70,29 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Almidón de papa, azúcar, grasa vegetal no  hidrogenada, maltodextrina, cacao desgrasada, pasta de avellana, harina de maíz amarillo, EMU: INS 322, ESP: INS 412, RAI: INS 500i, ARO: vainillín, aromatizante a cacao, aromatizante a avellana. 
-
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Ingredientes: Almidón de papa, azúcar, grasa vegetal no
+                  hidrogenada, maltodextrina, cacao desgrasada, pasta de
+                  avellana, harina de maíz amarillo, EMU: INS 322, ESP: INS 412,
+                  RAI: INS 500i, ARO: vainillín, aromatizante a cacao,
+                  aromatizante a avellana.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene derivados de avellana y soja. 
-
-
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Contiene derivados de avellana y soja.
                 </Typography>
               </Box>
             </Box>
@@ -137,10 +154,11 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, insuficiencia renal crónica, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, insuficiencia renal crónica,
+                mal de Parkinson (en tratamiento con Levodopa) que requieren
+                dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
-             
             </Box>
             <Box ml={3} width={"33.3%"}>
               {/*  <Typography
@@ -197,7 +215,17 @@ const AprotenObleasDeChocholate = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>  Envases por 175 g/ 1 unidad= 7g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envases por 175 g/ 1 unidad= 7g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -239,7 +267,7 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-               OBLEAS DE CHOCOLATE
+                OBLEAS DE CHOCOLATE
               </Typography>
               <Typography
                 sx={{
@@ -252,8 +280,10 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-                Obleas de chocolate de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Obleas de chocolate de bajo contenido proteico para el
+                tratamiento nutricional de patologías que requieren dietas
+                restringidas en el aporte de proteínas y aminoácidos. Alimento
+                para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -273,16 +303,16 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-<Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Almidón de papa, azúcar, grasa vegetal no  hidrogenada, maltodextrina, cacao desgrasada, pasta de avellana, harina de maíz amarillo, EMU: INS 322, ESP: INS 412, RAI: INS 500i, ARO: vainillín, aromatizante a cacao, aromatizante a avellana. 
-
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • Ingredientes: Almidón de papa, azúcar, grasa vegetal no
+                  hidrogenada, maltodextrina, cacao desgrasada, pasta de
+                  avellana, harina de maíz amarillo, EMU: INS 322, ESP: INS 412,
+                  RAI: INS 500i, ARO: vainillín, aromatizante a cacao,
+                  aromatizante a avellana.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene derivados de avellana y soja. 
-
-
+                  • Contiene derivados de avellana y soja.
                 </Typography>
-
               </Box>
             </Box>
             <Box
@@ -341,10 +371,11 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, insuficiencia renal crónica, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, insuficiencia renal crónica,
+                mal de Parkinson (en tratamiento con Levodopa) que requieren
+                dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
-              
             </Box>
             <Box width={"100%"}>
               {/* <Typography
@@ -401,7 +432,7 @@ const AprotenObleasDeChocholate = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>  Envases por 175 g/ 1 unidad= 7g.</Typography>
+              <Typography> Envases por 175 g/ 1 unidad= 7g.</Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

@@ -73,7 +73,14 @@ const BurgerMix1 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de trigo, almidón de maíz, dextrosa,
                   psyllium, margarina, azúcar, agua, levadura, zanahoria
                   deshidratada, azúcar quemada, perejil, extracto de tomate,
@@ -81,7 +88,14 @@ const BurgerMix1 = () => {
                   464, INS 412, INS 410, RAI: INS 500ii, INS 575, EMU: INS 471,
                   ARO: saborizantes naturales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene derivados de trigo.
                 </Typography>
               </Box>
@@ -211,7 +225,17 @@ const BurgerMix1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 350 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 350 g.{" "}
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

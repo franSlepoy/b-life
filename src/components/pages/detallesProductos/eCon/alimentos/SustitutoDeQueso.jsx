@@ -65,7 +65,14 @@ const SustitutoDeQueso = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de maíz, crema de leche al 40%, aceite
                   vegetal Bio esterificado, sal fina, saborizante de queso
                   parmesano.
@@ -200,7 +207,17 @@ const SustitutoDeQueso = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Paquete por 200 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Paquete por 200 g.{" "}
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -341,8 +358,10 @@ const SustitutoDeQueso = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos.
-
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo, mal de Parkinson (en
+                tratamiento con Levodopa) que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box width={"100%"}>

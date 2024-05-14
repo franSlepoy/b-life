@@ -72,22 +72,57 @@ const XPheJump20 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Óptimo balance de aminoácidos, carbohidratos, vitaminas,
                   minerales y elementos traza.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene ácido docosahexaenoico (DHA), a fin de evitar la
                   deficiencia de ácidos grasos esenciales.
                 </Typography>
 
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Posee un muy buen aporte de calcio.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Fórmula líquida de bajo volumen, lista para beber.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Puede combinarse con otros productos.
                 </Typography>
               </Box>
@@ -216,7 +251,17 @@ const XPheJump20 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Caja por 30 sachets de 125 cc c/u.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Caja por 30 sachets de 125 cc c/u.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -458,7 +503,7 @@ const XPheJump20 = () => {
                   fontFamily: "Lato",
                 }}
               >
-              Naranja.
+                Naranja.
               </Typography>
             </Box>
           </Box>

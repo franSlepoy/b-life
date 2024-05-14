@@ -70,12 +70,26 @@ const AprotenBizcochosdeCacao = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de maíz, aceite de girasol, cacao en
                   polvo, inulina, EDU: INS965, EMU: INS322, aromatizante natural
                   a cacao, RAI: INS503i, INS500i.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene soja. Puede contener huevo y leche.
                 </Typography>
               </Box>
@@ -203,7 +217,16 @@ const AprotenBizcochosdeCacao = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>vase por 180 g/ 1 unidad = 6 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                vase por 180 g/ 1 unidad = 6 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

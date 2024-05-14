@@ -70,12 +70,26 @@ const AprotenPanBizcochado = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de trigo, almidón de arroz, margarina,
                   miel, levadura, inulina, ESP: INS410, INS412, EMU: INS471,
                   EST: INS420.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene trigo. Puede contener leche, huevo, nueces, soja y
                   sésamo.
                 </Typography>
@@ -91,11 +105,7 @@ const AprotenPanBizcochado = () => {
               }}
             >
               <Box>
-                <img
-                  height={"300px"}
-                  src="/aprotenPanBizcochado.png"
-                  alt=""
-                />
+                <img height={"300px"} src="/aprotenPanBizcochado.png" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -204,7 +214,16 @@ const AprotenPanBizcochado = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Envase por 280 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Envase por 280 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -301,11 +320,7 @@ const AprotenPanBizcochado = () => {
               }}
             >
               <Box textAlign={"center"}>
-                <img
-                  height={"300px"}
-                  src="/aprotenPanBizcochado.png"
-                  alt=""
-                />
+                <img height={"300px"} src="/aprotenPanBizcochado.png" alt="" />
               </Box>
 
               <Box m={"auto"}>
@@ -414,7 +429,7 @@ const AprotenPanBizcochado = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>  Envase por 280 g.</Typography>
+              <Typography> Envase por 280 g.</Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

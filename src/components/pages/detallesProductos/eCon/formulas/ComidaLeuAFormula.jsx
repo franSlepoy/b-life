@@ -70,21 +70,56 @@ const ComidaLeuAFormula = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Aporta aminoácidos de alto valor biológico.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene lactosa.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene ácidos grasos poliinsaturados de cadena larga (LCP)
                   particularmente importantes para un adecuado desarrollo
                   cognitivo y visual.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Suplementada con vitaminas, minerales y oligoelementos.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Fácil de preparar, buena solubilidad.
                 </Typography>
               </Box>
@@ -366,7 +401,10 @@ const ComidaLeuAFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida Leu A Fórmula está indicado en el tratamiento nutricional de lactantes de 0 a 1 año de edad con hiperleucemia (Ej: Acidemia Isovalérica). EQUIVALENTE PROTEICO: 12 g de equivalente proteico por 100 g de polvo.
+                Comida Leu A Fórmula está indicado en el tratamiento nutricional
+                de lactantes de 0 a 1 año de edad con hiperleucemia (Ej:
+                Acidemia Isovalérica). EQUIVALENTE PROTEICO: 12 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -390,7 +428,10 @@ const ComidaLeuAFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 13 % P/V (3 medidas de Comida Leu A Fórmula = 13 g de polvo + 90 cc de agua). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
+                La dilución recomendada es del 13 % P/V (3 medidas de Comida Leu
+                A Fórmula = 13 g de polvo + 90 cc de agua). Se recomienda
+                distribuir la cantidad diaria indicada por el profesional en
+                varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

@@ -70,13 +70,27 @@ const SaltSticks = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: INGREDIENTES: Almidón de maíz, sal gruesa,
                   almidón de trigo, aceite de colza, fibra de papa, azúcar,
                   levadura, ESP: INS412, INS464, RAI: INS500ii, INS503ii, EMU:
                   INS471, INS322, ACI: INS575 .
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene derivados de trigo.
                 </Typography>
               </Box>
@@ -204,7 +218,17 @@ const SaltSticks = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Bolsa por 70 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Bolsa por 70 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -259,8 +283,10 @@ const SaltSticks = () => {
                   mt: 2,
                 }}
               >
-                Palitos salados tipo pretzels bajos en proteínas ideales para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
-
+                Palitos salados tipo pretzels bajos en proteínas ideales para el
+                tratamiento nutricional de patologías que requieren dietas
+                restringidas en el aporte de proteínas y aminoácidos. Alimento
+                para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -281,12 +307,13 @@ const SaltSticks = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: INGREDIENTES: Almidón de maíz, sal gruesa, almidón de trigo, aceite de colza, fibra de papa, azúcar, levadura, ESP: INS412, INS464, RAI: INS500ii, INS503ii, EMU: INS471, INS322, ACI: INS575 . 
-
+                  • Ingredientes: INGREDIENTES: Almidón de maíz, sal gruesa,
+                  almidón de trigo, aceite de colza, fibra de papa, azúcar,
+                  levadura, ESP: INS412, INS464, RAI: INS500ii, INS503ii, EMU:
+                  INS471, INS322, ACI: INS575 .
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene derivados de trigo. 
-
+                  • Contiene derivados de trigo.
                 </Typography>
               </Box>
             </Box>

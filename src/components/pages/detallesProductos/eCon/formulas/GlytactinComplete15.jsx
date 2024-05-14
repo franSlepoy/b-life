@@ -71,13 +71,34 @@ const GlytactinComplete15 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene GMP.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Nutricionalmente completa en micro y macronutrientes.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Lista para consumir.
                 </Typography>
               </Box>
@@ -206,7 +227,17 @@ const GlytactinComplete15 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Caja por 7 barras de 81g c/u.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Caja por 7 barras de 81g c/u.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -416,10 +447,7 @@ const GlytactinComplete15 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>
-              Caja por 7 barras de 81g c/u.
-
-              </Typography>
+              <Typography>Caja por 7 barras de 81g c/u.</Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -439,7 +467,7 @@ const GlytactinComplete15 = () => {
                   fontFamily: "Lato",
                 }}
               >
-               Fruit frenzy y peanut butter.
+                Fruit frenzy y peanut butter.
               </Typography>
             </Box>
           </Box>

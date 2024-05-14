@@ -72,7 +72,14 @@ const FruitBar = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Relleno de frutilla (puré de frutilla, jarabe
                   de glucosa-fructosa, azúcar, aceite de palma, fibra de bambú,
                   jugo de zanahoria concentrado, edulcorante: glicerina,
@@ -211,7 +218,17 @@ const FruitBar = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase x 125 g (5 x 25 g). </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase x 125 g (5 x 25 g).{" "}
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

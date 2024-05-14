@@ -1,7 +1,7 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import Footer from "../../../../common/footer/Footer";
 
-const AprotenBizcochosdeFruta= () => {
+const AprotenBizcochosdeFruta = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
     const pdfURL = "/Aproten.pdf";
@@ -70,13 +70,27 @@ const AprotenBizcochosdeFruta= () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Almidón de maíz, aceite de girasol, azúcar,
                   maltodextrina, miel, escamas de arándanos, jugo deshidratado
                   de arándanos. EMU: INS322, saborizantes naturales, RAI:
                   INS503ii, INS500ii.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene soja. Puede contener huevo y leche.
                 </Typography>
               </Box>
@@ -204,7 +218,12 @@ const AprotenBizcochosdeFruta= () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envases por 180 g / 1 unidad = 6 g.</Typography>
+              <Typography sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}> Envases por 180 g / 1 unidad = 6 g.</Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -415,7 +434,7 @@ const AprotenBizcochosdeFruta= () => {
                 FORMA DE PRESENTACIÓN:
               </Typography>
               <Typography> Envases por 180 g / 1 unidad = 6 g.</Typography>
-             {/*  <Typography
+              {/*  <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
