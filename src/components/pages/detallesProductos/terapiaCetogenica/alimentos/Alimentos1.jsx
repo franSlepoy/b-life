@@ -207,7 +207,16 @@ const Alimentos1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Caja de 100g (2u x 50g c/u.).</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Caja de 100g (2u x 50g c/u.).
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -228,7 +237,6 @@ const Alimentos1 = () => {
                 }}
               >
                 Chocolate.
-
               </Typography>
             </Box>
           </Box>
@@ -264,7 +272,6 @@ const Alimentos1 = () => {
                 }}
               >
                 Producto a base de cacao para dietas especiales.
-
               </Typography>
               <Typography
                 sx={{
@@ -359,8 +366,10 @@ const Alimentos1 = () => {
                   mt: 2,
                 }}
               >
-                Cetolate puede ser utilizado en pacientes que tienen indicación de terapia cetogénica como tratamiento nutricional de la epilepsia refractaria o en otras patologías cuya indicación sea la terapia cetogénica.
-
+                Cetolate puede ser utilizado en pacientes que tienen indicación
+                de terapia cetogénica como tratamiento nutricional de la
+                epilepsia refractaria o en otras patologías cuya indicación sea
+                la terapia cetogénica.
               </Typography>
             </Box>
             <Box width={"100%"}>

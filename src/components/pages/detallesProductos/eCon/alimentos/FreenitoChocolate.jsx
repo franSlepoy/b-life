@@ -34,7 +34,7 @@ const FreenitoChocolate = () => {
                   mt: 2,
                 }}
               >
-                FREENITO CHOCOLATE
+                Freenito chocolate
               </Typography>
               <Typography
                 sx={{
@@ -80,12 +80,12 @@ const FreenitoChocolate = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Premezcla a base de azúcar impalpable, fécula de maíz y
-                  almidón de papa, para preparar postre sabor chocolate.
-                  Freenito chocolate tiene bajo contenido proteico para el
-                  tratamiento nutricional de patologías que requieran dietas
-                  restringidas en el aporte de proteínas y aminoácidos. Alimento
-                  para dietas especiales.
+                  • Ingredientes: Azúcar impalpable, fécula de maíz,
+                  maltodextrina de maíz, fructosa, almidón de papa, carbonato de
+                  calcio, sal, ARO: aromatizante artificial sabor chocolate,
+                  aromatizante artificial sabor vainilla, COL: colorante
+                  caramelo IV, ESP: pectina, EST: carboximetilcelulosa sódica,
+                  carragenina, ACI: ácido cítrico.
                 </Typography>
               </Box>
             </Box>
@@ -147,12 +147,9 @@ const FreenitoChocolate = () => {
                   mt: 2,
                 }}
               >
-                Ingredientes: Azúcar impalpable, fécula de maíz, maltodextrina
-                de maíz, fructosa, almidón de papa, carbonato de calcio, sal,
-                ARO: aromatizante artificial sabor chocolate, aromatizante
-                artificial sabor vainilla, COL: colorante caramelo IV, ESP:
-                pectina, EST: carboximetilcelulosa sódica, carragenina, ACI:
-                ácido cítrico.
+                Puede utilizarse en el tratamiento nutricional de pacientes con
+                errores congénitos del metabolismo que requieran dietas
+                restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -176,9 +173,9 @@ const FreenitoChocolate = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con
-                errores congénitos del metabolismo que requieran dietas
-                restringidas en el aporte de proteínas y aminoácidos.
+                Modo de preparación: Mezclar 35 g de polvo con 100 cc de agua.
+                Cocinar a fuego lento hasta el primer hervor. Poner en moldes y
+                refrigerar hasta que solidifique. Consumir dentro de las 24 hs.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>

@@ -34,7 +34,7 @@ const AprotenChicci = () => {
                   mt: 2,
                 }}
               >
-                CHICCHI
+               Chicchi 
               </Typography>
               <Typography
                 sx={{

@@ -34,7 +34,7 @@ const FreeMilk = () => {
                   mt: 2,
                 }}
               >
-                FREEMILK
+                Freemilk
               </Typography>
               <Typography
                 sx={{

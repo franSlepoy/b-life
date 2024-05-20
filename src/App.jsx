@@ -48,7 +48,7 @@ import GlutapakRLiteratura from "./components/pages/detallesProductos/otros/Glut
 import CetomixvainillayCetomixchocolate from "./components/pages/detallesProductos/terapiaCetogenica/alimentos/CetomixvainillayCetomixchocolate";
 import CetomixvainillayCetomixchocolate1 from "./components/pages/detallesProductos/terapiaCetogenica/alimentos/CetomixvainillayCetomixchocolate1";
 import KansoDeliMCTCacaoBiscuits from "./components/pages/detallesProductos/terapiaCetogenica/alimentos/KansoDeliMCTCacaoBiscuits";
-import Aproten from "./components/pages/detallesProductos/eCon/alimentos/Aproten";
+
 import AprotenBizcochosdeCacao from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeCacao";
 import AprotenBizcochosdeFruta from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeFruta";
 import AprotenBizcochosdeVainilla from "./components/pages/detallesProductos/eCon/alimentos/AprotenBizcochosdeVainilla";
@@ -89,6 +89,8 @@ import SustitutoDeQueso from "./components/pages/detallesProductos/eCon/alimento
 import ZeroproBrownies from "./components/pages/detallesProductos/eCon/alimentos/ZeroproBrownies";
 import SustitutoDeHarina from "./components/pages/detallesProductos/eCon/alimentos/SustitutoDeHarina";
 import AminomedPremium from "./components/pages/detallesProductos/aplv/AminomedPremium";
+import ComidaOAcAFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaOAcAFormula";
+import ComidaOAcBFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaOAcBFormula";
 
 function App() {
   const location = useLocation();
@@ -133,8 +135,8 @@ function App() {
           <Route path="/comidaLeuBFormula" element={<ComidaLeuBFormula />} />
           <Route path="/comidaMSUDAFormula" element={<ComidaMSUDAFormula />} />
           <Route path="/comidaMSUDBFormula" element={<ComidaMSUDBFormula />} />
-          <Route path="/comidaOAcAformula" element={<ComidaGAcAFormula />} />
-          <Route path="/comidaOAcBformula" element={<ComidaGAcBFormula />} />
+          <Route path="/comidaOAcAformula" element={<ComidaOAcAFormula />} />
+          <Route path="/comidaOAcBformula" element={<ComidaOAcBFormula />} />
           <Route path="/comidaPKUAFormula" element={<ComidaPKUAFormula />} />
           <Route
             path="/comidaPKUBFormulaSS"
@@ -168,7 +170,7 @@ function App() {
             path="/KansoDelíMCTCacaoBiscuits"
             element={<KansoDeliMCTCacaoBiscuits />}
           />
-          <Route path="/aprotenAnellini" element={<Aproten />} />
+
           <Route
             path="/aprotenBizcochosdeCacao"
             element={<AprotenBizcochosdeCacao />}

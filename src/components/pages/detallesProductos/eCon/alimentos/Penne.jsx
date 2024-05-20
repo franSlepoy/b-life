@@ -32,9 +32,10 @@ const Penne = () => {
                   fontWeight: "800",
                   fontSize: "26px",
                   mt: 2,
+
                 }}
               >
-                PENNE
+              Penne
               </Typography>
               <Typography
                 sx={{
@@ -149,7 +150,7 @@ const Penne = () => {
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
-              {/*  <Typography
+                <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -168,7 +169,8 @@ const Penne = () => {
                   fontFamily: "Lato",
                   mt: 2,
                 }}
-              ></Typography> */}
+              >TIEMPO DE COCCIÓN: 7 a 9 minutos.
+              </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography

@@ -34,7 +34,7 @@ const SaltSticks = () => {
                   mt: 2,
                 }}
               >
-                SALT STICKS
+               Salt sticks
               </Typography>
               <Typography
                 sx={{
@@ -78,7 +78,7 @@ const SaltSticks = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Ingredientes: INGREDIENTES: Almidón de maíz, sal gruesa,
+                  • INGREDIENTES: Almidón de maíz, sal gruesa,
                   almidón de trigo, aceite de colza, fibra de papa, azúcar,
                   levadura, ESP: INS412, INS464, RAI: INS500ii, INS503ii, EMU:
                   INS471, INS322, ACI: INS575 .

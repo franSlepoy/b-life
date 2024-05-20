@@ -34,7 +34,7 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-                BURGER MIX
+               Burguer Mix 
               </Typography>
               <Typography
                 sx={{
@@ -108,7 +108,7 @@ const BurgerMix = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/freechees.png" alt="" />
+                <img height={"300px"} src="/burgerMix.png" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -334,7 +334,7 @@ const BurgerMix = () => {
               }}
             >
               <Box textAlign={"center"}>
-                <img height={"300px"} src="/freechees.png" alt="" />
+                <img height={"300px"} src="/burgerMix.png" alt="" />
               </Box>
 
               <Box m={"auto"}>

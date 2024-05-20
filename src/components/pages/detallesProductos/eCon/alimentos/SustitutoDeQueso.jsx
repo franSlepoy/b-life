@@ -34,7 +34,7 @@ const SustitutoDeQueso = () => {
                   mt: 2,
                 }}
               >
-                SUSTITUTO DE QUESO
+                Sustituto de queso
               </Typography>
               <Typography
                 sx={{
@@ -46,7 +46,12 @@ const SustitutoDeQueso = () => {
                   lineHeight: "22px",
                   mt: 2,
                 }}
-              ></Typography>
+              >
+                Polvo granulado con sabor a queso parmesano bajo en proteínas,
+                ideal para utilizar en reemplazo del queso rallado en patologías
+                que requieren dietas restringidas en el aporte de proteínas y
+                aminoácidos. Alimento para dietas especiales.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -157,7 +162,7 @@ const SustitutoDeQueso = () => {
               >
                 FORMA DE PREPARACIÓN:
               </Typography>
-              <Typography
+             {/*  <Typography
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
@@ -172,7 +177,7 @@ const SustitutoDeQueso = () => {
                 hasta lograr una consistencia símil bizcochuelo. Poner en moldes
                 de muffins previamente aceitados. Cocinar a 180° por 15 a 20
                 min. Rinde 3 muffins.
-              </Typography>
+              </Typography> */}
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography

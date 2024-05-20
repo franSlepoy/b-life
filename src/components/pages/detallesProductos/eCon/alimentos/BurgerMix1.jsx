@@ -277,7 +277,7 @@ const BurgerMix1 = () => {
                   mt: 2,
                 }}
               >
-                BURGER MIX{" "}
+                Burguer Mix
               </Typography>
               <Typography
                 sx={{
@@ -292,11 +292,7 @@ const BurgerMix1 = () => {
               >
                 Sustituto de hamburguesa bajo en proteínas ideal para el
                 tratamiento nutricional de patologías que requieren dietas
-                restringidas en el aporte de proteína y aminoácidos. La
-                alternativa perfecta y baja en proteínas a la carne picada:
-                ideal para preparar albóndigas, hamburguesas, salsa boloñesa y
-                otros platos basados en carne picada. Alimento para dietas
-                especiales.
+                restringidas en el aporte de proteína y aminoácidos.
               </Typography>
               <Typography
                 sx={{
@@ -327,6 +323,13 @@ const BurgerMix1 = () => {
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Contiene derivados de trigo.
                 </Typography>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • La alternativa perfecta y baja en proteínas a la carne picada:
+                ideal para preparar albóndigas, hamburguesas, salsa boloñesa y
+                otros platos basados en carne picada. Alimento para dietas
+                especiales.
+                </Typography>
+               
               </Box>
             </Box>
             <Box

@@ -137,8 +137,12 @@ const Modulos1 = () => {
                   mt: 2,
                 }}
               >
-                Cetoil puede ser utilizado en pacientes que tienen indicación de terapia cetogénica como tratamiento nutricional de la epilepsia refractaria o en otras patologías cuya indicación sea la terapia cetogénica, para el manejo dietético de patologías que requieren un aporte calórico extra y/o que cursan con alteraciones de la digestión, absorción, metabolismo y/o transporte de grasas.
-
+                Cetoil puede ser utilizado en pacientes que tienen indicación de
+                terapia cetogénica como tratamiento nutricional de la epilepsia
+                refractaria o en otras patologías cuya indicación sea la terapia
+                cetogénica, para el manejo dietético de patologías que requieren
+                un aporte calórico extra y/o que cursan con alteraciones de la
+                digestión, absorción, metabolismo y/o transporte de grasas.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -163,7 +167,6 @@ const Modulos1 = () => {
                 }}
               >
                 Listo para usar.
-
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -186,8 +189,9 @@ const Modulos1 = () => {
                   fontFamily: "Lato",
                 }}
               >
-             Vía oral y/o enteral. No apto para uso parenteral. ADVERTENCIA: el producto Cetoil debe ser introducido lentamente en la dieta para evitar trastornos gastrointestinales.
-
+                Vía oral y/o enteral. No apto para uso parenteral. ADVERTENCIA:
+                el producto Cetoil debe ser introducido lentamente en la dieta
+                para evitar trastornos gastrointestinales.
               </Typography>
               <Typography
                 sx={{
@@ -200,7 +204,16 @@ const Modulos1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Botella por 500 ml.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Botella por 500 ml.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -220,7 +233,7 @@ const Modulos1 = () => {
                   fontFamily: "Lato",
                 }}
               >
-              Neutro.
+                Neutro.
               </Typography>
             </Box>
           </Box>
@@ -242,7 +255,7 @@ const Modulos1 = () => {
                   mt: 2,
                 }}
               >
-              Cetoil
+                Cetoil
               </Typography>
               <Typography
                 sx={{
@@ -255,8 +268,8 @@ const Modulos1 = () => {
                   mt: 2,
                 }}
               >
-                Alimento para propósitos médicos específicos, a base de TCM, para mayores de 1 año.
-
+                Alimento para propósitos médicos específicos, a base de TCM,
+                para mayores de 1 año.
               </Typography>
               <Typography
                 sx={{
@@ -343,8 +356,12 @@ const Modulos1 = () => {
                   mt: 2,
                 }}
               >
-                Cetoil puede ser utilizado en pacientes que tienen indicación de terapia cetogénica como tratamiento nutricional de la epilepsia refractaria o en otras patologías cuya indicación sea la terapia cetogénica, para el manejo dietético de patologías que requieren un aporte calórico extra y/o que cursan con alteraciones de la digestión, absorción, metabolismo y/o transporte de grasas.
-
+                Cetoil puede ser utilizado en pacientes que tienen indicación de
+                terapia cetogénica como tratamiento nutricional de la epilepsia
+                refractaria o en otras patologías cuya indicación sea la terapia
+                cetogénica, para el manejo dietético de patologías que requieren
+                un aporte calórico extra y/o que cursan con alteraciones de la
+                digestión, absorción, metabolismo y/o transporte de grasas.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -369,7 +386,6 @@ const Modulos1 = () => {
                 }}
               >
                 Listo para usar.
-
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
@@ -392,7 +408,9 @@ const Modulos1 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Vía oral y/o enteral. No apto para uso parenteral. ADVERTENCIA: el producto Cetoil debe ser introducido lentamente en la dieta para evitar trastornos gastrointestinales.
+                Vía oral y/o enteral. No apto para uso parenteral. ADVERTENCIA:
+                el producto Cetoil debe ser introducido lentamente en la dieta
+                para evitar trastornos gastrointestinales.
               </Typography>
               <Typography
                 sx={{

@@ -1,7 +1,7 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import Footer from "../../../../common/footer/Footer";
 
-const ComidaOAcAFormula = () => {
+const ComidaOAcBFormula = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
     const pdfURL = "/ComidaOAcAFormula.pdf";
@@ -125,7 +125,7 @@ const ComidaOAcAFormula = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/ComidaOAcBFormula.jpg" alt="" />
+                <img height={"300px"} src="/comidaOAcBFormula.jpg" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -496,4 +496,4 @@ const ComidaOAcAFormula = () => {
   );
 };
 
-export default ComidaOAcAFormula;
+export default ComidaOAcBFormula;

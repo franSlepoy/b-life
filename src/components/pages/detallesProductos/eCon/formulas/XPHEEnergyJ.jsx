@@ -47,7 +47,7 @@ const XPHEEnergyJ = () => {
                   mt: 2,
                 }}
               >
-                XPhe energy J es una fórmula en polvo libre de fenilalanina y
+                XPhe Energy J es una fórmula en polvo libre de fenilalanina y
                 rica en tirosina, para el tratamiento nutricional de
                 Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en
                 niños/adolescentes de 7 a 14 años de edad. Alimento para
@@ -185,7 +185,7 @@ const XPHEEnergyJ = () => {
                   mt: 2,
                 }}
               >
-                XPhe energy J está indicado en el tratamiento nutricional de
+                XPhe Energy J está indicado en el tratamiento nutricional de
                 niños y adolescentes de 7 a 14 años de edad con Fenilcetonuria
                 (PKU) o Hiperfenilalaninemia (HPA). EQUILAVANTE PROTEICO: 10 g
                 de equivalente proteico por sobre de 33 g.
@@ -406,7 +406,7 @@ const XPHEEnergyJ = () => {
                   mt: 2,
                 }}
               >
-                XPhe energy J es una fórmula en polvo libre de fenilalanina y
+                XPhe Energy J es una fórmula en polvo libre de fenilalanina y
                 rica en tirosina, para el tratamiento nutricional de
                 Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en
                 niños/adolescentes de 7 a 14 años de edad. Alimento para
@@ -434,7 +434,7 @@ const XPHEEnergyJ = () => {
                   mt: 2,
                 }}
               >
-                XPhe energy J está indicado en el tratamiento nutricional de
+                XPhe Energy J está indicado en el tratamiento nutricional de
                 niños y adolescentes de 7 a 14 años de edad con Fenilcetonuria
                 (PKU) o Hiperfenilalaninemia (HPA). EQUILAVANTE PROTEICO: 10 g
                 de equivalente proteico por sobre de 33 g.

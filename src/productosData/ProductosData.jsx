@@ -112,7 +112,7 @@ export const productosData = [
     id: 12,
     categoria: "APLV",
     subCategoria: "APLV",
-    titulo: "Aminomed",
+    titulo: "AminoMed",
     descripcion:
       "AminoMed es una fórmula infantil en polvo hipoalergénica y elemental a base de L- aminoácidos para lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
     imagen: "/aminomed.png",
@@ -122,7 +122,7 @@ export const productosData = [
     id: 13,
     categoria: "APLV",
     subCategoria: "APLV",
-    titulo: "Aminomed Premium",
+    titulo: "AminoMed Premium",
     descripcion:
       "AminoMed Premium es una fórmula infantil en polvo hipoalergénica a base de aminoácidos para lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
     imagen: "/aminomedPremium.png",
@@ -362,7 +362,7 @@ export const productosData = [
     id: 37,
     categoria: "Otros",
     subCategoria: "OTROS",
-    titulo: "ABINTRA",
+    titulo: "Abintra",
     descripcion:
       "Abintra es un alimento para propósitos médicos específicos a base de Arginina, Glutamina, proteínas y vitaminas para apoyar la reparación de tejidos en personas adultas que presenten heridas de difícil cicatrización.",
     imagen: "/abintra.jpg",
@@ -372,7 +372,7 @@ export const productosData = [
     id: 38,
     categoria: "Otros",
     subCategoria: "OTROS",
-    titulo: "FONT UP",
+    titulo: " FontUp",
     descripcion:
       "FontUp es una bebida instantánea en polvo que aporta 266 miligramos de extracto de té verde (contenido mínimo de 250 mg de Epigalocatequina Galato - EGCG) por ración.",
     imagen: "/fontup.jpg",
@@ -382,7 +382,7 @@ export const productosData = [
     id: 39,
     categoria: "Otros",
     subCategoria: "OTROS",
-    titulo: "GLUTAPAK R",
+    titulo: " Glutapak R",
     descripcion:
       "Glutapak R es un alimento para propósitos médicos específicos con una combinación única de L-Glutamina y Lactobacillus Reuteri que restaura la superficie y la flora intestinal.",
     imagen: "/glutapak.jpg",
@@ -417,18 +417,9 @@ export const productosData = [
     imagen: "/kansoDeliMCTCacaoBiscuits.jpg",
     link: "/KansoDelíMCTCacaoBiscuits",
   },
+  
   {
     id: 43,
-    categoria: "Errores congénitos del metabolismo",
-    subCategoria: "ALIMENTOS",
-    titulo: "ANELLINI",
-    descripcion:
-      "Pasta tipo Ave María para sopa, de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
-    imagen: "/aprotenAnellini.png",
-    link: "/aprotenAnellini",
-  },
-  {
-    id: 44,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "BIZCOCHOS DE CACAO",
@@ -438,7 +429,7 @@ export const productosData = [
     link: "/aprotenBizcochosdeCacao",
   },
   {
-    id: 45,
+    id: 44,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "BIZCOCHOS DE FRUTA",
@@ -448,7 +439,7 @@ export const productosData = [
     link: "/aprotenBizcochosdeFruta",
   },
   {
-    id: 46,
+    id: 45,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "BIZCOCHOS DE VAINILLA",
@@ -458,7 +449,7 @@ export const productosData = [
     link: "/aprotenBizcochosdeVainilla",
   },
   {
-    id: 47,
+    id: 48,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "CHICCHI",
@@ -468,7 +459,7 @@ export const productosData = [
     link: "/aprotenChicci",
   },
   {
-    id: 48,
+    id: 49,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FETAS TOSTADAS",
@@ -478,7 +469,7 @@ export const productosData = [
     link: "/aprotenFetasTostadas",
   },
   {
-    id: 49,
+    id: 50,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FUSILLI ",
@@ -488,7 +479,7 @@ export const productosData = [
     link: "/fusilli",
   },
   {
-    id: 50,
+    id: 51,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "GALLETITAS PANNA ROSQUITAS",
@@ -498,7 +489,7 @@ export const productosData = [
     link: "/aprotenFrollinoAllaPanna",
   },
   {
-    id: 51,
+    id: 52,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "GALLETITAS PEPAS DE CHOCOLATE",
@@ -508,7 +499,7 @@ export const productosData = [
     link: "/aprotenFrollinoGocceDiCioccolato",
   },
   {
-    id: 52,
+    id: 53,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "GRISSINI",
@@ -518,7 +509,7 @@ export const productosData = [
     link: "/aprotenGrissini",
   },
   {
-    id: 53,
+    id: 54,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "HARINA ",
@@ -528,7 +519,7 @@ export const productosData = [
     link: "/aprotenHarina",
   },
   {
-    id: 54,
+    id: 55,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "OBLEAS DE CHOCOLATE ",
@@ -538,7 +529,7 @@ export const productosData = [
     link: "/aprotenObleasDeChocholate",
   },
   {
-    id: 55,
+    id: 56,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "OBLEAS DE VAINILLA ",
@@ -548,7 +539,7 @@ export const productosData = [
     link: "/aprotenObleasDeVainilla",
   },
   {
-    id: 56,
+    id: 57,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "PAN BIZCOCHADO ",
@@ -558,7 +549,7 @@ export const productosData = [
     link: "/aprotenPanBizcochado",
   },
   {
-    id: 57,
+    id: 58,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "PENNE",
@@ -568,7 +559,7 @@ export const productosData = [
     link: "/penne",
   },
   {
-    id: 58,
+    id: 59,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "RIGATINI",
@@ -578,7 +569,7 @@ export const productosData = [
     link: "/rigatini",
   },
   {
-    id: 59,
+    id: 60,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "SPAGHETTI",
@@ -588,7 +579,7 @@ export const productosData = [
     link: "/aprotenSpaguetti",
   },
   {
-    id: 60,
+    id: 61,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "TAGLIATELLE ",
@@ -598,7 +589,7 @@ export const productosData = [
     link: "/aprotenTagliatelle",
   },
   {
-    id: 61,
+    id: 62,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FREECHEES",
@@ -608,7 +599,7 @@ export const productosData = [
     link: "/freechees",
   },
   {
-    id: 62,
+    id: 63,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FREEGUR FRUTILLA",
@@ -618,7 +609,7 @@ export const productosData = [
     link: "/freegurFrutilla",
   },
   {
-    id: 63,
+    id: 64,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FREEGUR VAINILLA",
@@ -628,7 +619,7 @@ export const productosData = [
     link: "/freegurVainilla",
   },
   {
-    id: 64,
+    id: 65,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FREEMILK",
@@ -638,7 +629,7 @@ export const productosData = [
     link: "/freeMilk",
   },
   {
-    id: 65,
+    id: 66,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FREENITO CHOCOLATE",
@@ -648,7 +639,7 @@ export const productosData = [
     link: "/freenitoChocolate",
   },
   {
-    id: 66,
+    id: 67,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FREENITO VAINILLA",
@@ -658,7 +649,7 @@ export const productosData = [
     link: "/freenitoVainilla",
   },
   {
-    id: 67,
+    id: 68,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "BURGER MIX",
@@ -668,7 +659,7 @@ export const productosData = [
     link: "/burgerMix",
   },
   {
-    id: 68,
+    id: 69,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "SALT STICKS",
@@ -678,7 +669,7 @@ export const productosData = [
     link: "/saltSticks",
   },
   {
-    id: 69,
+    id: 70,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "SCHOXXI CHOCOLATE",
@@ -688,7 +679,7 @@ export const productosData = [
     link: "/schoxxiTafel",
   },
   {
-    id: 70,
+    id: 71,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "ARROZ ",
@@ -698,7 +689,7 @@ export const productosData = [
     link: "/arroz",
   },
   {
-    id: 71,
+    id: 72,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "BURGER MIX ",
@@ -708,7 +699,7 @@ export const productosData = [
     link: "/burgerMix1",
   },
   {
-    id: 72,
+    id: 73,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "CHOCOTINO ",
@@ -718,7 +709,7 @@ export const productosData = [
     link: "/chocotino",
   },
   {
-    id: 73,
+    id: 74,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "DITALI ",
@@ -728,7 +719,7 @@ export const productosData = [
     link: "/ditali",
   },
   {
-    id: 74,
+    id: 75,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FRUIT BAR ",
@@ -738,7 +729,7 @@ export const productosData = [
     link: "/fruitBar",
   },
   {
-    id: 75,
+    id: 76,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "FUSILLI MEVALIA ",
@@ -748,7 +739,7 @@ export const productosData = [
     link: "/Fusilli1",
   },
   {
-    id: 76,
+    id: 77,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: " PENNE MEVALIA",
@@ -758,7 +749,7 @@ export const productosData = [
     link: "/penne1",
   },
   {
-    id: 77,
+    id: 78,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "SPAGHETTI ",
@@ -768,7 +759,7 @@ export const productosData = [
     link: "/spaghetti",
   },
   {
-    id: 78,
+    id: 79,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "ZEROPRO MUFFINS Y TORTAS",
@@ -778,7 +769,7 @@ export const productosData = [
     link: "/zeroproMuffinsyTortas",
   },
   {
-    id: 79,
+    id: 80,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "GALLETAS MARINERAS",
@@ -788,7 +779,7 @@ export const productosData = [
     link: "/galletasMarineras",
   },
   {
-    id: 80,
+    id: 81,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "SUSTITUTO DE HUEVO ",
@@ -798,7 +789,7 @@ export const productosData = [
     link: "/sustitutoDeHuevo",
   },
   {
-    id: 81,
+    id: 82,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "SUSTITUTO DE QUESO  ",
@@ -808,20 +799,22 @@ export const productosData = [
     link: "/sustitutoDeQueso",
   },
   {
-    id: 82,
+    id: 83,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "ZEROPRO BROWNIES  ",
-    descripcion: "Premezcla a base de almidones y azúcar impalpable sabor chocolate para preparar brownies para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
+    descripcion:
+      "Premezcla a base de almidones y azúcar impalpable sabor chocolate para preparar brownies para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/zeroproBrownies.jpg",
     link: "/zeroproBrownies",
   },
   {
-    id: 83,
+    id: 84,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
     titulo: "SUSTITUTO DE HARINA",
-    descripcion: "Premezcla baja en proteínas para elaborar todo tipo de amasados dulces y salados para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
+    descripcion:
+      "Premezcla baja en proteínas para elaborar todo tipo de amasados dulces y salados para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/sustitutoDeHarina.jpg",
     link: "/sustitutoDeHarina",
   },

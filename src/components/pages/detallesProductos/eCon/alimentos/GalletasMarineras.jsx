@@ -34,7 +34,7 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-                GALLETAS MARINERAS
+                Galletas marinas 
               </Typography>
               <Typography
                 sx={{

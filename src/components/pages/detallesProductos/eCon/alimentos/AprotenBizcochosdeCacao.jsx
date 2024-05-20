@@ -34,7 +34,7 @@ const AprotenBizcochosdeCacao = () => {
                   mt: 2,
                 }}
               >
-                BIZCOCHOS DE CACAO
+                Bizcochos de cacao 
               </Typography>
               <Typography
                 sx={{
@@ -173,7 +173,7 @@ const AprotenBizcochosdeCacao = () => {
                 }}
               >
                 FORMA DE PREPARACIÓN:
-              </Typography>
+             {/*  </Typography>
               <Typography
                 sx={{
                   fontWeight: "regular",
@@ -193,7 +193,7 @@ const AprotenBizcochosdeCacao = () => {
                   fontSize: "15px",
                   mt: 2,
                 }}
-              >
+              > */}
                 ADMINISTRACIÓN:
               </Typography>
               <Typography
@@ -225,7 +225,7 @@ const AprotenBizcochosdeCacao = () => {
                   fontFamily: "Lato",
                 }}
               >
-                vase por 180 g/ 1 unidad = 6 g.
+                Envase por 180 g/ 1 unidad = 6 g. 
               </Typography>
               {/* sin sabor  <Typography
                 sx={{

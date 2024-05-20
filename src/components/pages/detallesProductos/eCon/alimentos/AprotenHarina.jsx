@@ -34,7 +34,7 @@ const AprotenHarina = () => {
                   mt: 2,
                 }}
               >
-                HARINA{" "}
+               Harina
               </Typography>
               <Typography
                 sx={{

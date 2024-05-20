@@ -34,7 +34,7 @@ const AminomedPremium = () => {
                   mt: 2,
                 }}
               >
-                Aminomed Premium
+                AminoMed Premium
               </Typography>
               <Typography
                 sx={{
@@ -77,7 +77,7 @@ const AminomedPremium = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Nutricionalmente completa
+                  • Nutricionalmente completa.
                 </Typography>
                 <Typography
                   sx={{
@@ -230,7 +230,7 @@ const AminomedPremium = () => {
                 médicas del paciente. La dosis de AminoMed Premium debe ser
                 controlada y ajustada regularmente por un médico o
                 nutricionista. La dilución recomendada es de 13%. (3 medidas de
-                Aminomed Premium = 13 g + 90 cc de agua = 100 cc fórmula).
+                AminoMed Premium = 13 g + 90 cc de agua = 100 cc fórmula).
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -317,7 +317,7 @@ const AminomedPremium = () => {
                   mt: 2,
                 }}
               >
-                Aminomed Premium
+                AminoMed Premium
               </Typography>
               <Typography
                 sx={{
@@ -462,7 +462,7 @@ const AminomedPremium = () => {
                 médicas del paciente. La dosis de AminoMed Premium debe ser
                 controlada y ajustada regularmente por un médico o
                 nutricionista. La dilución recomendada es de 13%. (3 medidas de
-                Aminomed Premium = 13 g + 90 cc de agua = 100 cc fórmula).
+                AminoMed Premium = 13 g + 90 cc de agua = 100 cc fórmula).
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

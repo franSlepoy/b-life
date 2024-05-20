@@ -34,7 +34,7 @@ const AprotenFetasTostadas = () => {
                   mt: 2,
                 }}
               >
-                FETAS TOSTADAS
+                Fetas tostadas
               </Typography>
               <Typography
                 sx={{
@@ -79,8 +79,8 @@ const AprotenFetasTostadas = () => {
                   }}
                 >
                   • Ingredientes: Almidón de trigo, harina de arroz, inulina,
-                  aceite vegetal, azúcar, extracto de malta, sal, COL: INS 170,
-                  EMU: INS471, ACI: INS 327.
+                  aceite vegetal, azúcar, extracto de malta, sal, COL:INS170,
+                  EMU:INS471, ACI:INS327.
                 </Typography>
                 <Typography
                   sx={{

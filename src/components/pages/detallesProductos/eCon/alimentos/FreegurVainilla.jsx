@@ -34,7 +34,7 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                FREEGUR VAINILLA
+                Freegur vainilla
               </Typography>
               <Typography
                 sx={{
@@ -83,7 +83,7 @@ const FreegurVainilla = () => {
                   de coco en polvo, azúcar impalpable, fructosa, almidón de
                   papa, FOS, carbonato de calcio, sal, ARO: aromatizante
                   artificial sabor vainilla, ACI: ácido cítrico, EST:
-                  carboximetilcelulosa sódica, carragenina, COL: INS 150d.
+                  carboximetilcelulosa sódica, carragenina, COL: INS150d.
                 </Typography>
               </Box>
             </Box>

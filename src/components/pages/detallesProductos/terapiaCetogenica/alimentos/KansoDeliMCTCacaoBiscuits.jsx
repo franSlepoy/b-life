@@ -103,7 +103,7 @@ const KansoDeliMCTCacaoBiscuits = () => {
               <Box>
                 <img
                   height={"300px"}
-                  src="/PouchCetomixVAINILLALR.jpg"
+                  src="/kansoDeliMCTCacaoBiscuits.jpg"
                   alt=""
                 />
               </Box>
@@ -181,7 +181,7 @@ const KansoDeliMCTCacaoBiscuits = () => {
                   mt: 2,
                 }}
               >
-                Lista para consumir.
+                Listas para usar.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -217,7 +217,17 @@ const KansoDeliMCTCacaoBiscuits = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Caja por 100 g (16 galletitas).</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Caja por 100 g (16 galletitas).
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -292,7 +302,7 @@ const KansoDeliMCTCacaoBiscuits = () => {
                   mt: 2,
                 }}
               >
-               <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Relación cetogénica 3,8:1
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
@@ -326,7 +336,7 @@ const KansoDeliMCTCacaoBiscuits = () => {
               <Box textAlign={"center"}>
                 <img
                   height={"300px"}
-                  src="/PouchCetomixVAINILLALR.jpg"
+                  src="/kansoDeliMCTCacaoBiscuits.jpg"
                   alt=""
                 />
               </Box>
@@ -376,7 +386,7 @@ const KansoDeliMCTCacaoBiscuits = () => {
                   mt: 2,
                 }}
               >
-                 Kanso DelíMCT Cacao Biscuits puede ser utilizado en niños
+                Kanso DelíMCT Cacao Biscuits puede ser utilizado en niños
                 mayores de 1 año de edad y adultos que tienen indicación de
                 terapia cetogénica como tratamiento nutricional de la epilepsia
                 refractaria o en otras patologías cuya indicación sea la terapia

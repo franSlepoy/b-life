@@ -173,7 +173,7 @@ const Alimentos2 = () => {
                   mt: 2,
                 }}
               >
-                Lista para usar.
+                Listo para usar.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -196,7 +196,7 @@ const Alimentos2 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Vía oral y/o enteral.
+                Vía oral.
               </Typography>
               <Typography
                 sx={{
@@ -209,7 +209,17 @@ const Alimentos2 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Caja de 100g (2u x 50g c/u.).</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Cambiar por: Envase por 500 g. (2u x 50g c/u.).
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

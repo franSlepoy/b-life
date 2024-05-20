@@ -34,7 +34,7 @@ const SustitutoDeHuevo = () => {
                   mt: 2,
                 }}
               >
-                SUSTITUTO DE HUEVO
+                Sustituto de huevo
               </Typography>
               <Typography
                 sx={{
@@ -182,11 +182,8 @@ const SustitutoDeHuevo = () => {
                 }}
               >
                 {" "}
-                Poner en un bowl 25 g de manteca a punto pomada, agregar 100 g
-                de ZeroPro muffins y tortas de a poco e ir agregando 70 ml agua
-                hasta lograr una consistencia símil bizcochuelo. Poner en moldes
-                de muffins previamente aceitados. Cocinar a 180° por 15 a 20
-                min. Rinde 3 muffins.
+                La dosis de sustituto para reemplazar 1 huevo entero es de ¼ de cucharita de té. El sustituto de huevo debe esparcirse sobre los vegetales u otros alimentos a ligar ó mezclarse junto a polvos secos como almidones, levaduras, etc. NO debe mezclarse este producto previamente con agua. Para empanar diferentes alimentos puede prepararse una solución con ¼ de cucharita de té de sustituto de huevo y 50 cc de agua tibia. Mezclar y utilizar.
+
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>

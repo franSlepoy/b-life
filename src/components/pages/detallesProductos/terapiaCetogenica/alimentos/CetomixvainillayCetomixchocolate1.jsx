@@ -34,7 +34,7 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   mt: 2,
                 }}
               >
-                CETOMIX VAINILLA
+                Cetomix Vainilla
               </Typography>
               <Typography
                 sx={{
@@ -171,7 +171,7 @@ const CetomixvainillayCetomixchocolate1 = () => {
                 }}
               >
                 Para obtener un muffin de 60 g colocar en un bowl 35 g de
-                Cetomix chocolate, agregar 6 cc de aceite y 20 cc de agua.
+                Cetomix chocolate, agregar 3 cc de aceite y 20 cc de agua.
                 Mezclar hasta obtener una masa. Colocar la preparación en un
                 molde de muffins. Cocinar a 180°C por 15 min.
               </Typography>
@@ -209,7 +209,17 @@ const CetomixvainillayCetomixchocolate1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -264,7 +274,8 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   mt: 2,
                 }}
               >
-                Premezcla a base de aceite de palma y harina de almendras, sabor vainilla, para dietas especiales.
+                Premezcla a base de aceite de palma y harina de almendras, sabor
+                vainilla, para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -357,8 +368,10 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   mt: 2,
                 }}
               >
-                Cetomix vainilla puede ser utilizado en aquellos pacientes que tiene indicación de terapia cetogénica como tratamiento nutricional de la epilepsia refractaria o en otras patologías cuya indicación sea la terapia cetogénica.
-
+                Cetomix vainilla puede ser utilizado en aquellos pacientes que
+                tiene indicación de terapia cetogénica como tratamiento
+                nutricional de la epilepsia refractaria o en otras patologías
+                cuya indicación sea la terapia cetogénica.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -382,8 +395,10 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   mt: 2,
                 }}
               >
-                Para obtener un muffin de 60 g colocar en un bowl 35 g de Cetomix vainilla, agregar 3 cc de aceite y 20 cc de agua. Mezclar hasta obtener una masa. Colocar la preparación en un molde de muffins. Cocinar a 180°C por 15 min.
-
+                Para obtener un muffin de 60 g colocar en un bowl 35 g de
+                Cetomix vainilla, agregar 3 cc de aceite y 20 cc de agua.
+                Mezclar hasta obtener una masa. Colocar la preparación en un
+                molde de muffins. Cocinar a 180°C por 15 min.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

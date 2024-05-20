@@ -78,7 +78,7 @@ const ComidaLeuBFormula = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Aporta aminoácidos de alto valor biológico
+                  • Aporta aminoácidos de alto valor biológico.
                 </Typography>
                 <Typography
                   sx={{
@@ -88,7 +88,7 @@ const ComidaLeuBFormula = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Proporciona energía a partir de grasas e hidratos de carbono
+                  • Proporciona energía a partir de grasas e hidratos de carbono.
                 </Typography>
                 <Typography
                   sx={{
@@ -98,7 +98,7 @@ const ComidaLeuBFormula = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Suplementada con vitaminas, minerales y oligoelementos
+                  • Suplementada con vitaminas, minerales y oligoelementos.
                 </Typography>
                 <Typography
                   sx={{
@@ -108,7 +108,7 @@ const ComidaLeuBFormula = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Fácil de preparar, buena solubilidad
+                  • Fácil de preparar, buena solubilidad.
                 </Typography>
               </Box>
             </Box>

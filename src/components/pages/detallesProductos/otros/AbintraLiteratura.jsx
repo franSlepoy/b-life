@@ -34,7 +34,7 @@ const AbintraLiteratura = () => {
                   mt: 2,
                 }}
               >
-                ABINTRA
+                Abintra
               </Typography>
               <Typography
                 sx={{
@@ -190,7 +190,7 @@ const AbintraLiteratura = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/abintra.png" alt="" />
+                <img height={"300px"} src="/abintra.jpg" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -266,10 +266,10 @@ const AbintraLiteratura = () => {
                   mt: 2,
                 }}
               >
-                Oral: Mezclar un sobre de Abintra con 210 ml de agua. Agitar
+                <strong>Oral:</strong> Mezclar un sobre de Abintra con 210 ml de agua. Agitar
                 hasta que el polvo se disuelva completamente. Si la porción no
                 fuera administrada completamente, refrigerar y consumir dentro
-                de las 24 horas. Enteral: Mezclar 1 sobre de Abintra con 60 ml
+                de las 24 horas. <strong>Enteral:</strong> Mezclar 1 sobre de Abintra con 60 ml
                 de agua y agitar hasta que el polvo se disuelva completamente.
                 Infundir con una jeringa por sonda de alimentación. Lavar la
                 sonda con 30 ml de agua antes y después de la administración. No

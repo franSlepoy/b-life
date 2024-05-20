@@ -34,7 +34,7 @@ const Spaghetti = () => {
                   mt: 2,
                 }}
               >
-                SPAGHETTI
+               Spaghetti 
               </Typography>
               <Typography
                 sx={{
@@ -47,10 +47,7 @@ const Spaghetti = () => {
                   mt: 2,
                 }}
               >
-                Pasta baja en proteínas ideal para el tratamiento nutricional de
-                patologías que requieren dietas restringidas en el aporte de
-                proteínas y aminoácidos. El clásico de los clásicos de la pasta
-                italiana. especiales.
+                Pasta de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -81,6 +78,7 @@ const Spaghetti = () => {
                   • Ingredientes: Almidón de maíz, almidón de arroz, melaza de
                   caña, inulina, harina de arroz, aceite de palma, extracto de
                   aceite de cártamo, ESP:INS460i, EMU: INS471, COL: INS160ai.
+                  El clásico de los clásicos de la pasta italiana. 
                 </Typography>
               </Box>
             </Box>
@@ -146,7 +144,7 @@ const Spaghetti = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 10 a 12 minutos.
+               
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -161,7 +159,7 @@ const Spaghetti = () => {
               >
                 FORMA DE PREPARACIÓN:
               </Typography>
-              {/*  <Typography
+               <Typography
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
@@ -170,8 +168,8 @@ const Spaghetti = () => {
                   mt: 2,
                 }}
               >
-                no tiene
-              </Typography> */}
+                 TIEMPO DE COCCIÓN: 10 a 12 minutos.
+              </Typography> 
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography

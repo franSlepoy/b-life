@@ -47,7 +47,7 @@ const XPHEEnergyK = () => {
                   mt: 2,
                 }}
               >
-                XPhe energy K es una fórmula en polvo libre de fenilalanina y
+                XPhe Energy K es una fórmula en polvo libre de fenilalanina y
                 rica en tirosina para el tratamiento nutricional de
                 Fenilcetonuria(PKU) o Hiperfenilalaninemia (HPA) en niños de 4
                 meses (sabor neutro)/1 año (saborizadas) a 6 años de edad.
@@ -315,7 +315,7 @@ const XPHEEnergyK = () => {
                   mt: 2,
                 }}
               >
-                XPhe energy K es una fórmula en polvo libre de fenilalanina y
+                XPhe Energy K es una fórmula en polvo libre de fenilalanina y
                 rica en tirosina para el tratamiento nutricional de
                 Fenilcetonuria(PKU) o Hiperfenilalaninemia (HPA) en niños de 4
                 meses (sabor neutro)/1 año (saborizadas) a 6 años de edad.

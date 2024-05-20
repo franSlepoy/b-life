@@ -34,7 +34,7 @@ const CetomixvainillayCetomixchocolate = () => {
                   mt: 2,
                 }}
               >
-                CETOMIX CHOCOLATE
+                Cetomix Chocolate
               </Typography>
               <Typography
                 sx={{
@@ -91,7 +91,11 @@ const CetomixvainillayCetomixchocolate = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/PouchCetomixCHOCOLATELR.jpg" alt="" />
+                <img
+                  height={"300px"}
+                  src="/PouchCetomixCHOCOLATELR.jpg"
+                  alt=""
+                />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -205,7 +209,17 @@ const CetomixvainillayCetomixchocolate = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -302,7 +316,11 @@ const CetomixvainillayCetomixchocolate = () => {
               }}
             >
               <Box textAlign={"center"}>
-                <img height={"300px"} src="/PouchCetomixCHOCOLATELR.jpg" alt="" />
+                <img
+                  height={"300px"}
+                  src="/PouchCetomixCHOCOLATELR.jpg"
+                  alt=""
+                />
               </Box>
 
               <Box m={"auto"}>

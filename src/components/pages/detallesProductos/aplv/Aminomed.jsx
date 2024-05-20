@@ -250,7 +250,7 @@ const Aminomed = () => {
                 La cantidad prescripta depende de la edad, peso y condiciones
                 médicas del paciente. La dosis de AminoMed debe ser controlada y
                 ajustada regularmente por un médico ó nutricionista. La dilución
-                recomendada es del 13% (3 medidas de Aminomed = 13 g de polvo +
+                recomendada es del 13% (3 medidas de AminoMed = 13 g de polvo +
                 90 cc de agua = 100 cc fórmula).
               </Typography>
             </Box>
@@ -296,8 +296,7 @@ const Aminomed = () => {
                   mt: 2,
                 }}
               >
-                Lata por 400 g de polvo y cuchara dosificadora de 4,3 g. (2u x
-                50g c/u.).
+                Lata por 400 g de polvo y cuchara dosificadora de 4,3 g.
               </Typography>
               <Typography
                 sx={{
@@ -341,7 +340,7 @@ const Aminomed = () => {
                   mt: 2,
                 }}
               >
-                Aminomed
+                AminoMed
               </Typography>
               <Typography
                 sx={{

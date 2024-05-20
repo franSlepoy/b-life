@@ -34,7 +34,7 @@ const Fusilli = () => {
                   mt: 2,
                 }}
               >
-                FUSILLI
+               Fusilli 
               </Typography>
               <Typography
                 sx={{

@@ -34,7 +34,7 @@ const AprotenPanBizcochado = () => {
                   mt: 2,
                 }}
               >
-                PAN BIZCOCHADO
+                Pan bizcochado
               </Typography>
               <Typography
                 sx={{
@@ -222,7 +222,8 @@ const AprotenPanBizcochado = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Envase por 280 g.
+                Envase por 280 g/ 1 unidad = 10g.
+
               </Typography>
               {/* sin sabor  <Typography
                 sx={{

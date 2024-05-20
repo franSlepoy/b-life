@@ -34,7 +34,7 @@ const AprotenBizcochosdeVainilla = () => {
                   mt: 2,
                 }}
               >
-                BIZCOCHOS DE VAINILLA
+               Bizcochos de vainilla
               </Typography>
               <Typography
                 sx={{
@@ -216,7 +216,7 @@ const AprotenBizcochosdeVainilla = () => {
                 }}
               >
                 {" "}
-                Envases por 180 g/ 1 unidad= 6,5 g.
+                Envase por 180 g/ 1 unidad= 6,5 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{

@@ -34,7 +34,7 @@ const Freechees = () => {
                   mt: 2,
                 }}
               >
-                FREECHEES
+                FreeChees
               </Typography>
               <Typography
                 sx={{
@@ -211,7 +211,17 @@ const Freechees = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 180 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 200 g.{" "}
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

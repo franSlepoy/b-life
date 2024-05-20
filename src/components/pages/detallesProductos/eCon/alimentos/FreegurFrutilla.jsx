@@ -34,7 +34,7 @@ const FreegurFrutilla = () => {
                   mt: 2,
                 }}
               >
-                FREEGUR FRUTILLA
+               Freegur frutilla
               </Typography>
               <Typography
                 sx={{
@@ -83,7 +83,7 @@ const FreegurFrutilla = () => {
                   polvo, maltodextrina, azúcar impalpable, fructosa, almidón de
                   papa, FOS, carbonato de calcio, sal, ARO: aromatizante
                   artificial sabor frutilla, ESP: pectina, ACI: ácido cítrico,
-                  EST: carboximetilcelulosa sódica, COL: INS 120, INS 150d.
+                  EST: carboximetilcelulosa sódica, COL: INS120, INS150d.
                 </Typography>
               </Box>
             </Box>

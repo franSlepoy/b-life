@@ -34,7 +34,7 @@ const AprotenBizcochosdeFruta = () => {
                   mt: 2,
                 }}
               >
-                BIZCOCHOS DE FRUTA
+               Bizcochos de fruta 
               </Typography>
               <Typography
                 sx={{
@@ -223,7 +223,7 @@ const AprotenBizcochosdeFruta = () => {
                     fontSize: "14px",
                     color: "black",
                     fontFamily: "Lato",
-                  }}> Envases por 180 g / 1 unidad = 6 g.</Typography>
+                  }}> Envase por 180 g / 1 unidad = 6 g.</Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",

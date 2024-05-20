@@ -135,7 +135,7 @@ const ComidaOAcAFormula = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/ComidaOAcAFormula.jpg" alt="" />
+                <img height={"300px"} src="/comidaOAcAformula.jpg" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>

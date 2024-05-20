@@ -114,7 +114,7 @@ const Suplementos1 = () => {
                       color: "#007E48",
                     },
                   }}
-                  onClick={handleDownloadPDF}
+                  /* onClick={handleDownloadPDF} */
                 >
                   Descargar PDF
                 </Button>
@@ -153,7 +153,7 @@ const Suplementos1 = () => {
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
-              <Typography
+              {/* <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -175,7 +175,7 @@ const Suplementos1 = () => {
               >
                 La dilución recomendada es de 1 medida (3,7 g. de polvo) en 150
                 cc de agua o bebida libre de carbohidratos.
-              </Typography>
+              </Typography> */}
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
@@ -210,7 +210,16 @@ const Suplementos1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Envase por 200 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Envase por 200 g.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -230,7 +239,7 @@ const Suplementos1 = () => {
                   fontFamily: "Lato",
                 }}
               >
-             Naranja.
+                Naranja.
               </Typography>
             </Box>
           </Box>

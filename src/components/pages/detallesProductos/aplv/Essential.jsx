@@ -202,11 +202,12 @@ const Essential = () => {
                   mt: 2,
                 }}
               >
-                AminoMed está indicado para el tratamiento dietético de
-                lactantes y niños con alergias e intolerancias alimentarias
-                severas, diarreas intratables, síndromes de mal digestión y/o
-                malabsorción u otras enfermedades para las que se recomienda una
-                fórmula a base de aminoácidos.
+                Essential Care Jr. está indicado para el tratamiento de alergias
+                alimentarias y trastornos gastrointestinales. Está clínicamente
+                diseñado para niños con mala tolerancia a los subproductos del
+                maíz, diarrea y/o malabsorción, riesgo de deficiencias de
+                micronutrientes, inflamación del tracto gastrointestinal,
+                crecimiento inadecuado.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -231,10 +232,11 @@ const Essential = () => {
                 }}
               >
                 La cantidad prescripta depende de la edad, peso y condiciones
-                médicas del paciente. La dosis de AminoMed debe ser controlada y
-                ajustada regularmente por un médico ó nutricionista. La dilución
-                recomendada es del 13% (3 medidas de Aminomed = 13 g de polvo +
-                90 cc de agua = 100 cc fórmula).
+                médicas del paciente. La dosis de Essential Care Jr. debe ser
+                controlada y ajustada regularmente por un médico ó
+                nutricionista. La dilución recomendada es del 19,4 % ( 3 medidas
+                de Essential Care Jr. al ras = 19,4 g de polvo + 80 cc de agua =
+                100 cc fórmula).
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -270,9 +272,15 @@ const Essential = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>
-                Lata por 400 g de polvo y cuchara dosificadora de 4,3 g. (2u x
-                50g c/u.).
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Envase por 400 g.
               </Typography>
               <Typography
                 sx={{

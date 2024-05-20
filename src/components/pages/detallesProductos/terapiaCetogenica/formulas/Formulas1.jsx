@@ -97,15 +97,15 @@ const Formulas1 = () => {
                   sistema inmunológico.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  •Micronutrientes: especialmente calculados para cubrir
+                  • Micronutrientes: especialmente calculados para cubrir
                   requerimientos de niños pequeños.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  •No contiene edulcorantes, colorantes ni saborizantes
+                  • No contiene edulcorantes, colorantes ni saborizantes
                   artificiales.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  •Listo para usar: previene errores de dosificación y
+                  • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>
               </Box>
@@ -114,13 +114,13 @@ const Formulas1 = () => {
               sx={{
                 borderRadius: "3%",
                 ml: 2,
-                mt:2,
+                mt: 2,
                 boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                height:"350px"
+                height: "350px",
               }}
             >
               <Box>
-                <img height={"300px"}  src="/ketovia3.1Unfalvored.png" alt="" />
+                <img height={"300px"} src="/ketovia3.1Unfalvored.png" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -189,7 +189,7 @@ const Formulas1 = () => {
               <Typography
                 sx={{
                   fontWeight: "regular",
-                  fontSize: "14px",
+                  fontSize: "11px",
                   color: "black",
                   fontFamily: "Lato",
                   mt: 2,
@@ -231,7 +231,16 @@ const Formulas1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Caja por 30 bricks de 250 ml c/u.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Caja por 30 bricks de 250 ml c/u.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -261,7 +270,7 @@ const Formulas1 = () => {
 
       <Hidden smUp>
         <Box width={"85%"} m={"auto"}>
-          <Box  mt={"150px"}>
+          <Box mt={"150px"}>
             <Box>
               <Typography
                 sx={{
@@ -383,7 +392,7 @@ const Formulas1 = () => {
             </Box>
           </Box>
 
-          <Box width={"100%"} >
+          <Box width={"100%"}>
             <Box mt={3}>
               <Typography
                 sx={{
@@ -435,7 +444,7 @@ const Formulas1 = () => {
                 Lista para usar. Se recomienda agitar bien antes de su uso.
               </Typography>
             </Box>
-            <Box  mt={3} width={"100%"}>
+            <Box mt={3} width={"100%"}>
               <Typography
                 sx={{
                   color: "#007E48",

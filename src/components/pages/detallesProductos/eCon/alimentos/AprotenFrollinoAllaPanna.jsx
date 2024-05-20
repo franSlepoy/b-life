@@ -34,7 +34,7 @@ const AprotenFrollinoAllaPanna = () => {
                   mt: 2,
                 }}
               >
-                GALLETITAS PANNA ROSQUITAS
+                Galletitas pepas de chocolate
               </Typography>
               <Typography
                 sx={{
@@ -79,8 +79,8 @@ const AprotenFrollinoAllaPanna = () => {
                   }}
                 >
                   • Ingredientes: Almidón de maíz, margarina vegetal, azúcar,
-                  crema, huevo, malta, saborizante a leche, RAI: INS 503ii, ACI:
-                  INS 330.
+                  crema, huevo, malta, saborizante a leche, RAI: INS503ii, ACI:
+                  INS330.
                 </Typography>
                 <Typography
                   sx={{

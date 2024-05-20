@@ -199,11 +199,8 @@ const ComidaUrCBFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 13% P/V (3 medidas de Comida UrC
-                A Fórmula= 13 g de polvo + 90 cc de agua). Se recomienda
-                distribuir la cantidad diaria indicada por el profesional en
-                varias tomas a lo largo del día. EQUIVALENTE PROTEICO: 16 g de
-                equivalente proteico por 100 g de polvo.
+                La dilución recomendada es del 15% P/V (2 medidas de Comida UrC B Fómula = 15 g. de polvo + 90 cc de agua). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
+
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>

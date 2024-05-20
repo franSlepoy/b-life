@@ -34,7 +34,7 @@ const Arroz = () => {
                   mt: 2,
                 }}
               >
-                ARROZ
+                Arroz
               </Typography>
               <Typography
                 sx={{
@@ -49,10 +49,7 @@ const Arroz = () => {
               >
                 Sustituto de arroz bajo en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. Perfecta como
-                acompañamiento ó para la elaboración de risotto, ensalada de
-                arroz y todo tipo de deliciosos platos. Alimento para dietas
-                especiales.
+                el aporte de proteínas y aminoácidos.
               </Typography>
               <Typography
                 sx={{
@@ -82,6 +79,18 @@ const Arroz = () => {
                 >
                   • Ingredientes: Almidón de maíz, almidón de arroz, inulina,
                   harina de arroz, ESP: INS 460ii, EMU: INS471.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  Perfecta como acompañamiento ó para la elaboración de risotto,
+                  ensalada de arroz y todo tipo de deliciosos platos. Alimento
+                  para dietas especiales.
                 </Typography>
               </Box>
             </Box>
@@ -147,11 +156,10 @@ const Arroz = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 9 a 11 minutos.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
-              {/*  <Typography
+              <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -170,7 +178,9 @@ const Arroz = () => {
                   fontFamily: "Lato",
                   mt: 2,
                 }}
-              ></Typography> */}
+              >
+                FORMA DE PREPARACIÓN: Cocinar de 9 a 11 minutos.
+              </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography

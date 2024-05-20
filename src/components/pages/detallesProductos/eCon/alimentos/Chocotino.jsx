@@ -34,7 +34,7 @@ const Chocotino = () => {
                   mt: 2,
                 }}
               >
-                CHOCOTINO
+                Chocotino
               </Typography>
               <Typography
                 sx={{
@@ -215,7 +215,7 @@ const Chocotino = () => {
                 }}
               >
                 {" "}
-                Envase por 100 g.{" "}
+                Envase por 100 g (4 x 25 g.){" "}
               </Typography>
               {/* sin sabor  <Typography
                 sx={{

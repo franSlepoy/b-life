@@ -47,11 +47,8 @@ const GlytactinRTD15 = () => {
                   mt: 2,
                 }}
               >
-                Glytactin RTD 15 es una fórmula lista para usar a base de
-                glicomacropéptidos (GMP) para el tratamiento nutricional de la
-                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños
-                mayores de 1 año de edad. Alimento para propósitos médicos
-                específicos.
+                Glytactin RTD 15 chocolate y original es una fórmula lista para usar a base de glicomacropéptidos (GMP) nutricionalmente completa para el tratamiento nutricional de la Fenilcetonuria (PKU) ó Hiperfenilalaninemia (HPA) en niños mayores de 1 año de edad. Alimento para propósitos médicos específicos.
+
               </Typography>
               <Typography
                 sx={{

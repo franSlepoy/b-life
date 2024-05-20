@@ -34,7 +34,7 @@ const Ditali = () => {
                   mt: 2,
                 }}
               >
-                DITALI
+                Ditali
               </Typography>
               <Typography
                 sx={{
@@ -49,9 +49,7 @@ const Ditali = () => {
               >
                 Pasta para guisos baja en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. La pasta ideal para
-                grandes y pequeños: perfecta para todo tipo de salsas, guisos y
-                soufflé. Alimento para dietas especiales.
+                el aporte de proteínas y aminoácidos.
               </Typography>
               <Typography
                 sx={{
@@ -83,6 +81,18 @@ const Ditali = () => {
                   caña, inulina, harina de arroz, aceite de cártamo, ESP:
                   INS460i, EMU: INS471, COL: INS160ai.
                 </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • La pasta ideal para grandes y pequeños: perfecta para todo tipo
+                de salsas, guisos y soufflé. Alimento para dietas especiales.
+                </Typography>
+                
               </Box>
             </Box>
             <Box
@@ -147,7 +157,7 @@ const Ditali = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 4 a 6 minutos.
+               
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -162,7 +172,7 @@ const Ditali = () => {
               >
                 FORMA DE PREPARACIÓN:
               </Typography>
-              {/*  <Typography
+               <Typography
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
@@ -171,8 +181,8 @@ const Ditali = () => {
                   mt: 2,
                 }}
               >
-                no tiene
-              </Typography> */}
+                 TIEMPO DE COCCIÓN: 4 a 6 minutos.
+              </Typography> 
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography

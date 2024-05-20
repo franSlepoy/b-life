@@ -34,7 +34,7 @@ const AprotenGrissini = () => {
                   mt: 2,
                 }}
               >
-                GRISSINI
+               Grissini 
               </Typography>
               <Typography
                 sx={{
@@ -78,9 +78,11 @@ const AprotenGrissini = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Ingredientes: Almidón de maíz, fécula de papa, inulina,
-                  cártamo, EMU: INS471.
+                  • Ingredientes: Almidón de trigo, almidón de papa, almidón de arroz, aceite de coco, dextrosa, levadura, inulina, ESP: INS464, ANT: INS300. 
+
                 </Typography>
+               
+
               </Box>
             </Box>
             <Box

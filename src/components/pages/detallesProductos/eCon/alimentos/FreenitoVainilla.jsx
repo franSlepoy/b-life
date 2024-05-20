@@ -34,7 +34,7 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-                FREENITO VAINILLA
+                Freenito vainilla
               </Typography>
               <Typography
                 sx={{
@@ -79,11 +79,11 @@ const FreenitoVainilla = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Ingredientes: Azúcar impalpable, fécula de maíz,
-                  maltodextrina de maíz, fructosa, almidón de papa, carbonato de
-                  calcio, sal; ARO: aromatizante artificial sabor vainilla, ESP:
-                  pectina, COL: colorante caramelo IV, EST: carboximetilcelulosa
-                  sódica, carragenina, ACI: ácido cítrico.
+                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche
+                  de coco en polvo, azúcar impalpable, fructosa, almidón de
+                  papa, FOS, carbonato de calcio, sal, ARO: aromatizante
+                  artificial sabor vainilla, ACI: ácido cítrico, EST:
+                  carboximetilcelulosa sódica, carragenina, COL: INS 150d.
                 </Typography>
               </Box>
             </Box>
@@ -171,9 +171,8 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-                Mezclar 35 g de polvo con 100 cc de agua. Cocinar a fuego lento
-                hasta el primer hervor. Poner en moldes y refrigerar hasta que
-                solidifique. Consumir dentro de las 24 hs.
+                Mezclar 44 g de polvo con 100 cc de agua hasta espesar.
+                Refrigerar 20 minutos y consumir dentro de las 24 hs.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -218,7 +217,7 @@ const FreenitoVainilla = () => {
                 }}
               >
                 {" "}
-                Envase por 175 g.
+                Envase por 180 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{
