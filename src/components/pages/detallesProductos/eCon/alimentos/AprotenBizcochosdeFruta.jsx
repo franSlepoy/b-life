@@ -163,7 +163,7 @@ const AprotenBizcochosdeFruta = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-            <Box ml={3} width={"33.3%"}>
+          {/*   <Box ml={3} width={"33.3%"}>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -184,7 +184,7 @@ const AprotenBizcochosdeFruta = () => {
                   mt: 2,
                 }}
               ></Typography>
-            </Box>
+            </Box> */}
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{

@@ -417,7 +417,7 @@ export const productosData = [
     imagen: "/kansoDeliMCTCacaoBiscuits.jpg",
     link: "/KansoDelíMCTCacaoBiscuits",
   },
-  
+
   {
     id: 43,
     categoria: "Errores congénitos del metabolismo",
@@ -684,7 +684,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Arroz",
     descripcion:
-      "Sustituto de arroz bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Perfecta como acompañamiento ó para la elaboración de risotto, ensalada de arroz y todo tipo de deliciosos platos. Alimento para dietas especiales.",
+      "Sustituto de arroz bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/arroz.png",
     link: "/arroz",
   },
@@ -694,7 +694,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Burger Mix ",
     descripcion:
-      "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. La alternativa perfecta y baja en proteínas a la carne picada: ideal para preparar albóndigas, hamburguesas, salsa boloñesa y otros platos basados en carne picada. Alimento para dietas especiales.",
+      "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. Alimento para dietas especiales.",
     imagen: "/burgerMix1.png",
     link: "/burgerMix1",
   },
@@ -714,7 +714,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Ditali",
     descripcion:
-      "Pasta para guisos baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. La pasta ideal para grandes y pequeños: perfecta para todo tipo de salsas, guisos y soufflé. Alimento para dietas especiales.",
+      "Pasta para guisos baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales. ",
     imagen: "/ditali.png",
     link: "/ditali",
   },
@@ -724,7 +724,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "fruit Bar ",
     descripcion:
-      "Barrita a base de almidón de trigo con relleno a base de frutilla ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Su envase individual permite consumirlas en cualquier momento y lugar. Fruit bar es tu snack ideal. Alimento para dietas especiales.",
+      "Barrita a base de almidón de trigo con relleno a base de frutilla ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/fruitBar.png",
     link: "/fruitBar",
   },
@@ -734,7 +734,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Fusilli Mevalia ",
     descripcion:
-      "Pasta en espiral baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. La pasta en espiral, gracias a su refinada forma, queda perfecta con todo tipo de salsas. Alimento para dietas especiales.",
+      "Pasta en espiral baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/Fusilli1.png",
     link: "/Fusilli1",
   },
@@ -744,7 +744,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: " Penne Mevalia",
     descripcion:
-      "Pasta tipo mostachol baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. La pasta por excelencia para guisos y estofados. Alimento para dietas especiales.",
+      "Pasta tipo mostachol baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/penne1.png",
     link: "/penne1",
   },
@@ -754,7 +754,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Spaghetti ",
     descripcion:
-      "Pasta baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. El clásico de los clásicos de la pasta italiana. especiales.",
+      "Pasta baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/spaghetti.png",
     link: "/spaghetti",
   },

@@ -75,31 +75,48 @@ const Productos = () => {
         <Box>
           <ProductosFiltros />
         </Box>
+        <Box textAlign={"center"}>
+          <Typography
+            sx={{
+              pt: 10,
+              width: "40%",
+              m: "auto",
+              textAlign: "center",
+              fontFamily: "Lato",
+              fontSize: "30px",
+              fontWeight: "light", // Debería ser "normal" en lugar de "regular"
+              fontStyle: "italic",
+              lineHeight: "30px",
+              color: "#007E48",
+            }}
+          >
+           <strong>Explorá nuestras líneas,</strong>  Y DESCUBRÍ NUESTROS PRODUCTOS.
+          </Typography>
+        </Box>
+
         <Box>
           <Footer />
         </Box>
       </Hidden>
 
       <Hidden smUp>
-       
-            <Box>
-              <img
-                width={"100%"}
-                height={"500px"}
-                style={{ width: "100%", objectFit: "cover" }}
-                src="fotoproductos-inicio.png"
-                alt=""
-              />
-            </Box>
-        
+        <Box>
+          <img
+            width={"100%"}
+            height={"500px"}
+            style={{ width: "100%", objectFit: "cover" }}
+            src="fotoproductos-inicio.png"
+            alt=""
+          />
+        </Box>
 
-        <Box position={"absolute"} left={"6%"} top={"200px"} >
+        <Box position={"absolute"} left={"6%"} top={"200px"}>
           <img width={"20%"} src="/logoBlancoBi.png" alt="" />
           <Typography
             sx={{
               fontFamily: "Lato",
               fontWeight: "light",
-             
+
               fontSize: "60px",
               lineHeight: "55px",
               color: "white",

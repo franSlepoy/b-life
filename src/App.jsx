@@ -91,6 +91,7 @@ import SustitutoDeHarina from "./components/pages/detallesProductos/eCon/aliment
 import AminomedPremium from "./components/pages/detallesProductos/aplv/AminomedPremium";
 import ComidaOAcAFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaOAcAFormula";
 import ComidaOAcBFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaOAcBFormula";
+import Fusilli1 from "./components/pages/detallesProductos/eCon/alimentos/Fusilli1";
 
 function App() {
   const location = useLocation();
@@ -189,6 +190,7 @@ function App() {
             element={<AprotenFetasTostadas />}
           />
           <Route path="/fusilli" element={<Fusilli />} />
+          <Route path="/fusilli1" element={<Fusilli1 />} />
           <Route
             path="/aprotenFrollinoAllaPanna"
             element={<AprotenFrollinoAllaPanna />}

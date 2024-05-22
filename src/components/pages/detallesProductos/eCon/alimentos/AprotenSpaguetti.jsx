@@ -147,28 +147,7 @@ const AprotenSpaguetti = () => {
                 COCCIÓN: 10 a 12 minutos.
               </Typography>
             </Box>
-            <Box ml={3} width={"33.3%"}>
-              {/*  <Typography
-                sx={{
-                  color: "#007E48",
-                  fontFamily: "Lato",
-                  fontWeight: "800",
-                  fontSize: "15px",
-                  mt: 2,
-                }}
-              >
-                FORMA DE PREPARACIÓN:
-              </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "black",
-                  fontFamily: "Lato",
-                  mt: 2,
-                }}
-              ></Typography> */}
-            </Box>
+           
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{

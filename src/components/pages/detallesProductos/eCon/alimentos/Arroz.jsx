@@ -179,7 +179,7 @@ const Arroz = () => {
                   mt: 2,
                 }}
               >
-                FORMA DE PREPARACIÓN: Cocinar de 9 a 11 minutos.
+                Cocinar de 9 a 11 minutos.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>

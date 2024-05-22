@@ -34,7 +34,7 @@ const Otros = () => {
               mt: 2,
             }}
           >
-            Productos
+            Otros
           </Typography>
           <Typography
             sx={{
@@ -47,7 +47,7 @@ const Otros = () => {
               mt: 2,
             }}
           >
-            Terapéuticos
+             Productos
           </Typography>
 
           <Typography
@@ -61,7 +61,7 @@ const Otros = () => {
               color: "white",
             }}
           >
-            Nutricionales Esenciales
+            Nutricionales 
           </Typography>
           <Typography
             sx={{
@@ -75,9 +75,7 @@ const Otros = () => {
               mt: 0,
             }}
           >
-            Dentro de las posibilidades terapéuticas actuales para los EIM, el
-            tratamiento nutricional es el pilar más importante en el manejo
-            global de estos trastornos.
+            B-Life cuenta con productos para el abordaje terapéutico de otras condiciones.
           </Typography>
         </Box>
 
@@ -203,7 +201,7 @@ const Otros = () => {
               mt: 1,
             }}
           >
-            Productos
+            Otros
           </Typography>
           <Typography
             sx={{
@@ -216,7 +214,7 @@ const Otros = () => {
               mt: 1,
             }}
           >
-            Terapéuticos
+           Productos
           </Typography>
 
           <Typography
@@ -231,7 +229,7 @@ const Otros = () => {
               mt: 2,
             }}
           >
-            Nutricionales Esenciales
+            Nutricionales 
           </Typography>
           <Typography
             sx={{
@@ -245,9 +243,7 @@ const Otros = () => {
               mt: 4,
             }}
           >
-            Dentro de las posibilidades terapéuticas actuales para los EIM, el
-            tratamiento nutricional es el pilar más importante en el manejo
-            global de estos trastornos.
+            B-Life cuenta con productos para el abordaje terapéutico de otras condiciones.
           </Typography>
         </Box>
 

@@ -8,24 +8,16 @@ import BotonWS from "../../common/button/BotonWS";
 
 const APLV = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const [openModal1, setOpenModal1] = useState(false);
-  const [openModal2, setOpenModal2] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  const handleOpenModal1 = () => {
-    setOpenModal1(true);
+  const handleOpen = () => {
+    setOpen(true);
   };
 
-  const handleCloseModal1 = () => {
-    setOpenModal1(false);
+  const handleClose = () => {
+    setOpen(false);
   };
 
-  const handleOpenModal2 = () => {
-    setOpenModal2(true);
-  };
-
-  const handleCloseModal2 = () => {
-    setOpenModal2(false);
-  };
   return (
     <>
       <Hidden smDown>
@@ -100,11 +92,11 @@ const APLV = () => {
             <span
               onMouseEnter={() => {
                 setIsHovered(true);
-                handleOpenModal1();
+                handleOpen();
               }}
               onMouseLeave={() => {
                 setIsHovered(false);
-                handleCloseModal1() // Cerrar el Modal cuando el cursor sale del área
+                handleClose(); // Cerrar el Modal cuando el cursor sale del área
               }}
               style={{
                 fontSize: "8px",
@@ -117,9 +109,7 @@ const APLV = () => {
               1.
               <Modal
                 open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
-                onClose={handleCloseModal1}
-                aria-labelledby="modal-modal-title"
-                aria-describedby="modal-modal-description"
+                onClose={handleClose}
               >
                 <Box
                   sx={{
@@ -135,20 +125,44 @@ const APLV = () => {
                   }}
                 >
                   <Typography
-                    sx={{
-                      fontFamily: "Lato",
-                      fontStyle: "regular",
-                      fontSize: "10px",
-                      color: "black",
-                      lineHeight: "10px",
-                    }}
-                    id="modal-modal-title"
-                  >
-                    1. Petriz NA, Parisi CAS, Busaniche JN, et al. Historia
-                    natural de la alergia a la leche de vaca mediada por
-                    inmunoglobulina E en una población de niños argentinos. Arch
-                    Argent Pediatr 2017;115(4):331-335.
-                  </Typography>
+                        sx={{
+                          fontFamily: "Lato",
+                          fontStyle: "regular",
+                          fontSize: "10px",
+                          color: "black",
+                          lineHeight: "10px",
+                        }}
+                        id="modal-modal-title"
+                      >
+                        1. Petriz NA, Parisi CAS, Busaniche JN, et al. Historia
+                        natural de la alergia a la leche de vaca mediada por
+                        inmunoglobulina E en una población de niños argentinos.
+                        Arch Argent Pediatr 2017;115(4):331-335. 2. M.C. Toca,
+                        M.B. Morais, R. Vázquez-Frias et al., Consenso sobre el
+                        diagnóstico y el tratamiento de la alergia a las
+                        proteínas de la leche de vaca de la Sociedad
+                        Latinoamericana de Gastroenterología, Hepatología y
+                        Nutrición, Revista de Gastroenterología de México,
+                        https://doi.org/10.1016/j.rgmx.2022.03.007
+                      </Typography>
+                      <Typography
+                        sx={{
+                          fontFamily: "Lato",
+                          fontStyle: "regular",
+                          fontSize: "10px",
+                          color: "black",
+                          lineHeight: "10px",
+                        }}
+                        id="modal-modal-title"
+                      >
+                         2. M.C. Toca,
+                        M.B. Morais, R. Vázquez-Frias et al., Consenso sobre el
+                        diagnóstico y el tratamiento de la alergia a las
+                        proteínas de la leche de vaca de la Sociedad
+                        Latinoamericana de Gastroenterología, Hepatología y
+                        Nutrición, Revista de Gastroenterología de México,
+                        https://doi.org/10.1016/j.rgmx.2022.03.007
+                      </Typography>
                 </Box>
               </Modal>
             </span>
@@ -256,11 +270,11 @@ const APLV = () => {
                 <span
                   onMouseEnter={() => {
                     setIsHovered(true);
-                    handleOpenModal2();
+                    handleOpen();
                   }}
                   onMouseLeave={() => {
                     setIsHovered(false);
-                    handleCloseModal2(); // Cerrar el Modal cuando el cursor sale del área
+                    handleClose(); // Cerrar el Modal cuando el cursor sale del área
                   }}
                   style={{
                     fontSize: "8px",
@@ -273,9 +287,7 @@ const APLV = () => {
                   2.
                   <Modal
                     open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
-                    onClose={handleCloseModal2}
-                    aria-labelledby="modal-modal-title"
-                    aria-describedby="modal-modal-description"
+                    onClose={handleClose}
                   >
                     <Box
                       sx={{
@@ -300,12 +312,34 @@ const APLV = () => {
                         }}
                         id="modal-modal-title"
                       >
-                        2. M.C. Toca, M.B. Morais, R. Vázquez-Frias et al.,
-                        Consenso sobre el diagnóstico y el tratamiento de la
-                        alergia a las proteínas de la leche de vaca de la
-                        Sociedad Latinoamericana de Gastroenterología,
-                        Hepatología y Nutrición, Revista de Gastroenterología de
-                        México, https://doi.org/10.1016/j.rgmx.2022.03.007
+                        1. Petriz NA, Parisi CAS, Busaniche JN, et al. Historia
+                        natural de la alergia a la leche de vaca mediada por
+                        inmunoglobulina E en una población de niños argentinos.
+                        Arch Argent Pediatr 2017;115(4):331-335. 2. M.C. Toca,
+                        M.B. Morais, R. Vázquez-Frias et al., Consenso sobre el
+                        diagnóstico y el tratamiento de la alergia a las
+                        proteínas de la leche de vaca de la Sociedad
+                        Latinoamericana de Gastroenterología, Hepatología y
+                        Nutrición, Revista de Gastroenterología de México,
+                        https://doi.org/10.1016/j.rgmx.2022.03.007
+                      </Typography>
+                      <Typography
+                        sx={{
+                          fontFamily: "Lato",
+                          fontStyle: "regular",
+                          fontSize: "10px",
+                          color: "black",
+                          lineHeight: "10px",
+                        }}
+                        id="modal-modal-title"
+                      >
+                         2. M.C. Toca,
+                        M.B. Morais, R. Vázquez-Frias et al., Consenso sobre el
+                        diagnóstico y el tratamiento de la alergia a las
+                        proteínas de la leche de vaca de la Sociedad
+                        Latinoamericana de Gastroenterología, Hepatología y
+                        Nutrición, Revista de Gastroenterología de México,
+                        https://doi.org/10.1016/j.rgmx.2022.03.007
                       </Typography>
                     </Box>
                   </Modal>
@@ -331,7 +365,9 @@ const APLV = () => {
                   presente. B-Life busca escuchar las necesidades de sus
                   clientes para satisfacerlas, desarrollando y poniendo a su
                   disposición todos aquellos recursos necesarios para llevar
-                  adelante el tratamiento.
+                  adelante el tratamiento. Por último, se compromete en brindar a los profesionales de la
+                salud capacitación continua y acceso a la información
+                científica.
                 </Typography>
               </Box>
 
@@ -342,7 +378,7 @@ const APLV = () => {
                   fontSize: "15px",
                   color: "white",
                   lineHeight: "19px",
-                  mt: 1,
+                  
                 }}
               >
                 Por último, se compromete en brindar a los profesionales de la
@@ -594,11 +630,11 @@ const APLV = () => {
                 <span
                   onMouseEnter={() => {
                     setIsHovered(true);
-                    handleOpenModal2();
+                    handleOpen();
                   }}
                   onMouseLeave={() => {
                     setIsHovered(false);
-                    handleCloseModal2(); // Cerrar el Modal cuando el cursor sale del área
+                    handleClose(); // Cerrar el Modal cuando el cursor sale del área
                   }}
                   style={{
                     fontSize: "8px",
@@ -611,9 +647,7 @@ const APLV = () => {
                   2.
                   <Modal
                     open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
-                    onClose={handleCloseModal2}
-                    aria-labelledby="modal-modal-title"
-                    aria-describedby="modal-modal-description"
+                    onClose={handleClose}
                   >
                     <Box
                       sx={{

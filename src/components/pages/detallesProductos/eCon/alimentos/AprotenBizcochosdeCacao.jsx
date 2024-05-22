@@ -169,31 +169,10 @@ const AprotenBizcochosdeCacao = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
-                FORMA DE PREPARACIÓN:
-             {/*  </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "black",
-                  fontFamily: "Lato",
-                  mt: 2,
-                }}
-              ></Typography>
-            </Box>
-            <Box ml={2} mt={3} width={"33.3%"}>
-              <Typography
-                sx={{
-                  color: "#007E48",
-                  fontFamily: "Lato",
-                  fontWeight: "800",
-                  fontSize: "15px",
-                  mt: 2,
-                }}
-              > */}
+                
                 ADMINISTRACIÓN:
               </Typography>
               <Typography

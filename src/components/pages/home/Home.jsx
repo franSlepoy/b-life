@@ -12,12 +12,9 @@ const Home = () => {
   const [open, setOpen] = useState(false); // Cambiado a false por defecto
 
   useEffect(() => {
-    const isDisclaimerShown = localStorage.getItem("isDisclaimerShown");
-    if (!isDisclaimerShown) {
-      setOpen(true);
-      localStorage.setItem("isDisclaimerShown", true);
-    }
+    setOpen(true); // Abrir el modal cuando el componente se monta
   }, []);
+
 
   const handleClose = () => {
     setOpen(false);

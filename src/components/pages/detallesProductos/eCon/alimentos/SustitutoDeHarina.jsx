@@ -148,35 +148,7 @@ const SustitutoDeHarina = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-            <Box ml={3} width={"33.3%"}>
-              {/* <Typography
-                sx={{
-                  color: "#007E48",
-                  fontFamily: "Lato",
-                  fontWeight: "800",
-                  fontSize: "15px",
-                  mt: 2,
-                }}
-              >
-                FORMA DE PREPARACIÓN:
-              </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "black",
-                  fontFamily: "Lato",
-                  mt: 2,
-                }}
-              >
-                {" "}
-                Poner en un bowl 25 g de manteca a punto pomada, agregar 100 g
-                de ZeroPro muffins y tortas de a poco e ir agregando 70 ml agua
-                hasta lograr una consistencia símil bizcochuelo. Poner en moldes
-                de muffins previamente aceitados. Cocinar a 180° por 15 a 20
-                min. Rinde 3 muffins.
-              </Typography> */}
-            </Box>
+         
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
