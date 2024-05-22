@@ -110,8 +110,8 @@ export const productosData = [
   },
   {
     id: 12,
-    categoria: "APLV",
-    subCategoria: "APLV",
+    categoria: "Alergia a la proteína de leche de vaca",
+    subCategoria: "Alergia a la proteína de leche de vaca",
     titulo: "AminoMed",
     descripcion:
       "AminoMed es una fórmula infantil en polvo hipoalergénica y elemental a base de L- aminoácidos para lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
@@ -120,8 +120,8 @@ export const productosData = [
   },
   {
     id: 13,
-    categoria: "APLV",
-    subCategoria: "APLV",
+    categoria: "Alergia a la proteína de leche de vaca",
+    subCategoria: "Alergia a la proteína de leche de vaca",
     titulo: "AminoMed Premium",
     descripcion:
       "AminoMed Premium es una fórmula infantil en polvo hipoalergénica a base de aminoácidos para lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
@@ -130,8 +130,8 @@ export const productosData = [
   },
   {
     id: 14,
-    categoria: "APLV",
-    subCategoria: "APLV",
+    categoria: "Alergia a la proteína de leche de vaca",
+    subCategoria: "Alergia a la proteína de leche de vaca",
     titulo: "Essential Care Jr.",
     descripcion:
       "Única fórmula baja en FODMAP hipoalergénica a base de aminoácidos con nutrientes optimizados para niños mayores de 1 año de edad con alergias alimentarias y trastornos gastrointestinales.",
@@ -392,7 +392,7 @@ export const productosData = [
     id: 40,
     categoria: "Terapia Cetogénica",
     subCategoria: "ALIMENTOS",
-    titulo: "CETOMIX CHOCOLATE",
+    titulo: "Cetomix Chocolate",
     descripcion:
       "Premezcla a base de aceite de palma y harina de almendras, sabor chocolate, para dietas especiales.",
     imagen: "/PouchCetomixCHOCOLATELR.jpg",
@@ -402,7 +402,7 @@ export const productosData = [
     id: 41,
     categoria: "Terapia Cetogénica",
     subCategoria: "ALIMENTOS",
-    titulo: "CETOMIX VAINILLA",
+    titulo: "Cetomix Vainilla",
     descripcion:
       "Premezcla a base de aceite de palma y harina de almendras, sabor vainilla, para dietas especiales.",
     imagen: "/PouchCetomixVAINILLALR.jpg",
@@ -422,7 +422,7 @@ export const productosData = [
     id: 43,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "BIZCOCHOS DE CACAO",
+    titulo: "Bizcochos de Cacao",
     descripcion:
       "Masitas de cacao de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenBizcochosdeCacao.png",
@@ -432,7 +432,7 @@ export const productosData = [
     id: 44,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "BIZCOCHOS DE FRUTA",
+    titulo: "Bizcochos de Fruta",
     descripcion:
       "Masitas sabor fruta de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenBizcochosdeFruta.png",
@@ -442,7 +442,7 @@ export const productosData = [
     id: 45,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "BIZCOCHOS DE VAINILLA",
+    titulo: "Bizcochos de Vainilla",
     descripcion:
       "Masitas de vainilla de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenBizcochosdeVainilla.png",
@@ -452,7 +452,7 @@ export const productosData = [
     id: 48,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "CHICCHI",
+    titulo: "Chicci",
     descripcion:
       "Pasta tipo arroz, de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenChicci.png",
@@ -462,7 +462,7 @@ export const productosData = [
     id: 49,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FETAS TOSTADAS",
+    titulo: "Fetas Tostadas",
     descripcion:
       "Tostadas tipo tosti de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenFetasTostadas.png",
@@ -472,7 +472,7 @@ export const productosData = [
     id: 50,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FUSILLI ",
+    titulo: "Fusilli ",
     descripcion:
       "Pasta tipo tirabuzón, de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/fusilli.png",
@@ -482,7 +482,7 @@ export const productosData = [
     id: 51,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "GALLETITAS PANNA ROSQUITAS",
+    titulo: "Galletitas Panna rosquitas",
     descripcion:
       "Rosquitas de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenFrollinoAllaPanna.png",
@@ -492,7 +492,7 @@ export const productosData = [
     id: 52,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "GALLETITAS PEPAS DE CHOCOLATE",
+    titulo: "Galletitas pepas de chocolate",
     descripcion:
       "Galletitas de vainilla con chip de chocolate de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenFrollinoGocceDiCioccolato.png",
@@ -502,7 +502,7 @@ export const productosData = [
     id: 53,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "GRISSINI",
+    titulo: "Grisines",
     descripcion:
       "Grisines de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenGrissini.png",
@@ -512,7 +512,7 @@ export const productosData = [
     id: 54,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "HARINA ",
+    titulo: "Harina ",
     descripcion:
       "Sustituto de harina adecuada para la elaboración de amasados hipoproteicos dulces y salados como, panes, pizzas, tortas y otras preparaciones de bajo contenido proteico, para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenHarina.png",
@@ -522,7 +522,7 @@ export const productosData = [
     id: 55,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "OBLEAS DE CHOCOLATE ",
+    titulo: "Obleas de chocolate ",
     descripcion:
       "Obleas de chocolate de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenObleasDeChocholate.png",
@@ -532,7 +532,7 @@ export const productosData = [
     id: 56,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "OBLEAS DE VAINILLA ",
+    titulo: "Obleas de vainilla ",
     descripcion:
       "Obleas de vainilla de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenObleasDeVainilla.png",
@@ -542,7 +542,7 @@ export const productosData = [
     id: 57,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "PAN BIZCOCHADO ",
+    titulo: "Pan Bizcochado ",
     descripcion:
       "Tostadas de pan de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenPanBizcochado.png",
@@ -552,7 +552,7 @@ export const productosData = [
     id: 58,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "PENNE",
+    titulo: "Penne",
     descripcion:
       "Pasta tipo mostachol, de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/penne.png",
@@ -562,7 +562,7 @@ export const productosData = [
     id: 59,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "RIGATINI",
+    titulo: "Rigatini",
     descripcion:
       "Pasta tipo dedalito, de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/rigatini.png",
@@ -572,7 +572,7 @@ export const productosData = [
     id: 60,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "SPAGHETTI",
+    titulo: "Spaguetti",
     descripcion:
       "Pasta de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenSpaguetti.png",
@@ -582,7 +582,7 @@ export const productosData = [
     id: 61,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "TAGLIATELLE ",
+    titulo: "Tagliatelle",
     descripcion:
       "Pasta tipo cinta, de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenTagliatelle.png",
@@ -592,7 +592,7 @@ export const productosData = [
     id: 62,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FREECHEES",
+    titulo: "Freechees",
     descripcion:
       "Premezcla a base de fécula de maíz y almidón de papa, para preparar alimento sabor queso. Freechees tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freechees.png",
@@ -602,7 +602,7 @@ export const productosData = [
     id: 63,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FREEGUR FRUTILLA",
+    titulo: "Freegur Frutilla",
     descripcion:
       "Premezcla a base de maltodextrina, almidón y azúcar impalpable, para preparar postre sabor frutilla. Freegur frutilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freegurFrutilla.png",
@@ -612,7 +612,7 @@ export const productosData = [
     id: 64,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FREEGUR VAINILLA",
+    titulo: "Freegur Vainilla",
     descripcion:
       "Premezcla a base de maltodextrina, almidón y azúcar impalpable, para preparar postre sabor vainilla. Freegur vainilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freegurVainilla.png",
@@ -622,7 +622,7 @@ export const productosData = [
     id: 65,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FREEMILK",
+    titulo: "Free Milk",
     descripcion:
       "Sustituto de leche en polvo a base de almidón de papa y maltodextrina para mayores de 1 año de edad. Ideal para dietas restringidas.",
     imagen: "/freeMilk.png",
@@ -632,7 +632,7 @@ export const productosData = [
     id: 66,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FREENITO CHOCOLATE",
+    titulo: "Freenito Chocolate",
     descripcion:
       "Premezcla a base de azúcar impalpable, fécula de maíz y almidón de papa, para preparar postre sabor chocolate. Freenito chocolate tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freenitoChocolate.png",
@@ -642,7 +642,7 @@ export const productosData = [
     id: 67,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FREENITO VAINILLA",
+    titulo: "Freenito Vainilla",
     descripcion:
       "Premezcla a base de azúcar impalpable, fécula de maíz y almidón de papa, para preparar postre sabor vainilla. Freenito vainilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freenitoVainilla.png",
@@ -652,7 +652,7 @@ export const productosData = [
     id: 68,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "BURGER MIX",
+    titulo: "Burger Mix",
     descripcion:
       "Premezcla para preparar hamburguesas bajas en proteínas a base de almidón de maíz y papa ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/burgerMix.png",
@@ -662,7 +662,7 @@ export const productosData = [
     id: 69,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "SALT STICKS",
+    titulo: "Salt Sticks",
     descripcion:
       "Palitos salados tipo pretzels bajos en proteínas ideales para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/saltSticks.jpg",
@@ -672,7 +672,7 @@ export const productosData = [
     id: 70,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "SCHOXXI CHOCOLATE",
+    titulo: "Schoxxi Tafel",
     descripcion:
       "Chocolate con bajo contenido proteico, ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos Alimento para dietas especiales.",
     imagen: "/schoxxiTafel.png",
@@ -682,7 +682,7 @@ export const productosData = [
     id: 71,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "ARROZ ",
+    titulo: "Arroz",
     descripcion:
       "Sustituto de arroz bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Perfecta como acompañamiento ó para la elaboración de risotto, ensalada de arroz y todo tipo de deliciosos platos. Alimento para dietas especiales.",
     imagen: "/arroz.png",
@@ -692,7 +692,7 @@ export const productosData = [
     id: 72,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "BURGER MIX ",
+    titulo: "Burger Mix ",
     descripcion:
       "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. La alternativa perfecta y baja en proteínas a la carne picada: ideal para preparar albóndigas, hamburguesas, salsa boloñesa y otros platos basados en carne picada. Alimento para dietas especiales.",
     imagen: "/burgerMix1.png",
@@ -702,7 +702,7 @@ export const productosData = [
     id: 73,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "CHOCOTINO ",
+    titulo: "Chocotino ",
     descripcion:
       "Producto a base de azúcar y manteca de cacao sabor chocolate ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/chocotino.png",
@@ -712,7 +712,7 @@ export const productosData = [
     id: 74,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "DITALI ",
+    titulo: "Ditali",
     descripcion:
       "Pasta para guisos baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. La pasta ideal para grandes y pequeños: perfecta para todo tipo de salsas, guisos y soufflé. Alimento para dietas especiales.",
     imagen: "/ditali.png",
@@ -722,7 +722,7 @@ export const productosData = [
     id: 75,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FRUIT BAR ",
+    titulo: "fruit Bar ",
     descripcion:
       "Barrita a base de almidón de trigo con relleno a base de frutilla ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Su envase individual permite consumirlas en cualquier momento y lugar. Fruit bar es tu snack ideal. Alimento para dietas especiales.",
     imagen: "/fruitBar.png",
@@ -732,7 +732,7 @@ export const productosData = [
     id: 76,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "FUSILLI MEVALIA ",
+    titulo: "Fusilli Mevalia ",
     descripcion:
       "Pasta en espiral baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. La pasta en espiral, gracias a su refinada forma, queda perfecta con todo tipo de salsas. Alimento para dietas especiales.",
     imagen: "/Fusilli1.png",
@@ -742,7 +742,7 @@ export const productosData = [
     id: 77,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: " PENNE MEVALIA",
+    titulo: " Penne Mevalia",
     descripcion:
       "Pasta tipo mostachol baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. La pasta por excelencia para guisos y estofados. Alimento para dietas especiales.",
     imagen: "/penne1.png",
@@ -752,7 +752,7 @@ export const productosData = [
     id: 78,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "SPAGHETTI ",
+    titulo: "Spaghetti ",
     descripcion:
       "Pasta baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. El clásico de los clásicos de la pasta italiana. especiales.",
     imagen: "/spaghetti.png",
@@ -762,7 +762,7 @@ export const productosData = [
     id: 79,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "ZEROPRO MUFFINS Y TORTAS",
+    titulo: "Zeropro Muffins y Tortas",
     descripcion:
       "Premezcla a base de almidones y azúcar impalpable para preparar muffins y tortas sabor vainilla para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/zeroproMuffinsyTortas.png",
@@ -772,7 +772,7 @@ export const productosData = [
     id: 80,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "GALLETAS MARINERAS",
+    titulo: "Galletas Marineras",
     descripcion:
       "Galletitas tipo marineras bajas en proteínas para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/galletasMarineras.png",
@@ -782,7 +782,7 @@ export const productosData = [
     id: 81,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "SUSTITUTO DE HUEVO ",
+    titulo: "Sustituto de huevo ",
     descripcion:
       "Polvo, ideal para ligar y leudar preparaciones culinarias bajas en proteínas en reemplazo del huevo natural, para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/sustitutoDeHuevo.png",
@@ -792,7 +792,7 @@ export const productosData = [
     id: 82,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "SUSTITUTO DE QUESO  ",
+    titulo: "Sustituto de queso ",
     descripcion:
       "Polvo granulado con sabor a queso parmesano bajo en proteínas, ideal para utilizar en reemplazo del queso rallado en patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/sustitutoDeQueso.png",
@@ -802,7 +802,7 @@ export const productosData = [
     id: 83,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "ZEROPRO BROWNIES  ",
+    titulo: "Zeropro Brownies ",
     descripcion:
       "Premezcla a base de almidones y azúcar impalpable sabor chocolate para preparar brownies para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/zeroproBrownies.jpg",
@@ -812,7 +812,7 @@ export const productosData = [
     id: 84,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "SUSTITUTO DE HARINA",
+    titulo: "Sustituto de harina",
     descripcion:
       "Premezcla baja en proteínas para elaborar todo tipo de amasados dulces y salados para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/sustitutoDeHarina.jpg",

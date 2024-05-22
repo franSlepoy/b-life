@@ -1,12 +1,11 @@
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Button } from "@mui/material";
 
-const BotonIG = () => {
+const BotonIG = ({ link }) => {
   return (
     <>
       <a
-        target="_blank"
-        href="https://www.instagram.com/b_life.dieta.cetogenica/ "
+        target="_blank" rel="noopener noreferrer" href={link}
       >
         <Button
           variant="contained"

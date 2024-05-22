@@ -109,15 +109,15 @@ const Otros = () => {
                 reparación de tejidos en personas adultas que presenten heridas
                 de difícil cicatrización (Abintra), restauración de la
                 superficie y flora intestinal (Glutapak R) y mejora cognitiva en
-                personas con síndrome de Down (Font Up)
+                personas con síndrome de Down (FontUp)
               </strong>{" "}
             </Typography>
           </Box>
 
-          <Box mt={10} textAlign={"center"}>
+          <Box display={"flex"} justifyContent={"center"} mt={10} textAlign={"center"}>
             <Boton texto={"Productos"} linkTo={"/productos"} />
-            <Box mt={1}>
-              <BotonWS />
+            <Box ml={2}>
+              <BotonWS link={"https://walink.co/8ac7da"} />
             </Box>
           </Box>
 
@@ -262,7 +262,7 @@ const Otros = () => {
           <Box pt={6} textAlign={"center"}>
             <Boton texto={"Productos"} linkTo={"/productos"} />
             <Box mt={1}>
-              <BotonWS />
+              <BotonWS link={"https://walink.co/8ac7da"} />
             </Box>
           </Box>
           <Box width={"100%"}>
@@ -285,7 +285,7 @@ const Otros = () => {
                 reparación de tejidos en personas adultas que presenten heridas
                 de difícil cicatrización (Abintra), restauración de la
                 superficie y flora intestinal (Glutapak R) y mejora cognitiva en
-                personas con síndrome de Down (Font Up)
+                personas con síndrome de Down (FontUp)
               </strong>{" "}
             </Typography>
           </Box>

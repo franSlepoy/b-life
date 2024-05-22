@@ -253,7 +253,7 @@ const TC = () => {
                 contenido en grasas, un bajo contenido en hidratos de carbono y
                 un aporte de proteínas recomendados para la edad del paciente,
                 en la cual se utiliza la grasa como fuente de energía primaria a
-                través de la formación de cuerpos cetónicos (155 libro). Es una
+                través de la formación de cuerpos cetónicos. Es una
                 dieta rígida, matemáticamente calculada, individual y
                 médicamente controlada por un equipo interdisciplinario
                 especializado.
@@ -447,44 +447,23 @@ const TC = () => {
               >
                 B-Life considera el respeto uno de sus principales valores,
                 demostrándolo en cada contacto y en cada lugar en el que está
-                presente.
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Lato",
-                  fontStyle: "regular",
-                  fontSize: "15px",
-                  color: "white",
-                  lineHeight: "19px",
-                }}
-              >
-                B-Life busca escuchar las necesidades de sus clientes para
+                presente. B-Life busca escuchar las necesidades de sus clientes para
                 satisfacerlas, desarrollando y poniendo a su disposición todos
                 aquellos recursos necesarios para llevar adelante el
-                tratamiento.
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Lato",
-                  fontStyle: "regular",
-                  fontSize: "15px",
-                  color: "white",
-                  lineHeight: "19px",
-                  mt: 1,
-                }}
-              >
-                Por último, se compromete en brindar a los profesionales de la
+                tratamiento. Por último, se compromete en brindar a los profesionales de la
                 salud capacitación continua y acceso a la información
                 científica.
               </Typography>
+             
+             
 
               <Box mt={5} display={"flex"} justifyContent={"flex-end"}>
                 <Boton texto={"Productos"} linkTo={"/productos"} />
                 <Box ml={1}>
-                  <BotonWS />
+                  <BotonWS link={"https://walink.co/8b32a0 "} />
                 </Box>
                 <Box ml={1}>
-                  <BotonIG />
+                  <BotonIG link={ "https://www.instagram.com/b_life.dieta.cetogenica"} />
                 </Box>
               </Box>
             </Box>
@@ -645,10 +624,10 @@ const TC = () => {
           <Box mt={5} display={"flex"} justifyContent={"center"}>
             <Boton texto={"Productos"} linkTo={"/productos"} />
             <Box ml={1}>
-              <BotonWS />
+              <BotonWS link={"https://walink.co/8b32a0 "} />
             </Box>
             <Box ml={1}>
-              <BotonIG />
+              <BotonIG link={" https://www.instagram.com/b_life.dieta.cetogenica "} />
             </Box>
           </Box>
           <Box
@@ -695,7 +674,7 @@ const TC = () => {
                 contenido en grasas, un bajo contenido en hidratos de carbono y
                 un aporte de proteínas recomendados para la edad del paciente,
                 en la cual se utiliza la grasa como fuente de energía primaria a
-                través de la formación de cuerpos cetónicos (155 libro). Es una
+                través de la formación de cuerpos cetónicos. Es una
                 dieta rígida, matemáticamente calculada, individual y
                 médicamente controlada por un equipo interdisciplinario
                 especializado.
@@ -887,11 +866,16 @@ const TC = () => {
                   mt: 1,
                 }}
               >
-                B-Life considera el respeto uno de sus principales valores,
+                 B-Life considera el respeto uno de sus principales valores,
                 demostrándolo en cada contacto y en cada lugar en el que está
-                presente.
+                presente. B-Life busca escuchar las necesidades de sus clientes para
+                satisfacerlas, desarrollando y poniendo a su disposición todos
+                aquellos recursos necesarios para llevar adelante el
+                tratamiento. Por último, se compromete en brindar a los profesionales de la
+                salud capacitación continua y acceso a la información
+                científica.
               </Typography>
-              <Typography
+             {/*  <Typography
                 sx={{
                   fontFamily: "Lato",
                   fontStyle: "regular",
@@ -918,7 +902,7 @@ const TC = () => {
                 Por último, se compromete en brindar a los profesionales de la
                 salud capacitación continua y acceso a la información
                 científica.
-              </Typography>
+              </Typography> */}
             </Box>
           </Box>
 

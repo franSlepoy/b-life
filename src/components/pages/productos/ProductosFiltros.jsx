@@ -31,11 +31,11 @@ const ProductosFiltros = () => {
   const categorias = [
     "Terapia Cetogénica",
     "Errores congénitos del metabolismo",
-    "APLV",
+    "Alergia a la proteína de leche de vaca",
     "Otros",
   ];
 
-  const subcategoriasAPLV = ["APLV"];
+  const subcategoriasAPLV = ["Alergia a la proteína de leche de vaca"];
 
   const subcategoriasTerapiaCetogenica = [
     "FÓRMULAS",
@@ -137,7 +137,7 @@ const ProductosFiltros = () => {
                     </Typography>
                   </Box>
                 ))
-              ) : categoriaSeleccionada === "APLV" ? (
+              ) : categoriaSeleccionada === "Alergia a la proteína de leche de vaca" ? (
                 subcategoriasAPLV.map((subcategoria) => (
                   <Box
                     key={subcategoria}

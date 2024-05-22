@@ -83,7 +83,7 @@ const Home = () => {
                   m: "auto",
                 }}
               >
-                Nos gustaría informarle que la compra de nuestros productos a
+                Les informamos que la compra de nuestros productos a
                 través de terceros no autorizados puede suponer un riesgo para
                 su salud y seguridad. Solo los distribuidores y vendedores
                 autorizados pueden garantizar la autenticidad y la calidad de
@@ -206,7 +206,7 @@ const Home = () => {
             pb={8}
           >
             <Box textAlign={"center"}>
-              <Box>
+              <Box pb={2}>
                 <img width={"60px"} src="/botiquin.png" alt="" />
               </Box>
               <Typography
@@ -219,7 +219,7 @@ const Home = () => {
                   color: "#007E48",
                   width: "160px",
                   m: "auto",
-                  pt: 2,
+                  mt:-2
                 }}
               >
                 COMPROMISO CON EL PACIENTE

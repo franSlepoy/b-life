@@ -153,8 +153,7 @@ const ECM = () => {
                   mt: 1,
                 }}
               >
-                En el caso de los ECM de los aminoácidos, el tratamiento
-                clientes para satisfacerlas, desarrollando y poniendo a su 2021.
+                En el caso de los ECM de los aminoácidos, el tratamiento.
                 dietético tendrá como objetivo limitar la ingesta de el/los
                 aminoácido/s, cuya vía metabólica está afectada, hasta un
                 requerimiento mínimo que proporcione un crecimiento y un
@@ -314,10 +313,10 @@ const ECM = () => {
               <Box mt={5} display={"flex"} justifyContent={"flex-end"}>
                 <Boton texto={"Productos"} linkTo={"/productos"} />
                 <Box ml={1}>
-                  <BotonWS />
+                  <BotonWS link={"https://walink.co/5270fe"}/>
                 </Box>
                 <Box ml={1}>
-                  <BotonIG />
+                  <BotonIG link={"https://www.instagram.com/b_life.dieta.hipoproteica"} />
                 </Box>
               </Box>
             </Box>
@@ -477,10 +476,10 @@ const ECM = () => {
           <Box mt={5} display={"flex"} justifyContent={"center"}>
             <Boton texto={"Productos"} linkTo={"/productos"} />
             <Box ml={1}>
-              <BotonWS />
+              <BotonWS link={"https://walink.co/5270fe"} />
             </Box>
             <Box ml={1}>
-              <BotonIG />
+              <BotonIG link={"https://www.instagram.com/b_life.dieta.hipoproteica"} />
             </Box>
           </Box>
 
@@ -529,8 +528,7 @@ const ECM = () => {
                   mt: 1,
                 }}
               >
-                En el caso de los ECM de los aminoácidos, el tratamiento
-                clientes para satisfacerlas, desarrollando y poniendo a su 2021.
+                En el caso de los ECM de los aminoácidos, el tratamiento.
                 dietético tendrá como objetivo limitar la ingesta de el/los
                 aminoácido/s, cuya vía metabólica está afectada, hasta un
                 requerimiento mínimo que proporcione un crecimiento y un

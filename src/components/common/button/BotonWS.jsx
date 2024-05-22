@@ -2,10 +2,10 @@ import React from "react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { Button } from "@mui/material";
 
-const BotonWS = () => {
+const BotonWS = ({ link }) => {
   return (
     <>
-      <a target="_blank" href="https://walink.co/8b32a0">
+      <a target="_blank" rel="noopener noreferrer" href={link}>
         <Button
           variant="contained"
           sx={{

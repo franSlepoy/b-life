@@ -8,14 +8,23 @@ import BotonWS from "../../common/button/BotonWS";
 
 const APLV = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const [open, setOpen] = useState(false);
+  const [openModal1, setOpenModal1] = useState(false);
+  const [openModal2, setOpenModal2] = useState(false);
 
-  const handleOpen = () => {
-    setOpen(true);
+  const handleOpenModal1 = () => {
+    setOpenModal1(true);
   };
 
-  const handleClose = () => {
-    setOpen(false);
+  const handleCloseModal1 = () => {
+    setOpenModal1(false);
+  };
+
+  const handleOpenModal2 = () => {
+    setOpenModal2(true);
+  };
+
+  const handleCloseModal2 = () => {
+    setOpenModal2(false);
   };
   return (
     <>
@@ -88,6 +97,61 @@ const APLV = () => {
           >
             La Alergia a las Proteínas de Leche de Vaca (APLV) es la alergia
             alimentaria más frecuente en menores de 1 año.
+            <span
+              onMouseEnter={() => {
+                setIsHovered(true);
+                handleOpenModal1();
+              }}
+              onMouseLeave={() => {
+                setIsHovered(false);
+                handleCloseModal1() // Cerrar el Modal cuando el cursor sale del área
+              }}
+              style={{
+                fontSize: "8px",
+                cursor: "pointer",
+                position: "relative", // Cambiar a posición relativa
+                top: "-5px", // Ajustar posición verticalmente
+                display: "inline-block", // Permitir ajustes de posición
+              }}
+            >
+              1.
+              <Modal
+                open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
+                onClose={handleCloseModal1}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+              >
+                <Box
+                  sx={{
+                    position: "absolute",
+                    top: "40%",
+                    left: "50%",
+                    /*   transform: "translate(-50%, -50%)", */
+
+                    bgcolor: "background.paper",
+                    width: "500px",
+                    boxShadow: 24,
+                    p: 2,
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontFamily: "Lato",
+                      fontStyle: "regular",
+                      fontSize: "10px",
+                      color: "black",
+                      lineHeight: "10px",
+                    }}
+                    id="modal-modal-title"
+                  >
+                    1. Petriz NA, Parisi CAS, Busaniche JN, et al. Historia
+                    natural de la alergia a la leche de vaca mediada por
+                    inmunoglobulina E en una población de niños argentinos. Arch
+                    Argent Pediatr 2017;115(4):331-335.
+                  </Typography>
+                </Box>
+              </Modal>
+            </span>
           </Typography>
         </Box>
 
@@ -192,11 +256,11 @@ const APLV = () => {
                 <span
                   onMouseEnter={() => {
                     setIsHovered(true);
-                    handleOpen();
+                    handleOpenModal2();
                   }}
                   onMouseLeave={() => {
                     setIsHovered(false);
-                    handleClose(); // Cerrar el Modal cuando el cursor sale del área
+                    handleCloseModal2(); // Cerrar el Modal cuando el cursor sale del área
                   }}
                   style={{
                     fontSize: "8px",
@@ -209,7 +273,7 @@ const APLV = () => {
                   2.
                   <Modal
                     open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
-                    onClose={handleClose}
+                    onClose={handleCloseModal2}
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                   >
@@ -289,7 +353,7 @@ const APLV = () => {
               <Box mt={5} display={"flex"} justifyContent={"flex-end"}>
                 <Boton texto={"Productos"} linkTo={"/productos"} />
                 <Box ml={1}>
-                  <BotonWS />
+                  <BotonWS link={"https://walink.co/8ac7da"} />
                 </Box>
               </Box>
             </Box>
@@ -461,7 +525,7 @@ const APLV = () => {
           <Box mt={5} display={"flex"} justifyContent={"center"}>
             <Boton texto={"Productos"} linkTo={"/productos"} />
             <Box ml={1}>
-              <BotonWS />
+              <BotonWS link={"https://walink.co/8ac7da"} />
             </Box>
           </Box>
           <Box
@@ -530,11 +594,11 @@ const APLV = () => {
                 <span
                   onMouseEnter={() => {
                     setIsHovered(true);
-                    handleOpen();
+                    handleOpenModal2();
                   }}
                   onMouseLeave={() => {
                     setIsHovered(false);
-                    handleClose(); // Cerrar el Modal cuando el cursor sale del área
+                    handleCloseModal2(); // Cerrar el Modal cuando el cursor sale del área
                   }}
                   style={{
                     fontSize: "8px",
@@ -547,7 +611,7 @@ const APLV = () => {
                   2.
                   <Modal
                     open={open && isHovered} // Asegurar que el Modal solo se abra cuando el cursor está sobre el número 2
-                    onClose={handleClose}
+                    onClose={handleCloseModal2}
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                   >
