@@ -255,9 +255,9 @@ const Otros = () => {
           backgroundImage: "linear-gradient(to  top, #00d647 , #007e48)",
         }} */
         >
-          <Box pt={6} textAlign={"center"}>
+          <Box display={"flex"} pt={6} justifyContent={"center"}>
             <Boton texto={"Productos"} linkTo={"/productos"} />
-            <Box mt={1}>
+            <Box ml={2}>
               <BotonWS link={"https://walink.co/8ac7da"} />
             </Box>
           </Box>

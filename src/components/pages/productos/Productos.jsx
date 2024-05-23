@@ -69,7 +69,7 @@ const Productos = () => {
               mt: 1,
             }}
           >
-            Conocé nuestro catálogo
+            Conocé más sobre nuestras líneas. 
           </Typography>
         </Box>
         <Box>
@@ -149,11 +149,29 @@ const Productos = () => {
               mt: 1,
             }}
           >
-            Conocé nuestro catálogo
+            Conocé más sobre nuestras líneas.
           </Typography>
         </Box>
         <Box mt={-1}>
           <ProductosFiltros />
+          <Box textAlign={"center"}>
+          <Typography
+            sx={{
+              pt: 8,
+              width: "90%",
+              m: "auto",
+              textAlign: "center",
+              fontFamily: "Lato",
+              fontSize: "30px",
+              fontWeight: "light", // Debería ser "normal" en lugar de "regular"
+              fontStyle: "italic",
+              lineHeight: "30px",
+              color: "#007E48",
+            }}
+          >
+           <strong>Explorá nuestras líneas,</strong>  Y DESCUBRÍ NUESTROS PRODUCTOS.
+          </Typography>
+        </Box>
         </Box>
         <Box>
           <Footer />

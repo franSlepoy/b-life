@@ -416,7 +416,7 @@ const NavBar = () => {
                       component={Link}
                       to="/TC"
                     >
-                      Terapia Cetogénica
+                      Terapia cetogénica
                     </MenuItem>
                     <MenuItem
                       sx={{
@@ -466,7 +466,7 @@ const NavBar = () => {
                       component={Link}
                       to="/APLV"
                     >
-                      Alergia a la proteína de a leche de vaca
+                       Alergia a la proteína de leche de vaca.
                     </MenuItem>
                     <MenuItem
                       sx={{

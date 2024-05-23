@@ -313,10 +313,12 @@ const ECM = () => {
               <Box mt={5} display={"flex"} justifyContent={"flex-end"}>
                 <Boton texto={"Productos"} linkTo={"/productos"} />
                 <Box ml={1}>
-                  <BotonWS link={"https://walink.co/5270fe"}/>
+                  <BotonWS link={"https://walink.co/5270fe"} />
                 </Box>
                 <Box ml={1}>
-                  <BotonIG link={"https://www.instagram.com/b_life.dieta.hipoproteica"} />
+                  <BotonIG
+                    link={"https://www.instagram.com/b_life.dieta.hipoproteica"}
+                  />
                 </Box>
               </Box>
             </Box>
@@ -397,7 +399,7 @@ const ECM = () => {
             sx={{
               fontFamily: "Lato",
               fontWeight: "light",
-              width: "610px",
+
               fontSize: "60px",
               lineHeight: "55px",
               color: "white",
@@ -447,7 +449,7 @@ const ECM = () => {
           backgroundImage: "linear-gradient(to  top, #00d647 , #007e48)",
         }} */
         >
-          <Box width={"100%"} pt={0}  p={"3%"}>
+          <Box width={"100%"} pt={0} p={"3%"}>
             <Typography
               sx={{
                 pt: 4,
@@ -479,7 +481,9 @@ const ECM = () => {
               <BotonWS link={"https://walink.co/5270fe"} />
             </Box>
             <Box ml={1}>
-              <BotonIG link={"https://www.instagram.com/b_life.dieta.hipoproteica"} />
+              <BotonIG
+                link={"https://www.instagram.com/b_life.dieta.hipoproteica"}
+              />
             </Box>
           </Box>
 
@@ -568,11 +572,11 @@ const ECM = () => {
                       sx={{
                         position: "absolute",
                         top: "50%",
-                        left: "30%",
+                        left: "5%",
                         /*   transform: "translate(-50%, -50%)", */
                         borderColor: "transparent",
                         bgcolor: "background.paper",
-                        width: "500px",
+                        width: "90%",
                         boxShadow: 24,
                         p: 2,
                       }}

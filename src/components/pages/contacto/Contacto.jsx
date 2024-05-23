@@ -308,7 +308,7 @@ const Contacto = () => {
                           color: "white",
                         }}
                       >
-                        Terapia Cetogénica
+                        Terapia cetogénica
                       </Typography>
                     </Button>
                   </a>
@@ -392,7 +392,7 @@ const Contacto = () => {
                   </a>
                 </Box>
                 <Box>
-                  <a href="mailto:cotizaciones@b-life.com.ar">
+                  <a href="mailto:fabian.danna@b-life.com.ar">
                     <Button
                       sx={{
                         bgcolor: "#00D847",
