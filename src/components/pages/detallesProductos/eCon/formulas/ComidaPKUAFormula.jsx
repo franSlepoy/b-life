@@ -193,7 +193,7 @@ const ComidaPKUAFormula = () => {
               >
                 PKU A Fórmula está indicado en el tratamiento nutricional de
                 lactantes de 0 a 1 año de edad con Fenilcetonuria (PKU) o
-                hiperfenilalaninemia (HPA). EQUILAVANTE PROTEICO: 12 g de
+                hiperfenilalaninemia (HPA). <strong>EQUIVALENTE PROTÉICO:</strong> 12 g de
                 equivalente proteico cada 100 g de polvo.
               </Typography>
             </Box>
@@ -424,7 +424,7 @@ const ComidaPKUAFormula = () => {
               >
                 Comida GAc A Fórmula está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con Aciduria Glutárica Tipo I.
-                EQUIVALENTE PROTEICO: 12 g de equivalente proteico por 100 g de
+                <strong>EQUIVALENTE PROTÉICO:</strong> 12 g de equivalente proteico por 100 g de
                 polvo.
               </Typography>
             </Box>

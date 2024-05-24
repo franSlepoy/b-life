@@ -34,7 +34,7 @@ const Fusilli1 = () => {
                   mt: 2,
                 }}
               >
-                FUSILLI MEVALIA
+                Fusilli
               </Typography>
               <Typography
                 sx={{
@@ -47,11 +47,7 @@ const Fusilli1 = () => {
                   mt: 2,
                 }}
               >
-                Pasta en espiral baja en proteínas ideal para el tratamiento
-                nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. La pasta en espiral,
-                gracias a su refinada forma, queda perfecta con todo tipo de
-                salsas. Alimento para dietas especiales.
+               Pasta en espiral baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -236,7 +232,7 @@ const Fusilli1 = () => {
                   mt: 2,
                 }}
               >
-                FUSILLI MEVALIA
+                Fusilli
               </Typography>
               <Typography
                 sx={{
@@ -249,11 +245,7 @@ const Fusilli1 = () => {
                   mt: 2,
                 }}
               >
-                Pasta en espiral baja en proteínas ideal para el tratamiento
-                nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. La pasta en espiral,
-                gracias a su refinada forma, queda perfecta con todo tipo de
-                salsas. Alimento para dietas especiales.
+               Pasta en espiral baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{

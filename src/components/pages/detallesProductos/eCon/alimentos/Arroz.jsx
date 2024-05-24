@@ -49,7 +49,8 @@ const Arroz = () => {
               >
                 Sustituto de arroz bajo en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos.
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -281,9 +282,7 @@ const Arroz = () => {
               >
                 Sustituto de arroz bajo en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. Perfecta como
-                acompañamiento ó para la elaboración de risotto, ensalada de
-                arroz y todo tipo de deliciosos platos. Alimento para dietas
+                el aporte de proteínas y aminoácidos. Alimento para dietas
                 especiales.
               </Typography>
               <Typography

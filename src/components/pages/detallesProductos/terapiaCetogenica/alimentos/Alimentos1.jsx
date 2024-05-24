@@ -194,7 +194,7 @@ const Alimentos1 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Vía oral y/o enteral.
+                Vía oral.
               </Typography>
               <Typography
                 sx={{
@@ -416,7 +416,7 @@ const Alimentos1 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Vía oral y/o enteral. No apto para uso parental.
+                Vía oral.
               </Typography>
               <Typography
                 sx={{

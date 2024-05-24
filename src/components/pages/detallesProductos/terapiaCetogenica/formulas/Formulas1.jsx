@@ -189,7 +189,7 @@ const Formulas1 = () => {
               <Typography
                 sx={{
                   fontWeight: "regular",
-                  fontSize: "11px",
+                  fontSize: "14px",
                   color: "black",
                   fontFamily: "Lato",
                   mt: 2,

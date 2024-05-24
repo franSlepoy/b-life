@@ -187,7 +187,7 @@ const XPHEEnergyJ = () => {
               >
                 XPhe Energy J está indicado en el tratamiento nutricional de
                 niños y adolescentes de 7 a 14 años de edad con Fenilcetonuria
-                (PKU) o Hiperfenilalaninemia (HPA). EQUILAVANTE PROTEICO: 10 g
+                (PKU) o Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong> 10 g
                 de equivalente proteico por sobre de 33 g.
               </Typography>
             </Box>
@@ -436,7 +436,7 @@ const XPHEEnergyJ = () => {
               >
                 XPhe Energy J está indicado en el tratamiento nutricional de
                 niños y adolescentes de 7 a 14 años de edad con Fenilcetonuria
-                (PKU) o Hiperfenilalaninemia (HPA). EQUILAVANTE PROTEICO: 10 g
+                (PKU) o Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  10 g
                 de equivalente proteico por sobre de 33 g.
               </Typography>
             </Box>

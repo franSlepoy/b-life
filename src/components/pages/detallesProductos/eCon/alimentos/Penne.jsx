@@ -32,10 +32,9 @@ const Penne = () => {
                   fontWeight: "800",
                   fontSize: "26px",
                   mt: 2,
-
                 }}
               >
-              Penne
+                Penne
               </Typography>
               <Typography
                 sx={{
@@ -48,10 +47,10 @@ const Penne = () => {
                   mt: 2,
                 }}
               >
-                Pasta tipo mostachol, de bajo contenido proteico para el
-                tratamiento nutricional de patologías que requieren dietas
-                restringidas en el aporte de proteínas y aminoácidos. Alimento
-                para dietas especiales.
+                Pasta tipo mostachol baja en proteínas ideal para el tratamiento
+                nutricional de patologías que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -150,7 +149,7 @@ const Penne = () => {
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
-                <Typography
+              <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -169,7 +168,8 @@ const Penne = () => {
                   fontFamily: "Lato",
                   mt: 2,
                 }}
-              >TIEMPO DE COCCIÓN: 7 a 9 minutos.
+              >
+                TIEMPO DE COCCIÓN: 7 a 9 minutos.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -269,10 +269,10 @@ const Penne = () => {
                   mt: 2,
                 }}
               >
-                Pasta tipo mostachol, de bajo contenido proteico para el
-                tratamiento nutricional de patologías que requieren dietas
-                restringidas en el aporte de proteínas y aminoácidos. Alimento
-                para dietas especiales.
+                Pasta tipo mostachol baja en proteínas ideal para el tratamiento
+                nutricional de patologías que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{

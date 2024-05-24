@@ -34,7 +34,7 @@ const Aminomed = () => {
                   mt: 2,
                 }}
               >
-                Aminomed
+                AminoMed
               </Typography>
               <Typography
                 sx={{

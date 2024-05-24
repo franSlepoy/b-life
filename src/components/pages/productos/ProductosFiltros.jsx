@@ -32,7 +32,7 @@ const ProductosFiltros = () => {
     "Terapia Cetogénica",
     "Errores congénitos del metabolismo",
     "Alergia a la proteína de leche de vaca",
-    "Otros",
+    "Otros productos nutricionales",
   ];
 
   const subcategoriasAPLV = ["Alergia a la proteína de leche de vaca"];
@@ -46,7 +46,7 @@ const ProductosFiltros = () => {
 
   const subcategoriasErrores = ["FÓRMULAS", "ALIMENTOS"];
 
-  const subcategoriasOtros = ["OTROS"];
+  const subcategoriasOtros = ["Otros productos nutricionales"];
 
   const handleCategoriaSeleccionada = (categoria) => {
     setCategoriaSeleccionada(categoria);
@@ -181,7 +181,7 @@ const ProductosFiltros = () => {
                     </Typography>
                   </Box>
                 ))
-              ) : categoriaSeleccionada === "Otros" ? (
+              ) : categoriaSeleccionada === "Otros productos nutricionales" ? (
                 subcategoriasOtros.map((subcategoria) => (
                   <Box
                     key={subcategoria}
@@ -346,7 +346,7 @@ const ProductosFiltros = () => {
                   </Box>
                 ))}
                 {/* Renderiza las subcategorías para la categoría "Otros" */}
-              {categoriaSeleccionada === "Otros" &&
+              {categoriaSeleccionada === "Otros productos nutricionales" &&
                 subcategoriasOtros.map((subcategoria) => (
                   <Box
                     key={subcategoria}

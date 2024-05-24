@@ -34,7 +34,7 @@ const Penne1 = () => {
                   mt: 2,
                 }}
               >
-                PENNE MEVALIA
+                 Penne
               </Typography>
               <Typography
                 sx={{
@@ -237,7 +237,7 @@ const Penne1 = () => {
                   mt: 2,
                 }}
               >
-                PENNE MEVALIA
+                 Penne
               </Typography>
               <Typography
                 sx={{

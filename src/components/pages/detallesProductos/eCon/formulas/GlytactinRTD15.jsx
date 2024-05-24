@@ -181,7 +181,7 @@ const GlytactinRTD15 = () => {
               >
                 Glytactin RTD 15 está indicado en el tratamiento nutricional de
                 niños mayores de 1 año de edad con Fenilcetonuria (PKU) o
-                Hiperfenilalaninemia (HPA). EQUIVALENTE PROTEICO: 15 g de
+                Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  15 g de
                 equivalente proteico por brick de 250 cc.
               </Typography>
             </Box>
@@ -426,7 +426,7 @@ const GlytactinRTD15 = () => {
                   mt: 2,
                 }}
               >
-                EQUILAVANTE PROTEICO: 15 g de equivalente proteico por barra de
+               <strong>EQUILAVANTE PROTEICO:</strong>  15 g de equivalente proteico por barra de
                 81 g.
               </Typography>
             </Box>

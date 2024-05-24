@@ -50,7 +50,7 @@ const FruitBar = () => {
                 Barrita a base de almidón de trigo con relleno a base de
                 frutilla ideal para el tratamiento nutricional de patologías que
                 requieren dietas restringidas en el aporte de proteínas y
-                aminoácidos. 
+                aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -89,14 +89,27 @@ const FruitBar = () => {
                   sal, extracto de cártamo, saborizantes naturales, EMU:
                   INS472e, LEU: INS503ii, INS500ii.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Contiene huevo y derivados de trigo. Puede contener soja.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Su envase individual permite consumirlas en
-                cualquier momento y lugar. Fruit bar es tu snack ideal
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Su envase individual permite consumirlas en cualquier
+                  momento y lugar. Fruit bar es tu snack ideal
                 </Typography>
-                
                 para dietas especiales.
               </Box>
             </Box>
@@ -165,7 +178,7 @@ const FruitBar = () => {
                 proteínas y/o aminoácidos.
               </Typography>
             </Box>
-         
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -267,9 +280,7 @@ const FruitBar = () => {
                 Barrita a base de almidón de trigo con relleno a base de
                 frutilla ideal para el tratamiento nutricional de patologías que
                 requieren dietas restringidas en el aporte de proteínas y
-                aminoácidos. Su envase individual permite consumirlas en
-                cualquier momento y lugar. Fruit bar es tu snack ideal. Alimento
-                para dietas especiales.
+                aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{

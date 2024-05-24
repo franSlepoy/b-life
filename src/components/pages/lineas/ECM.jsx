@@ -153,7 +153,7 @@ const ECM = () => {
                   mt: 1,
                 }}
               >
-                En el caso de los ECM de los aminoácidos, el tratamiento.
+                En el caso de los ECM de los aminoácidos, el tratamiento
                 dietético tendrá como objetivo limitar la ingesta de el/los
                 aminoácido/s, cuya vía metabólica está afectada, hasta un
                 requerimiento mínimo que proporcione un crecimiento y un
@@ -532,7 +532,7 @@ const ECM = () => {
                   mt: 1,
                 }}
               >
-                En el caso de los ECM de los aminoácidos, el tratamiento.
+                En el caso de los ECM de los aminoácidos, el tratamiento
                 dietético tendrá como objetivo limitar la ingesta de el/los
                 aminoácido/s, cuya vía metabólica está afectada, hasta un
                 requerimiento mínimo que proporcione un crecimiento y un

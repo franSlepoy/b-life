@@ -166,7 +166,7 @@ const NavBar = () => {
                       component={Link}
                       to="/TC"
                     >
-                      Terapia cetogénica.
+                      Terapia cetogénica
                     </MenuItem>
                     <MenuItem
                       sx={{
@@ -216,7 +216,7 @@ const NavBar = () => {
                       component={Link}
                       to="/APLV"
                     >
-                      Alergia a la proteína de leche de vaca.
+                      Alergia a la proteína de leche de vaca
                     </MenuItem>
                     <MenuItem
                       sx={{
@@ -241,7 +241,7 @@ const NavBar = () => {
                       component={Link}
                       to="/Otros"
                     >
-                      Otros
+                      Otros productos nutricionales
                     </MenuItem>
                   </Menu>
                 </Box>
@@ -466,7 +466,7 @@ const NavBar = () => {
                       component={Link}
                       to="/APLV"
                     >
-                       Alergia a la proteína de leche de vaca.
+                       Alergia a la proteína de leche de vaca
                     </MenuItem>
                     <MenuItem
                       sx={{
@@ -491,7 +491,7 @@ const NavBar = () => {
                       component={Link}
                       to="/Otros"
                     >
-                      Otros
+                      Otros productos nutricionales
                     </MenuItem>
                   </Menu>
                 </Box>

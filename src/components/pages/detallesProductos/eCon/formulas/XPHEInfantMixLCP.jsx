@@ -195,7 +195,7 @@ const XPHEInfantMixLCP = () => {
               >
                 XPhe Infant Mix LCP está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con Fenilcetonuria (PKU) o
-                hiperfenilalaninemia (HPA). EQUILAVANTE PROTEICO: 11 g de
+                hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  11 g de
                 equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
@@ -426,7 +426,7 @@ const XPHEInfantMixLCP = () => {
               >
                 XPhe Infant Mix LCP está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con Fenilcetonuria (PKU) o
-                hiperfenilalaninemia (HPA). EQUILAVANTE PROTEICO: 11 g de
+                hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  11 g de
                 equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>

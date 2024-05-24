@@ -187,8 +187,7 @@ const XPheJump20 = () => {
               >
                 XPhe Jump 20 está indicado en el tratamiento nutricional de
                 niños mayores de 3 años de edad, adolescentes y adultos con
-                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). EQUILAVANTE
-                PROTEICO: 20 g de equivalente proteico por sachet de 125 cc.
+                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  20 g de equivalente proteico por sachet de 125 cc.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -419,8 +418,7 @@ const XPheJump20 = () => {
               >
                 XPhe Jump 20 está indicado en el tratamiento nutricional de
                 niños mayores de 3 años de edad, adolescentes y adultos con
-                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). EQUILAVANTE
-                PROTEICO: 20 g de equivalente proteico por sachet de 125 cc.
+                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  20 g de equivalente proteico por sachet de 125 cc.
               </Typography>
             </Box>
             <Box width={"100%"}>

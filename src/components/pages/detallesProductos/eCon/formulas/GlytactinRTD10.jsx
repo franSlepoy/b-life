@@ -209,8 +209,9 @@ const GlytactinRTD10 = () => {
                 }}
               >
                 Listo para consumir. Se recomienda distribuir la cantidad diaria
-                indicada por el profesional a lo largo del día. EQUILAVANTE
-                PROTEICO: 15 g de equivalente proteico por barra de 81 g.
+                indicada por el profesional a lo largo del día.
+                <strong>EQUILAVANTE PROTEICO:</strong> 15 g de equivalente
+                proteico por barra de 81 g.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -429,7 +430,7 @@ const GlytactinRTD10 = () => {
                   mt: 2,
                 }}
               >
-                EQUILAVANTE PROTEICO: 15 g de equivalente proteico por barra de
+               <strong>EQUILAVANTE PROTEICO:</strong>  15 g de equivalente proteico por barra de
                 81 g.
               </Typography>
             </Box>

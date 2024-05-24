@@ -47,10 +47,7 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-                Premezcla para preparar hamburguesas bajas en proteínas a base
-                de almidón de maíz y papa ideal para el tratamiento nutricional
-                de patologías que requieren dietas restringidas en el aporte de
-                proteínas y aminoácidos. Alimento para dietas especiales.
+                Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. Alimento para dietas especiales. 
               </Typography>
               <Typography
                 sx={{
@@ -289,10 +286,7 @@ const BurgerMix = () => {
                   mt: 2,
                 }}
               >
-                Premezcla para preparar hamburguesas bajas en proteínas a base
-                de almidón de maíz y papa ideal para el tratamiento nutricional
-                de patologías que requieren dietas restringidas en el aporte de
-                proteínas y aminoácidos. Alimento para dietas especiales.
+               Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. Alimento para dietas especiales. 
               </Typography>
               <Typography
                 sx={{

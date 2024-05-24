@@ -174,7 +174,7 @@ const ComidaUrCBFormula = () => {
               >
                 Comida UrC B Fórmula está indicada en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                Trastornos del Ciclo de la Urea. EQUIVALENTE PROTEICO: 16 g de
+                Trastornos del Ciclo de la Urea. <strong>EQUILAVANTE PROTEICO:</strong>  16 g de
                 equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
@@ -398,8 +398,7 @@ const ComidaUrCBFormula = () => {
               >
                 Comida UrC B Fórmula está indicada en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                Trastornos del Ciclo de la Urea. EQUIVALENTE PROTEICO: 16 g de
-                equivalente proteico por 100 g de polvo.
+                Trastornos del Ciclo de la Urea. <strong>EQUILAVANTE PROTEICO:</strong>  proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>

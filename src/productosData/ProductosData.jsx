@@ -33,7 +33,7 @@ export const productosData = [
     id: 4,
     categoria: "Terapia Cetogénica",
     subCategoria: "FÓRMULAS",
-    titulo: "KETOVIE 4:1. VAINILLA Y CHOCOLATE",
+    titulo: "ketovie 4.1 vainilla y chocolate",
     descripcion:
       "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de suero intacta y parcialmente hidrolizada para terapia cetogénica.",
     imagen: "/ketovie4.1Chocolate.png",
@@ -360,8 +360,8 @@ export const productosData = [
   },
   {
     id: 37,
-    categoria: "Otros",
-    subCategoria: "OTROS",
+    categoria: "Otros productos nutricionales",
+    subCategoria: "Otros productos nutricionales",
     titulo: "Abintra",
     descripcion:
       "Abintra es un alimento para propósitos médicos específicos a base de Arginina, Glutamina, proteínas y vitaminas para apoyar la reparación de tejidos en personas adultas que presenten heridas de difícil cicatrización.",
@@ -370,8 +370,8 @@ export const productosData = [
   },
   {
     id: 38,
-    categoria: "Otros",
-    subCategoria: "OTROS",
+    categoria: "Otros productos nutricionales",
+    subCategoria: "Otros productos nutricionales",
     titulo: " FontUp",
     descripcion:
       "FontUp es una bebida instantánea en polvo que aporta 266 miligramos de extracto de té verde (contenido mínimo de 250 mg de Epigalocatequina Galato - EGCG) por ración.",
@@ -380,8 +380,8 @@ export const productosData = [
   },
   {
     id: 39,
-    categoria: "Otros",
-    subCategoria: "OTROS",
+    categoria: "Otros productos nutricionales",
+    subCategoria: "Otros productos nutricionales",
     titulo: " Glutapak R",
     descripcion:
       "Glutapak R es un alimento para propósitos médicos específicos con una combinación única de L-Glutamina y Lactobacillus Reuteri que restaura la superficie y la flora intestinal.",
@@ -654,7 +654,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Burger Mix",
     descripcion:
-      "Premezcla para preparar hamburguesas bajas en proteínas a base de almidón de maíz y papa ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
+      "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. Alimento para dietas especiales. ",
     imagen: "/burgerMix.png",
     link: "/burgerMix",
   },
@@ -722,7 +722,7 @@ export const productosData = [
     id: 75,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "fruit Bar ",
+    titulo: "Fruit Bar ",
     descripcion:
       "Barrita a base de almidón de trigo con relleno a base de frutilla ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/fruitBar.png",
@@ -732,7 +732,7 @@ export const productosData = [
     id: 76,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Fusilli Mevalia ",
+    titulo: "Fusilli ",
     descripcion:
       "Pasta en espiral baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/Fusilli1.png",
@@ -742,7 +742,7 @@ export const productosData = [
     id: 77,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: " Penne Mevalia",
+    titulo: " Penne",
     descripcion:
       "Pasta tipo mostachol baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/penne1.png",
@@ -772,11 +772,11 @@ export const productosData = [
     id: 80,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Galletas Marineras",
+    titulo: "Zeropro Brownies ",
     descripcion:
-      "Galletitas tipo marineras bajas en proteínas para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
-    imagen: "/galletasMarineras.png",
-    link: "/galletasMarineras",
+      "Premezcla a base de almidones y azúcar impalpable sabor chocolate para preparar brownies para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
+    imagen: "/zeroproBrownies.jpg",
+    link: "/zeroproBrownies",
   },
   {
     id: 81,
@@ -802,11 +802,11 @@ export const productosData = [
     id: 83,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Zeropro Brownies ",
+    titulo: "Galletas Marineras",
     descripcion:
-      "Premezcla a base de almidones y azúcar impalpable sabor chocolate para preparar brownies para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
-    imagen: "/zeroproBrownies.jpg",
-    link: "/zeroproBrownies",
+      "Galletitas tipo marineras bajas en proteínas para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
+    imagen: "/galletasMarineras.png",
+    link: "/galletasMarineras",
   },
   {
     id: 84,

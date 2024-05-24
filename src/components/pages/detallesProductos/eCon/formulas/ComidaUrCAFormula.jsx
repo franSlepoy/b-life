@@ -195,8 +195,8 @@ const ComidaUrCAFormula = () => {
               >
                 Comida Urc A Fórmula está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con Trastornos del Ciclo de la
-                Urea. EQUIVALENTE PROTEICO: 7,4 g de equivalente proteico por
-                100 g de polvo.
+                Urea. <strong>EQUILAVANTE PROTEICO:</strong> 7,4 g de
+                equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -428,8 +428,8 @@ const ComidaUrCAFormula = () => {
               >
                 Comida Urc A Fórmula está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con Trastornos del Ciclo de la
-                Urea. EQUIVALENTE PROTEICO: 7,4 g de equivalente proteico por
-                100 g de polvo.
+                Urea. <strong>EQUILAVANTE PROTEICO:</strong> 7,4 g de
+                equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>

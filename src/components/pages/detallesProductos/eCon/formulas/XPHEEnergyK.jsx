@@ -187,8 +187,7 @@ const XPHEEnergyK = () => {
                 XPhe Energy K está indicado en el tratamiento nutricional de
                 niños a partir de los 4 meses a 6 años de edad (sabor neutro) o
                 niños de 1 a 6 años de edad (frutilla y limón) con
-                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). EQUILAVANTE
-                PROTEICO: 5 g de equivalente proteico por sobre de 16,5 g.
+                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  5 g de equivalente proteico por sobre de 16,5 g.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -418,8 +417,7 @@ const XPHEEnergyK = () => {
                 XPhe Energy K está indicado en el tratamiento nutricional de
                 niños a partir de los 4 meses a 6 años de edad (sabor neutro) o
                 niños de 1 a 6 años de edad (frutilla y limón) con
-                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). EQUILAVANTE
-                PROTEICO: 5 g de equivalente proteico por sobre de 16,5 g.
+                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  5 g de equivalente proteico por sobre de 16,5 g.
               </Typography>
             </Box>
             <Box width={"100%"}>

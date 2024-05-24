@@ -49,7 +49,7 @@ const Ditali = () => {
               >
                 Pasta para guisos baja en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos.
+                el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -282,11 +282,9 @@ const Ditali = () => {
                   mt: 2,
                 }}
               >
-                Pasta para guisos baja en proteínas ideal para el tratamiento
+               Pasta para guisos baja en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. La pasta ideal para
-                grandes y pequeños: perfecta para todo tipo de salsas, guisos y
-                soufflé. Alimento para dietas especiales.
+                el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
               </Typography>
               <Typography
                 sx={{

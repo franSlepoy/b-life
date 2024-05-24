@@ -369,19 +369,7 @@ const APLV = () => {
                 </Typography>
               </Box>
 
-              <Typography
-                sx={{
-                  fontFamily: "Lato",
-                  fontStyle: "regular",
-                  fontSize: "15px",
-                  color: "white",
-                  lineHeight: "19px",
-                }}
-              >
-                Por último, se compromete en brindar a los profesionales de la
-                salud capacitación continua y acceso a la información
-                científica.
-              </Typography>
+             
 
               <Box mt={5} display={"flex"} justifyContent={"flex-end"}>
                 <Boton texto={"Productos"} linkTo={"/productos"} />
@@ -798,24 +786,13 @@ const APLV = () => {
                   presente. B-Life busca escuchar las necesidades de sus
                   clientes para satisfacerlas, desarrollando y poniendo a su
                   disposición todos aquellos recursos necesarios para llevar
-                  adelante el tratamiento.
+                  adelante el tratamiento. Por último, se compromete en brindar a los profesionales de la
+                salud capacitación continua y acceso a la información
+                científica.
                 </Typography>
               </Box>
 
-              <Typography
-                sx={{
-                  fontFamily: "Lato",
-                  fontStyle: "regular",
-                  fontSize: "15px",
-                  color: "white",
-                  lineHeight: "19px",
-                  mt: 1,
-                }}
-              >
-                Por último, se compromete en brindar a los profesionales de la
-                salud capacitación continua y acceso a la información
-                científica.
-              </Typography>
+            
             </Box>
           </Box>
 

@@ -154,7 +154,7 @@ const AprotenGrissini = () => {
                   fontSize: "14px",
                   color: "black",
                   fontFamily: "Lato",
-                  mt: 2,
+                
                 }}
               >
                 Contiene derivados de trigo.

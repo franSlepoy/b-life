@@ -240,12 +240,12 @@ const Home = () => {
             </Box>
 
             <Box textAlign={"center"}>
-              <Box textAlign={"center"}>
+              <Box pb={2} textAlign={"center"}>
                 <img width={"60px"} src="/frasco.png" alt="" />
               </Box>
               <Typography
                 sx={{
-                  mt: 3,
+                 
                   fontFamily: "Lato",
                   fontSize: "18px",
                   fontWeight: "bold",
@@ -276,7 +276,7 @@ const Home = () => {
               </Typography>
             </Box>
             <Box textAlign={"center"}>
-              <Box>
+              <Box pb={2}>
                 <img width={"60px"} src="/diamante.png" alt="" />
               </Box>
               <Typography
@@ -300,7 +300,7 @@ const Home = () => {
                   fontSize: "16px",
                   fontWeight: "regular",
                   textAlign: "center",
-                  lineHeight: "22px",
+                  lineHeight: "18px",
                   color: "#007E48",
                   width: "210px",
                 }}
@@ -588,7 +588,7 @@ const Home = () => {
                 backgroundImage: `url("/fondodisclaimer.png")`, // Cambiar la ruta por la ruta de tu imagen
               }}
             >
-              <Box ml={"90%"}>
+              <Box ml={"80%"}>
                 <Button sx={{ mt: 1 }} onClick={handleClose}>
                   <CloseIcon color="primary" />
                 </Button>
@@ -724,7 +724,7 @@ const Home = () => {
           }}
         >
           <Box width={"64%"} m={"auto"} pt={12} pb={8}>
-            <Box textAlign={"center"}>
+            <Box  textAlign={"center"}>
               <Box>
                 <img width={"60px"} src="/botiquin.png" alt="" />
               </Box>
@@ -760,7 +760,7 @@ const Home = () => {
               </Typography>
             </Box>
 
-            <Box mt={2} textAlign={"center"}>
+            <Box  textAlign={"center"}>
               <Box textAlign={"center"}>
                 <img width={"60px"} src="/frasco.png" alt="" />
               </Box>
@@ -781,6 +781,7 @@ const Home = () => {
               </Typography>
               <Typography
                 sx={{
+                  mt:1,
                   fontFamily: "Lato",
                   fontSize: "16px",
                   fontWeight: "regular",
@@ -796,12 +797,12 @@ const Home = () => {
               </Typography>
             </Box>
             <Box textAlign={"center"}>
-              <Box>
+              <Box >
                 <img width={"60px"} src="/diamante.png" alt="" />
               </Box>
               <Typography
                 sx={{
-                  mt: 2,
+                 
                   fontFamily: "Lato",
                   fontSize: "18px",
                   fontWeight: "bold",
