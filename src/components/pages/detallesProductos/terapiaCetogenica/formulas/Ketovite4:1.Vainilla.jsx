@@ -35,7 +35,7 @@ const KetoviteVainilla = () => {
                 }}
               >
                
-                Ketovite 4:1. Chocolate
+                Ketovite 4:1. Vainilla
               </Typography>
               <Typography
                 sx={{
@@ -272,7 +272,7 @@ const KetoviteVainilla = () => {
                   mt: 2,
                 }}
               >
-                 Ketovite 4:1. Chocolate
+                 Ketovite 4:1. Vainilla
               </Typography>
               <Typography
                 sx={{

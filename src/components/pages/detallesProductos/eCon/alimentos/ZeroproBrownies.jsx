@@ -4,12 +4,12 @@ import Footer from "../../../../common/footer/Footer";
 const ZeroproBrownies = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
-    const pdfURL = "/zeroproMuffinsYTortas.pdf";
+    const pdfURL = "/ZeroProBrownies.pdf";
 
     // Crea un enlace temporal
     const link = document.createElement("a");
     link.href = pdfURL;
-    link.download = "zeroproMuffinsYTortas.pdf"; // Nombre del archivo a descargar
+    link.download = "ZeroProBrownies.pdf"; // Nombre del archivo a descargar
 
     // Simula un clic en el enlace para iniciar la descarga
     document.body.appendChild(link);

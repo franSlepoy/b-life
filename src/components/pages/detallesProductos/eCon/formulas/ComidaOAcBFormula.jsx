@@ -4,12 +4,12 @@ import Footer from "../../../../common/footer/Footer";
 const ComidaOAcBFormula = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
-    const pdfURL = "/ComidaOAcAFormula.pdf";
+    const pdfURL = "/ComidaOAcBFormula.pdf";
 
     // Crea un enlace temporal
     const link = document.createElement("a");
     link.href = pdfURL;
-    link.download = "ComidaOAcAFormula.pdf"; // Nombre del archivo a descargar
+    link.download = "ComidaOAcBFormula.pdf"; // Nombre del archivo a descargar
 
     // Simula un clic en el enlace para iniciar la descarga
     document.body.appendChild(link);

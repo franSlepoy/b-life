@@ -4,12 +4,12 @@ import Footer from "../../../../common/footer/Footer";
 const Ditali = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
-    const pdfURL = "/brochureMetax.pdf";
+    const pdfURL = "/brochureMevalia.pdf";
 
     // Crea un enlace temporal
     const link = document.createElement("a");
     link.href = pdfURL;
-    link.download = "brochureMetax.pdf"; // Nombre del archivo a descargar
+    link.download = "brochureMevalia.pdf"; // Nombre del archivo a descargar
 
     // Simula un clic en el enlace para iniciar la descarga
     document.body.appendChild(link);
