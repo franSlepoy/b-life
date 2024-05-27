@@ -92,6 +92,7 @@ import AminomedPremium from "./components/pages/detallesProductos/aplv/AminomedP
 import ComidaOAcAFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaOAcAFormula";
 import ComidaOAcBFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaOAcBFormula";
 import Fusilli1 from "./components/pages/detallesProductos/eCon/alimentos/Fusilli1";
+import KetoviteVainilla from "./components/pages/detallesProductos/terapiaCetogenica/formulas/Ketovite4:1.Vainilla";
 
 function App() {
   const location = useLocation();
@@ -118,6 +119,7 @@ function App() {
           <Route path="/ketovie4.1Peptide" element={<Formulas2 />} />
           <Route path="/ketovie4.1unflavored" element={<Formulas3 />} />
           <Route path="/ketovie4.1Chocolate" element={<Formulas4 />} />
+          <Route path="/ketovie4.1Vainilla" element={<KetoviteVainilla />} />
           <Route path="/ketovie4.1plantbased" element={<Formulas5 />} />
           <Route path="/Cetolate" element={<Alimentos1 />} />
           <Route path="/Cetomix" element={<Alimentos2 />} />

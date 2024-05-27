@@ -77,7 +77,7 @@ const GlutapakRLiteratura = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                 L- GLUTAMINA:
+                  L- GLUTAMINA:
                 </Typography>
                 <Typography
                   sx={{
@@ -109,7 +109,7 @@ const GlutapakRLiteratura = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                   LACTOBACILLUS REUTERI:
+                  LACTOBACILLUS REUTERI:
                 </Typography>
                 <Typography
                   sx={{
@@ -521,7 +521,17 @@ const GlutapakRLiteratura = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Sobres individuales de 15 g de polvo. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Sobres individuales de 15 g de polvo.{" "}
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

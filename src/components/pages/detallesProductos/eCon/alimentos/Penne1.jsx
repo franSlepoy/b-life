@@ -34,7 +34,7 @@ const Penne1 = () => {
                   mt: 2,
                 }}
               >
-                 Penne
+                Penne
               </Typography>
               <Typography
                 sx={{
@@ -151,7 +151,7 @@ const Penne1 = () => {
                 TIEMPO DE COCCIÓN: 5 a 7 minutos.
               </Typography>
             </Box>
-         
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -237,7 +237,7 @@ const Penne1 = () => {
                   mt: 2,
                 }}
               >
-                 Penne
+                Penne
               </Typography>
               <Typography
                 sx={{
@@ -404,7 +404,17 @@ const Penne1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

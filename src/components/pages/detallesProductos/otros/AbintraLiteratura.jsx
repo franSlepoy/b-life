@@ -553,7 +553,12 @@ const AbintraLiteratura = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>
+              <Typography sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}>
                 Lata por 400 g de polvo y cuchara dosificadora de 4,3 g.
               </Typography>
               <Typography

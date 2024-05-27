@@ -34,7 +34,7 @@ const AprotenHarina = () => {
                   mt: 2,
                 }}
               >
-               Harina
+                Harina
               </Typography>
               <Typography
                 sx={{
@@ -160,7 +160,7 @@ const AprotenHarina = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-        
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -410,7 +410,17 @@ const AprotenHarina = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

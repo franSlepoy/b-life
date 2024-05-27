@@ -47,7 +47,10 @@ const Fusilli1 = () => {
                   mt: 2,
                 }}
               >
-               Pasta en espiral baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
+                Pasta en espiral baja en proteínas ideal para el tratamiento
+                nutricional de patologías que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -146,7 +149,7 @@ const Fusilli1 = () => {
                 TIEMPO DE COCCIÓN: 7 a 9 minutos.
               </Typography>
             </Box>
-          
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -245,7 +248,10 @@ const Fusilli1 = () => {
                   mt: 2,
                 }}
               >
-               Pasta en espiral baja en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
+                Pasta en espiral baja en proteínas ideal para el tratamiento
+                nutricional de patologías que requieren dietas restringidas en
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -396,7 +402,17 @@ const Fusilli1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

@@ -47,8 +47,11 @@ const GlytactinRTD15 = () => {
                   mt: 2,
                 }}
               >
-                Glytactin RTD 15 chocolate y original es una fórmula lista para usar a base de glicomacropéptidos (GMP) nutricionalmente completa para el tratamiento nutricional de la Fenilcetonuria (PKU) ó Hiperfenilalaninemia (HPA) en niños mayores de 1 año de edad. Alimento para propósitos médicos específicos.
-
+                Glytactin RTD 15 chocolate y original es una fórmula lista para
+                usar a base de glicomacropéptidos (GMP) nutricionalmente
+                completa para el tratamiento nutricional de la Fenilcetonuria
+                (PKU) ó Hiperfenilalaninemia (HPA) en niños mayores de 1 año de
+                edad. Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -181,8 +184,18 @@ const GlytactinRTD15 = () => {
               >
                 Glytactin RTD 15 está indicado en el tratamiento nutricional de
                 niños mayores de 1 año de edad con Fenilcetonuria (PKU) o
-                Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  15 g de
-                equivalente proteico por brick de 250 cc.
+                Hiperfenilalaninemia (HPA).
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  <strong>EQUILAVANTE PROTEICO:</strong> 15 g de equivalente
+                  proteico por barra de 81 g.
+                </Typography>
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -417,18 +430,6 @@ const GlytactinRTD15 = () => {
               >
                 FORMA DE PREPARACIÓN:
               </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "black",
-                  fontFamily: "Lato",
-                  mt: 2,
-                }}
-              >
-               <strong>EQUILAVANTE PROTEICO:</strong>  15 g de equivalente proteico por barra de
-                81 g.
-              </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
               <Typography
@@ -464,7 +465,16 @@ const GlytactinRTD15 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Caja por 7 barras de 81g c/u.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Caja por 7 barras de 81g c/u.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

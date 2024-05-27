@@ -237,12 +237,12 @@ const Nosotros = () => {
             justifyContent={"space-between"}
             width={"64%"}
             m={"auto"}
-            pt={5}
-            pb={5}
+            pt={12}
+            pb={8}
           >
             <Box textAlign={"center"}>
-              <Box>
-                <img width={"40px"} src="/botiquin.png" alt="" />
+              <Box pb={2}>
+                <img width={"60px"} src="/botiquin.png" alt="" />
               </Box>
               <Typography
                 sx={{
@@ -251,10 +251,10 @@ const Nosotros = () => {
                   fontWeight: "bold",
                   textAlign: "center",
                   lineHeight: "18px",
-                  color: "white",
+                  color: "#007E48",
                   width: "160px",
                   m: "auto",
-                  pt: 2,
+                  mt: -2,
                 }}
               >
                 COMPROMISO CON EL PACIENTE
@@ -266,7 +266,7 @@ const Nosotros = () => {
                   fontWeight: "regular",
                   textAlign: "center",
                   lineHeight: "18px",
-                  color: "white",
+                  color: "#007E48",
                   width: "235px",
                 }}
               >
@@ -278,18 +278,17 @@ const Nosotros = () => {
             </Box>
 
             <Box textAlign={"center"}>
-              <Box textAlign={"center"}>
-                <img width={"50px"} src="/frasco.png" alt="" />
+              <Box pb={2} textAlign={"center"}>
+                <img width={"60px"} src="/frasco.png" alt="" />
               </Box>
               <Typography
                 sx={{
-                  mt: 3,
                   fontFamily: "Lato",
                   fontSize: "18px",
                   fontWeight: "bold",
                   textAlign: "center",
                   lineHeight: "22px",
-                  color: "white",
+                  color: "#007E48",
                   width: "190px",
                   m: "auto",
                 }}
@@ -303,7 +302,7 @@ const Nosotros = () => {
                   fontWeight: "regular",
                   textAlign: "center",
                   lineHeight: "18px",
-                  color: "white",
+                  color: "#007E48",
                   width: "215px",
                 }}
               >
@@ -314,8 +313,8 @@ const Nosotros = () => {
               </Typography>
             </Box>
             <Box textAlign={"center"}>
-              <Box>
-                <img width={"50px"} src="/diamante.png" alt="" />
+              <Box pb={2}>
+                <img width={"60px"} src="/diamante.png" alt="" />
               </Box>
               <Typography
                 sx={{
@@ -325,7 +324,7 @@ const Nosotros = () => {
                   fontWeight: "bold",
                   textAlign: "center",
                   lineHeight: "22px",
-                  color: "white",
+                  color: "#007E48",
                   width: "150px",
                   m: "auto",
                 }}
@@ -338,8 +337,8 @@ const Nosotros = () => {
                   fontSize: "16px",
                   fontWeight: "regular",
                   textAlign: "center",
-                  lineHeight: "22px",
-                  color: "white",
+                  lineHeight: "18px",
+                  color: "#007E48",
                   width: "210px",
                 }}
               >

@@ -174,8 +174,9 @@ const ComidaUrCBFormula = () => {
               >
                 Comida UrC B Fórmula está indicada en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                Trastornos del Ciclo de la Urea. <strong>EQUILAVANTE PROTEICO:</strong>  16 g de
-                equivalente proteico por 100 g de polvo.
+                Trastornos del Ciclo de la Urea.{" "}
+                <strong>EQUILAVANTE PROTEICO:</strong> 16 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -199,8 +200,10 @@ const ComidaUrCBFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 15% P/V (2 medidas de Comida UrC B Fómula = 15 g. de polvo + 90 cc de agua). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
-
+                La dilución recomendada es del 15% P/V (2 medidas de Comida UrC
+                B Fómula = 15 g. de polvo + 90 cc de agua). Se recomienda
+                distribuir la cantidad diaria indicada por el profesional en
+                varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -398,7 +401,9 @@ const ComidaUrCBFormula = () => {
               >
                 Comida UrC B Fórmula está indicada en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                Trastornos del Ciclo de la Urea. <strong>EQUILAVANTE PROTEICO:</strong>  proteico por 100 g de polvo.
+                Trastornos del Ciclo de la Urea.{" "}
+                <strong>EQUILAVANTE PROTEICO:</strong> proteico por 100 g de
+                polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -459,7 +464,14 @@ const ComidaUrCBFormula = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
                 La dilución recomendada es del 15 % P/V (2 medidas de Comida UrC
                 B Fórmula=15 g de polvo + 90 cc de agua).
               </Typography>

@@ -477,7 +477,17 @@ const Formulas1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Caja por 30 bricks de 250 ml c/u.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                  mt: 2,
+                }}
+              >
+                Caja por 30 bricks de 250 ml c/u.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

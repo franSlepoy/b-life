@@ -194,7 +194,9 @@ const ComidaPKUBFormulaSS = () => {
               >
                 PKU B Fórmula está indicado en el tratamiento nutricional de
                 niños mayores de 1 año de edad, adolescentes y adultos con
-                Fenilcetonuria(PKU) o hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  31 g de equivalente proteico cada 100 g de polvo.
+                Fenilcetonuria(PKU) o hiperfenilalaninemia (HPA).{" "}
+                <strong>EQUILAVANTE PROTEICO:</strong> 31 g de equivalente
+                proteico cada 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -488,7 +490,16 @@ const ComidaPKUBFormulaSS = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Lata por 500 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Lata por 500 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

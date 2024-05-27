@@ -34,7 +34,8 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                KETOVIE 4:1. VAINILLA Y CHOCOLATE
+               
+                Ketovite 4:1. Chocolate
               </Typography>
               <Typography
                 sx={{
@@ -271,7 +272,7 @@ const Formulas4 = () => {
                   mt: 2,
                 }}
               >
-                KETOVIE 4:1. VAINILLA Y CHOCOLATE
+                 Ketovite 4:1. Chocolate
               </Typography>
               <Typography
                 sx={{

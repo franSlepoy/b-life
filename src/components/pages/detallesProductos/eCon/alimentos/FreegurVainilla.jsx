@@ -425,7 +425,17 @@ const FreegurVainilla = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 180 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 180 g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

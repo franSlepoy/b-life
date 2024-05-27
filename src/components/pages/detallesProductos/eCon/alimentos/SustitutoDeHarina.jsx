@@ -34,7 +34,7 @@ const SustitutoDeHarina = () => {
                   mt: 2,
                 }}
               >
-                SUSTITUTO DE HARINA
+                Sustituto de harina
               </Typography>
               <Typography
                 sx={{
@@ -148,7 +148,7 @@ const SustitutoDeHarina = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-         
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -234,7 +234,7 @@ const SustitutoDeHarina = () => {
                   mt: 2,
                 }}
               >
-                SUSTITUTO DE HARINA
+                Sustituto de la harina
               </Typography>
               <Typography
                 sx={{
@@ -402,7 +402,17 @@ const SustitutoDeHarina = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Bolsa por 1 kg. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Bolsa por 1 kg.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

@@ -175,7 +175,9 @@ const ComidaOAcBFormula = () => {
               >
                 Comida OAc B Fómula está indicado en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                Acidemias Orgánicas: Propiónica y Metilmalónica . <strong>EQUIVALENTE PROTÉICO:</strong> 31 g de equivalente proteico por 100 g de polvo.
+                Acidemias Orgánicas: Propiónica y Metilmalónica .{" "}
+                <strong>EQUIVALENTE PROTÉICO:</strong> 31 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -400,8 +402,8 @@ const ComidaOAcBFormula = () => {
                 Comida MSUD B Fórmula está indicado en el tratamiento
                 nutricional de niños mayores de 1 año de edad, adolescentes y
                 adultos con Enfermedad de Orina con Olor a Jarabe de Arce (MSUD)
-                o Leucinosis. <strong>EQUIVALENTE PROTÉICO:</strong> 31 g de equivalente proteico
-                por 100 g de polvo.
+                o Leucinosis. <strong> EQUIVALENTE PROTÉICO:</strong> 31 g de
+                equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -464,7 +466,16 @@ const ComidaOAcBFormula = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Lata por 500 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Lata por 500 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

@@ -195,8 +195,8 @@ const ComidaPKUBFormulaLO = () => {
                 PKU B Fórmula Orange-Lemon está indicado en el tratamiento
                 nutricional de niños mayores de 3 años de edad, adolescentes y
                 adultos con Fenilcetonuria (PKU) o hiperfenilalaninemia (HPA).
-                <strong>EQUIVALENTE PROTÉICO:</strong> 31 g de equivalente proteico cada 100 g de
-                polvo.
+                <strong>EQUIVALENTE PROTÉICO:</strong> 31 g de equivalente
+                proteico cada 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -428,8 +428,8 @@ const ComidaPKUBFormulaLO = () => {
                 PKU B Fórmula Orange-Lemon está indicado en el tratamiento
                 nutricional de niños mayores de 3 años de edad, adolescentes y
                 adultos con Fenilcetonuria (PKU) o hiperfenilalaninemia (HPA).
-                <strong>EQUIVALENTE PROTÉICO:</strong> 31 g de equivalente proteico cada 100 g de
-                polvo.
+                <strong>EQUIVALENTE PROTÉICO:</strong> 31 g de equivalente
+                proteico cada 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -492,7 +492,16 @@ const ComidaPKUBFormulaLO = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Lata por 500 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Lata por 500 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

@@ -34,7 +34,7 @@ const SaltSticks = () => {
                   mt: 2,
                 }}
               >
-               Salt sticks
+                Salt sticks
               </Typography>
               <Typography
                 sx={{
@@ -78,10 +78,10 @@ const SaltSticks = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • INGREDIENTES: Almidón de maíz, sal gruesa,
-                  almidón de trigo, aceite de colza, fibra de papa, azúcar,
-                  levadura, ESP: INS412, INS464, RAI: INS500ii, INS503ii, EMU:
-                  INS471, INS322, ACI: INS575 .
+                  • INGREDIENTES: Almidón de maíz, sal gruesa, almidón de trigo,
+                  aceite de colza, fibra de papa, azúcar, levadura, ESP: INS412,
+                  INS464, RAI: INS500ii, INS503ii, EMU: INS471, INS322, ACI:
+                  INS575 .
                 </Typography>
                 <Typography
                   sx={{
@@ -161,7 +161,7 @@ const SaltSticks = () => {
                 consultado previamente con el médico/nutricionista.
               </Typography>
             </Box>
-        
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -415,7 +415,17 @@ const SaltSticks = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Bolsa por 70 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Bolsa por 70 g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

@@ -34,7 +34,7 @@ const AprotenBizcochosdeVainilla = () => {
                   mt: 2,
                 }}
               >
-               Bizcochos de vainilla
+                Bizcochos de vainilla
               </Typography>
               <Typography
                 sx={{
@@ -152,7 +152,7 @@ const AprotenBizcochosdeVainilla = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-           
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -402,7 +402,17 @@ const AprotenBizcochosdeVainilla = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envases por 180 g/ 1 unidad= 6,5 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envases por 180 g/ 1 unidad= 6,5 g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

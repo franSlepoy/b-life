@@ -434,7 +434,16 @@ const CetomixvainillayCetomixchocolate1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Envase por 500 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Envase por 500 g.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

@@ -185,8 +185,9 @@ const ComidaMSUDAFormula = () => {
               >
                 Comida MSUD A Fórmula está indicado en el tratamiento
                 nutricional de lactantes de 0 a 1 año de edad con Enfermedad de
-                Orina con Olor a Jarabe de Arce (MSUD) o Leucinosis. EQUIVALENTE
-                PROTEICO: 12 g de equivalente proteico por 100 g de polvo.
+                Orina con Olor a Jarabe de Arce (MSUD) o Leucinosis.{" "}
+                <strong>EQUIVALENTE PROTEICO:</strong> 12 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -415,8 +416,9 @@ const ComidaMSUDAFormula = () => {
               >
                 Comida MSUD A Fórmula está indicado en el tratamiento
                 nutricional de lactantes de 0 a 1 año de edad con Enfermedad de
-                Orina con Olor a Jarabe de Arce (MSUD) o Leucinosis. EQUIVALENTE
-                PROTEICO: 12 g de equivalente proteico por 100 g de polvo.
+                Orina con Olor a Jarabe de Arce (MSUD) o Leucinosis.{" "}
+                <strong>EQUIVALENTE PROTEICO:</strong> 12 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -479,7 +481,16 @@ const ComidaMSUDAFormula = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Lata por 400 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Lata por 400 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

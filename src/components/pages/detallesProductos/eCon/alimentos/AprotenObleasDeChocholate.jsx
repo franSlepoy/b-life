@@ -34,7 +34,7 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-                Obleas de chocolate 
+                Obleas de chocolate
               </Typography>
               <Typography
                 sx={{
@@ -160,7 +160,7 @@ const AprotenObleasDeChocholate = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-           
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -411,7 +411,17 @@ const AprotenObleasDeChocholate = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envases por 175 g/ 1 unidad= 7g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envases por 175 g/ 1 unidad= 7g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

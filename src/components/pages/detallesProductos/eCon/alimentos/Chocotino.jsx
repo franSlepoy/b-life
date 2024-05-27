@@ -149,7 +149,7 @@ const Chocotino = () => {
                 proteínas y/o aminoácidos.
               </Typography>
             </Box>
-          
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -402,7 +402,17 @@ const Chocotino = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 100 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 100 g.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

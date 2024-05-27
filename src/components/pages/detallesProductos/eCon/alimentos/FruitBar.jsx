@@ -441,7 +441,17 @@ const FruitBar = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase x 125 g (5 x 25 g). </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase x 125 g (5 x 25 g).{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

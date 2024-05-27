@@ -34,7 +34,7 @@ const AprotenBizcochosdeCacao = () => {
                   mt: 2,
                 }}
               >
-                Bizcochos de cacao 
+                Bizcochos de cacao
               </Typography>
               <Typography
                 sx={{
@@ -172,7 +172,6 @@ const AprotenBizcochosdeCacao = () => {
                   mt: 5,
                 }}
               >
-                
                 ADMINISTRACIÓN:
               </Typography>
               <Typography
@@ -204,7 +203,7 @@ const AprotenBizcochosdeCacao = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Envase por 180 g/ 1 unidad = 6 g. 
+                Envase por 180 g/ 1 unidad = 6 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{
@@ -414,7 +413,16 @@ const AprotenBizcochosdeCacao = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Lata por 400 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Lata por 400 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

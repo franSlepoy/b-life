@@ -145,7 +145,6 @@ const Penne = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 7 a 9 minutos.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -358,11 +357,10 @@ const Penne = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 7 a 9 minutos.
               </Typography>
             </Box>
             <Box width={"100%"}>
-              {/* <Typography
+              <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -381,7 +379,10 @@ const Penne = () => {
                   fontFamily: "Lato",
                   mt: 2,
                 }}
-              ></Typography> */}
+              >
+                {" "}
+                TIEMPO DE COCCIÓN: 7 a 9 minutos.
+              </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
               <Typography
@@ -416,7 +417,17 @@ const Penne = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

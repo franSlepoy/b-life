@@ -108,7 +108,7 @@ const KansoDeliMCTCacaoBiscuits = () => {
                 />
               </Box>
 
-              <Box m={"auto"} mt={5}>
+              <Box m={"auto"} mt={15}>
                 <Button
                   sx={{
                     bgcolor: "#007E48",
@@ -450,7 +450,16 @@ const KansoDeliMCTCacaoBiscuits = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Caja por 100 g (16 galletitas).</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Caja por 100 g (16 galletitas).
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

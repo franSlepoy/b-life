@@ -309,7 +309,7 @@ const FontUpLiteratura = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Caja con 14 sobres x 49 g  c/u. {" "}
+                Caja con 14 sobres x 49 g c/u.{" "}
               </Typography>
               <Typography
                 sx={{
@@ -548,7 +548,17 @@ const FontUpLiteratura = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Caja con 14 sobres x 49 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Caja con 14 sobres x 49 g.{" "}
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

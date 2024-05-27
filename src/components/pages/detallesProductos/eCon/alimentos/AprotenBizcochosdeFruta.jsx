@@ -34,7 +34,7 @@ const AprotenBizcochosdeFruta = () => {
                   mt: 2,
                 }}
               >
-               Bizcochos de fruta 
+                Bizcochos de fruta
               </Typography>
               <Typography
                 sx={{
@@ -163,7 +163,7 @@ const AprotenBizcochosdeFruta = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-          {/*   <Box ml={3} width={"33.3%"}>
+            {/*   <Box ml={3} width={"33.3%"}>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -218,12 +218,17 @@ const AprotenBizcochosdeFruta = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography sx={{
-                    fontWeight: "regular",
-                    fontSize: "14px",
-                    color: "black",
-                    fontFamily: "Lato",
-                  }}> Envase por 180 g / 1 unidad = 6 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 180 g / 1 unidad = 6 g.
+              </Typography>
               {/* sin sabor  <Typography
                 sx={{
                   color: "#007E48",
@@ -265,7 +270,7 @@ const AprotenBizcochosdeFruta = () => {
                   mt: 2,
                 }}
               >
-                BIZCOCHOS DE FRUTA
+                 Bizcochos de fruta
               </Typography>
               <Typography
                 sx={{
@@ -433,7 +438,17 @@ const AprotenBizcochosdeFruta = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envases por 180 g / 1 unidad = 6 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envases por 180 g / 1 unidad = 6 g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

@@ -34,7 +34,7 @@ const ZeroproMuffinsyTortas = () => {
                   mt: 2,
                 }}
               >
-                ZEROPRO MUFFINS Y TORTAS
+                Zeropro Muffins y Tortas
               </Typography>
               <Typography
                 sx={{
@@ -266,7 +266,7 @@ const ZeroproMuffinsyTortas = () => {
                   mt: 2,
                 }}
               >
-                ZEROPRO MUFFINS Y TORTAS
+                Zeropro Muffins y Tortas
               </Typography>
               <Typography
                 sx={{
@@ -436,7 +436,17 @@ const ZeroproMuffinsyTortas = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 300 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 300 g.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

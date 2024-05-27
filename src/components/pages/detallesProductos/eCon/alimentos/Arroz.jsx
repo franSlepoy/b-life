@@ -267,7 +267,7 @@ const Arroz = () => {
                   mt: 2,
                 }}
               >
-                ARROZ
+                Arroz
               </Typography>
               <Typography
                 sx={{
@@ -282,7 +282,9 @@ const Arroz = () => {
               >
                 Sustituto de arroz bajo en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. Alimento para dietas
+                el aporte de proteínas y aminoácidos. Perfecta como
+                acompañamiento ó para la elaboración de risotto, ensalada de
+                arroz y todo tipo de deliciosos platos. Alimento para dietas
                 especiales.
               </Typography>
               <Typography
@@ -428,7 +430,17 @@ const Arroz = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 400 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 400 g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

@@ -34,7 +34,7 @@ const AprotenObleasDeVainilla = () => {
                   mt: 2,
                 }}
               >
-                Obleas de vainilla 
+                Obleas de vainilla
               </Typography>
               <Typography
                 sx={{
@@ -79,7 +79,8 @@ const AprotenObleasDeVainilla = () => {
                   }}
                 >
                   • Ingredientes: Almidón de papa, azúcar, grasa vegetal no
-                  hidrogenada, dextrosa, harina de maíz, EMU: INS322, RAI: INS500i, ESP: INS412, ARO: vainillín.
+                  hidrogenada, dextrosa, harina de maíz, EMU: INS322, RAI:
+                  INS500i, ESP: INS412, ARO: vainillín.
                 </Typography>
                 <Typography
                   sx={{
@@ -161,7 +162,7 @@ const AprotenObleasDeVainilla = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-          
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -414,7 +415,17 @@ const AprotenObleasDeVainilla = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envases por 175 g/ 1 unidad= 7g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envases por 175 g/ 1 unidad= 7g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

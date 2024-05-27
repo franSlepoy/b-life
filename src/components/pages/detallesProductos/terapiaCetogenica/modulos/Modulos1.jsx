@@ -423,7 +423,12 @@ const Modulos1 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Botella por 500 ml.</Typography>
+              <Typography sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}>Botella por 500 ml.</Typography>
               <Typography
                 sx={{
                   color: "#007E48",

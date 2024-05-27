@@ -34,7 +34,7 @@ const SchoxxiTafel = () => {
                   mt: 2,
                 }}
               >
-                Schoxxi chocolate 
+                Schoxxi chocolate
               </Typography>
               <Typography
                 sx={{
@@ -159,7 +159,7 @@ const SchoxxiTafel = () => {
                 previamente con el médico/nutricionista.{" "}
               </Typography>
             </Box>
-          
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -411,7 +411,17 @@ const SchoxxiTafel = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Barra por 100 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Barra por 100 g.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

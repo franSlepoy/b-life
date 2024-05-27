@@ -490,7 +490,12 @@ const XPHEInfantMixLCP = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>
+              <Typography sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}>
                 Lata por 500 g de polvo y cuchara dosificadora de 3,7 g.
               </Typography>
               <Typography

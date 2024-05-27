@@ -34,7 +34,7 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-                Galletas marinas 
+                Galletas Marineras
               </Typography>
               <Typography
                 sx={{
@@ -151,7 +151,7 @@ const GalletasMarineras = () => {
                 consultado previamente con el médico/nutricionista.
               </Typography>
             </Box>
-           
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -237,7 +237,7 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-                GALLETAS MARINERAS
+                Galletas Marineras
               </Typography>
               <Typography
                 sx={{
@@ -404,7 +404,17 @@ const GalletasMarineras = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 150 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 150 g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

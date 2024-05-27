@@ -182,8 +182,13 @@ const SustitutoDeHuevo = () => {
                 }}
               >
                 {" "}
-                La dosis de sustituto para reemplazar 1 huevo entero es de ¼ de cucharita de té. El sustituto de huevo debe esparcirse sobre los vegetales u otros alimentos a ligar ó mezclarse junto a polvos secos como almidones, levaduras, etc. NO debe mezclarse este producto previamente con agua. Para empanar diferentes alimentos puede prepararse una solución con ¼ de cucharita de té de sustituto de huevo y 50 cc de agua tibia. Mezclar y utilizar.
-
+                La dosis de sustituto para reemplazar 1 huevo entero es de ¼ de
+                cucharita de té. El sustituto de huevo debe esparcirse sobre los
+                vegetales u otros alimentos a ligar ó mezclarse junto a polvos
+                secos como almidones, levaduras, etc. NO debe mezclarse este
+                producto previamente con agua. Para empanar diferentes alimentos
+                puede prepararse una solución con ¼ de cucharita de té de
+                sustituto de huevo y 50 cc de agua tibia. Mezclar y utilizar.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -442,7 +447,17 @@ const SustitutoDeHuevo = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 200 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 200 g.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

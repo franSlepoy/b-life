@@ -166,6 +166,17 @@ const GlytactinComplete15 = () => {
                 nutricional de niños mayores de 1 año de edad con Fenilcetonuria
                 (PKU) o Hiperfenilalaninemia (HPA).
               </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                <strong>EQUILAVANTE PROTEICO:</strong> 15 g de equivalente
+                proteico por barra de 81 g.
+              </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
               <Typography
@@ -190,8 +201,6 @@ const GlytactinComplete15 = () => {
               >
                 Listo para consumir. Se recomienda distribuir la cantidad diaria
                 indicada por el profesional a lo largo del día.{" "}
-                <strong>EQUILAVANTE PROTEICO:</strong> 15 g de equivalente
-                proteico por barra de 81 g.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -388,6 +397,18 @@ const GlytactinComplete15 = () => {
                 nutricional de niños mayores de 1 año de edad con Fenilcetonuria
                 (PKU) o Hiperfenilalaninemia (HPA).
               </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                  mt: 2,
+                }}
+              >
+                <strong>EQUILAVANTE PROTEICO:</strong> 15 g de equivalente
+                proteico por barra de 81 g.
+              </Typography>
             </Box>
             <Box width={"100%"}>
               <Typography
@@ -400,18 +421,6 @@ const GlytactinComplete15 = () => {
                 }}
               >
                 FORMA DE PREPARACIÓN:
-              </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "black",
-                  fontFamily: "Lato",
-                  mt: 2,
-                }}
-              >
-                <strong>EQUILAVANTE PROTEICO:</strong> 15 g de equivalente
-                proteico por barra de 81 g.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
@@ -448,7 +457,16 @@ const GlytactinComplete15 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Caja por 7 barras de 81g c/u.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Caja por 7 barras de 81g c/u.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

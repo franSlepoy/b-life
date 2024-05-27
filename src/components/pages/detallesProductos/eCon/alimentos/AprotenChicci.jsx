@@ -34,7 +34,7 @@ const AprotenChicci = () => {
                   mt: 2,
                 }}
               >
-               Chicchi 
+                Chicchi
               </Typography>
               <Typography
                 sx={{
@@ -148,7 +148,7 @@ const AprotenChicci = () => {
                 TIEMPO DE COCCIÓN: 9 minutos.
               </Typography>
             </Box>
-            
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -393,7 +393,17 @@ const AprotenChicci = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

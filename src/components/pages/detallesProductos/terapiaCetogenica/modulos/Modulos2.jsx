@@ -451,7 +451,16 @@ const Modulos2 = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Caja por 30 sachets de 13,3 g c/u.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Caja por 30 sachets de 13,3 g c/u.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

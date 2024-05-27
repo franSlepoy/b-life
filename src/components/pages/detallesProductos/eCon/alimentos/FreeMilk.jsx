@@ -426,7 +426,14 @@ const FreeMilk = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
                 {" "}
                 Caja por 600 g de polvo y cuchara dosificadora de 8,3 g.
               </Typography>

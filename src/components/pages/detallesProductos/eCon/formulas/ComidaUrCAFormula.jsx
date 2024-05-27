@@ -492,7 +492,16 @@ const ComidaUrCAFormula = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Lata por 400 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Lata por 400 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

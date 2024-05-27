@@ -88,7 +88,8 @@ const ComidaLeuBFormula = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Proporciona energía a partir de grasas e hidratos de carbono.
+                  • Proporciona energía a partir de grasas e hidratos de
+                  carbono.
                 </Typography>
                 <Typography
                   sx={{
@@ -172,8 +173,9 @@ const ComidaLeuBFormula = () => {
               >
                 Comida Leu B Fórmula está indicado en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                hiperleucinemia (Ej: Acidemia Isovalérica). EQUIVALENTE
-                PROTEICO: 31 g de equivalente proteico por 100 g de polvo.
+                hiperleucinemia (Ej: Acidemia Isovalérica).{" "}
+                <strong>EQUIVALENTE PROTEICO:</strong> 31 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -396,8 +398,9 @@ const ComidaLeuBFormula = () => {
               >
                 Comida Leu B Fórmula está indicado en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                hiperleucinemia (Ej: Acidemia Isovalérica). EQUIVALENTE
-                PROTEICO: 31 g de equivalente proteico por 100 g de polvo.
+                hiperleucinemia (Ej: Acidemia Isovalérica).{" "}
+                <strong>EQUIVALENTE PROTEICO:</strong> 31 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -460,7 +463,16 @@ const ComidaLeuBFormula = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Lata por 500 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Lata por 500 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

@@ -49,7 +49,8 @@ const Ditali = () => {
               >
                 Pasta para guisos baja en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -89,10 +90,10 @@ const Ditali = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • La pasta ideal para grandes y pequeños: perfecta para todo tipo
-                de salsas, guisos y soufflé. Alimento para dietas especiales.
+                  • La pasta ideal para grandes y pequeños: perfecta para todo
+                  tipo de salsas, guisos y soufflé. Alimento para dietas
+                  especiales.
                 </Typography>
-                
               </Box>
             </Box>
             <Box
@@ -157,7 +158,6 @@ const Ditali = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-               
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -172,7 +172,7 @@ const Ditali = () => {
               >
                 FORMA DE PREPARACIÓN:
               </Typography>
-               <Typography
+              <Typography
                 sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
@@ -181,8 +181,8 @@ const Ditali = () => {
                   mt: 2,
                 }}
               >
-                 TIEMPO DE COCCIÓN: 4 a 6 minutos.
-              </Typography> 
+                TIEMPO DE COCCIÓN: 4 a 6 minutos.
+              </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
@@ -282,9 +282,10 @@ const Ditali = () => {
                   mt: 2,
                 }}
               >
-               Pasta para guisos baja en proteínas ideal para el tratamiento
+                Pasta para guisos baja en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. Alimento para dietas especiales.
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -435,7 +436,17 @@ const Ditali = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 500 g. </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 500 g.{" "}
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

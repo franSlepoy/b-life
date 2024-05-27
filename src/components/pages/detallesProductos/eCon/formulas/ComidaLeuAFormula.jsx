@@ -184,8 +184,8 @@ const ComidaLeuAFormula = () => {
               >
                 Comida Leu A Fórmula está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con hiperleucemia (Ej:
-                Acidemia Isovalérica). EQUIVALENTE PROTEICO: 12 g de equivalente
-                proteico por 100 g de polvo.
+                Acidemia Isovalérica). <strong>EQUIVALENTE PROTEICO:</strong> 12
+                g de equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -413,8 +413,8 @@ const ComidaLeuAFormula = () => {
               >
                 Comida Leu A Fórmula está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con hiperleucemia (Ej:
-                Acidemia Isovalérica). EQUIVALENTE PROTEICO: 12 g de equivalente
-                proteico por 100 g de polvo.
+                Acidemia Isovalérica). <strong>EQUIVALENTE PROTEICO:</strong> 12
+                g de equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -477,7 +477,16 @@ const ComidaLeuAFormula = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography>Lata por 400 g de polvo.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                Lata por 400 g de polvo.
+              </Typography>
               <Typography
                 sx={{
                   color: "#007E48",

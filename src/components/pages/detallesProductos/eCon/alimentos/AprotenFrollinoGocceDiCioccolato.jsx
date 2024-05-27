@@ -34,7 +34,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                   mt: 2,
                 }}
               >
-                GALLETITAS PEPAS DE CHOCOLATE
+                Galletitas pepas de chocolate
               </Typography>
               <Typography
                 sx={{
@@ -163,7 +163,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-          
+
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
                 sx={{
@@ -248,7 +248,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                   mt: 2,
                 }}
               >
-                GALLETITAS PEPAS DE CHOCOLATE
+                Galletitas pepas de chocolate
               </Typography>
               <Typography
                 sx={{
@@ -417,7 +417,17 @@ const AprotenFrollinoGocceDiCioccolato = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography> Envase por 180 g/ 1 unidad = 7g.</Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
+                {" "}
+                Envase por 180 g/ 1 unidad = 7g.
+              </Typography>
               {/*  <Typography
                 sx={{
                   color: "#007E48",

@@ -33,7 +33,7 @@ export const productosData = [
     id: 4,
     categoria: "Terapia Cetogénica",
     subCategoria: "FÓRMULAS",
-    titulo: "ketovie 4.1 vainilla y chocolate",
+    titulo: "Ketovie 4.1 Chocolate",
     descripcion:
       "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de suero intacta y parcialmente hidrolizada para terapia cetogénica.",
     imagen: "/ketovie4.1Chocolate.png",
@@ -43,11 +43,12 @@ export const productosData = [
     id: 5,
     categoria: "Terapia Cetogénica",
     subCategoria: "FÓRMULAS",
-    titulo: "KetoVie 4:1 Plant Based Protein",
+    titulo: "Ketovie 4.1 Vainilla",
     descripcion:
-      "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de arveja intacta y parcialmente hidrolizada para terapia cetogénica. Libre de leche y soja.",
-    imagen: "/ketovie4.1plantbased.png",
-    link: "/ketovie4.1plantbased",
+      "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de suero intacta y parcialmente hidrolizada para terapia cetogénica.",
+    imagen: "/ketovie4.1Vainilla.png",
+    link: "/ketovie4.1vainilla",
+    
   },
   {
     id: 6,
@@ -502,7 +503,7 @@ export const productosData = [
     id: 53,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Grisines",
+    titulo: "Grissini",
     descripcion:
       "Grisines de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenGrissini.png",
@@ -654,7 +655,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Burger Mix",
     descripcion:
-      "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. Alimento para dietas especiales. ",
+      "Premezcla para preparar hamburguesas bajas en proteínas a base de almidón de maíz y papa ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales. ",
     imagen: "/burgerMix.png",
     link: "/burgerMix",
   },
@@ -817,5 +818,16 @@ export const productosData = [
       "Premezcla baja en proteínas para elaborar todo tipo de amasados dulces y salados para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/sustitutoDeHarina.jpg",
     link: "/sustitutoDeHarina",
+  },
+  {
+    id: 85,
+    categoria: "Terapia Cetogénica",
+    subCategoria: "FÓRMULAS",
+    titulo: "KetoVie 4:1 Plant Based Protein",
+    descripcion:
+      "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de arveja intacta y parcialmente hidrolizada para terapia cetogénica. Libre de leche y soja.",
+    imagen: "/ketovie4.1plantbased.png",
+    link: "/ketovie4.1plantbased",
+    
   },
 ];
