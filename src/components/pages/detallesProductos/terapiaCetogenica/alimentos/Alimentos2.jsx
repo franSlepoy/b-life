@@ -239,7 +239,7 @@ const Alimentos2 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Chocolate.
+               Neutro.
               </Typography>
             </Box>
           </Box>

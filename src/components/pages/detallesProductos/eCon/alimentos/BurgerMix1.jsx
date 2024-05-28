@@ -81,9 +81,9 @@ const BurgerMix1 = () => {
                   • Ingredientes: Almidón de trigo, almidón de maíz, dextrosa,
                   psyllium, margarina, azúcar, agua, levadura, zanahoria
                   deshidratada, azúcar quemada, perejil, extracto de tomate,
-                  maltodextrina, sal, extracto de manzana, tomillo, ESP: INS
-                  464, INS 412, INS 410, RAI: INS 500ii, INS 575, EMU: INS 471,
-                  ARO: saborizantes naturales.
+                  maltodextrina, sal, extracto de manzana, tomillo, ESP: INS464,
+                  INS412, INS410, RAI: INS500ii, INS575, EMU: INS471, ARO:
+                  saborizantes naturales.
                 </Typography>
                 <Typography
                   sx={{
@@ -94,6 +94,19 @@ const BurgerMix1 = () => {
                   }}
                 >
                   • Contiene derivados de trigo.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  {" "}
+                  • La alternativa perfecta y baja en proteínas a la carne
+                  picada: ideal para preparar albóndigas, hamburguesas, salsa
+                  boloñesa y otros platos basados en carne picada.
                 </Typography>
               </Box>
             </Box>

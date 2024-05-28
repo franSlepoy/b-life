@@ -106,7 +106,7 @@ const AprotenObleasDeChocholate = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/aprotenGrissini.png" alt="" />
+                <img height={"300px"} src="/aprotenObleasDeChocholate.png" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -246,7 +246,7 @@ const AprotenObleasDeChocholate = () => {
                   mt: 2,
                 }}
               >
-                OBLEAS DE CHOCOLATE
+                Obleas de chocolate
               </Typography>
               <Typography
                 sx={{
@@ -302,7 +302,7 @@ const AprotenObleasDeChocholate = () => {
               }}
             >
               <Box textAlign={"center"}>
-                <img height={"300px"} src="/fusilli.png" alt="" />
+                <img height={"300px"} src="/aprotenObleasDeChocholate.png" alt="" />
               </Box>
 
               <Box m={"auto"}>

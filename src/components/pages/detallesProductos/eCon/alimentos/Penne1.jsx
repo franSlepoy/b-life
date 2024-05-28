@@ -49,8 +49,8 @@ const Penne1 = () => {
               >
                 Pasta tipo mostachol baja en proteínas ideal para el tratamiento
                 nutricional de patologías que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos. La pasta por excelencia
-                para guisos y estofados. Alimento para dietas especiales.
+                el aporte de proteínas y aminoácidos. Alimento para dietas
+                especiales.
               </Typography>
               <Typography
                 sx={{
@@ -78,11 +78,19 @@ const Penne1 = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Pasta tipo mostachol baja en proteínas ideal para el
-                  tratamiento nutricional de patologías que requieren dietas
-                  restringidas en el aporte de proteínas y aminoácidos. La pasta
-                  por excelencia para guisos y estofados. Alimento para dietas
-                  especiales.
+                  • Ingredientes: Almidón de maíz, almidón de arroz, melaza de
+                  caña, inulina, harina de arroz, ESP: INS460i, EMU: INS471,
+                  ARO: aceite de cártamo, COL: INS160a.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  La pasta por excelencia para guisos y estofados.
                 </Typography>
               </Box>
             </Box>
@@ -148,7 +156,7 @@ const Penne1 = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 5 a 7 minutos.
+                
               </Typography>
             </Box>
 
@@ -340,7 +348,7 @@ const Penne1 = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 5 a 7 minutos.
+                
               </Typography>
             </Box>
             <Box width={"100%"}>

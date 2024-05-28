@@ -147,16 +147,7 @@ const AprotenGrissini = () => {
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "black",
-                  fontFamily: "Lato",
-                }}
-              >
-                Contiene derivados de trigo.
-              </Typography>
+              
             </Box>
 
             <Box ml={2} mt={3} width={"33.3%"}>

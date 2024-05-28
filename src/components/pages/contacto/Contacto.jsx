@@ -142,7 +142,7 @@ const Contacto = () => {
                           color: "white",
                         }}
                       >
-                        Otros
+                        Otros productos nutricionales
                       </Typography>
                     </Button>
                   </a>
@@ -386,7 +386,7 @@ const Contacto = () => {
                           color: "white",
                         }}
                       >
-                        Otros
+                        Otros productos nutricionales
                       </Typography>
                     </Button>
                   </a>
@@ -424,7 +424,7 @@ const Contacto = () => {
                       color: "white",
                       width: "250px",
                       mt: 3,
-                      pb:3
+                      pb: 3,
                     }}
                   >
                     Dejanos tus datos para que nos pongamos en contacto con vos.
@@ -434,7 +434,7 @@ const Contacto = () => {
             </Box>
           </Box>
           <Box textAlign={"center"}>
-            <Box  pb={4} width={"100%"}>
+            <Box pb={4} width={"100%"}>
               <Box>
                 <Box mt={2}>
                   <Box>

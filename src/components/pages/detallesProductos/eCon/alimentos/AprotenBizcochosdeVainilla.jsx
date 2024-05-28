@@ -411,7 +411,7 @@ const AprotenBizcochosdeVainilla = () => {
                 }}
               >
                 {" "}
-                Envases por 180 g/ 1 unidad= 6,5 g.
+                Envase por 180 g/ 1 unidad= 6,5 g.
               </Typography>
               {/*  <Typography
                 sx={{

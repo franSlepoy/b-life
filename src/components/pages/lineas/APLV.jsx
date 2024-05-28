@@ -137,13 +137,7 @@ const APLV = () => {
                     1. Petriz NA, Parisi CAS, Busaniche JN, et al. Historia
                     natural de la alergia a la leche de vaca mediada por
                     inmunoglobulina E en una población de niños argentinos. Arch
-                    Argent Pediatr 2017;115(4):331-335. 2. M.C. Toca, M.B.
-                    Morais, R. Vázquez-Frias et al., Consenso sobre el
-                    diagnóstico y el tratamiento de la alergia a las proteínas
-                    de la leche de vaca de la Sociedad Latinoamericana de
-                    Gastroenterología, Hepatología y Nutrición, Revista de
-                    Gastroenterología de México,
-                    https://doi.org/10.1016/j.rgmx.2022.03.007
+                    Argent Pediatr 2017;115(4):331-335. 
                   </Typography>
                   <Typography
                     sx={{
@@ -314,13 +308,7 @@ const APLV = () => {
                         1. Petriz NA, Parisi CAS, Busaniche JN, et al. Historia
                         natural de la alergia a la leche de vaca mediada por
                         inmunoglobulina E en una población de niños argentinos.
-                        Arch Argent Pediatr 2017;115(4):331-335. 2. M.C. Toca,
-                        M.B. Morais, R. Vázquez-Frias et al., Consenso sobre el
-                        diagnóstico y el tratamiento de la alergia a las
-                        proteínas de la leche de vaca de la Sociedad
-                        Latinoamericana de Gastroenterología, Hepatología y
-                        Nutrición, Revista de Gastroenterología de México,
-                        https://doi.org/10.1016/j.rgmx.2022.03.007
+                        Arch Argent Pediatr 2017;115(4):331-335. 
                       </Typography>
                       <Typography
                         sx={{
@@ -554,13 +542,7 @@ const APLV = () => {
                     1. Petriz NA, Parisi CAS, Busaniche JN, et al. Historia
                     natural de la alergia a la leche de vaca mediada por
                     inmunoglobulina E en una población de niños argentinos. Arch
-                    Argent Pediatr 2017;115(4):331-335. 2. M.C. Toca, M.B.
-                    Morais, R. Vázquez-Frias et al., Consenso sobre el
-                    diagnóstico y el tratamiento de la alergia a las proteínas
-                    de la leche de vaca de la Sociedad Latinoamericana de
-                    Gastroenterología, Hepatología y Nutrición, Revista de
-                    Gastroenterología de México,
-                    https://doi.org/10.1016/j.rgmx.2022.03.007
+                    Argent Pediatr 2017;115(4):331-335. 
                   </Typography>
                   <Typography
                     sx={{

@@ -47,7 +47,7 @@ const ComidaOAcBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida OAc B Fómula es una fórmula en polvo libre de isoleucina,
+                Comida OAc B Fórmula es una fórmula en polvo libre de isoleucina,
                 metionina, treonina y valina para el tratamiento nutricional de
                 Acidemias Orgánicas: Propiónica y Metilmalónica en niños mayores
                 de 1 año de edad, adolescentes y adultos. Alimento para
@@ -173,7 +173,7 @@ const ComidaOAcBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida OAc B Fómula está indicado en el tratamiento nutricional
+                Comida OAc B Fórmula está indicado en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
                 Acidemias Orgánicas: Propiónica y Metilmalónica .{" "}
                 <strong>EQUIVALENTE PROTÉICO:</strong> 31 g de equivalente

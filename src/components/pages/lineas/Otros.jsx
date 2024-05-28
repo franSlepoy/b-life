@@ -47,7 +47,7 @@ const Otros = () => {
               mt: 2,
             }}
           >
-             Productos
+             productos
           </Typography>
 
           <Typography
@@ -61,7 +61,7 @@ const Otros = () => {
               color: "white",
             }}
           >
-            Nutricionales 
+            nutricionales 
           </Typography>
           <Typography
             sx={{
@@ -214,7 +214,7 @@ const Otros = () => {
               mt: 1,
             }}
           >
-           Productos
+           productos
           </Typography>
 
           <Typography
@@ -229,7 +229,7 @@ const Otros = () => {
               mt: 2,
             }}
           >
-            Nutricionales 
+            nutricionales 
           </Typography>
           <Typography
             sx={{

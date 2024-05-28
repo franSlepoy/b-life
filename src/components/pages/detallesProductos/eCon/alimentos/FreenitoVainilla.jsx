@@ -83,7 +83,7 @@ const FreenitoVainilla = () => {
                   de coco en polvo, azúcar impalpable, fructosa, almidón de
                   papa, FOS, carbonato de calcio, sal, ARO: aromatizante
                   artificial sabor vainilla, ACI: ácido cítrico, EST:
-                  carboximetilcelulosa sódica, carragenina, COL: INS 150d.
+                  carboximetilcelulosa sódica, carragenina, COL: INS150d.
                 </Typography>
               </Box>
             </Box>

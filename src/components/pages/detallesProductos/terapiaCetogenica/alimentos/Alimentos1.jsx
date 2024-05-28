@@ -171,7 +171,7 @@ const Alimentos1 = () => {
                   mt: 2,
                 }}
               >
-                Lista para usar.
+                Listo para usar.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -393,7 +393,7 @@ const Alimentos1 = () => {
                   mt: 2,
                 }}
               >
-                Lista para usar. Se recomienda agitar bien antes de su uso.
+                Listo para usar. 
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

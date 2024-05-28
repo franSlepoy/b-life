@@ -34,7 +34,7 @@ const FruitBar = () => {
                   mt: 2,
                 }}
               >
-                Fruit Bar
+                Fruit bar
               </Typography>
               <Typography
                 sx={{
@@ -108,9 +108,9 @@ const FruitBar = () => {
                   }}
                 >
                   • Su envase individual permite consumirlas en cualquier
-                  momento y lugar. Fruit bar es tu snack ideal
+                  momento y lugar. Fruit bar es tu snack ideal para dietas
+                  especiales.
                 </Typography>
-                para dietas especiales.
               </Box>
             </Box>
             <Box
@@ -264,7 +264,7 @@ const FruitBar = () => {
                   mt: 2,
                 }}
               >
-                FRUIT BAR
+                Fruit bar
               </Typography>
               <Typography
                 sx={{
@@ -314,6 +314,18 @@ const FruitBar = () => {
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Contiene huevo y derivados de trigo. Puede contener soja.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Su envase individual permite consumirlas en cualquier
+                  momento y lugar. Fruit bar es tu snack ideal para dietas
+                  especiales.
                 </Typography>
               </Box>
             </Box>

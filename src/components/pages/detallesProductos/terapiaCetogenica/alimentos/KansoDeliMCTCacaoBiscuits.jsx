@@ -102,13 +102,13 @@ const KansoDeliMCTCacaoBiscuits = () => {
             >
               <Box>
                 <img
-                  height={"200px"}
-                  src="/kansoDeliMCTCacaoBiscuits.jpg"
+                  height={"300px"}
+                  src="/kansoDelíMCTCacaoBiscuits.jpg"
                   alt=""
                 />
               </Box>
 
-              <Box m={"auto"} mt={15}>
+              <Box m={"auto"} mt={5}>
                 <Button
                   sx={{
                     bgcolor: "#007E48",

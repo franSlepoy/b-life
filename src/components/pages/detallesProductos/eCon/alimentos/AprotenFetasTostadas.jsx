@@ -200,7 +200,7 @@ const AprotenFetasTostadas = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Envase por 250 g.
+                Envase por 250 g. / 1 unidad = 6,5 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{
@@ -415,7 +415,7 @@ const AprotenFetasTostadas = () => {
                 }}
               >
                 {" "}
-                Envase por 250 g.
+                Envase por 250 g./ 1 unidad = 6,5 g.
               </Typography>
               {/*  <Typography
                 sx={{

@@ -34,7 +34,7 @@ const AprotenFrollinoAllaPanna = () => {
                   mt: 2,
                 }}
               >
-                Galletitas Panna rosquitas
+                Galletitas panna rosquitas
               </Typography>
               <Typography
                 sx={{
@@ -201,7 +201,7 @@ const AprotenFrollinoAllaPanna = () => {
                 }}
               >
                 {" "}
-                Envases por 180 g/ 1 unidad = 6,5 g.
+                Envase por 180 g/ 1 unidad = 6,5 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{
@@ -244,7 +244,7 @@ const AprotenFrollinoAllaPanna = () => {
                   mt: 2,
                 }}
               >
-                Galletitas Panna rosquitas
+                Galletitas panna rosquitas
               </Typography>
               <Typography
                 sx={{
@@ -416,7 +416,7 @@ const AprotenFrollinoAllaPanna = () => {
                 }}
               >
                 {" "}
-                Envases por 180 g/ 1 unidad = 6,5 g.
+                Envase por 180 g/ 1 unidad = 6,5 g.
               </Typography>
               {/*  <Typography
                 sx={{

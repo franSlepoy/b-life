@@ -81,18 +81,15 @@ const Arroz = () => {
                   • Ingredientes: Almidón de maíz, almidón de arroz, inulina,
                   harina de arroz, ESP: INS 460ii, EMU: INS471.
                 </Typography>
-                <Typography
-                  sx={{
+                <Typography sx={{
                     fontWeight: "regular",
                     fontSize: "14px",
                     color: "black",
                     fontFamily: "Lato",
-                  }}
-                >
-                  Perfecta como acompañamiento ó para la elaboración de risotto,
-                  ensalada de arroz y todo tipo de deliciosos platos. Alimento
-                  para dietas especiales.
+                  }} >
+                Perfecta como acompañamiento ó para la elaboración de risotto, ensalada de arroz y todo tipo de deliciosos platos. Alimento para dietas especiales.
                 </Typography>
+                
               </Box>
             </Box>
             <Box

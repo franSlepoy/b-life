@@ -620,7 +620,7 @@ const Home = () => {
                   m: "auto",
                 }}
               >
-                Nos gustaría informarle que la compra de nuestros productos a
+                Les informamos que la compra de nuestros productos a
                 través de terceros no autorizados puede suponer un riesgo para
                 su salud y seguridad. Solo los distribuidores y vendedores
                 autorizados pueden garantizar la autenticidad y la calidad de

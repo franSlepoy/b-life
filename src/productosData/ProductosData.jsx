@@ -423,7 +423,7 @@ export const productosData = [
     id: 43,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Bizcochos de Cacao",
+    titulo: "Bizcochos de cacao",
     descripcion:
       "Masitas de cacao de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenBizcochosdeCacao.png",
@@ -433,7 +433,7 @@ export const productosData = [
     id: 44,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Bizcochos de Fruta",
+    titulo: "Bizcochos de fruta",
     descripcion:
       "Masitas sabor fruta de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenBizcochosdeFruta.png",
@@ -443,7 +443,7 @@ export const productosData = [
     id: 45,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Bizcochos de Vainilla",
+    titulo: "Bizcochos de vainilla",
     descripcion:
       "Masitas de vainilla de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenBizcochosdeVainilla.png",
@@ -453,7 +453,7 @@ export const productosData = [
     id: 48,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Chicci",
+    titulo: "Chicchi",
     descripcion:
       "Pasta tipo arroz, de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenChicci.png",
@@ -463,7 +463,7 @@ export const productosData = [
     id: 49,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Fetas Tostadas",
+    titulo: "Fetas tostadas",
     descripcion:
       "Tostadas tipo tosti de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenFetasTostadas.png",
@@ -483,7 +483,7 @@ export const productosData = [
     id: 51,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Galletitas Panna rosquitas",
+    titulo: "Galletitas panna rosquitas",
     descripcion:
       "Rosquitas de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenFrollinoAllaPanna.png",
@@ -543,7 +543,7 @@ export const productosData = [
     id: 57,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Pan Bizcochado ",
+    titulo: "Pan bizcochado ",
     descripcion:
       "Tostadas de pan de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenPanBizcochado.png",
@@ -603,7 +603,7 @@ export const productosData = [
     id: 63,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Freegur Frutilla",
+    titulo: "Freegur frutilla",
     descripcion:
       "Premezcla a base de maltodextrina, almidón y azúcar impalpable, para preparar postre sabor frutilla. Freegur frutilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freegurFrutilla.png",
@@ -613,7 +613,7 @@ export const productosData = [
     id: 64,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Freegur Vainilla",
+    titulo: "Freegur vainilla",
     descripcion:
       "Premezcla a base de maltodextrina, almidón y azúcar impalpable, para preparar postre sabor vainilla. Freegur vainilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freegurVainilla.png",
@@ -623,7 +623,7 @@ export const productosData = [
     id: 65,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Free Milk",
+    titulo: "Freemilk",
     descripcion:
       "Sustituto de leche en polvo a base de almidón de papa y maltodextrina para mayores de 1 año de edad. Ideal para dietas restringidas.",
     imagen: "/freeMilk.png",
@@ -633,7 +633,7 @@ export const productosData = [
     id: 66,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Freenito Chocolate",
+    titulo: "Freenito chocolate",
     descripcion:
       "Premezcla a base de azúcar impalpable, fécula de maíz y almidón de papa, para preparar postre sabor chocolate. Freenito chocolate tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freenitoChocolate.png",
@@ -643,7 +643,7 @@ export const productosData = [
     id: 67,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Freenito Vainilla",
+    titulo: "Freenito vainilla",
     descripcion:
       "Premezcla a base de azúcar impalpable, fécula de maíz y almidón de papa, para preparar postre sabor vainilla. Freenito vainilla tiene bajo contenido proteico para el tratamiento nutricional de patologías que requieran dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/freenitoVainilla.png",
@@ -655,7 +655,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Burger Mix",
     descripcion:
-      "Premezcla para preparar hamburguesas bajas en proteínas a base de almidón de maíz y papa ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales. ",
+      "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. Alimento para dietas especiales. ",
     imagen: "/burgerMix.png",
     link: "/burgerMix",
   },
@@ -663,7 +663,7 @@ export const productosData = [
     id: 69,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Salt Sticks",
+    titulo: "Salt sticks",
     descripcion:
       "Palitos salados tipo pretzels bajos en proteínas ideales para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/saltSticks.jpg",
@@ -673,7 +673,7 @@ export const productosData = [
     id: 70,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Schoxxi Tafel",
+    titulo: "Schoxxi chocolate",
     descripcion:
       "Chocolate con bajo contenido proteico, ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos Alimento para dietas especiales.",
     imagen: "/schoxxiTafel.png",
@@ -695,7 +695,7 @@ export const productosData = [
     subCategoria: "ALIMENTOS",
     titulo: "Burger Mix ",
     descripcion:
-      "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. Alimento para dietas especiales.",
+      "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. La alternativa perfecta y baja en proteínas a la carne picada: ideal para preparar albóndigas, hamburguesas, salsa boloñesa y otros platos basados en carne picada. Alimento para dietas especiales.",
     imagen: "/burgerMix1.png",
     link: "/burgerMix1",
   },
@@ -723,7 +723,7 @@ export const productosData = [
     id: 75,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Fruit Bar ",
+    titulo: "Fruit bar ",
     descripcion:
       "Barrita a base de almidón de trigo con relleno a base de frutilla ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/fruitBar.png",
@@ -763,7 +763,7 @@ export const productosData = [
     id: 79,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Zeropro Muffins y Tortas",
+    titulo: "ZeroPro Muffins y Tortas",
     descripcion:
       "Premezcla a base de almidones y azúcar impalpable para preparar muffins y tortas sabor vainilla para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/zeroproMuffinsyTortas.png",
@@ -773,7 +773,7 @@ export const productosData = [
     id: 80,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Zeropro Brownies ",
+    titulo: "ZeroPro Brownies ",
     descripcion:
       "Premezcla a base de almidones y azúcar impalpable sabor chocolate para preparar brownies para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/zeroproBrownies.jpg",
@@ -803,7 +803,7 @@ export const productosData = [
     id: 83,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
-    titulo: "Galletas Marineras",
+    titulo: "Galletas marineras",
     descripcion:
       "Galletitas tipo marineras bajas en proteínas para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/galletasMarineras.png",

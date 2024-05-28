@@ -251,7 +251,7 @@ const Nosotros = () => {
                   fontWeight: "bold",
                   textAlign: "center",
                   lineHeight: "18px",
-                  color: "#007E48",
+                  color: "white",
                   width: "160px",
                   m: "auto",
                   mt: -2,
@@ -266,7 +266,7 @@ const Nosotros = () => {
                   fontWeight: "regular",
                   textAlign: "center",
                   lineHeight: "18px",
-                  color: "#007E48",
+                  color: "white",
                   width: "235px",
                 }}
               >
@@ -288,7 +288,7 @@ const Nosotros = () => {
                   fontWeight: "bold",
                   textAlign: "center",
                   lineHeight: "22px",
-                  color: "#007E48",
+                  color: "white",
                   width: "190px",
                   m: "auto",
                 }}
@@ -302,7 +302,7 @@ const Nosotros = () => {
                   fontWeight: "regular",
                   textAlign: "center",
                   lineHeight: "18px",
-                  color: "#007E48",
+                  color: "white",
                   width: "215px",
                 }}
               >
@@ -324,7 +324,7 @@ const Nosotros = () => {
                   fontWeight: "bold",
                   textAlign: "center",
                   lineHeight: "22px",
-                  color: "#007E48",
+                  color: "white",
                   width: "150px",
                   m: "auto",
                 }}
@@ -338,7 +338,7 @@ const Nosotros = () => {
                   fontWeight: "regular",
                   textAlign: "center",
                   lineHeight: "18px",
-                  color: "#007E48",
+                  color: "white",
                   width: "210px",
                 }}
               >

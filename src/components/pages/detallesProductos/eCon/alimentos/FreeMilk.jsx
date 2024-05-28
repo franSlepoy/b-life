@@ -82,8 +82,8 @@ const FreeMilk = () => {
                   (como carbonato de calcio), suplemento dietario a base de
                   vitaminas y minerales, sal, ARO: aromatizante artificial sabor
                   vainilla, ESP: pectina, COL: dióxido de titanio, colorante
-                  caramelo IV (INS 150d), EST: CMC (carboximetilcelulosa
-                  sódica), carragenina, ACI: ácido cítrico
+                  caramelo IV (INS150d), EST: CMC (carboximetilcelulosa
+                  sódica), carragenina, ACI: ácido cítrico.
                 </Typography>
               </Box>
             </Box>
@@ -301,8 +301,8 @@ const FreeMilk = () => {
                   (como carbonato de calcio), suplemento dietario a base de
                   vitaminas y minerales, sal, ARO: aromatizante artificial sabor
                   vainilla, ESP: pectina, COL: dióxido de titanio, colorante
-                  caramelo IV (INS 150d), EST: CMC (carboximetilcelulosa
-                  sódica), carragenina, ACI: ácido cítrico
+                  caramelo IV (INS150d), EST: CMC (carboximetilcelulosa
+                  sódica), carragenina, ACI: ácido cítrico.
                 </Typography>
               </Box>
             </Box>
