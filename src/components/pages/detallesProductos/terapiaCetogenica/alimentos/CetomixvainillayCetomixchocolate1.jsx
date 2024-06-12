@@ -47,8 +47,7 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   mt: 2,
                 }}
               >
-                Premezcla a base de aceite de palma y harina de almendras, sabor
-                vainilla, para dietas especiales.
+                Premezcla a base de aceite de palma y harina de almendras, sabor vainilla, para dietas especiales.
               </Typography>
               <Typography
                 sx={{
@@ -170,10 +169,8 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   mt: 2,
                 }}
               >
-                Para obtener un muffin de 60 g colocar en un bowl 35 g de
-                Cetomix chocolate, agregar 3 cc de aceite y 20 cc de agua.
-                Mezclar hasta obtener una masa. Colocar la preparación en un
-                molde de muffins. Cocinar a 180°C por 15 min.
+                Para obtener un muffin de 60 g colocar en un bowl 35 g de Cetomix vainilla, agregar 3 cc de aceite y 20 cc de agua. Mezclar hasta obtener una masa. Colocar la preparación en un molde de muffins. Cocinar a 180°C por 15 min.
+
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>

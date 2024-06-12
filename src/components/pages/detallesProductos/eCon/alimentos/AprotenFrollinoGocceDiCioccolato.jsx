@@ -80,8 +80,8 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                 >
                   • Ingredientes: Almidón de maíz, margarina vegetal, azúcar,
                   gotas de chocolate amargo (pasta de cacao, azúcar, manteca de
-                  cacao, EMU: INS 322), crema, huevo, saborizante artificial a
-                  leche en polvo, RAI: INS 503ii, ACI: INS 330 .
+                  cacao, EMU: INS322), crema, huevo, saborizante artificial a
+                  leche en polvo, RAI: INS503ii, ACI: INS330 .
                 </Typography>
                 <Typography
                   sx={{
@@ -113,7 +113,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
               </Box>
 
               <Box m={"auto"} mt={5}>
-                <Button
+               {/*  <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",
@@ -130,7 +130,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                   onClick={handleDownloadPDF}
                 >
                   Descargar PDF
-                </Button>
+                </Button> */}
               </Box>
             </Box>
           </Box>
@@ -287,8 +287,8 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Ingredientes: Almidón de maíz, margarina vegetal, azúcar,
                   gotas de chocolate amargo (pasta de cacao, azúcar, manteca de
-                  cacao, EMU: INS 322), crema, huevo, saborizante artificial a
-                  leche en polvo, RAI: INS 503ii, ACI: INS 330 .
+                  cacao, EMU: INS322), crema, huevo, saborizante artificial a
+                  leche en polvo, RAI: INS503ii, ACI: INS330 .
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Contiene huevo y derivados de leche y soja.
@@ -311,7 +311,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
               </Box>
 
               <Box m={"auto"}>
-                <Button
+                {/* <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",
@@ -328,7 +328,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                   onClick={handleDownloadPDF}
                 >
                   Descargar PDF
-                </Button>
+                </Button> */}
               </Box>
             </Box>
           </Box>

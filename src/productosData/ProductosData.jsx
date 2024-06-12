@@ -355,7 +355,7 @@ export const productosData = [
     subCategoria: "FÓRMULAS",
     titulo: "XPhe Jump 20",
     descripcion:
-      "XPhe Jump 20 es una fórmula líquida lista para usar libre de fenilalanina y rica en tirosina, suplementada con DHA, de bajo volumen, para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños mayores de 3 años de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+      " Fórmula líquida lista para usar libre de fenilalanina y rica en tirosina, suplementada con DHA, para tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños de +3 años de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
     imagen: "/XPheJump20Orange.png",
     link: "/XPheJump20",
   },
@@ -689,7 +689,7 @@ export const productosData = [
     imagen: "/arroz.png",
     link: "/arroz",
   },
-  {
+  /* {
     id: 72,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
@@ -698,7 +698,7 @@ export const productosData = [
       "Sustituto de hamburguesa bajo en proteínas ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteína y aminoácidos. La alternativa perfecta y baja en proteínas a la carne picada: ideal para preparar albóndigas, hamburguesas, salsa boloñesa y otros platos basados en carne picada. Alimento para dietas especiales.",
     imagen: "/burgerMix1.png",
     link: "/burgerMix1",
-  },
+  }, */
   {
     id: 73,
     categoria: "Errores congénitos del metabolismo",

@@ -175,7 +175,7 @@ const ZeroproBrownies = () => {
                 }}
               >
                 {" "}
-                poner en un bowl 35 g de manteca a punto pomada, agregar 100 g
+                Poner en un bowl 35 g de manteca a punto pomada, agregar 100 g
                 de ZeroPro brownies de a poco e ir agregando 90 ml de agua hasta
                 lograr una consistencia símil bizcochuelo. Poner en molde
                 previamente aceitado. Cocinar a 180 ° por 25 min. Rinde para 2

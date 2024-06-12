@@ -447,7 +447,7 @@ const TC = () => {
               >
                 B-Life considera el respeto uno de sus principales valores,
                 demostrándolo en cada contacto y en cada lugar en el que está
-                presente. B-Life busca escuchar las necesidades de sus clientes para
+                presente. B-Life busca escuchar las necesidades de sus pacientes para
                 satisfacerlas, desarrollando y poniendo a su disposición todos
                 aquellos recursos necesarios para llevar adelante el
                 tratamiento. Por último, se compromete en brindar a los profesionales de la
@@ -879,7 +879,7 @@ const TC = () => {
                   lineHeight: "19px",
                 }}
               >
-                B-Life busca escuchar las necesidades de sus clientes para
+                B-Life busca escuchar las necesidades de sus pacientes para
                 satisfacerlas, desarrollando y poniendo a su disposición todos
                 aquellos recursos necesarios para llevar adelante el
                 tratamiento.

@@ -108,7 +108,7 @@ const AprotenFetasTostadas = () => {
               </Box>
 
               <Box m={"auto"} mt={5}>
-                <Button
+               {/*  <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",
@@ -125,7 +125,7 @@ const AprotenFetasTostadas = () => {
                   onClick={handleDownloadPDF}
                 >
                   Descargar PDF
-                </Button>
+                </Button> */}
               </Box>
             </Box>
           </Box>
@@ -301,7 +301,7 @@ const AprotenFetasTostadas = () => {
               </Box>
 
               <Box m={"auto"}>
-                <Button
+                {/* <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",
@@ -318,7 +318,7 @@ const AprotenFetasTostadas = () => {
                   onClick={handleDownloadPDF}
                 >
                   Descargar PDF
-                </Button>
+                </Button> */}
               </Box>
             </Box>
           </Box>

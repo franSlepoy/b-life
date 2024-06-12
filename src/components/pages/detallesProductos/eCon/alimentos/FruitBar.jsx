@@ -111,6 +111,16 @@ const FruitBar = () => {
                   momento y lugar. Fruit bar es tu snack ideal para dietas
                   especiales.
                 </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Fruit bar es tu snack ideal.
+                </Typography>
               </Box>
             </Box>
             <Box
@@ -326,6 +336,16 @@ const FruitBar = () => {
                   • Su envase individual permite consumirlas en cualquier
                   momento y lugar. Fruit bar es tu snack ideal para dietas
                   especiales.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Fruit bar es tu snack ideal.
                 </Typography>
               </Box>
             </Box>

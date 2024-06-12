@@ -90,7 +90,7 @@ const Penne1 = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  La pasta por excelencia para guisos y estofados.
+                  • La pasta por excelencia para guisos y estofados.
                 </Typography>
               </Box>
             </Box>
@@ -285,6 +285,16 @@ const Penne1 = () => {
                   • Ingredientes: Almidón de maíz, almidón de arroz, melaza de
                   caña, inulina, harina de arroz, ESP: INS460i, EMU: INS471,
                   ARO: aceite de cártamo, COL: INS160a.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • La pasta por excelencia para guisos y estofados.
                 </Typography>
               </Box>
             </Box>

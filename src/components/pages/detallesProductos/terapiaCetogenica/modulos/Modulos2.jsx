@@ -174,6 +174,7 @@ const Modulos2 = () => {
                   color: "black",
                   fontFamily: "Lato",
                   mt: 2,
+                 
                 }}
               >
                 Agregar un sobre de Kanso MCT Fiber en la comida o bebida
@@ -182,6 +183,7 @@ const Modulos2 = () => {
                 utilizarse también para cocinar u hornear. La dilución estándar
                 es de 1 sobre (13,3 g.) en 30 ml de agua u otro alimento.
               </Typography>
+              
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
               <Typography
@@ -224,9 +226,21 @@ const Modulos2 = () => {
                   fontSize: "14px",
                   color: "black",
                   fontFamily: "Lato",
+                  
                 }}
               >
-                Caja por 30 sachets de 13,3 g c/u.
+                Caja por 30 sachets de 
+              </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                  
+                }}
+              >
+               13,3 g c/u.
               </Typography>
               <Typography
                 sx={{

@@ -98,7 +98,7 @@ const AprotenGrissini = () => {
               </Box>
 
               <Box m={"auto"} mt={5}>
-                <Button
+               {/*  <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",
@@ -115,7 +115,7 @@ const AprotenGrissini = () => {
                   onClick={handleDownloadPDF}
                 >
                   Descargar PDF
-                </Button>
+                </Button> */}
               </Box>
             </Box>
           </Box>
@@ -284,7 +284,7 @@ const AprotenGrissini = () => {
               </Box>
 
               <Box m={"auto"}>
-                <Button
+               {/*  <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",
@@ -301,7 +301,7 @@ const AprotenGrissini = () => {
                   onClick={handleDownloadPDF}
                 >
                   Descargar PDF
-                </Button>
+                </Button> */}
               </Box>
             </Box>
           </Box>

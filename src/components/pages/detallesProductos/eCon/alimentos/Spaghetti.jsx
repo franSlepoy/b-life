@@ -169,7 +169,7 @@ const Spaghetti = () => {
                   mt: 2,
                 }}
               >
-                TIEMPO DE COCCIÓN: 10 a 12 minutos.
+               Cocinar 10 a 12 minutos.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -360,11 +360,11 @@ const Spaghetti = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 10 a 12 minutos.
+                
               </Typography>
             </Box>
             <Box width={"100%"}>
-              {/*  <Typography
+               <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -384,12 +384,8 @@ const Spaghetti = () => {
                   mt: 2,
                 }}
               >
-                Mezclar 35 g de la premezcla con 45 ml de agua, una cucharada de
-                té de aceite y sal y pimienta a gusto y según recomendación.
-                Armar las hamburguesas y cocinar en la plancha o freír. Con el
-                mismo preparado pueden realizarse albóndigas o rellenos de
-                empanadas, tartas o pastas.
-              </Typography> */}
+               Cocinar de 10 a 12 minutos.
+              </Typography> 
             </Box>
             <Box mt={3} width={"100%"}>
               <Typography

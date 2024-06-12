@@ -78,7 +78,7 @@ const SaltSticks = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • INGREDIENTES: Almidón de maíz, sal gruesa, almidón de trigo,
+                  • Ingredientes: Almidón de maíz, sal gruesa, almidón de trigo,
                   aceite de colza, fibra de papa, azúcar, levadura, ESP: INS412,
                   INS464, RAI: INS500ii, INS503ii, EMU: INS471, INS322, ACI:
                   INS575 .
@@ -284,7 +284,7 @@ const SaltSticks = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: INGREDIENTES: Almidón de maíz, sal gruesa,
+                  • Ingredientes: Almidón de maíz, sal gruesa,
                   almidón de trigo, aceite de colza, fibra de papa, azúcar,
                   levadura, ESP: INS412, INS464, RAI: INS500ii, INS503ii, EMU:
                   INS471, INS322, ACI: INS575 .
