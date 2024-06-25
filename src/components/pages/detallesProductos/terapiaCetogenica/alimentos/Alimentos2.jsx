@@ -218,7 +218,7 @@ const Alimentos2 = () => {
                 }}
               >
                 {" "}
-                Cambiar por: Envase por 500 g. (2u x 50g c/u.).
+                Envase por 500 g. 
               </Typography>
               <Typography
                 sx={{

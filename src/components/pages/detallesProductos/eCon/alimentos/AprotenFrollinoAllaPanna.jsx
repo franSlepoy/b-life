@@ -104,7 +104,7 @@ const AprotenFrollinoAllaPanna = () => {
               }}
             >
               <Box>
-                <img height={"300px"} src="/aprotenFetasTostadas.png" alt="" />
+                <img height={"300px"} src="/aprotenFrollinoAllaPanna.png" alt="" />
               </Box>
 
               <Box m={"auto"} mt={5}>
@@ -298,7 +298,7 @@ const AprotenFrollinoAllaPanna = () => {
               }}
             >
               <Box textAlign={"center"}>
-                <img height={"300px"} src="/aprotenFetasTostadas.png" alt="" />
+                <img height={"300px"} src="/aprotenFrollinoAllaPanna.png" alt="" />
               </Box>
 
               <Box m={"auto"}>

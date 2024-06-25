@@ -4,12 +4,12 @@ import Footer from "../../../../common/footer/Footer";
 const CetomixvainillayCetomixchocolate1 = () => {
   const handleDownloadPDF = () => {
     // Construye la URL del archivo PDF
-    const pdfURL = "/CetomixvainillayCetomixchocolate.pdf";
+    const pdfURL = "/CetomixVainilla.pdf";
 
     // Crea un enlace temporal
     const link = document.createElement("a");
     link.href = pdfURL;
-    link.download = "CetomixvainillayCetomixchocolate.pdf"; // Nombre del archivo a descargar
+    link.download = "CetomixVainilla.pdf"; // Nombre del archivo a descargar
 
     // Simula un clic en el enlace para iniciar la descarga
     document.body.appendChild(link);

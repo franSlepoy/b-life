@@ -103,7 +103,7 @@ const KansoDeliMCTCacaoBiscuits = () => {
               <Box>
                 <img
                   height={"300px"}
-                  src="/kansoDelíMCTCacaoBiscuits.jpg"
+                  src="/kansoDeliMCTCacaoBiscuits.jpg"
                   alt=""
                 />
               </Box>

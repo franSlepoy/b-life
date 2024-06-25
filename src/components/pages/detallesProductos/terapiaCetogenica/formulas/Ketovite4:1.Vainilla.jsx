@@ -250,7 +250,7 @@ const KetoviteVainilla = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Vainilla/ Chocolate.
+               Vainilla.
               </Typography>
             </Box>
           </Box>
@@ -485,7 +485,7 @@ const KetoviteVainilla = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Vainilla/ Chocolate.
+                Vainilla.
               </Typography>
             </Box>
           </Box>

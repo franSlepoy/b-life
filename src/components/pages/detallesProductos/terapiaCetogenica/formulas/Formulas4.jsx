@@ -250,7 +250,7 @@ const Formulas4 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Vainilla/ Chocolate.
+             Chocolate.
               </Typography>
             </Box>
           </Box>
@@ -485,7 +485,7 @@ const Formulas4 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Vainilla/ Chocolate.
+                Chocolate.
               </Typography>
             </Box>
           </Box>
