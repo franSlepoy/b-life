@@ -263,7 +263,7 @@ const FreenitoChocolate = () => {
                   mt: 2,
                 }}
               >
-                FREENITO CHOCOLATE
+                Freenito chocolate
               </Typography>
               <Typography
                 sx={{
@@ -438,27 +438,7 @@ const FreenitoChocolate = () => {
                   color: "black",
                   fontFamily: "Lato",
                 }}> Envase por 175 g.</Typography>
-              <Typography
-                sx={{
-                  color: "#007E48",
-                  fontFamily: "Lato",
-                  fontWeight: "800",
-                  fontSize: "15px",
-                  mt: 2,
-                }}
-              >
-                SABOR:
-              </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "black",
-                  fontFamily: "Lato",
-                }}
-              >
-                Neutro.
-              </Typography>
+             
             </Box>
           </Box>
         </Box>

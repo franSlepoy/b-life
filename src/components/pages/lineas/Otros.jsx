@@ -178,17 +178,17 @@ const Otros = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box mt={8}>
+        <Box mt={18}>
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
             height={"500px"}
-            src="/foto01otros.png"
+            src="/mobileLineasOtros.jpg"
             alt=""
           />
         </Box>
 
-        <Box position={"absolute"} left={"6%"} top={"150px"} zIndex={100}>
+        <Box position={"absolute"} left={"6%"} top={"178px"} zIndex={100}>
           <img width={"18%"} src="/logoBlancoBi.png" alt="" />
           <Typography
             sx={{

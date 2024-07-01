@@ -47,11 +47,11 @@ const ComidaOAcBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida OAc B Fórmula es una fórmula en polvo libre de isoleucina,
-                metionina, treonina y valina para el tratamiento nutricional de
-                Acidemias Orgánicas: Propiónica y Metilmalónica en niños mayores
-                de 1 año de edad, adolescentes y adultos. Alimento para
-                propósitos médicos específicos.
+                Comida OAc B Fórmula es una fórmula en polvo libre de
+                isoleucina, metionina, treonina y valina para el tratamiento
+                nutricional de Acidemias Orgánicas: Propiónica y Metilmalónica
+                en niños mayores de 1 año de edad, adolescentes y adultos.
+                Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -290,7 +290,7 @@ const ComidaOAcBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida MSUD B Fórmula
+                Comida OAc B Fórmula
               </Typography>
               <Typography
                 sx={{
@@ -303,11 +303,11 @@ const ComidaOAcBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida MSUD B Fórmula es una fórmula en polvo libre valina,
-                leucina e isoleucina para el tratamiento nutricional de
-                Enfermedad de Orina con Olor a Jarabe de Arce (MSUD) o
-                Leucinosis en niños mayores de 1 año de edad, adolescentes y
-                adultos. Alimento para propósitos médicos específicos.
+                Comida OAc B Fórmula es una fórmula en polvo libre de
+                isoleucina, metionina, treonina y valina para el tratamiento
+                nutricional de Acidemias Orgánicas: Propiónica y Metilmalónica
+                en niños mayores de 1 año de edad, adolescentes y adultos.
+                Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -399,11 +399,11 @@ const ComidaOAcBFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida MSUD B Fórmula está indicado en el tratamiento
-                nutricional de niños mayores de 1 año de edad, adolescentes y
-                adultos con Enfermedad de Orina con Olor a Jarabe de Arce (MSUD)
-                o Leucinosis. <strong> EQUIVALENTE PROTÉICO:</strong> 31 g de
-                equivalente proteico por 100 g de polvo.
+                Comida OAc B Fórmula está indicado en el tratamiento nutricional
+                de niños mayores de 1 año de edad, adolescentes y adultos con
+                Acidemias Orgánicas: Propiónica y Metilmalónica .{" "}
+                <strong> EQUIVALENTE PROTÉICO: </strong> 31 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -427,10 +427,8 @@ const ComidaOAcBFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 15 % P/V (2 medidas de Comida
-                MSUD B Fórmula = 15 g de polvo + 90 cc de agua). Se recomienda
-                distribuir la cantidad diaria indicada por el profesional en
-                varias tomas a lo largo del día.
+                La dilución recomendada es del 15 % P/V (2 medidas de Comida OAc
+                B Fórmula = 15 g de polvo + 90 cc de agua).
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

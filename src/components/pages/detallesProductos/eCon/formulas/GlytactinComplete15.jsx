@@ -395,7 +395,7 @@ const GlytactinComplete15 = () => {
               >
                 Glytactin Complete 15 está indicado en el tratamiento
                 nutricional de niños mayores de 1 año de edad con Fenilcetonuria
-                (PKU) o Hiperfenilalaninemia (HPA).
+                (PKU) o Hiperfenilalaninemia (HPA). 
               </Typography>
               <Typography
                 sx={{

@@ -122,7 +122,7 @@ const CardProducto = ({ imagen, categoria, titulo, descripcion, link }) => {
                 fontWeight: "regular",
                 fontSize: "14px",
                 fontStyle: "italic",
-                height: "148px",
+                height: "198px",
               }}
             >
               {descripcion}

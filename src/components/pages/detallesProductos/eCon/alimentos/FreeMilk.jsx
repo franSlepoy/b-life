@@ -260,7 +260,7 @@ const FreeMilk = () => {
                   mt: 2,
                 }}
               >
-                FREEMILK
+              Freemilk
               </Typography>
               <Typography
                 sx={{
@@ -437,27 +437,7 @@ const FreeMilk = () => {
                 {" "}
                 Caja por 600 g de polvo y cuchara dosificadora de 8,3 g.
               </Typography>
-              <Typography
-                sx={{
-                  color: "#007E48",
-                  fontFamily: "Lato",
-                  fontWeight: "800",
-                  fontSize: "15px",
-                  mt: 2,
-                }}
-              >
-                SABOR:
-              </Typography>
-              <Typography
-                sx={{
-                  fontWeight: "regular",
-                  fontSize: "14px",
-                  color: "black",
-                  fontFamily: "Lato",
-                }}
-              >
-                Neutro.
-              </Typography>
+             
             </Box>
           </Box>
         </Box>

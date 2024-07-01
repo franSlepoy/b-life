@@ -257,7 +257,7 @@ const Spaghetti = () => {
                   mt: 2,
                 }}
               >
-                SPAGHETTI
+               Spaghetti
               </Typography>
               <Typography
                 sx={{

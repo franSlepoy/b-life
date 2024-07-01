@@ -235,7 +235,7 @@ const Chocotino = () => {
                   mt: 2,
                 }}
               >
-                CHOCOTINO
+                Chocotino
               </Typography>
               <Typography
                 sx={{

@@ -263,7 +263,7 @@ const Freechees = () => {
                   mt: 2,
                 }}
               >
-                FREECHEES
+              FreeChees
               </Typography>
               <Typography
                 sx={{
@@ -440,7 +440,7 @@ const Freechees = () => {
                 }}
               >
                 {" "}
-                Envase por 180 g.
+                Envase por 200 g.
               </Typography>
               {/*  <Typography
                 sx={{

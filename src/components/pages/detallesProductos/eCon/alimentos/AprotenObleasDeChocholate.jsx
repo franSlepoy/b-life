@@ -285,8 +285,8 @@ const AprotenObleasDeChocholate = () => {
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Ingredientes: Almidón de papa, azúcar, grasa vegetal no
                   hidrogenada, maltodextrina, cacao desgrasada, pasta de
-                  avellana, harina de maíz amarillo, EMU: INS 322, ESP: INS 412,
-                  RAI: INS 500i, ARO: vainillín, aromatizante a cacao,
+                  avellana, harina de maíz amarillo, EMU: INS322, ESP: INS412,
+                  RAI: INS500i, ARO: vainillín, aromatizante a cacao,
                   aromatizante a avellana.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>

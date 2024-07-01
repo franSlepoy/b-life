@@ -528,12 +528,12 @@ const TC = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box>
+        <Box mt={18}>
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
             height={"500px"}
-            src="/fotohome-lineas-cetogenica.png"
+            src="/mobileLineascetogenica.jpg"
             alt=""
           />
         </Box>

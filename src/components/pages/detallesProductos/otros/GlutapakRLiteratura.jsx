@@ -333,7 +333,7 @@ const GlutapakRLiteratura = () => {
                   mt: 2,
                 }}
               >
-                GLUTAPAK R
+                Glutapak R
               </Typography>
               <Typography
                 sx={{
@@ -369,7 +369,7 @@ const GlutapakRLiteratura = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • L- GLUTAMINA:
+                  L- GLUTAMINA:
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Nutre las células del tracto gastrointestinal y ayuda a
@@ -380,7 +380,7 @@ const GlutapakRLiteratura = () => {
                   • Reduce el malestar y mejora la absorción de nutrientes.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • LACTOBACILLUS REUTERI:
+                   LACTOBACILLUS REUTERI:
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Es un probiótico que restaura la flora intestinal.

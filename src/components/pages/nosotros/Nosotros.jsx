@@ -410,17 +410,17 @@ const Nosotros = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Parallax speed={-6}>
-          <Box mt={12}>
+      
+          <Box mt={15}>
             <img
               width={"100%"}
               height={"402px"}
               style={{ objectFit: "cover" }}
-              src="/fotonosotros-inicio.png"
+              src="/nosotrosMobile.jpg"
               alt=""
             />
           </Box>
-        </Parallax>
+        
 
         <Box position={"absolute"} left={"6%"} top={"150px"} zIndex={100}>
           <img width={"8%"} src="/logoBlancoBi.png" alt="" />

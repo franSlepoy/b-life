@@ -255,7 +255,7 @@ const Penne = () => {
                   mt: 2,
                 }}
               >
-                PENNE
+                Penne
               </Typography>
               <Typography
                 sx={{

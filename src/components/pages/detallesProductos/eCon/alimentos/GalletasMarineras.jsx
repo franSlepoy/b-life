@@ -337,10 +337,7 @@ const GalletasMarineras = () => {
                   mt: 2,
                 }}
               >
-                Puede utilizarse en el tratamiento nutricional de pacientes con
-                errores congénitos del metabolismo, mal de Parkinson (en
-                tratamiento con Levodopa) que requieren dietas restringidas en
-                el aporte de proteínas y aminoácidos.
+               Puede utilizarse en el tratamiento nutricional de pacientes con errores congénitos del metabolismo, mal de Parkinson (en tratamiento con Levodopa) que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Precaución: Producto con alto contenido de sodio. Su uso en pacientes renales debe ser consultado previamente con el médico/nutricionista.
               </Typography>
             </Box>
             <Box width={"100%"}>

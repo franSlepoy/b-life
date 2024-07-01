@@ -267,7 +267,7 @@ const ZeroproBrownies = () => {
                   mt: 2,
                 }}
               >
-                ZEROPRO BROWNIES
+               ZeroPro Brownies
               </Typography>
               <Typography
                 sx={{

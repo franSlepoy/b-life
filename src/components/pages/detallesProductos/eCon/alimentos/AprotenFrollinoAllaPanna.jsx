@@ -282,8 +282,7 @@ const AprotenFrollinoAllaPanna = () => {
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Ingredientes: Almidón de maíz, margarina vegetal, azúcar,
-                  crema, huevo, malta, saborizante a leche, RAI: INS 503ii, ACI:
-                  INS 330.
+                  crema, huevo, malta, saborizante a leche, RAI:INS503ii, ACI:INS330.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Contiene huevo y derivados de leche y cebada.

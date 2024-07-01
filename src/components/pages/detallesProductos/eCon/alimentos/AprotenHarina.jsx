@@ -109,7 +109,7 @@ const AprotenHarina = () => {
               </Box>
 
               <Box m={"auto"} mt={5}>
-               {/*  <Button
+                {/*  <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",
@@ -246,7 +246,7 @@ const AprotenHarina = () => {
                   mt: 2,
                 }}
               >
-                HARINA
+                Harina
               </Typography>
               <Typography
                 sx={{

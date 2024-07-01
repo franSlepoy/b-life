@@ -276,7 +276,7 @@ const SustitutoDeHuevo = () => {
                   mt: 2,
                 }}
               >
-                SUSTITUTO DE HUEVO
+                Sustituto de huevo
               </Typography>
               <Typography
                 sx={{

@@ -303,7 +303,7 @@ const XPHEEnergyJ = () => {
                   mt: 2,
                 }}
               >
-                Glytactin RTD 10
+               XPhe Energy J
               </Typography>
               <Typography
                 sx={{
@@ -316,11 +316,7 @@ const XPHEEnergyJ = () => {
                   mt: 2,
                 }}
               >
-                Glytactin Complete 15 es una barra a base de glicomacropéptidos
-                (GMP) para el tratamiento nutricional de pacientes con
-                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños
-                mayores de 1 año de edad. Alimento para propósitos médicos
-                específicos.
+                XPhe Energy J es una fórmula en polvo libre de fenilalanina y rica en tirosina, para el tratamiento nutricional de Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños/adolescentes de 7 a 14 años de edad. Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -341,13 +337,19 @@ const XPHEEnergyJ = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene GMP.
+                  • Adecuado balance de aminoácidos esenciales y no esenciales.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Nutricionalmente completa en micro y macronutrientes.
+                  •  Contiene vitaminas, minerales y elementos traza.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Lista para consumir.
+                  • Contiene ácidos grasos poliinsaturados de cadena larga (LCP).
+                </Typography>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • Fórmula en polvo en sobres individuales, lista para reconstituir.
+                </Typography>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • Puede combinarse con otros productos.
                 </Typography>
               </Box>
             </Box>
@@ -407,11 +409,7 @@ const XPHEEnergyJ = () => {
                   mt: 2,
                 }}
               >
-                XPhe Energy J es una fórmula en polvo libre de fenilalanina y
-                rica en tirosina, para el tratamiento nutricional de
-                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en
-                niños/adolescentes de 7 a 14 años de edad. Alimento para
-                propósitos médicos específicos.
+              XPhe Energy J está indicado en el tratamiento nutricional de niños y adolescentes de 7 a 14 años de edad con Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO: </strong>  10 g de equivalente proteico por sobre de 33 g.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -435,11 +433,7 @@ const XPHEEnergyJ = () => {
                   mt: 2,
                 }}
               >
-                XPhe Energy J está indicado en el tratamiento nutricional de
-                niños y adolescentes de 7 a 14 años de edad con Fenilcetonuria
-                (PKU) o Hiperfenilalaninemia (HPA).{" "}
-                <strong>EQUILAVANTE PROTEICO:</strong> 10 g de equivalente
-                proteico por sobre de 33 g.
+               La dilución recomendada es 16,5 % P/V (1 sobre = 33 g de polvo + 200 cc de agua). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

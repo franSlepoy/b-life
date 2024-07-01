@@ -269,7 +269,7 @@ const Ditali = () => {
                   mt: 2,
                 }}
               >
-                DITALI
+                Ditali
               </Typography>
               <Typography
                 sx={{
@@ -309,6 +309,7 @@ const Ditali = () => {
                   • Ingredientes: almidón de maíz, almidón de arroz, melaza de
                   caña, inulina, harina de arroz, aceite de cártamo, ESP:
                   INS460i, EMU: INS471, COL: INS160ai.
+                  • La pasta ideal para grandes y pequeños: perfecta para todo tipo de salsas, guisos y soufflé. Alimento para dietas especiales.
                 </Typography>
               </Box>
             </Box>

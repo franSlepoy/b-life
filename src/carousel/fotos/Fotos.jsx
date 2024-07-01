@@ -20,3 +20,26 @@ export const fotos = [
         
     }
 ]
+
+export const fotosMobile = [
+    {
+        id:1,
+        imagen: "/homeMobileCarousel1.jpg",
+
+    },
+    {
+        id:2,
+        imagen: "/homeMobileCarousel2.jpg",
+        
+    },
+    {
+        id:3,
+        imagen: "/homeMobileCarousel3.jpg",
+        
+    },
+    {
+        id:4,
+        imagen: "/homeMobileCarousel4.jpg",
+        
+    }
+]

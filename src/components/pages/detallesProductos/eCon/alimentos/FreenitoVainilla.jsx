@@ -260,7 +260,7 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-                FREENITO VAINILLA
+               Freenito vainilla
               </Typography>
               <Typography
                 sx={{
@@ -298,11 +298,7 @@ const FreenitoVainilla = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Azúcar impalpable, fécula de maíz,
-                  maltodextrina de maíz, fructosa, almidón de papa, carbonato de
-                  calcio, sal; ARO: aromatizante artificial sabor vainilla, ESP:
-                  pectina, COL: colorante caramelo IV, EST: carboximetilcelulosa
-                  sódica, carragenina, ACI: ácido cítrico.
+                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche de coco en polvo, azúcar impalpable, fructosa, almidón de papa, FOS, carbonato de calcio, sal, ARO: aromatizante artificial sabor vainilla, ACI: ácido cítrico, EST: carboximetilcelulosa sódica, carragenina, COL: INS150d.
                 </Typography>
               </Box>
             </Box>
@@ -364,7 +360,7 @@ const FreenitoVainilla = () => {
               >
                 Puede utilizarse en el tratamiento nutricional de pacientes con
                 errores congénitos del metabolismo que requieran dietas
-                restringidas en el aporte de proteínas y aminoácidos.
+                restringidas en el aporte de proteínas y aminoácidos. Precaución: Producto con alto contenido de sodio. Su uso en pacientes renales debe ser consultado previamente con el médico/nutricionista.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -436,7 +432,7 @@ const FreenitoVainilla = () => {
                 }}
               >
                 {" "}
-                Envase por 175 g.
+                4 x 62 g (248 g).
               </Typography>
               {/*  <Typography
                 sx={{

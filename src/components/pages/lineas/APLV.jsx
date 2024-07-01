@@ -432,7 +432,7 @@ const APLV = () => {
             style={{ objectFit: "cover" }}
             width={"100%"}
             height={"500px"}
-            src="/fotohome-lineas-aplv.png"
+            src="/mobileLineasAPLV.jpg"
             alt=""
           />
         </Box>
@@ -448,7 +448,7 @@ const APLV = () => {
               lineHeight: "55px",
               color: "white",
               mt: 2,
-              maxWidth: "85%",
+              maxWidth: "90%",
             }}
           >
             Alergia a la
@@ -457,7 +457,7 @@ const APLV = () => {
             sx={{
               fontFamily: "Lato",
               fontWeight: "light",
-              width: "310px",
+            
               fontSize: "60px",
               lineHeight: "35px",
               color: "white",
@@ -472,13 +472,26 @@ const APLV = () => {
               fontFamily: "Lato",
               fontWeight: "bold",
               fontStyle: "italic",
-
+               mt:1,
               fontSize: "60px",
               lineHeight: "81px",
               color: "white",
             }}
           >
-            leche de vaca
+            leche 
+          </Typography>
+          <Typography
+            sx={{
+              fontFamily: "Lato",
+              fontWeight: "bold",
+              fontStyle: "italic",
+
+              fontSize: "60px",
+             mt:-3,
+              color: "white",
+            }}
+          >
+           de vaca
           </Typography>
           <Typography
             sx={{

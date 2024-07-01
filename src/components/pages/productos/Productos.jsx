@@ -1,6 +1,6 @@
 import Carousel from "react-material-ui-carousel";
 import { Box, Hidden, Typography } from "@mui/material";
-import { fotosProductosCarousel } from "../../../carousel/fotos/FotosProductos";
+import { fotosProductosCarousel, fotosProductosCarouselMobile } from "../../../carousel/fotos/FotosProductos";
 import ProductosFiltros from "./ProductosFiltros";
 import Footer from "../../common/footer/Footer";
 
@@ -101,16 +101,30 @@ const Productos = () => {
 
       <Hidden smUp>
         <Box>
-          <img
-            width={"100%"}
-            height={"500px"}
-            style={{ width: "100%", objectFit: "cover" }}
-            src="fotoproductos-inicio.png"
-            alt=""
-          />
+        <Carousel
+          autoPlay={true}
+          timeOut={100}
+          sx={{
+            mt: 8,
+            bgcolor: "#007E48",
+            height: "500px",
+          }}
+        >
+          {fotosProductosCarouselMobile.map((foto) => (
+            <Box key={"foto.is"}>
+              <img
+                width={"100%"}
+                height={"500px"}
+                style={{  objectFit: "cover" }}
+                src={foto.imagen}
+                alt=""
+              />
+            </Box>
+          ))}
+        </Carousel>
         </Box>
 
-        <Box position={"absolute"} left={"6%"} top={"200px"}>
+        <Box position={"absolute"} left={"6%"} top={"200px"} zIndex={10}>
           <img width={"20%"} src="/logoBlancoBi.png" alt="" />
           <Typography
             sx={{
@@ -152,7 +166,7 @@ const Productos = () => {
             Conocé más sobre nuestras líneas.
           </Typography>
         </Box>
-        <Box mt={-1}>
+        <Box width={"100%"} mt={-1}>
           <ProductosFiltros />
           <Box textAlign={"center"}>
           <Typography

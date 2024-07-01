@@ -422,7 +422,7 @@ const ComidaGAcAFormula = () => {
               >
                 Comida GAc A Fórmula está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con Aciduria Glutárica Tipo I.
-                EQUIVALENTE PROTEICO: 12 g de equivalente proteico por 100 g de
+                <strong> EQUIVALENTE PROTEICO: </strong>12 g de equivalente proteico por 100 g de
                 polvo.
               </Typography>
             </Box>

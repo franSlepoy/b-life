@@ -427,8 +427,7 @@ const ComidaUrCBFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 15 % P/V (2 medidas de Comida UrC
-                B Fórmula=15 g de polvo + 90 cc de agua).
+                La dilución recomendada es del 15% P/V (2 medidas de Comida UrC B Fómula = 15 g. de polvo + 90 cc de agua). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
@@ -472,8 +471,7 @@ const ComidaUrCBFormula = () => {
                   fontFamily: "Lato",
                 }}
               >
-                La dilución recomendada es del 15 % P/V (2 medidas de Comida UrC
-                B Fórmula=15 g de polvo + 90 cc de agua).
+                Lata por 500 g de polvo.
               </Typography>
               <Typography
                 sx={{

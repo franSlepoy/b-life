@@ -383,12 +383,12 @@ const ECM = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box pt={15}>
+        <Box pt={18}>
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
             height={"500px"}
-            src="/fotohome-lineas-errores-congenitos.png"
+            src="/mobileLineashipoproteica.jpg"
             alt=""
           />
         </Box>

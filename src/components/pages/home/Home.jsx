@@ -1,6 +1,6 @@
 import { Box, Button, Hidden, Modal, Typography } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
-import { fotos } from "../../../carousel/fotos/Fotos";
+import { fotos, fotosMobile } from "../../../carousel/fotos/Fotos";
 import { Parallax } from "react-scroll-parallax";
 import Boton from "../../common/button/Boton";
 import { useEffect, useState } from "react";
@@ -319,7 +319,7 @@ const Home = () => {
             component={Link}
             to={"/TC"}
             sx={{
-              backgroundImage: `url("/seccioncetogenica.png")`, // Corregir backgroundImage y la ruta de la imagen
+              backgroundImage: `url("/seccioncetogenicaMobile.png")`, // Corregir backgroundImage y la ruta de la imagen
               padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
               textAlign: "center", // Centrar contenido dentro del Box
               width: "25%",
@@ -351,7 +351,7 @@ const Home = () => {
             component={Link}
             to={"/ECM"}
             sx={{
-              backgroundImage: `url("/seccionhipoproteica.png")`, // Corregir backgroundImage y la ruta de la imagen
+              backgroundImage: `url("/seccionhipoproteicaMobile.png")`, // Corregir backgroundImage y la ruta de la imagen
               padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
               textAlign: "center", // Centrar contenido dentro del Box
               width: "25%",
@@ -382,7 +382,7 @@ const Home = () => {
             component={Link}
             to={"/APLV"}
             sx={{
-              backgroundImage: `url("/seccionaplv.png")`, // Corregir backgroundImage y la ruta de la imagen
+              backgroundImage: `url("/seccionaplvMobile.png")`, // Corregir backgroundImage y la ruta de la imagen
               padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
               textAlign: "center", // Centrar contenido dentro del Box
               width: "25%",
@@ -413,7 +413,7 @@ const Home = () => {
             component={Link}
             to={"/Otros"}
             sx={{
-              backgroundImage: `url("/seccionotros.png")`, // Corregir backgroundImage y la ruta de la imagen
+              backgroundImage: `url("/seccionotrosMobile.png")`, // Corregir backgroundImage y la ruta de la imagen
               padding: "20px", // Añadir padding para asegurar que el contenido no esté pegado al borde
               textAlign: "center", // Centrar contenido dentro del Box
               width: "25%",
@@ -572,11 +572,11 @@ const Home = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "50%",
+              top: "60%",
               left: "50%",
               transform: "translate(-50%, -50%)",
               width: "80%",
-
+             
               borderRadius: "20px",
               border: "transparent",
             }}
@@ -602,7 +602,7 @@ const Home = () => {
                   fontSize: "30px",
                   color: "white",
                   textAlign: "center",
-                  pt: 5,
+                  pt: 1,
                 }}
               >
                 ¡IMPORTANTE!
@@ -616,7 +616,7 @@ const Home = () => {
                   color: "white",
                   textAlign: "center",
                   lineHeight: "18px",
-                  width: "69%",
+                  width: "89%",
                   m: "auto",
                 }}
               >
@@ -637,9 +637,9 @@ const Home = () => {
                   color: "white",
                   textAlign: "center",
                   lineHeight: "18px",
-                  width: "69%",
+                  width: "89%",
                   m: "auto",
-                  mt: 3,
+                  mt: 1,
                 }}
               >
                 Si tiene alguna pregunta o inquietud, no dude en ponerse en
@@ -653,20 +653,35 @@ const Home = () => {
           </Box>
         </Modal>
 
-        <Parallax speed={-6}>
-          <Box pt={18}>
-            <img
-              width={"100%"}
-              style={{
-                width: "100%",
-                height:"500px",
-                objectFit: "cover",
-              }}
-              src="fotohome-inicio.png"
-              alt=""
-            />
+      
+          <Box pt={12}>
+          <Carousel
+            autoPlay={true}
+            timeOut={100}
+            indicatorIconButtonProps={{
+              style: {
+                color: "white", // Color blanco para los botones indicadores
+              },
+            }}
+          >
+            {fotosMobile.map((foto) => (
+              <Box key={"foto.is"} width={"100%"}>
+                <img
+                  width={"100%"}
+                  style={{
+                    
+                    width: "100%",
+                    height: "600px",
+                    objectFit: "cover",
+                  }}
+                  src={foto.imagen}
+                  alt=""
+                />
+              </Box>
+            ))}
+          </Carousel>
           </Box>
-        </Parallax>
+       
 
         <Box position={"absolute"} left={"6%"} top={"250px"} zIndex={100}>
           <img width={"18%"} src="/logoCarrusel.png" alt="" />
@@ -723,7 +738,8 @@ const Home = () => {
             backgroundImage: "linear-gradient(to  top, #FFFFFF , #00d747)",
           }}
         >
-          <Box width={"64%"} m={"auto"} pt={12} pb={8}>
+          <Box mt={-6}>
+          <Box width={"64%"}  m={"auto"} pt={12} pb={8}>
             <Box  textAlign={"center"}>
               <Box>
                 <img width={"60px"} src="/botiquin.png" alt="" />
@@ -832,6 +848,8 @@ const Home = () => {
               </Typography>
             </Box>
           </Box>
+          </Box>
+          
         </Box>
 
         <Box width={"100%"} display={"flex"}>
@@ -839,7 +857,8 @@ const Home = () => {
             component={Link}
             to={"/TC"}
             sx={{
-              backgroundImage: `url("/fotohome-lineas-cetogenica.png")`, // Corregir backgroundImage y la ruta de la imagen
+              backgroundSize: "cover",
+              backgroundImage: `url("/seccioncetogenicaMobile.png")`, // Corregir backgroundImage y la ruta de la imagen
               pt: "60px",
               pb: "60px", // Añadir padding para asegurar que el contenido no esté pegado al borde
               textAlign: "center", // Centrar contenido dentro del Box
@@ -855,7 +874,8 @@ const Home = () => {
             component={Link}
             to={"/ECM"}
             sx={{
-              backgroundImage: `url("/fotohome-lineas-errores-congenitos.png")`, // Corregir backgroundImage y la ruta de la imagen
+              backgroundSize: "cover",
+              backgroundImage: `url("/seccionhipoproteicaMobile.png")`, // Corregir backgroundImage y la ruta de la imagen
               pt: "60px",
               pb: "60px", // Añadir padding para asegurar que el contenido no esté pegado al borde
               textAlign: "center", // Centrar contenido dentro del Box
@@ -873,7 +893,8 @@ const Home = () => {
             component={Link}
             to={"/APLV"}
             sx={{
-              backgroundImage: `url("/fotohome-lineas-aplv.png")`, // Corregir backgroundImage y la ruta de la imagen
+              backgroundSize: "cover",
+              backgroundImage: `url("/seccionaplvMobile.png")`, // Corregir backgroundImage y la ruta de la imagen
               pt: "60px",
               pb: "60px", // Añadir padding para asegurar que el contenido no esté pegado al borde
               textAlign: "center", // Centrar contenido dentro del Box
@@ -888,7 +909,8 @@ const Home = () => {
             component={Link}
             to={"/Otros"}
             sx={{
-              backgroundImage: `url("/fotohome-lineas-otros.png")`, // Corregir backgroundImage y la ruta de la imagen
+              backgroundSize: "cover",
+              backgroundImage: `url("/seccionotrosMobile.png")`, // Corregir backgroundImage y la ruta de la imagen
               pt: "60px",
               pb: "60px", // Añadir padding para asegurar que el contenido no esté pegado al borde
               textAlign: "center", // Centrar contenido dentro del Box
@@ -921,10 +943,11 @@ const Home = () => {
         </Box>
 
         <Box
+       
           pt={10}
           pb={10}
           pl={"6%"}
-          sx={{ backgroundImage: `url("/fotohome-productos.png")` }}
+          sx={{ backgroundSize: "cover",  backgroundImage: `url("/bannernuestrosproductosMobile.jpg")` }}
         >
           <Typography
             sx={{

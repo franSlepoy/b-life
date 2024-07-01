@@ -402,7 +402,7 @@ const ComidaGAcBFormula = () => {
               >
                 Comida GAc B Fórmula está indicado en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                Aciduria Glutárica Tipo I. EQUIVALENTE PROTEICO: 31 g de
+                Aciduria Glutárica Tipo I. <strong>EQUIVALENTE PROTEICO: </strong>31 g de
                 equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>

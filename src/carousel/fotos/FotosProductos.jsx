@@ -30,3 +30,36 @@ export const fotosProductosCarousel = [
         
     }
 ]
+
+export const fotosProductosCarouselMobile = [
+    {
+        id:1,
+        imagen: "/productoCarousel1.jpg",
+
+    },
+    {
+        id:2,
+        imagen: "/productoCarousel2.jpg",
+        
+    },
+    {
+        id:3,
+        imagen: "/productoCarousel3.jpg",
+        
+    },
+    {
+        id:4,
+        imagen: "/productoCarousel4.jpg",
+        
+    }, 
+    {
+        id:5,
+        imagen: "/productoCarousel5.jpg",
+        
+    },
+    {
+        id:6,
+        imagen: "/productoCarousel6.jpg",
+        
+    }
+]

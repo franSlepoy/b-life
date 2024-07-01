@@ -97,7 +97,7 @@ const AprotenChicci = () => {
               </Box>
 
               <Box m={"auto"} mt={5}>
-               {/*  <Button
+                {/*  <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",
@@ -233,7 +233,7 @@ const AprotenChicci = () => {
                   mt: 2,
                 }}
               >
-                CHICCHI
+                Chicchi
               </Typography>
               <Typography
                 sx={{
@@ -287,7 +287,7 @@ const AprotenChicci = () => {
               </Box>
 
               <Box m={"auto"}>
-               {/*  <Button
+                {/*  <Button
                   sx={{
                     bgcolor: "#007E48",
                     fontFamily: "Lato",

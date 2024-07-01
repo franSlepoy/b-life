@@ -310,7 +310,7 @@ const ComidaPKUAFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida GAc A Fórmula
+                Comida PKU A Fórmula
               </Typography>
               <Typography
                 sx={{
@@ -323,10 +323,10 @@ const ComidaPKUAFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida GAc A Fórmula es una fórmula infantil en polvo libre de
-                lisina y de bajo contenido en triptófano para el tratamiento
-                nutricional de la Aciduria Glutárica Tipo I en lactantes de 0 a
-                1 año edad. Alimento para propósitos médicos específicos.
+                PKU Med A Fórmula es una fórmula en polvo libre de fenilalanina
+                para el tratamiento nutricional de Fenilcetonuria (PKU) o
+                Hiperfenilalaninemia (HPA) en lactantes de 0 a 1 año de edad.
+                Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -423,10 +423,8 @@ const ComidaPKUAFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida GAc A Fórmula está indicado en el tratamiento nutricional
-                de lactantes de 0 a 1 año de edad con Aciduria Glutárica Tipo I.
-                <strong>EQUIVALENTE PROTÉICO:</strong> 12 g de equivalente
-                proteico por 100 g de polvo.
+                PKU A Fórmula está indicado en el tratamiento nutricional de lactantes de 0 a 1 año de edad con Fenilcetonuria (PKU) o hiperfenilalaninemia (HPA). 
+                <strong>EQUIVALENTE PROTÉICO: </strong> 12 g de equivalente proteico cada 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -450,10 +448,7 @@ const ComidaPKUAFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 13 % P/V (3 medidas de Comida GAc
-                A Fórmula = 13 g de polvo + 90cc de agua). Se recomienda
-                distribuir la cantidad diaria indicada por el profesional en
-                varias tomas a lo largo del día.
+                La dilución recomendada es 13 % P/V (3 medidas de PKU A Fórmula = 13 g de polvo + 90 cc de agua = 100 cc de fórmula). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

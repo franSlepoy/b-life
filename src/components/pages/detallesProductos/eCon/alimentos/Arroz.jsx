@@ -79,7 +79,7 @@ const Arroz = () => {
                   }}
                 >
                   • Ingredientes: Almidón de maíz, almidón de arroz, inulina,
-                  harina de arroz, ESP: INS 460ii, EMU: INS471.
+                  harina de arroz, ESP: INS460ii, EMU: INS471.
                 </Typography>
                 <Typography sx={{
                     fontWeight: "regular",
@@ -304,7 +304,7 @@ const Arroz = () => {
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Ingredientes: Almidón de maíz, almidón de arroz, inulina,
-                  harina de arroz, ESP: INS 460ii, EMU: INS471.
+                  harina de arroz, ESP: INS460ii, EMU: INS471.
                 </Typography>
               </Box>
             </Box>
@@ -369,11 +369,11 @@ const Arroz = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
-                TIEMPO DE COCCIÓN: 9 a 11 minutos.
+                
               </Typography>
             </Box>
             <Box width={"100%"}>
-              {/* <Typography
+               <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -392,7 +392,7 @@ const Arroz = () => {
                   fontFamily: "Lato",
                   mt: 2,
                 }}
-              ></Typography> */}
+              >Cocinar de 9 a 11 minutos.</Typography>
             </Box>
             <Box mt={3} width={"100%"}>
               <Typography

@@ -247,7 +247,7 @@ const SaltSticks = () => {
                   mt: 2,
                 }}
               >
-                SALT STICKS
+                Salt sticks
               </Typography>
               <Typography
                 sx={{
@@ -359,7 +359,7 @@ const SaltSticks = () => {
               </Typography>
             </Box>
             <Box width={"100%"}>
-              <Typography
+             {/*  <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -369,7 +369,7 @@ const SaltSticks = () => {
                 }}
               >
                 FORMA DE PREPARACIÓN:
-              </Typography>
+              </Typography> */}
               {/* <Typography
                 sx={{
                   fontWeight: "regular",

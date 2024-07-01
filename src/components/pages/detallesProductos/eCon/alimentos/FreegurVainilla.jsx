@@ -260,7 +260,7 @@ const FreegurVainilla = () => {
                   mt: 2,
                 }}
               >
-                FREEGUR VAINILLA
+               Freegur vainilla
               </Typography>
               <Typography
                 sx={{
@@ -298,11 +298,7 @@ const FreegurVainilla = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche
-                  de coco en polvo, azúcar impalpable, fructosa, almidón de
-                  papa, FOS, carbonato de calcio, sal, ARO: aromatizante
-                  artificial sabor vainilla, ACI: ácido cítrico, EST:
-                  carboximetilcelulosa sódica, carragenina, COL: INS 150d.
+                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche de coco en polvo, azúcar impalpable, fructosa, almidón de papa, FOS, carbonato de calcio, sal, ARO: aromatizante artificial sabor vainilla, ACI: ácido cítrico, EST: carboximetilcelulosa sódica, carragenina, COL: INS150d.
                 </Typography>
               </Box>
             </Box>

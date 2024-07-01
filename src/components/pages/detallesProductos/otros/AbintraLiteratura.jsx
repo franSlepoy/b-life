@@ -361,7 +361,7 @@ const AbintraLiteratura = () => {
                   mt: 2,
                 }}
               >
-                Aminomed
+                Abintra
               </Typography>
               <Typography
                 sx={{
@@ -374,9 +374,9 @@ const AbintraLiteratura = () => {
                   mt: 2,
                 }}
               >
-                AminoMed es una fórmula infantil en polvo hipoalergénica y
-                elemental a base de L- aminoácidos para lactantes de 0 a 1 año
-                de edad. Alimento para propósitos médicos específicos.
+                Abintra es un alimento para propósitos médicos específicos a base de Arginina, Glutamina, proteínas y vitaminas para apoyar la reparación de tejidos en personas adultas que presenten heridas de difícil cicatrización.
+
+
               </Typography>
               <Typography
                 sx={{
@@ -397,35 +397,36 @@ const AbintraLiteratura = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Fórmula especial hipoalergénica, de fácil absorción a base
-                  de L-aminoácidos.
+                  • Arginina: Precursor del colágeno que promueve la cicatrización de heridas.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Apta como única fuente de alimentación en lactantes y como
-                  suplemento en niños mayores.
+                  • Glutamina: Alimenta a las células de rápida replicación y estimula la síntesis proteica.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Puede ser utilizada para realizar la dieta de eliminación.
+                  • Proteínas de alto valor biológico: Permiten alcanzar el elevado requerimiento proteico.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene maltodextrinas y ácidos grasos poliinsaturados
-                  (LCP).
+                  • Zinc: Esencial para la reparación tisular, la síntesis de colágeno, la proliferación y el crecimiento celular.
+
+
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Con vitaminas, minerales, L-Glutamina y L-Acido Glutámico.
+                  • Vitamina B6: Participa como cofactor en el metabolismo de los aminoácidos y en la síntesis proteica.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Libre de lactosa, sucrosa, fructosa, glucosa, galactosa y
-                  almidón.
+                  • Vitamina A: Promueve la diferenciación de fibroblastos y la síntesis de colágeno.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Totalmente libre de proteínas de leche de vaca, de soja, de
-                  cereales (gluten y gliadina), de pollo e hidrolizados
-                  proteicos.
+                  • Vitamina C: Cofactor esencial en la síntesis de colágeno y protector del nuevo tejido por su función antioxidante.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Libre de agentes espesantes, saborizantes, colorantes,
-                  edulcorantes y estabilizantes, químicos.
+                  • Vitamina E: Facilita la cicatrización mejorando la respuesta inmune.
+                </Typography>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • Selenio: Protege la membrana celular del nuevo tejido.
+                </Typography>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • Cobre: Esencial como cofactor en la síntesis de colágeno. 
                 </Typography>
               </Box>
             </Box>
@@ -485,11 +486,7 @@ const AbintraLiteratura = () => {
                   mt: 2,
                 }}
               >
-                AminoMed está indicado para el tratamiento dietético de
-                lactantes y niños con alergias e intolerancias alimentarias
-                severas, diarreas intratables, síndromes de mal digestión y/o
-                malabsorción u otras enfermedades para las que se recomienda una
-                fórmula a base de aminoácidos.
+                Abintra está especialmente diseñado para apoyar la reparación de tejidos en personas adultas que presenten heridas de difícil cicatrización como: úlceras por presión, úlceras por insuficiencia venosa, pie diabético, heridas por quemaduras y/o cirugías.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -513,11 +510,7 @@ const AbintraLiteratura = () => {
                   mt: 2,
                 }}
               >
-                La cantidad prescripta depende de la edad, peso y condiciones
-                médicas del paciente. La dosis de AminoMed debe ser controlada y
-                ajustada regularmente por un médico ó nutricionista. La dilución
-                recomendada es del 13% (3 medidas de Aminomed = 13 g de polvo +
-                90 cc de agua = 100 cc fórmula).
+                <strong>Oral: </strong> Mezclar un sobre de Abintra con 210 ml de agua. Agitar hasta que el polvo se disuelva completamente. Si la porción no fuera administrada completamente, refrigerar y consumir dentro de las 24 horas. <strong>Enteral: </strong> Mezclar 1 sobre de Abintra con 60 ml de agua y agitar hasta que el polvo se disuelva completamente. Infundir con una jeringa por sonda de alimentación. Lavar la sonda con 30 ml de agua antes y después de la administración. No mezclar con otras fórmulas enterales.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
@@ -559,7 +552,7 @@ const AbintraLiteratura = () => {
                   color: "black",
                   fontFamily: "Lato",
                 }}>
-                Lata por 400 g de polvo y cuchara dosificadora de 4,3 g.
+                Sobres individuales de 27 g de polvo.
               </Typography>
               <Typography
                 sx={{
@@ -580,7 +573,7 @@ const AbintraLiteratura = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Neutro.
+                Naranja.
               </Typography>
             </Box>
           </Box>

@@ -248,7 +248,7 @@ const AprotenObleasDeVainilla = () => {
                   mt: 2,
                 }}
               >
-                OBLEAS DE VAINILLA
+              Obleas de vainilla
               </Typography>
               <Typography
                 sx={{
@@ -285,9 +285,7 @@ const AprotenObleasDeVainilla = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Ingredientes: Almidón de papa, azúcar, grasa vegetal no
-                  hidrogenada, dextrosa, harina de maíz, EMU: INS322, RAI: INS
-                  500i, ESP: INS 412, ARO: vainillín.
+                  • Ingredientes: Almidón de papa, azúcar, grasa vegetal no hidrogenada, dextrosa, harina de maíz, EMU: INS322, RAI: INS500i, ESP: INS412, ARO: vainillín.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Contiene derivados de soja.

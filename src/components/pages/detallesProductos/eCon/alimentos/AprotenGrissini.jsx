@@ -235,7 +235,7 @@ const AprotenGrissini = () => {
                   mt: 2,
                 }}
               >
-                GRISSINI
+                Grissini
               </Typography>
               <Typography
                 sx={{
@@ -270,7 +270,20 @@ const AprotenGrissini = () => {
                   fontFamily: "Lato",
                   mt: 2,
                 }}
-              ></Box>
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Ingredientes: Almidón de trigo, almidón de papa, almidón de
+                  arroz, aceite de coco, dextrosa, levadura, inulina, ESP:
+                  INS464, ANT: INS300.
+                </Typography>
+              </Box>
             </Box>
             <Box
               sx={{

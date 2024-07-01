@@ -246,7 +246,7 @@ const AprotenBizcochosdeCacao = () => {
                   mt: 2,
                 }}
               >
-                BIZCOCHOS DE CACAO
+                Bizcochos de cacao
               </Typography>
               <Typography
                 sx={{
@@ -307,7 +307,7 @@ const AprotenBizcochosdeCacao = () => {
                 />
               </Box>
 
-              <Box m={"auto"}>
+             {/*  <Box m={"auto"}>
                 <Button
                   sx={{
                     bgcolor: "#007E48",
@@ -326,7 +326,7 @@ const AprotenBizcochosdeCacao = () => {
                 >
                   Descargar PDF
                 </Button>
-              </Box>
+              </Box> */}
             </Box>
           </Box>
 
@@ -358,7 +358,7 @@ const AprotenBizcochosdeCacao = () => {
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
             </Box>
-            <Box width={"100%"}>
+           {/*  <Box width={"100%"}>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -379,7 +379,7 @@ const AprotenBizcochosdeCacao = () => {
                   mt: 2,
                 }}
               ></Typography>
-            </Box>
+            </Box> */}
             <Box mt={3} width={"100%"}>
               <Typography
                 sx={{
@@ -421,9 +421,9 @@ const AprotenBizcochosdeCacao = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Lata por 400 g de polvo.
+               Envase por 180 g/ 1 unidad = 6 g.
               </Typography>
-              <Typography
+             {/*  <Typography
                 sx={{
                   color: "#007E48",
                   fontFamily: "Lato",
@@ -443,7 +443,7 @@ const AprotenBizcochosdeCacao = () => {
                 }}
               >
                 Sin sabor.
-              </Typography>
+              </Typography> */}
             </Box>
           </Box>
         </Box>

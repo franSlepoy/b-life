@@ -353,7 +353,7 @@ const FontUpLiteratura = () => {
                   mt: 2,
                 }}
               >
-                FONT UP
+        FontUp
               </Typography>
               <Typography
                 sx={{
@@ -557,7 +557,7 @@ const FontUpLiteratura = () => {
                 }}
               >
                 {" "}
-                Caja con 14 sobres x 49 g.{" "}
+                Caja con 14 sobres x 49 g c/u.
               </Typography>
               <Typography
                 sx={{

@@ -245,7 +245,7 @@ const SchoxxiTafel = () => {
                   mt: 2,
                 }}
               >
-                SCHOXXI CHOCOLATE
+               Schoxxi chocolate
               </Typography>
               <Typography
                 sx={{

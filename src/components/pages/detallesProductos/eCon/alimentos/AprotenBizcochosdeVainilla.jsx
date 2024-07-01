@@ -238,7 +238,7 @@ const AprotenBizcochosdeVainilla = () => {
                   mt: 2,
                 }}
               >
-                BIZCOCHOS DE VAINILLA
+                Bizcochos de vainilla
               </Typography>
               <Typography
                 sx={{

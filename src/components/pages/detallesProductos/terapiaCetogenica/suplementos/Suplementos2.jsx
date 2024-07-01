@@ -377,7 +377,7 @@ const Suplementos2 = () => {
                 de micronutrientes.
               </Typography>
             </Box>
-            <Box width={"100%"}>
+            {/* <Box width={"100%"}>
               <Typography
                 sx={{
                   color: "#007E48",
@@ -401,7 +401,7 @@ const Suplementos2 = () => {
                 La dilución recomendada es de 1 medida (3,7 g. de polvo) en 150
                 cc de agua o bebida libre de carbohidratos.
               </Typography>
-            </Box>
+            </Box> */}
             <Box mt={3} width={"100%"}>
               <Typography
                 sx={{

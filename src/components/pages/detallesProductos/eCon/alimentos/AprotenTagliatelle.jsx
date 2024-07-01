@@ -234,7 +234,7 @@ const AprotenTagliatelle = () => {
                   mt: 2,
                 }}
               >
-                TAGLIATELLE{" "}
+               Tagliatelle
               </Typography>
               <Typography
                 sx={{

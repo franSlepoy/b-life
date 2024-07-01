@@ -233,7 +233,7 @@ const Rigatini = () => {
                   mt: 2,
                 }}
               >
-                RIGATINI
+                Rigatini
               </Typography>
               <Typography
                 sx={{

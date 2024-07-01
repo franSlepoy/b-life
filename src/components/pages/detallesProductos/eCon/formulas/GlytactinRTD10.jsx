@@ -322,11 +322,11 @@ const GlytactinRTD10 = () => {
                   mt: 2,
                 }}
               >
-                Glytactin Complete 15 es una barra a base de glicomacropéptidos
-                (GMP) para el tratamiento nutricional de pacientes con
-                Fenilcetonuria (PKU) o Hiperfenilalaninemia (HPA) en niños
-                mayores de 1 año de edad. Alimento para propósitos médicos
-                específicos.
+                Glytactin RTD 10 chocolate y original es una fórmula lista para
+                usar a base de glicomacropéptidos (GMP) nutricionalmente
+                completa para el tratamiento nutricional de la Fenilcetonuria
+                (PKU) ó Hiperfenilalaninemia (HPA) en niños mayores de 1 año de
+                edad. Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -347,13 +347,19 @@ const GlytactinRTD10 = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene GMP.
+                  • Contiene GMPure™.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Nutricionalmente completa en micro y macronutrientes.
+                  • Nutricionalmente completo en micro y macronutrientes.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Lista para consumir.
+                  • Lista para usar.
+                </Typography>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • Ideal para consumir en cualquier momento y lugar.
+                </Typography>
+                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                  • Es cremosa, como la leche, y con un excelente sabor.
                 </Typography>
               </Box>
             </Box>
@@ -416,6 +422,8 @@ const GlytactinRTD10 = () => {
                 Glytactin Complete 15 está indicado en el tratamiento
                 nutricional de niños mayores de 1 año de edad con Fenilcetonuria
                 (PKU) o Hiperfenilalaninemia (HPA).
+                <strong>EQUILAVANTE PROTEICO: </strong> 15 g de equivalente
+                proteico por barra de 81 g.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -429,6 +437,17 @@ const GlytactinRTD10 = () => {
                 }}
               >
                 FORMA DE PREPARACIÓN:
+              </Typography>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                  mt: 2,
+                }}
+              >
+                Listo para consumir. Se recomienda distribuir la cantidad diaria indicada por el profesional a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>

@@ -253,7 +253,7 @@ const Contacto = () => {
       <Hidden smUp>
         <Box
           sx={{
-            backgroundImage: "url('/ilustracioncontacto.png')", // Ruta de la imagen de fondo
+            backgroundImage: "url('/ilustracioncontactoMobile.png')", // Ruta de la imagen de fondo
             backgroundSize: "cover", // Ajusta el tamaño de la imagen para cubrir todo el contenedor
             backgroundPosition: "center",
           }}

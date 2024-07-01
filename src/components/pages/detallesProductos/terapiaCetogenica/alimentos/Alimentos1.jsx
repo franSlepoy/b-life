@@ -437,7 +437,7 @@ const Alimentos1 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Caja por 30 bricks de 250 ml c/u.
+               Caja de 100g (2u x 50g c/u.).
               </Typography>
               <Typography
                 sx={{

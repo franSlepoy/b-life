@@ -302,7 +302,7 @@ const ComidaOAcAFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida MSUD B Fórmula
+               Comida OAc A Fórmula
               </Typography>
               <Typography
                 sx={{
@@ -315,11 +315,7 @@ const ComidaOAcAFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida MSUD B Fórmula es una fórmula en polvo libre valina,
-                leucina e isoleucina para el tratamiento nutricional de
-                Enfermedad de Orina con Olor a Jarabe de Arce (MSUD) o
-                Leucinosis en niños mayores de 1 año de edad, adolescentes y
-                adultos. Alimento para propósitos médicos específicos.
+                Comida OAc A Fórmula es una fórmula infantil en polvo libre de isoleucina, metionina, treonina y valina para el tratamiento nutricional de Acidemias Orgánicas: Propiónica y Metilmalónica en lactantes de 0 a 1 año edad. Alimento para propósitos médicos específicos.
               </Typography>
               <Typography
                 sx={{
@@ -414,11 +410,8 @@ const ComidaOAcAFormula = () => {
                   mt: 2,
                 }}
               >
-                Comida MSUD B Fórmula está indicado en el tratamiento
-                nutricional de niños mayores de 1 año de edad, adolescentes y
-                adultos con Enfermedad de Orina con Olor a Jarabe de Arce (MSUD)
-                o Leucinosis. <strong>EQUIVALENTE PROTEICO:</strong> 31 g de
-                equivalente proteico por 100 g de polvo.
+                Comida OAc A Fórmula está indicado en el tratamiento nutricional de lactantes de 0 a 1 año de edad con Acidemias Orgánicas: Propiónica y Metilmalónica. <strong>EQUIVALENTE PROTEICO:</strong> 31 g de
+                12 g de equivalente proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -442,10 +435,7 @@ const ComidaOAcAFormula = () => {
                   mt: 2,
                 }}
               >
-                La dilución recomendada es del 15 % P/V (2 medidas de Comida
-                MSUD B Fórmula = 15 g de polvo + 90 cc de agua). Se recomienda
-                distribuir la cantidad diaria indicada por el profesional en
-                varias tomas a lo largo del día.
+                La dilución recomendada es del 13 % P/V (3 medidas de Comida OAc A Fórmula = 13 g de polvo + 90 cc de agua). Se recomienda distribuir la cantidad diaria indicada por el profesional en varias tomas a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
@@ -489,7 +479,7 @@ const ComidaOAcAFormula = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Lata por 500 g de polvo.
+                Lata por 400 g de polvo.
               </Typography>
               <Typography
                 sx={{
