@@ -227,7 +227,7 @@ const AprotenBizcochosdeFruta = () => {
                 }}
               >
                 {" "}
-                Envase por 180 g / 1 unidad = 6 g.
+                200 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{
@@ -447,7 +447,7 @@ const AprotenBizcochosdeFruta = () => {
                 }}
               >
                 {" "}
-                Envases por 180 g / 1 unidad = 6 g.
+                200 g.
               </Typography>
               {/*  <Typography
                 sx={{

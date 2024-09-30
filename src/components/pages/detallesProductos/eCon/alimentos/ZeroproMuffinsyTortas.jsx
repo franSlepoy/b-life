@@ -151,6 +151,31 @@ const ZeroproMuffinsyTortas = () => {
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
               </Typography>
+              <Typography
+                sx={{
+                  color: "#007E48",
+                  fontFamily: "Lato",
+                  fontWeight: "800",
+                  fontSize: "15px",
+                  mt: 2,
+                }}
+              >
+                Precaución:
+              </Typography>
+
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                  mt: 1,
+                }}
+              >
+                Producto con alto contenido de sodio. Su uso en pacientes
+                renales debe ser consultado previamente con el
+                médico/nutricionista.
+              </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
               <Typography
@@ -159,7 +184,7 @@ const ZeroproMuffinsyTortas = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -373,6 +398,31 @@ const ZeroproMuffinsyTortas = () => {
                 errores congénitos del metabolismo, insuficiencia renal crónica,
                 mal de Parkinson (en tratamiento con Levodopa) que requieren
                 dietas restringidas en el aporte de proteínas y aminoácidos.
+              </Typography>
+              <Typography
+                sx={{
+                  color: "#007E48",
+                  fontFamily: "Lato",
+                  fontWeight: "800",
+                  fontSize: "15px",
+                  mt: 2,
+                }}
+              >
+                Precaución:
+              </Typography>
+
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                  mt: 1,
+                }}
+              >
+                Producto con alto contenido de sodio. Su uso en pacientes
+                renales debe ser consultado previamente con el
+                médico/nutricionista.
               </Typography>
             </Box>
             <Box width={"100%"}>

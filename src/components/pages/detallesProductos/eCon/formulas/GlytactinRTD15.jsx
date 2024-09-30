@@ -79,7 +79,7 @@ const GlytactinRTD15 = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Contiene GMPure™.
+                  • Contiene GMP.
                 </Typography>
                 <Typography
                   sx={{
@@ -185,17 +185,9 @@ const GlytactinRTD15 = () => {
                 Glytactin RTD 15 está indicado en el tratamiento nutricional de
                 niños mayores de 1 año de edad con Fenilcetonuria (PKU) o
                 Hiperfenilalaninemia (HPA).
-                <Typography
-                  sx={{
-                    fontWeight: "regular",
-                    fontSize: "14px",
-                    color: "black",
-                    fontFamily: "Lato",
-                  }}
-                >
-                  <strong>EQUILAVANTE PROTEICO:</strong> 15 g de equivalente
-                  proteico por barra de 81 g.
-                </Typography>
+                <strong>EQUILAVANTE PROTEICO: </strong>  15 g
+                de equivalente proteico por brick de 250 ml.
+                
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -205,7 +197,7 @@ const GlytactinRTD15 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -347,7 +339,7 @@ const GlytactinRTD15 = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene GMPure™.
+                  • Contiene GMP.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Nutricionalmente completa en micro y macronutrientes.
@@ -422,8 +414,8 @@ const GlytactinRTD15 = () => {
                 Glytactin RTD 15 está indicado en el tratamiento nutricional de
                 niños mayores de 1 año de edad con Fenilcetonuria (PKU) o
                 Hiperfenilalaninemia (HPA).
-                <strong>EQUILAVANTE PROTEICO: </strong> 15 g de equivalente
-                proteico por barra de 81 g.
+                <strong> EQUILAVANTE PROTEICO: </strong> 15 g de equivalente 15 g
+                de equivalente proteico por brick de 250 ml.
               </Typography>
             </Box>
             <Box width={"100%"}>

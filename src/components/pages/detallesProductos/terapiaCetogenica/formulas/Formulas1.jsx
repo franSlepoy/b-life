@@ -69,42 +69,42 @@ const Formulas1 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Ratio 3:1 reduce el riesgo de acidosis y/o intolerancia GI.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 100% proteínas de suero parcialmente hidrolizada: favorece
                   la digestibilidad
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 7 g de proteínas/bricks: permite alcanzar el requerimiento
                   proteico en pacientes que necesitan menor aporte calórico.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 20% del VCT como TCM (6 g TCM/brick): Para pacientes con
                   sensibilidad gastrointestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Suplementado con DHA, ARA, taurina e inositol: promueven el
                   desarrollo cerebral y visual.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Nutrientes esenciales: 34 mg de Carnitina y 16 μg de Selenio
                   por brick.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Prebióticos FOS/GOS: promueven la integridad GI y mejoran el
                   sistema inmunológico.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Micronutrientes: especialmente calculados para cubrir
                   requerimientos de niños pequeños.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • No contiene edulcorantes, colorantes ni saborizantes
                   artificiales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>
@@ -181,7 +181,7 @@ const Formulas1 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -192,7 +192,7 @@ const Formulas1 = () => {
                   fontSize: "14px",
                   color: "black",
                   fontFamily: "Lato",
-                  mt: 2,
+                  mt:2
                 }}
               >
                 Lista para usar. Se recomienda agitar bien antes de su uso.
@@ -427,7 +427,7 @@ const Formulas1 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:

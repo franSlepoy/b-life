@@ -67,20 +67,20 @@ const Alimentos1 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Específicamente diseñado para Terapia Cetogénica.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Excelente sabor.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Aporta 4,88 g de fibra por porción.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Permite realizar una alta variedad de preparaciones
                   cetogénicas que requieren el uso de chocolate.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Ideal para utilizar como snack o consumir en cualquier
                   momento y lugar.
                 </Typography>
@@ -157,7 +157,7 @@ const Alimentos1 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -291,20 +291,20 @@ const Alimentos1 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Específicamente diseñado para Terapia Cetogénica.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Excelente sabor.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Aporta 4,88 g de fibra por porción.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Permite realizar una alta variedad de preparaciones
                   cetogénicas que requieren el uso de chocolate.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Ideal para utilizar como snack o consumir en cualquier
                   momento y lugar.
                 </Typography>
@@ -379,7 +379,7 @@ const Alimentos1 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt:2
                 }}
               >
                 FORMA DE PREPARACIÓN:

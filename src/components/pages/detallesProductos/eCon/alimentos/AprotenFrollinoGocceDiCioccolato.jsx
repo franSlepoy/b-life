@@ -205,7 +205,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Envase por 180 g/ 1 unidad = 7g.
+                200 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{
@@ -426,7 +426,7 @@ const AprotenFrollinoGocceDiCioccolato = () => {
                 }}
               >
                 {" "}
-                Envase por 180 g/ 1 unidad = 7g.
+                200 g.
               </Typography>
               {/*  <Typography
                 sx={{

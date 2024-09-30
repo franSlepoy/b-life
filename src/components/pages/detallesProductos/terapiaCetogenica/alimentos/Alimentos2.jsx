@@ -68,21 +68,21 @@ const Alimentos2 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Carbohidratos netos: 5 g. c/100g.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Aporta fibra (15 g. c/100 g.): favorece la motilidad
                   intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Está especialmente diseñado para cocinar.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • No contiene vitaminas y minerales, evitando su sabor
                   desagradable en las preparaciones.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Es versátil, permitiendo realizar una amplia variedad de
                   preparaciones cetogénicas.
                 </Typography>
@@ -159,7 +159,7 @@ const Alimentos2 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -295,21 +295,21 @@ const Alimentos2 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Carbohidratos netos: 5 g. c/100g.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Aporta fibra (15 g. c/100 g.): favorece la motilidad
                   intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Está especialmente diseñado para cocinar.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • No contiene vitaminas y minerales, evitando su sabor
                   desagradable en las preparaciones.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Es versátil, permitiendo realizar una amplia variedad de
                   preparaciones cetogénicas.
                 </Typography>
@@ -384,7 +384,7 @@ const Alimentos2 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:

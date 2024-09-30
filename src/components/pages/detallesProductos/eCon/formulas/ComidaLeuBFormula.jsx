@@ -48,7 +48,8 @@ const ComidaLeuBFormula = () => {
                 }}
               >
                 Comida Leu B Fórmula es una fórmula en polvo libre leucina para
-                el tratamiento nutricional de hiperleucinemia (Ej: Acidemia
+                el tratamiento nutricional de
+                patologías que requieran restricción de leucina (Ej: Acidemia
                 Isovalérica) en niños mayores de 1 año de edad, adolescentes y
                 adultos. Alimento para propósitos médicos específicos.
               </Typography>
@@ -173,7 +174,8 @@ const ComidaLeuBFormula = () => {
               >
                 Comida Leu B Fórmula está indicado en el tratamiento nutricional
                 de niños mayores de 1 año de edad, adolescentes y adultos con
-                hiperleucinemia (Ej: Acidemia Isovalérica).{" "}
+                para el tratamiento nutricional de patologías que requieran
+                restricción de leucina (Ej: Acidemia Isovalérica).{" "}
                 <strong>EQUIVALENTE PROTEICO:</strong> 31 g de equivalente
                 proteico por 100 g de polvo.
               </Typography>
@@ -185,7 +187,7 @@ const ComidaLeuBFormula = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -304,7 +306,7 @@ const ComidaLeuBFormula = () => {
                 }}
               >
                 Comida Leu B Fórmula es una fórmula en polvo libre leucina para
-                el tratamiento nutricional de hiperleucinemia (Ej: Acidemia
+                el tratamiento nutricional de patologías que requieran restricción de leucina (Ej: Acidemia
                 Isovalérica) en niños mayores de 1 año de edad, adolescentes y
                 adultos. Alimento para propósitos médicos específicos.
               </Typography>
@@ -397,8 +399,7 @@ const ComidaLeuBFormula = () => {
                 }}
               >
                 Comida Leu B Fórmula está indicado en el tratamiento nutricional
-                de niños mayores de 1 año de edad, adolescentes y adultos con
-                hiperleucinemia (Ej: Acidemia Isovalérica).{" "}
+                de niños mayores de 1 año de edad, adolescentes y adultos                 para el tratamiento nutricional de patologías que requieran restricción de leucina (Ej: Acidemia Isovalérica).{" "}
                 <strong>EQUIVALENTE PROTEICO:</strong> 31 g de equivalente
                 proteico por 100 g de polvo.
               </Typography>

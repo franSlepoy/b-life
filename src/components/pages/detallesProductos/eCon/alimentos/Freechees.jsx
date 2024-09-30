@@ -34,7 +34,7 @@ const Freechees = () => {
                   mt: 2,
                 }}
               >
-                FreeChees
+                Freechees
               </Typography>
               <Typography
                 sx={{
@@ -157,7 +157,7 @@ const Freechees = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -263,7 +263,7 @@ const Freechees = () => {
                   mt: 2,
                 }}
               >
-              FreeChees
+              Freechees
               </Typography>
               <Typography
                 sx={{

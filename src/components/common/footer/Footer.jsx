@@ -37,7 +37,7 @@ const Footer = () => {
               <Box mt={6}>
                 <Box display={"flex"}>
                   <Typography sx={{ fontSize: "15px", color: "#007E48" }}>
-                    Cochabamba 3643.CABA
+                  Cochabamba 3641, CABA.
                   </Typography>
                 </Box>
 
@@ -109,7 +109,7 @@ const Footer = () => {
               <Box mt={1}>
                 <Box>
                   <Typography sx={{ fontSize: "15px", color:"#007E48" }}>
-                    Cochabamba 3643.CABA
+                  Cochabamba 3641, CABA.
                   </Typography>
                 </Box>
               </Box>

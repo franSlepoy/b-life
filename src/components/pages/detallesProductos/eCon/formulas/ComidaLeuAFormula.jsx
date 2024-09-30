@@ -48,7 +48,7 @@ const ComidaLeuAFormula = () => {
                 }}
               >
                 Comida Leu A Fórmula es una fórmula en polvo libre leucina para
-                el tratamiento nutricional de hiperleucinemia (Ej: Acidemia
+                el tratamiento nutricional de patologías que requieran restricción de leucina (Ej: Acidemia
                 Isovalérica) en lactantes de 0 a 1 año de edad. Alimento para
                 propósitos médicos específicos.
               </Typography>
@@ -243,7 +243,7 @@ const ComidaLeuAFormula = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PRESENTACIÓN:
@@ -314,7 +314,7 @@ const ComidaLeuAFormula = () => {
                 }}
               >
                 Comida Leu A Fórmula es una fórmula en polvo libre leucina para
-                el tratamiento nutricional de hiperleucinemia (Ej: Acidemia
+                el tratamiento nutricional de patologías que requieran restricción de leucina (Ej: Acidemia
                 Isovalérica) en lactantes de 0 a 1 año de edad. Alimento para
                 propósitos médicos específicos.
               </Typography>

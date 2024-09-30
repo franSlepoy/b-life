@@ -162,7 +162,7 @@ const Modulos2 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -317,22 +317,22 @@ const Modulos2 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Relación cetogénica 7,2:1
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Refuerza la cetosis: 76,1 g TCM c/100 g.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Alto contenido en fibra soluble: 11,1 g c/100 g.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Bajo en azúcares: 0,5 g c/100 g.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Ideal como suplemento energético.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Osmolalidad: 1 sachet (13,3 g) + 30 ml agua = 54 mOsm/kg.
                 </Typography>
               </Box>
@@ -420,7 +420,7 @@ const Modulos2 = () => {
                   fontSize: "14px",
                   color: "black",
                   fontFamily: "Lato",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 Agregar un sobre de Kanso MCT Fiber en la comida o bebida

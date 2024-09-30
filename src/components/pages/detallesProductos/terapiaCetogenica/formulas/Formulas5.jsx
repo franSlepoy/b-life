@@ -70,38 +70,38 @@ const Formulas5 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Única fórmula cetogénica a base de plantas.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mezcla de proteína de arveja intacta y parcialmente
                   hidrolizada.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Libre de los principales alérgenos, incluida la leche y la
                   soja.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 25% del VCT como TCM (10 g TCM /brick): favorece la
                   motilidad intestinal y optimiza la cetosis.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mezcla de fibra soluble e insoluble: favorece la motilidad
                   intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Nutrientes esenciales: 50 mg de carnitina y 23 μg de selenio
                   por brick.
                 </Typography>
 
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sales de citrato: previene la formación de cálculos renales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Libre de edulcorantes, colorantes o aromatizantes
                   artificiales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>
@@ -158,7 +158,7 @@ const Formulas5 = () => {
               </Typography>
               <Typography
                 sx={{
-                  fontWeight: "regular",
+                   fontWeight: "regular",
                   fontSize: "14px",
                   color: "#0B3A25",
                   fontFamily: "Lato",
@@ -179,7 +179,7 @@ const Formulas5 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -224,7 +224,7 @@ const Formulas5 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PRESENTACIÓN:
@@ -235,6 +235,7 @@ const Formulas5 = () => {
                   fontSize: "14px",
                   color: "#0B3A25",
                   fontFamily: "Lato",
+                  mt:2
                 }}
               >
                 Caja por 30 bricks de 250 ml c/u.
@@ -316,38 +317,38 @@ const Formulas5 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Única fórmula cetogénica a base de plantas.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mezcla de proteína de arveja intacta y parcialmente
                   hidrolizada.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Libre de los principales alérgenos, incluida la leche y la
                   soja.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 25% del VCT como TCM (10 g TCM /brick): favorece la
                   motilidad intestinal y optimiza la cetosis.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mezcla de fibra soluble e insoluble: favorece la motilidad
                   intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Nutrientes esenciales: 50 mg de carnitina y 23 μg de selenio
                   por brick.
                 </Typography>
 
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sales de citrato: previene la formación de cálculos renales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Libre de edulcorantes, colorantes o aromatizantes
                   artificiales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>

@@ -77,13 +77,23 @@ const FreeMilk = () => {
                     fontFamily: "Lato",
                   }}
                 >
+                  • Alimento para propósitos médicos específicos.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Ingredientes: Maltodextrina, fructosa, almidón de papa,
                   sacarosa, FOS (Fructooligosacáridos), oligofructosa, calcio
                   (como carbonato de calcio), suplemento dietario a base de
                   vitaminas y minerales, sal, ARO: aromatizante artificial sabor
                   vainilla, ESP: pectina, COL: dióxido de titanio, colorante
-                  caramelo IV (INS150d), EST: CMC (carboximetilcelulosa
-                  sódica), carragenina, ACI: ácido cítrico.
+                  caramelo IV (INS150d), EST: CMC (carboximetilcelulosa sódica),
+                  carragenina, ACI: ácido cítrico.
                 </Typography>
               </Box>
             </Box>
@@ -157,7 +167,7 @@ const FreeMilk = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -260,7 +270,7 @@ const FreeMilk = () => {
                   mt: 2,
                 }}
               >
-              Freemilk
+                Freemilk
               </Typography>
               <Typography
                 sx={{
@@ -295,14 +305,24 @@ const FreeMilk = () => {
                   mt: 2,
                 }}
               >
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Alimento para propósitos médicos específicos.
+                </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Ingredientes: Maltodextrina, fructosa, almidón de papa,
                   sacarosa, FOS (Fructooligosacáridos), oligofructosa, calcio
                   (como carbonato de calcio), suplemento dietario a base de
                   vitaminas y minerales, sal, ARO: aromatizante artificial sabor
                   vainilla, ESP: pectina, COL: dióxido de titanio, colorante
-                  caramelo IV (INS150d), EST: CMC (carboximetilcelulosa
-                  sódica), carragenina, ACI: ácido cítrico.
+                  caramelo IV (INS150d), EST: CMC (carboximetilcelulosa sódica),
+                  carragenina, ACI: ácido cítrico.
                 </Typography>
               </Box>
             </Box>
@@ -437,7 +457,6 @@ const FreeMilk = () => {
                 {" "}
                 Caja por 600 g de polvo y cuchara dosificadora de 8,3 g.
               </Typography>
-             
             </Box>
           </Box>
         </Box>

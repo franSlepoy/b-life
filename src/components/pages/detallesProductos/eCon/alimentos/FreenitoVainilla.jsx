@@ -157,7 +157,7 @@ const FreenitoVainilla = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -171,8 +171,9 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-                Mezclar 44 g de polvo con 100 cc de agua hasta espesar.
-                Refrigerar 20 minutos y consumir dentro de las 24 hs.
+                Mezclar 35 g de polvo con 100 cc de agua. Cocinar a fuego lento
+                hasta el primer hervor. Poner en moldes y refrigerar hasta que
+                solidifique. Consumir dentro de las 24 hs.
               </Typography>
             </Box>
             <Box ml={2} mt={3} width={"33.3%"}>
@@ -217,7 +218,7 @@ const FreenitoVainilla = () => {
                 }}
               >
                 {" "}
-                Envase por 180 g.
+                175 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{
@@ -260,7 +261,7 @@ const FreenitoVainilla = () => {
                   mt: 2,
                 }}
               >
-               Freenito vainilla
+                Freenito vainilla
               </Typography>
               <Typography
                 sx={{
@@ -298,7 +299,11 @@ const FreenitoVainilla = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche de coco en polvo, azúcar impalpable, fructosa, almidón de papa, FOS, carbonato de calcio, sal, ARO: aromatizante artificial sabor vainilla, ACI: ácido cítrico, EST: carboximetilcelulosa sódica, carragenina, COL: INS150d.
+                  • INGREDIENTES: Almidón pregelatinizado, maltodextrina, leche
+                  de coco en polvo, azúcar impalpable, fructosa, almidón de
+                  papa, FOS, carbonato de calcio, sal, ARO: aromatizante
+                  artificial sabor vainilla, ACI: ácido cítrico, EST:
+                  carboximetilcelulosa sódica, carragenina, COL: INS150d.
                 </Typography>
               </Box>
             </Box>
@@ -360,7 +365,10 @@ const FreenitoVainilla = () => {
               >
                 Puede utilizarse en el tratamiento nutricional de pacientes con
                 errores congénitos del metabolismo que requieran dietas
-                restringidas en el aporte de proteínas y aminoácidos. Precaución: Producto con alto contenido de sodio. Su uso en pacientes renales debe ser consultado previamente con el médico/nutricionista.
+                restringidas en el aporte de proteínas y aminoácidos.
+                Precaución: Producto con alto contenido de sodio. Su uso en
+                pacientes renales debe ser consultado previamente con el
+                médico/nutricionista.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -432,7 +440,7 @@ const FreenitoVainilla = () => {
                 }}
               >
                 {" "}
-                4 x 62 g (248 g).
+                175 g.
               </Typography>
               {/*  <Typography
                 sx={{

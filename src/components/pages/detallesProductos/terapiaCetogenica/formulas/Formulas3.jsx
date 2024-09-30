@@ -69,32 +69,32 @@ const Formulas3 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 100% proteínas de suero parcialmente hidrolizada: favorece
                   la digestibilidad.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 25% del VCT como TCM (10 g TCM /brick): favorece la
                   motilidad intestinal y optimiza la cetosis.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mezcla de fibra soluble e insoluble: favorece la motilidad
                   intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Suplementado con DHA, ARA, taurina e inositol: promueven el
                   desarrollo cerebral y visual.
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Mayor contenido de vitaminas y minerales para la salud ósea.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sales de citrato: previene la formación de cálculos renales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sin saborizantes ni edulcorantes artificiales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>
@@ -172,7 +172,7 @@ const Formulas3 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -320,20 +320,20 @@ const Formulas3 = () => {
                   • Mezcla de fibra soluble e insoluble: favorece la motilidad
                   intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Suplementado con DHA, ARA, taurina e inositol: promueven el
                   desarrollo cerebral y visual.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mayor contenido de vitaminas y minerales para la salud ósea.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sales de citrato: previene la formación de cálculos renales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sin saborizantes ni edulcorantes artificiales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>

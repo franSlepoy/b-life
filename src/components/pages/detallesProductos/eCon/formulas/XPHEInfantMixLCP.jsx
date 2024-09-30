@@ -78,6 +78,16 @@ const XPHEInfantMixLCP = () => {
                     fontFamily: "Lato",
                   }}
                 >
+                  • Baja en fenilalanina y rica en tirosina.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
                   • Óptimo balance de aminoácidos altamente purificados.
                 </Typography>
                 <Typography
@@ -113,16 +123,7 @@ const XPHEInfantMixLCP = () => {
                   (LCP), particularmente importantes para el desarrollo
                   cognitivo y visual.
                 </Typography>
-                <Typography
-                  sx={{
-                    fontWeight: "regular",
-                    fontSize: "14px",
-                    color: "black",
-                    fontFamily: "Lato",
-                  }}
-                >
-                  • Contiene lactosa como carbohidrato principal.
-                </Typography>
+                
                 <Typography
                   sx={{
                     fontWeight: "regular",
@@ -195,8 +196,9 @@ const XPHEInfantMixLCP = () => {
               >
                 XPhe Infant Mix LCP está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con Fenilcetonuria (PKU) o
-                hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  11 g de
-                equivalente proteico por 100 g de polvo.
+                hiperfenilalaninemia (HPA).{" "}
+                <strong>EQUILAVANTE PROTEICO:</strong> 11 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box ml={3} width={"33.3%"}>
@@ -206,7 +208,7 @@ const XPHEInfantMixLCP = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -259,12 +261,14 @@ const XPHEInfantMixLCP = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography sx={{
-                    fontWeight: "regular",
-                    fontSize: "14px",
-                    color: "black",
-                    fontFamily: "Lato",
-                  }}>
+              <Typography
+                sx={{
+                  fontWeight: "regular",
+                  fontSize: "14px",
+                  color: "black",
+                  fontFamily: "Lato",
+                }}
+              >
                 {" "}
                 Lata por 500 g de polvo y cuchara dosificadora de 3,7 g.
               </Typography>
@@ -345,6 +349,16 @@ const XPHEInfantMixLCP = () => {
                   mt: 2,
                 }}
               >
+                <Typography
+                  sx={{
+                    fontWeight: "regular",
+                    fontSize: "14px",
+                    color: "black",
+                    fontFamily: "Lato",
+                  }}
+                >
+                  • Baja en fenilalanina y rica en tirosina.
+                </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Óptimo balance de aminoácidos altamente purificados.
                 </Typography>
@@ -360,9 +374,7 @@ const XPHEInfantMixLCP = () => {
                   (LCP), particularmente importantes para el desarrollo
                   cognitivo y visual.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene lactosa como carbohidrato principal.
-                </Typography>
+               
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Sabor y textura similar a la leche materna.
                 </Typography>
@@ -426,8 +438,9 @@ const XPHEInfantMixLCP = () => {
               >
                 XPhe Infant Mix LCP está indicado en el tratamiento nutricional
                 de lactantes de 0 a 1 año de edad con Fenilcetonuria (PKU) o
-                hiperfenilalaninemia (HPA). <strong>EQUILAVANTE PROTEICO:</strong>  11 g de
-                equivalente proteico por 100 g de polvo.
+                hiperfenilalaninemia (HPA).{" "}
+                <strong>EQUILAVANTE PROTEICO:</strong> 11 g de equivalente
+                proteico por 100 g de polvo.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -490,12 +503,14 @@ const XPHEInfantMixLCP = () => {
               >
                 FORMA DE PRESENTACIÓN:
               </Typography>
-              <Typography sx={{
+              <Typography
+                sx={{
                   fontWeight: "regular",
                   fontSize: "14px",
                   color: "black",
                   fontFamily: "Lato",
-                }}>
+                }}
+              >
                 Lata por 500 g de polvo y cuchara dosificadora de 3,7 g.
               </Typography>
               <Typography

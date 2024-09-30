@@ -149,7 +149,7 @@ const Otros = () => {
                 <Box mt={6}>
                   <Box display={"flex"}>
                     <Typography sx={{ fontSize: "15px", color: "white" }}>
-                      Cochabamba 3643.CABA
+                    Cochabamba 3641, CABA.
                     </Typography>
                   </Box>
 
@@ -329,7 +329,7 @@ const Otros = () => {
                 <Box mt={1}>
                   <Box>
                     <Typography sx={{ fontSize: "15px", color: "white" }}>
-                      Cochabamba 3643.CABA
+                    Cochabamba 3641, CABA.
                     </Typography>
                   </Box>
                 </Box>

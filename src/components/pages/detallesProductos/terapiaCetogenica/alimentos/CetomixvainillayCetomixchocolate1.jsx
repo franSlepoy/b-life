@@ -67,14 +67,14 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Ratio cetogénico 4:1.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Practicidad, con el sólo agregado de agua y aceite se pueden
                   realizar múltiples preparaciones cetogénicas.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Versatilidad, se pueden realizar preparaciones en diferentes
                   ratios cetogénicos.
                 </Typography>
@@ -155,7 +155,7 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -292,14 +292,14 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Ratio cetogénico 4:1.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Practicidad, con el sólo agregado de agua y aceite se pueden
                   realizar múltiples preparaciones cetogénicas.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Versatilidad, se pueden realizar preparaciones en diferentes
                   ratios cetogénicos.
                 </Typography>
@@ -378,7 +378,7 @@ const CetomixvainillayCetomixchocolate1 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:

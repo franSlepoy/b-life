@@ -68,18 +68,18 @@ const Suplementos2 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Ideal en pacientes con dietas restrictivas que no cubren los
                   requerimientos de micronutrientes.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Único suplemento en el mercado adaptado a los requerimientos
                   pediátricos.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Adicionado con carnitina y colina.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Libre de carbohidratos, ideal en pacientes que están
                   realizando terapia cetogénica o requieran restricción en el
                   aporte de carbohidratos.
@@ -295,18 +295,18 @@ const Suplementos2 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Ideal en pacientes con dietas restrictivas que no cubren los
                   requerimientos de micronutrientes.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Único suplemento en el mercado adaptado a los requerimientos
                   pediátricos.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Adicionado con carnitina y colina.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Libre de carbohidratos, ideal en pacientes que están
                   realizando terapia cetogénica o requieran restricción en el
                   aporte de carbohidratos.

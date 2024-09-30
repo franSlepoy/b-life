@@ -69,30 +69,30 @@ const Formulas2 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 100% proteína de suero extensamente hidrolizada para
                   pacientes con disfunciones GI o intolerancia a la proteína
                   entera.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 15% del VCT como TCM (6 g TCM/brick): favorece la motilidad
                   intestinal y optimiza la cetosis.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Suplementado con DHA, taurina e inositol: promueven el
                   desarrollo cerebral y visual.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Nutrientes esenciales: 50 mg de Carnitina y 23 μg de Selenio
                   por brick.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mayor contenido de vitaminas y minerales para la salud ósea.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sales de citrato: previene la formación de cálculos renales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>
@@ -172,7 +172,7 @@ const Formulas2 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -308,30 +308,30 @@ const Formulas2 = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 100% proteína de suero extensamente hidrolizada para
                   pacientes con disfunciones GI o intolerancia a la proteína
                   entera.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 15% del VCT como TCM (6 g TCM/brick): favorece la motilidad
                   intestinal y optimiza la cetosis.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Suplementado con DHA, taurina e inositol: promueven el
                   desarrollo cerebral y visual.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Nutrientes esenciales: 50 mg de Carnitina y 23 μg de Selenio
                   por brick.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mayor contenido de vitaminas y minerales para la salud ósea.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sales de citrato: previene la formación de cálculos renales.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>
@@ -420,7 +420,7 @@ const Formulas2 = () => {
                   fontSize: "14px",
                   color: "#0B3A25",
                   fontFamily: "Lato",
-                  mt: 2,
+                  mt:2
                 }}
               >
                 Listo para usar. Se recomienda agitar bien antes de su uso.

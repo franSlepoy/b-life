@@ -79,7 +79,7 @@ const GlytactinRTD10 = () => {
                     fontFamily: "Lato",
                   }}
                 >
-                  • Contiene GMPure™.
+                  • Contiene GMP (glicomacropéptido).
                 </Typography>
                 <Typography
                   sx={{
@@ -205,7 +205,7 @@ const GlytactinRTD10 = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:
@@ -265,8 +265,8 @@ const GlytactinRTD10 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                {" "}
-                Caja por 7 barras de 81g c/u.
+               Caja por 30 brick de 250 cc c/u. 
+
               </Typography>
               <Typography
                 sx={{
@@ -287,7 +287,8 @@ const GlytactinRTD10 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Fruit frenzy y peanut butter.
+                Chocolate y original.
+
               </Typography>
             </Box>
           </Box>
@@ -347,7 +348,7 @@ const GlytactinRTD10 = () => {
                 }}
               >
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
-                  • Contiene GMPure™.
+                  • Contiene GMP (glicomacropéptido).
                 </Typography>
                 <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
                   • Nutricionalmente completo en micro y macronutrientes.
@@ -419,11 +420,11 @@ const GlytactinRTD10 = () => {
                   mt: 2,
                 }}
               >
-                Glytactin Complete 15 está indicado en el tratamiento
-                nutricional de niños mayores de 1 año de edad con Fenilcetonuria
-                (PKU) o Hiperfenilalaninemia (HPA).
-                <strong>EQUILAVANTE PROTEICO: </strong> 15 g de equivalente
-                proteico por barra de 81 g.
+                Glytactin RTD 10 está indicado en el tratamiento nutricional de
+                niños mayores de 1 año de edad con Fenilcetonuria (PKU) o
+                Hiperfenilalaninemia (HPA).
+                <strong>EQUILAVANTE PROTEICO: </strong> 15 g de equivalente 10 g
+                de equivalente proteico por brick de 250 ml.
               </Typography>
             </Box>
             <Box width={"100%"}>
@@ -447,7 +448,8 @@ const GlytactinRTD10 = () => {
                   mt: 2,
                 }}
               >
-                Listo para consumir. Se recomienda distribuir la cantidad diaria indicada por el profesional a lo largo del día.
+                Listo para consumir. Se recomienda distribuir la cantidad diaria
+                indicada por el profesional a lo largo del día.
               </Typography>
             </Box>
             <Box mt={3} width={"100%"}>
@@ -492,7 +494,8 @@ const GlytactinRTD10 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Caja por 7 barras de 81g c/u.
+               Caja por 30 brick de 250 cc c/u. 
+
               </Typography>
               <Typography
                 sx={{
@@ -513,7 +516,8 @@ const GlytactinRTD10 = () => {
                   fontFamily: "Lato",
                 }}
               >
-                Fruit frenzy y peanut butter.
+               Chocolate y original
+.
               </Typography>
             </Box>
           </Box>

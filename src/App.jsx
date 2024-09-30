@@ -93,6 +93,12 @@ import ComidaOAcAFormula from "./components/pages/detallesProductos/eCon/formula
 import ComidaOAcBFormula from "./components/pages/detallesProductos/eCon/formulas/ComidaOAcBFormula";
 import Fusilli1 from "./components/pages/detallesProductos/eCon/alimentos/Fusilli1";
 import KetoviteVainilla from "./components/pages/detallesProductos/terapiaCetogenica/formulas/Ketovite4:1.Vainilla";
+import MiBurger from "./components/pages/detallesProductos/eCon/alimentos/MiBurger";
+import ScrambledEggOmeletteMix from "./components/pages/detallesProductos/eCon/alimentos/ScrambledEgg&OmeletteMix";
+import CerealChocolate from "./components/pages/detallesProductos/eCon/alimentos/CerealChocolate";
+import MileaInfant from "./components/pages/detallesProductos/aplv/MileaInfant";
+import ComidaTYRoAFormula from "./components/pages/detallesProductos/eCon/alimentos/ComidaTYRoAFormula";
+import ComidaTYRoBFormula from "./components/pages/detallesProductos/eCon/alimentos/ComidaTYRoBFormula";
 
 function App() {
   const location = useLocation();
@@ -217,31 +223,42 @@ function App() {
           />
           <Route path="/penne" element={<Penne />} />
           <Route path="/rigatini" element={<Rigatini />} />
-          <Route path="/aprotenSpaguetti" element={< AprotenSpaguetti/>} />
-          <Route path="/aprotenTagliatelle" element={< AprotenTagliatelle/>} />
-          <Route path="/freechees" element={< Freechees />} />
-          <Route path="/freegurFrutilla" element={< FreegurFrutilla />} />
-          <Route path="/freegurVainilla" element={< FreegurVainilla />} />
-          <Route path="/freeMilk" element={< FreeMilk />} />
-          <Route path="/freenitoChocolate" element={< FreenitoChocolate />} />
-          <Route path="/freenitoVainilla" element={< FreenitoVainilla />} />
-          <Route path="/burgerMix" element={< BurgerMix />} />
-          <Route path="/saltSticks" element={< SaltSticks />} />
-          <Route path="/schoxxiTafel" element={< SchoxxiTafel />} />
-          <Route path="/arroz" element={< Arroz />} />
-          <Route path="/BurgerMix1" element={< BurgerMix1 />} />
-          <Route path="/chocotino" element={< Chocotino />} />
-          <Route path="/ditali" element={< Ditali />} />
-          <Route path="/fruitBar" element={< FruitBar />} />
-          <Route path="/penne1" element={< Penne1 />} />
-          <Route path="/spaghetti" element={< Spaghetti />} />
-          <Route path="/zeroproMuffinsyTortas" element={< ZeroproMuffinsyTortas />} />
-          <Route path="/galletasMarineras" element={< GalletasMarineras />} />
-          <Route path="/sustitutoDeHuevo" element={< SustitutoDeHuevo />} />
-          <Route path="/sustitutoDeQueso" element={< SustitutoDeQueso />} />
-          <Route path="/zeroproBrownies" element={< ZeroproBrownies />} />
-          <Route path="/sustitutoDeHarina" element={< SustitutoDeHarina />} />
-       
+          <Route path="/aprotenSpaguetti" element={<AprotenSpaguetti />} />
+          <Route path="/aprotenTagliatelle" element={<AprotenTagliatelle />} />
+          <Route path="/freechees" element={<Freechees />} />
+          <Route path="/freegurFrutilla" element={<FreegurFrutilla />} />
+          <Route path="/freegurVainilla" element={<FreegurVainilla />} />
+          <Route path="/freeMilk" element={<FreeMilk />} />
+          <Route path="/freenitoChocolate" element={<FreenitoChocolate />} />
+          <Route path="/freenitoVainilla" element={<FreenitoVainilla />} />
+          <Route path="/burgerMix" element={<BurgerMix />} />
+          <Route path="/saltSticks" element={<SaltSticks />} />
+          <Route path="/schoxxiTafel" element={<SchoxxiTafel />} />
+          <Route path="/arroz" element={<Arroz />} />
+          <Route path="/BurgerMix1" element={<BurgerMix1 />} />
+          <Route path="/chocotino" element={<Chocotino />} />
+          <Route path="/ditali" element={<Ditali />} />
+          <Route path="/fruitBar" element={<FruitBar />} />
+          <Route path="/penne1" element={<Penne1 />} />
+          <Route path="/spaghetti" element={<Spaghetti />} />
+          <Route
+            path="/zeroproMuffinsyTortas"
+            element={<ZeroproMuffinsyTortas />}
+          />
+          <Route path="/galletasMarineras" element={<GalletasMarineras />} />
+          <Route path="/sustitutoDeHuevo" element={<SustitutoDeHuevo />} />
+          <Route path="/sustitutoDeQueso" element={<SustitutoDeQueso />} />
+          <Route path="/zeroproBrownies" element={<ZeroproBrownies />} />
+          <Route path="/sustitutoDeHarina" element={<SustitutoDeHarina />} />
+          <Route path="/miBurger" element={<MiBurger />} />
+          <Route
+            path="/ScrambledEgg&OmeletteMix"
+            element={<ScrambledEggOmeletteMix />}
+          />
+          <Route path="/cerealChocolate" element={<CerealChocolate />} />
+          <Route path="/mileaInfant" element={<MileaInfant />} />
+          <Route path="/comidaTYRoAFormula" element={<ComidaTYRoAFormula />} />
+          <Route path="/comidaTYRoBFormula" element={<ComidaTYRoBFormula  />} />
         </Routes>
       </ParallaxProvider>
     </>

@@ -35,7 +35,7 @@ const KetoviteVainilla = () => {
                 }}
               >
                
-                Ketovite 4:1. Vainilla
+               KetoVie Vainilla
               </Typography>
               <Typography
                 sx={{
@@ -70,31 +70,31 @@ const KetoviteVainilla = () => {
                   mt: 2,
                 }}
               >
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{  fontFamily: "Lato",fontWeight: "regular", fontSize: "14px" }}>
                   • Mezcla de proteína de suero intacta y parcialmente
                   hidrolizada: favorece la digestibilidad.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • 25% del VCT como TCM (10 g TCM/brick): favorece la motilidad
                   intestinal y optimiza la cetosis.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mezcla de fibra soluble e insoluble: favorece la motilidad
                   intestinal.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Suplementado con DHA, taurina e inositol: promueve el
                   desarrollo cerebral y visual.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Mayor aporte de nutrientes esenciales: 51 mg de Carnitina y
                   23 μg de Selenio por brick.
                 </Typography>
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Sales de citrato: previene la formación de cálculos renales.
                 </Typography>
 
-                <Typography sx={{ fontWeight: "regular", fontSize: "14px" }}>
+                <Typography sx={{ fontFamily: "Lato", fontWeight: "regular", fontSize: "14px" }}>
                   • Listo para usar: previene errores de dosificación y
                   contaminación.
                 </Typography>
@@ -171,7 +171,7 @@ const KetoviteVainilla = () => {
                   fontFamily: "Lato",
                   fontWeight: "800",
                   fontSize: "15px",
-                  mt: 2,
+                  mt: 5,
                 }}
               >
                 FORMA DE PREPARACIÓN:

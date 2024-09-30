@@ -3,21 +3,21 @@ export const productosData = [
     id: 1,
     categoria: "Terapia Cetogénica",
     subCategoria: "FÓRMULAS",
-    titulo: "KetoVie 3:1 Unflavored",
+    titulo: "Ketovie 4.1 Vainilla",
     descripcion:
-      "Fórmula líquida 3:1 nutricionalmente completa con 20% de calorías como TCM y 100% de proteína de suero parcialmente hidrolizada para terapia cetogénica.",
-    imagen: "/ketovia3.1Unfalvored.png",
-    link: "/ketovia3.1Unfalvored",
+      "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de suero intacta y parcialmente hidrolizada para terapia cetogénica.",
+    imagen: "/ketovie4.1Vainilla.png",
+    link: "/ketovie4.1vainilla",
   },
   {
     id: 2,
     categoria: "Terapia Cetogénica",
     subCategoria: "FÓRMULAS",
-    titulo: "KetoVie 4:1 Peptide",
+    titulo: "Ketovie 4.1 Chocolate",
     descripcion:
-      "Fórmula líquida 4:1 nutricionalmente completa con 15% de calorías como TCM y 100% de proteína de suero extensamente hidrolizada para terapia cetogénica.",
-    imagen: "/ketovie4.1Peptide.png",
-    link: "/ketovie4.1Peptide",
+      "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de suero intacta y parcialmente hidrolizada para terapia cetogénica.",
+    imagen: "/ketovie4.1Chocolate.png",
+    link: "/ketovie4.1Chocolate",
   },
   {
     id: 3,
@@ -33,22 +33,21 @@ export const productosData = [
     id: 4,
     categoria: "Terapia Cetogénica",
     subCategoria: "FÓRMULAS",
-    titulo: "Ketovie 4.1 Chocolate",
+    titulo: "KetoVie 4:1 Peptide",
     descripcion:
-      "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de suero intacta y parcialmente hidrolizada para terapia cetogénica.",
-    imagen: "/ketovie4.1Chocolate.png",
-    link: "/ketovie4.1Chocolate",
+      "Fórmula líquida 4:1 nutricionalmente completa con 15% de calorías como TCM y 100% de proteína de suero extensamente hidrolizada para terapia cetogénica.",
+    imagen: "/ketovie4.1Peptide.png",
+    link: "/ketovie4.1Peptide",
   },
   {
     id: 5,
     categoria: "Terapia Cetogénica",
     subCategoria: "FÓRMULAS",
-    titulo: "Ketovie 4.1 Vainilla",
+    titulo: "KetoVie 3:1 Unflavored",
     descripcion:
-      "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de suero intacta y parcialmente hidrolizada para terapia cetogénica.",
-    imagen: "/ketovie4.1Vainilla.png",
-    link: "/ketovie4.1vainilla",
-    
+      "Fórmula líquida 3:1 nutricionalmente completa con 20% de calorías como TCM y 100% de proteína de suero parcialmente hidrolizada para terapia cetogénica.",
+    imagen: "/ketovia3.1Unfalvored.png",
+    link: "/ketovia3.1Unfalvored",
   },
   {
     id: 6,
@@ -119,7 +118,7 @@ export const productosData = [
     imagen: "/aminomed.png",
     link: "/Aminomed",
   },
-  {
+  /* {
     id: 13,
     categoria: "Alergia a la proteína de leche de vaca",
     subCategoria: "Alergia a la proteína de leche de vaca",
@@ -128,7 +127,7 @@ export const productosData = [
       "AminoMed Premium es una fórmula infantil en polvo hipoalergénica a base de aminoácidos para lactantes de 0 a 1 año de edad. Alimento para propósitos médicos específicos.",
     imagen: "/aminomedPremium.png",
     link: "/AminomedPremium",
-  },
+  }, */
   {
     id: 14,
     categoria: "Alergia a la proteína de leche de vaca",
@@ -175,7 +174,7 @@ export const productosData = [
     subCategoria: "FÓRMULAS",
     titulo: "Comida Leu A Fórmula",
     descripcion:
-      "Comida Leu A Fórmula es una fórmula en polvo libre leucina para el tratamiento nutricional de hiperleucinemia (Ej: Acidemia Isovalérica) en lactantes de 0 a 1 año de edad.  Alimento para propósitos médicos específicos.",
+      "Comida Leu A Fórmula es una fórmula en polvo libre leucina para el tratamiento nutricional de patologías que requieran restricción de leucina (Ej: Acidemia Isovalérica) en lactantes de 0 a 1 año de edad.  Alimento para propósitos médicos específicos.",
     imagen: "/comidaLeuAFormula.jpg",
     link: "/comidaLeuAFormula",
   },
@@ -185,7 +184,7 @@ export const productosData = [
     subCategoria: "FÓRMULAS",
     titulo: "Comida Leu B Fórmula",
     descripcion:
-      "Comida Leu B Fórmula es una fórmula en polvo libre leucina para el tratamiento nutricional de hiperleucinemia (Ej: Acidemia Isovalérica) en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+      "Comida Leu B Fórmula es una fórmula en polvo libre leucina para el tratamiento nutricional de patologías que requieran restricción de leucina (Ej: Acidemia Isovalérica) en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
     imagen: "/comidaLeuBFormula.jpg",
     link: "/comidaLeuBFormula",
   },
@@ -439,7 +438,7 @@ export const productosData = [
     imagen: "/aprotenBizcochosdeFruta.png",
     link: "/aprotenBizcochosdeFruta",
   },
-  {
+  /* {
     id: 45,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
@@ -448,7 +447,7 @@ export const productosData = [
       "Masitas de vainilla de bajo contenido proteico para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/aprotenBizcochosdeVainilla.png",
     link: "/aprotenBizcochosdeVainilla",
-  },
+  }, */
   {
     id: 48,
     categoria: "Errores congénitos del metabolismo",
@@ -699,7 +698,7 @@ export const productosData = [
     imagen: "/burgerMix1.png",
     link: "/burgerMix1",
   }, */
-  {
+  /* {
     id: 73,
     categoria: "Errores congénitos del metabolismo",
     subCategoria: "ALIMENTOS",
@@ -708,7 +707,7 @@ export const productosData = [
       "Producto a base de azúcar y manteca de cacao sabor chocolate ideal para el tratamiento nutricional de patologías que requieren dietas restringidas en el aporte de proteínas y aminoácidos. Alimento para dietas especiales.",
     imagen: "/chocotino.png",
     link: "/chocotino",
-  },
+  }, */
   {
     id: 74,
     categoria: "Errores congénitos del metabolismo",
@@ -828,6 +827,66 @@ export const productosData = [
       "Fórmula líquida 4:1 nutricionalmente completa con 25% de calorías como TCM y una mezcla de proteína de arveja intacta y parcialmente hidrolizada para terapia cetogénica. Libre de leche y soja.",
     imagen: "/ketovie4.1plantbased.png",
     link: "/ketovie4.1plantbased",
-    
   },
+  {
+    id: 86,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "ALIMENTOS",
+    titulo: "Mi Burger",
+    descripcion:
+      "Mi Burger es una premezcla a base de almidones y vegetales deshidratados para dietas especiales.",
+    imagen: "/miBurger.png",
+    link: "/miBurger",
+  },
+  {
+    id: 87,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "ALIMENTOS",
+    titulo: "Scrambled Egg & Omelette Mix",
+    descripcion:
+      "Scrambled Egg & Omelette Mix es un producto a base de almidón de arroz y maltodextrina para dietas especiales.",
+    imagen: "/scrambledEgg&OmeletteMix.png",
+    link: "/ScrambledEgg&OmeletteMix",
+  },
+  {
+    id: 88,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "ALIMENTOS",
+    titulo: "Cereal de Chocolate",
+    descripcion:
+      "Cereal de Chocolate es un producto a base de almidones, para dietas especiales.",
+    imagen: "/cerealChocolate.png",
+    link: "/cerealChocolate",
+  },
+  {
+    id: 89,
+    categoria: "Alergia a la proteína de leche de vaca",
+    subCategoria: "Alergia a la proteína de leche de vaca",
+    titulo: "Milea Infant",
+    descripcion:
+      "Milea Infant es una fórmula elemental hipoalergénica a base de aminoácidos, para el diagnóstico y tratamiento de la APLV y alergias múltiples.",
+    imagen: "/mileaInfant.jpg",
+    link: "/mileaInfant",
+  },
+  {
+    id: 90,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "Alimentos",
+    titulo: "Comida TYRo A Fórmula",
+    descripcion:
+      "Comida TYRo A Fórmula es una fórmula infantil en polvo libre de fenilalanina y tirosina para el tratamiento nutricional de Tirosinemia Tipo I, II y III en lactantes de 0 a 1 año edad. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaTYRoAFormula.jpg",
+    link: "/comidaTYRoAFormula",
+  },
+  {
+    id: 91,
+    categoria: "Errores congénitos del metabolismo",
+    subCategoria: "Alimentos",
+    titulo: "Comida TYRo B Fórmula",
+    descripcion:
+      "Comida TYRo B Fórmula es una fórmula en polvo libre de fenilalanina y tirosina para el tratamiento nutricional de Tirosinemia Tipo I, II y III en niños mayores de 1 año de edad, adolescentes y adultos. Alimento para propósitos médicos específicos.",
+    imagen: "/comidaTYRoMedBFormula.jpg",
+    link: "/comidaTYRoBFormula",
+  },
+  
 ];

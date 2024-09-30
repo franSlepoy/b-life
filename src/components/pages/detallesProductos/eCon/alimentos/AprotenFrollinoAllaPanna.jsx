@@ -201,7 +201,7 @@ const AprotenFrollinoAllaPanna = () => {
                 }}
               >
                 {" "}
-                Envase por 180 g/ 1 unidad = 6,5 g.
+                200 g.
               </Typography>
               {/* sin sabor  <Typography
                 sx={{
@@ -415,7 +415,7 @@ const AprotenFrollinoAllaPanna = () => {
                 }}
               >
                 {" "}
-                Envase por 180 g/ 1 unidad = 6,5 g.
+                200 g.
               </Typography>
               {/*  <Typography
                 sx={{
